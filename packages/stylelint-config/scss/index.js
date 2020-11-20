@@ -35,6 +35,22 @@ module.exports = {
     'scss/operator-no-newline-after': true,
     'scss/operator-no-newline-before': true,
     'scss/operator-no-unspaced': true,
-    'scss/selector-no-redundant-nesting-selector': true
+    'scss/selector-no-redundant-nesting-selector': true,
+    "scss/selector-no-union-class-name": true,
+    "indentation": 2,
+    "string-quotes": "single",
+    "no-duplicate-selectors": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "color-named": "never",
+    "selector-attribute-quotes": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "number-leading-zero": "always",
+    "function-url-quotes": "always",
+    "font-weight-notation": "numeric",
+    "font-family-name-quotes": "always-where-recommended",
+    "comment-empty-line-before": "always"
   }
 };
