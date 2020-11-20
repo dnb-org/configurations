@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-dnb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylelint configuration used for all DNB projects",
   "main": "scss/index.js",
   "repository": {
