@@ -260,7 +260,6 @@ module.exports = {
     'selector-max-specificity': null,
     'selector-max-type': 2,
     'selector-max-universal': 1,
-    'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
     'shorthand-property-no-redundant-values': true,
     'string-quotes': 'double',
