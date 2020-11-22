@@ -2,7 +2,7 @@
   "name": "stylelint-config-dnb",
   "version": "1.0.6",
   "description": "Stylelint configuration used for all DNB projects",
-  "main": "scss/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidsneighbour/stylelint-config-dnb.git"
@@ -13,8 +13,7 @@
   },
   "homepage": "https://github.com/davidsneighbour/stylelint-config-dnb#readme",
   "files": [
-    "css/index.js",
-    "scss/index.js"
+    "index.js"
   ],
   "engines": {
     "node": ">=10"
