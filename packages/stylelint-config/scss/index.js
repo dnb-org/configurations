@@ -20,6 +20,9 @@ module.exports = {
     "function-url-quotes": "always",
     "font-weight-notation": "numeric",
     "font-family-name-quotes": "always-where-recommended",
-    "comment-empty-line-before": "always"
+    "comment-empty-line-before": "always",
+    "selector-no-qualifying-type": {
+      ignore: ["attribute", "class"]
+    }
   }
 };
