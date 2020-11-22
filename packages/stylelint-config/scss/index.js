@@ -21,8 +21,8 @@ module.exports = {
     "font-weight-notation": "numeric",
     "font-family-name-quotes": "always-where-recommended",
     "comment-empty-line-before": "always",
-    "selector-no-qualifying-type": {
-      ignore: ["attribute", "class"]
-    }
+    "selector-no-qualifying-type": [ true, {
+      "ignore": [ "attribute", "class" ]
+    }]
   }
 };
