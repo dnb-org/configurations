@@ -12,14 +12,6 @@ npm install git://github.com/davidsneighbour/stylelint-config-dnb.git --save-dev
 
 ## Usage
 
-### Linting CSS
-
-```json
-{
-  "extends": "stylelint-config-dnb/css"
-}
-```
-
 ### Linting SCSS
 
 ```json

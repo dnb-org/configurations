@@ -3,7 +3,6 @@
 module.exports = {
   'extends': [
     'stylelint-config-recommended-scss',
-    '../css'
   ],
   'rules': {
     'at-rule-no-unknown': null,
