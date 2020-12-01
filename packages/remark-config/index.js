@@ -1,6 +1,8 @@
 'use strict'
 
 module.exports.plugins = [
+
+  // the following rules are set in remark-preset-lint-recommended
   // require('remark-lint'),
   // require('remark-lint-final-newline'),
   // require('remark-lint-list-item-bullet-indent'),
@@ -28,7 +30,21 @@ module.exports.plugins = [
       //   "passive": false,
       //   "whitelist": [ "read-only" ]
       // }]]
+  require('remark-preset-lint-recommended'),
+  require('remark-preset-lint-consistent'),
   require('remark-frontmatter'),
-  require('remark-lint-fenced-code-flag')
+  require('remark-lint-fenced-code-flag'),
+  [require('remark-lint-final-newline'), true]
+
+  // exports.plugins = [
+  //   [require('remark-toc'), {tight: true, maxDepth: 2, heading: 'contents'}],
+  //   require('remark-comment-config'),
+  //   [require('remark-gfm'), {tablePipeAlign: false}],
+  //   require('remark-github'),
+  //   require('remark-validate-links'),
+  //   require('./script/plugin/list-of-presets'),
+  //   require('./script/plugin/list-of-rules')
+  // ]
+
 
 ]
