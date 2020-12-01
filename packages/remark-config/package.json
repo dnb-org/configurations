@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-lint-dnb",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "remark preset used across DNB projects.",
   "license": "MIT",
   "keywords": [
@@ -54,19 +54,29 @@
     }
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"],
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
     "rules": {
-      "body-max-line-length": [0, "always", 100],
-      "type-enum": [0, "always", [
-        "feat",
-        "fix",
-        "layouts",
-        "refactor",
-        "test",
-        "chore",
-        "wip",
-        "content"
-      ]]
+      "body-max-line-length": [
+        0,
+        "always",
+        100
+      ],
+      "type-enum": [
+        0,
+        "always",
+        [
+          "feat",
+          "fix",
+          "layouts",
+          "refactor",
+          "test",
+          "chore",
+          "wip",
+          "content"
+        ]
+      ]
     }
   }
 }
