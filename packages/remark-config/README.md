@@ -7,7 +7,7 @@ You probably won't need this ;)
 ## Installation
 
 ```shell script
-npm install -D git@github.com:davidsneighbour/remark-preset-lint-dnb.git
+npm install -D davidsneighbour/remark-preset-lint-dnb
 ```
 
 ## Configuration
