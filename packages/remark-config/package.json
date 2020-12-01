@@ -1,0 +1,68 @@
+{
+  "name": "remark-preset-lint-dnb",
+  "version": "0.0.0",
+  "description": "remark preset used across DNB projects.",
+  "license": "MIT",
+  "keywords": [
+    "remark",
+    "remark-preset",
+    "preset",
+    "recommended"
+  ],
+  "repository": "https://github.com/davidsneighbour/remark-preset-lint-dnb",
+  "bugs": "https://github.com/davidsneighbour/remark-preset-lint-dnb/issues",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "remark-frontmatter": "3.0.0",
+    "remark-lint": "8.0.0",
+    "remark-lint-fenced-code-flag": "2.0.1",
+    "remark-lint-final-newline": "1.0.5",
+    "remark-lint-first-heading-level": "2.0.1",
+    "remark-lint-linebreak-style": "2.0.1",
+    "remark-lint-maximum-line-length": "2.0.3",
+    "remark-lint-no-file-name-irregular-characters": "1.0.5",
+    "remark-lint-no-html": "2.0.1",
+    "remark-lint-write-good": "1.2.0",
+    "remark-preset-lint-recommended": "5.0.0"
+  },
+  "scripts": {
+    "commitlint": "commitlint --from=HEAD~1",
+    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"],
+    "rules": {
+      "body-max-line-length": [0, "always", 100],
+      "type-enum": [0, "always", [
+        "feat",
+        "fix",
+        "layouts",
+        "refactor",
+        "test",
+        "chore",
+        "wip",
+        "content"
+      ]]
+    }
+  }
+}
