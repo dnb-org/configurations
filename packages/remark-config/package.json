@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-lint-dnb",
-  "version": "1.0.6",
+  "version": "1.0.4",
   "description": "remark preset used across DNB projects.",
   "license": "MIT",
   "keywords": [
@@ -14,6 +14,18 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "husky": "4.3.0",
+    "remark-frontmatter": "3.0.0",
+    "remark-lint-linebreak-style": "2.0.1",
+    "remark-lint-write-good": "1.2.0",
+    "remark-preset-lint-consistent": "4.0.0",
+    "standard-version": "9.0.0",
+    "remark-cli": "9.0.0",
+    "remark-preset-lint-styleguide": "1.0.0"
+  },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
     "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
@@ -61,17 +73,5 @@
         ]
       ]
     }
-  },
-  "devDependencies": {
-    "remark-cli": "^9.0.0",
-    "remark-preset-lint-styleguide": "^1.0.0",
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "husky": "4.3.0",
-    "remark-frontmatter": "3.0.0",
-    "remark-lint-linebreak-style": "2.0.1",
-    "remark-lint-write-good": "1.2.0",
-    "remark-preset-lint-consistent": "4.0.0",
-    "standard-version": "9.0.0"
   }
 }
