@@ -2,7 +2,7 @@
 
 module.exports.plugins = [
 
-  require('remark-preset-lint-styleguide/writability'),
+  require('remark-preset-lint-styleguide'),
   require('remark-preset-lint-consistent'),
   require('remark-frontmatter'),
   require('remark-lint-fenced-code-flag'),
