@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-lint-dnb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "remark preset used across DNB projects.",
   "license": "MIT",
   "keywords": [
