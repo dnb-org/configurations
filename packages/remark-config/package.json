@@ -9,8 +9,8 @@
     "preset",
     "recommended"
   ],
-  "repository": "https://github.com/davidsneighbour/remark-preset-lint-dnb",
-  "bugs": "https://github.com/davidsneighbour/remark-preset-lint-dnb/issues",
+  "repository": "https://github.com/dnb-hugo/remark-preset-lint-dnb",
+  "bugs": "https://github.com/dnb-hugo/remark-preset-lint-dnb/issues",
   "files": [
     "index.js"
   ],
@@ -73,5 +73,13 @@
         ]
       ]
     }
+  },
+  "devDependencies": {
+    "remark-lint-fenced-code-flag": "^2.0.1",
+    "remark-lint-final-newline": "^1.0.5",
+    "remark-lint-first-heading-level": "^2.0.1",
+    "remark-lint-maximum-line-length": "^2.0.3",
+    "remark-lint-no-file-name-irregular-characters": "^1.0.5",
+    "remark-lint-no-html": "^2.0.1"
   }
 }
