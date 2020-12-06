@@ -6,8 +6,8 @@ Based on [stylelint-config-twbs-bootstrap](https://github.com/twbs/stylelint-con
 ## Installation
 
 ```bash
-npm install git://github.com/davidsneighbour/stylelint-config-dnb.git#v1.0.0 --save-dev # or
-npm install git://github.com/davidsneighbour/stylelint-config-dnb.git --save-dev
+npm install dnb-hugo/stylelint-config-dnb#v1.0.0 --save-dev # or
+npm install dnb-hugo/stylelint-config-dnb --save-dev
 ```
 
 ## Usage
@@ -16,6 +16,6 @@ npm install git://github.com/davidsneighbour/stylelint-config-dnb.git --save-dev
 
 ```json
 {
-  "extends": "stylelint-config-dnb/scss"
+  "extends": "stylelint-config-dnb"
 }
 ```

@@ -5,13 +5,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidsneighbour/stylelint-config-dnb.git"
+    "url": "git+https://github.com/dnb-hugo/stylelint-config-dnb.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidsneighbour/stylelint-config-dnb/issues"
+    "url": "https://github.com/dnb-hugo/stylelint-config-dnb/issues"
   },
-  "homepage": "https://github.com/davidsneighbour/stylelint-config-dnb#readme",
+  "homepage": "https://github.com/dnb-hugo/stylelint-config-dnb#readme",
   "files": [
     "index.js"
   ],
@@ -62,6 +62,22 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"],
+    "rules": {
+      "body-max-line-length": [0, "always", 100],
+      "type-enum": [0, "always", [
+        "feat",
+        "fix",
+        "layouts",
+        "refactor",
+        "test",
+        "chore",
+        "wip",
+        "content"
+      ]]
     }
   }
 }
