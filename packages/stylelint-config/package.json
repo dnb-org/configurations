@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-dnb",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Stylelint configuration used for all DNB projects",
   "main": "index.js",
   "repository": {
@@ -65,19 +65,29 @@
     }
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"],
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
     "rules": {
-      "body-max-line-length": [0, "always", 100],
-      "type-enum": [0, "always", [
-        "feat",
-        "fix",
-        "layouts",
-        "refactor",
-        "test",
-        "chore",
-        "wip",
-        "content"
-      ]]
+      "body-max-line-length": [
+        0,
+        "always",
+        100
+      ],
+      "type-enum": [
+        0,
+        "always",
+        [
+          "feat",
+          "fix",
+          "layouts",
+          "refactor",
+          "test",
+          "chore",
+          "wip",
+          "content"
+        ]
+      ]
     }
   }
 }
