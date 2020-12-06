@@ -3,6 +3,7 @@
   "version": "1.0.8",
   "description": "remark preset used across DNB projects.",
   "license": "MIT",
+  "private": true,
   "keywords": [
     "remark",
     "remark-preset",
