@@ -1,0 +1,79 @@
+{
+  "name": "@dnb-hugo/browserslist-config-dnb",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/browserslist-config-dnb/issues"
+  },
+  "homepage": "https://github.com/dnb-hugo/browserslist-config-dnb",
+  "devDependencies": {
+    "browserslist": "4.16.0",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "commitizen": "4.2.2",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "6.3.0",
+    "cz-customizable-ghooks": "2.0.0",
+    "husky": "4.3.5",
+    "standard-version": "9.0.0"
+  },
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main"
+  },
+  "private": true,
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0,
+        "always",
+        100
+      ],
+      "type-enum": [
+        0,
+        "always",
+        [
+          "feat",
+          "fix",
+          "layouts",
+          "refactor",
+          "test",
+          "chore",
+          "wip",
+          "content"
+        ]
+      ]
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
