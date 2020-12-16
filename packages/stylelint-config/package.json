@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-dnb",
+  "name": "@dnb-hugo/stylelint-config-dnb",
   "version": "1.1.4",
   "description": "Stylelint configuration used for all DNB projects",
   "main": "index.js",
