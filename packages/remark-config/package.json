@@ -16,16 +16,24 @@
     "index.js"
   ],
   "dependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "husky": "4.3.0",
     "remark-frontmatter": "3.0.0",
     "remark-lint-linebreak-style": "2.0.1",
     "remark-lint-write-good": "1.2.0",
     "remark-preset-lint-consistent": "4.0.0",
-    "standard-version": "9.0.0",
     "remark-cli": "9.0.0",
-    "remark-preset-lint-styleguide": "1.0.0"
+    "remark-preset-lint-styleguide": "1.0.0",
+    "remark-lint-fenced-code-flag": "^2.0.1",
+    "remark-lint-final-newline": "^1.0.5",
+    "remark-lint-first-heading-level": "^2.0.1",
+    "remark-lint-maximum-line-length": "^2.0.3",
+    "remark-lint-no-file-name-irregular-characters": "^1.0.5",
+    "remark-lint-no-html": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard-version": "9.0.0",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "husky": "4.3.0"
   },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
@@ -74,13 +82,5 @@
         ]
       ]
     }
-  },
-  "devDependencies": {
-    "remark-lint-fenced-code-flag": "^2.0.1",
-    "remark-lint-final-newline": "^1.0.5",
-    "remark-lint-first-heading-level": "^2.0.1",
-    "remark-lint-maximum-line-length": "^2.0.3",
-    "remark-lint-no-file-name-irregular-characters": "^1.0.5",
-    "remark-lint-no-html": "^2.0.1"
   }
 }
