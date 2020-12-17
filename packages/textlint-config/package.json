@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/textlint-config-dnb",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "textlint preset used across DNB projects.",
   "license": "MIT",
   "keywords": [
