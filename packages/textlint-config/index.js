@@ -18,7 +18,6 @@ module.exports = {
       "retry": 3,
       "userAgent": "textlint-rule-no-dead-link/1.0"
     },
-    "en-spell": true,
     "en-capitalization": {
       "allowHeading": true,
       "allowFigures": true,
@@ -35,7 +34,6 @@ module.exports = {
         "period of time"
       ]
     },
-    "apostrophe": true,
     "common-misspellings": {
       "ignore": []
     },
@@ -63,7 +61,7 @@ module.exports = {
     },
     "abbr-within-parentheses": true,
     "spelling": {
-      "language": "en",
+      "language": "en-gb",
       "skipPatterns": [
         "JavaScript"
       ],
@@ -71,7 +69,10 @@ module.exports = {
       "suggestCorrections": true
     },
     "unexpanded-acronym": {
-      "min_acronym_len": 3
+      "min_acronym_len": 3,
+      "ignore_acronyms" : [
+        "DNB"
+      ]
     },
     "footnote-order": true,
     "@textlint-rule/no-unmatched-pair": true,

@@ -1,6 +1,6 @@
-This is a textlint preset used across DNB projects.
+This is a textlint preset used across David's Neighbour's (DNB) projects.
 
-You probably won't need this ;)
+You probably won’t need this ;)
 
 ## Installation
 
