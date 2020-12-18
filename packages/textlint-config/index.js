@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 module.exports = {
 
@@ -65,7 +65,7 @@ module.exports = {
       "skipPatterns": [
         "JavaScript"
       ],
-      "wordDefinitionRegexp": "/[\\w']+/g",
+      "wordDefinitionRegexp": "/[\\w\"]+/g",
       "suggestCorrections": true
     },
     "unexpanded-acronym": {
@@ -86,4 +86,4 @@ module.exports = {
     "html"
   ]
 
-}
+};
