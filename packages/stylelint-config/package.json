@@ -19,16 +19,13 @@
   "engines": {
     "node": ">=10"
   },
-  "peerDependencies": {
-    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
-  },
   "dependencies": {
     "stylelint-config-recommended-scss": "4.2.0",
     "stylelint-config-standard": "20.0.0",
-    "stylelint-scss": "3.18.0"
+    "stylelint-scss": "3.18.0",
+    "stylelint": "13.8.0"
   },
   "devDependencies": {
-    "stylelint": "13.8.0",
     "standard-version": "9.0.0",
     "husky": "4.3.6",
     "@commitlint/cli": "11.0.0",
