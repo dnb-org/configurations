@@ -20,11 +20,12 @@
     "node": ">=10"
   },
   "dependencies": {
+    "stylelint": "^13.8.0",
+    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended-scss": "4.2.0",
     "stylelint-config-standard": "20.0.0",
-    "stylelint-scss": "3.18.0",
-    "stylelint": "13.8.0",
-    "stylelint-order": "2.2.1"
+    "stylelint-order": "^2.2.1",
+    "stylelint-scss": "3.18.0"
   },
   "devDependencies": {
     "standard-version": "9.0.0",
@@ -41,7 +42,6 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jest": "22.21.0",
     "eslint-plugin-prettier": "3.3.0",
-    "jest": "24.9.0",
     "prettier": "1.19.1"
   },
   "scripts": {
@@ -49,8 +49,7 @@
     "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
     "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
     "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
-    "lint": "eslint .",
-    "test": "jest"
+    "lint": "eslint ."
   },
   "config": {
     "commitizen": {

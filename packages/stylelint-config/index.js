@@ -1,12 +1,11 @@
-'use strict';
-
 module.exports = {
-  'extends': [
-    'stylelint-config-recommended-scss',
+  extends: [
+    "stylelint-config-recommended-scss",
+    "stylelint-config-rational-order"
   ],
-  'rules': {
-    'at-rule-no-unknown': null,
-    "indentation": 2,
+  rules: {
+    "at-rule-no-unknown": null,
+    indentation: 2,
     "string-quotes": "single",
     "no-duplicate-selectors": true,
     "color-hex-case": "lower",
@@ -21,8 +20,14 @@ module.exports = {
     "font-weight-notation": "numeric",
     "font-family-name-quotes": "always-where-recommended",
     "comment-empty-line-before": "always",
-    "selector-no-qualifying-type": [ true, {
-      "ignore": [ "attribute", "class" ]
-    }]
+    "selector-no-qualifying-type": [
+      true,
+      {
+        ignore: ["attribute", "class"]
+      }
+    ],
+    // order rules:
+    "border-in-box-model": true,
+    "empty-line-between-groups": true
   }
 };
