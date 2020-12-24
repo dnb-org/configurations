@@ -23,7 +23,7 @@
     "stylelint": "^13.8.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-sass-guidelines": "^7.1.0",
-    "stylelint-order": "^2.2.1"
+    "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
     "standard-version": "9.0.0",
