@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/stylelint-config-dnb",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Stylelint configuration used for all DNB projects",
   "main": "index.js",
   "private": true,
@@ -22,10 +22,8 @@
   "dependencies": {
     "stylelint": "^13.8.0",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-recommended-scss": "4.2.0",
-    "stylelint-config-standard": "20.0.0",
-    "stylelint-order": "^2.2.1",
-    "stylelint-scss": "3.18.0"
+    "stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-order": "^2.2.1"
   },
   "devDependencies": {
     "standard-version": "9.0.0",
