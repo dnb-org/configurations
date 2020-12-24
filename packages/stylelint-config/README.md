@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config-dnb/dashboard)
+
 # stylelint-config-dnb
 Stylelint configuration used for all DNB projects
 
