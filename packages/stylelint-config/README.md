@@ -6,16 +6,36 @@ Based on [stylelint-config-twbs-bootstrap](https://github.com/twbs/stylelint-con
 ## Installation
 
 ```bash
-npm install dnb-hugo/stylelint-config-dnb#v1.0.0 --save-dev # or
+npm install dnb-hugo/stylelint-config-dnb#v1.1.12 --save-dev # or
 npm install dnb-hugo/stylelint-config-dnb --save-dev
 ```
 
 ## Usage
 
-### Linting SCSS
+Add the configuration to your repository (for instance in `.stylelintrc`):
 
 ```json
 {
   "extends": "stylelint-config-dnb"
 }
+```
+
+Add scripts to your package.json:
+
+```json
+{
+  "scripts": {
+    "stylelint": "stylelint assets/scss/",
+    "stylelint-fix": "stylelint assets/scss/ --fix"
+  }
+}
+```
+
+Exchange the `assets/scss/` with your own styles folder.
+
+Run stylelint:
+
+```shell
+npm run stylelint
+npm run stylelint-fix
 ```
