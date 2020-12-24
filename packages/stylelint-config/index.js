@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     "stylelint-config-sass-guidelines",
-    "stylelint-config-rational-order"
+    "stylelint-config-rational-order",
   ],
   rules: {
     "at-rule-no-unknown": null,
@@ -23,11 +23,11 @@ module.exports = {
     "selector-no-qualifying-type": [
       true,
       {
-        ignore: ["attribute", "class"]
-      }
+        ignore: ["attribute", "class"],
+      },
     ],
     // order rules:
     "border-in-box-model": true,
-    "empty-line-between-groups": true
-  }
+    "empty-line-between-groups": true,
+  },
 };
