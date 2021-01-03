@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/dnb-hugo/standard-version-config-dnb",
   "dependencies": {
-    "standard-version": "9.0.0"
+    "standard-version": "9.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
