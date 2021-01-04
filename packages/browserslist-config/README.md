@@ -12,6 +12,6 @@ Then add as extension to the `browserslist` parameter in package.json.
 
 ```json
 {
-  "browserslist": ["extends browserslist-config-dnb"]
+  "browserslist": ["@dnb-hugo/extends browserslist-config-dnb"]
 }
 ```
