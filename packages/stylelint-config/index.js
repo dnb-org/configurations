@@ -27,7 +27,7 @@ module.exports = {
       },
     ],
     // scss rules
-    "scss/at-extend-no-missing-placeholder": false,
+    "scss/at-extend-no-missing-placeholder": null,
     // order rules:
     "plugin/rational-order": [true, {
       "border-in-box-model": true,
