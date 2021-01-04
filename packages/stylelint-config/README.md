@@ -1,24 +1,25 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config-dnb/dashboard)
 
-# stylelint-config-dnb
+## stylelint-config-dnb
+
 Stylelint configuration used for all DNB projects
 
 Based on [stylelint-config-twbs-bootstrap](https://github.com/twbs/stylelint-config-twbs-bootstrap/).
 
-## Installation
+### Installation
 
 ```bash
 npm install dnb-hugo/stylelint-config-dnb#v1.1.12 --save-dev # or
 npm install dnb-hugo/stylelint-config-dnb --save-dev
 ```
 
-## Usage
+### Usage
 
-Add the configuration to your repository (for instance in `.stylelintrc`):
+Add the configuration to your repository (for instance in `.stylelintrc` or `.stylelintrc.json`):
 
 ```json
 {
-  "extends": "stylelint-config-dnb"
+  "extends": "@dnb-hugo/stylelint-config-dnb"
 }
 ```
 
