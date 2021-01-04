@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/stylelint-config-dnb",
-  "version": "2.0.0",
+  "version": "1.1.19",
   "description": "Stylelint configuration used for all DNB projects",
   "main": "index.js",
   "private": true,
