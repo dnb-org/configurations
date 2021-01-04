@@ -26,8 +26,12 @@ module.exports = {
         ignore: ["attribute", "class"],
       },
     ],
+    // scss rules
+    "scss/at-extend-no-missing-placeholder": false,
     // order rules:
-    "border-in-box-model": true,
-    "empty-line-between-groups": true,
+    "plugin/rational-order": [true, {
+      "border-in-box-model": true,
+      "empty-line-between-groups": true,
+    }]
   },
 };
