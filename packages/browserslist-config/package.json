@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/dnb-hugo/browserslist-config-dnb",
   "dependencies": {
-    "browserslist": "4.16.0"
+    "browserslist": "4.16.1"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
