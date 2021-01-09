@@ -1,0 +1,30 @@
+{
+  "name": "@dnb-hugo/eslint-config",
+  "version": "0.0.0",
+  "description": "ESLint rules according to dnb",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnb-hugo/eslint-config"
+  },
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/eslint-config/issues"
+  },
+  "homepage": "https://github.com/dnb-hugo/eslint-config#readme",
+  "dependencies": {
+    "eslint": "7.14.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6"
+  }
+}
