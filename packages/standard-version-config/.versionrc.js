@@ -1,2 +1,14 @@
-const defaultStandardVersion = require('@dnb-hugo/standard-version-config');
-module.exports = defaultStandardVersion;
+module.exports = {
+  "skip": {
+    "changelog": true
+  },
+  "scripts": {
+    "prerelease": "./bin/release-hook-prerelease.sh"
+  },
+  "bumpFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    }
+  ]
+};
