@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/remark-preset-lint",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Remarklint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
