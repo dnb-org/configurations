@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/textlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Textlint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
@@ -47,7 +47,8 @@
     "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "husky": "^4.3.7"
+    "husky": "^4.3.7",
+    "standard-version": "^9.1.0"
   },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
