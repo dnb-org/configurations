@@ -1,19 +1,22 @@
 {
-  "name": "@dnb-hugo/remark-preset-lint-dnb",
+  "name": "@dnb-hugo/remark-preset-lint",
   "version": "1.0.12",
-  "description": "remark preset used across DNB projects.",
+  "description": "Remarklint configuration used in dnb-hugo projects.",
+  "main": "index.js",
   "license": "MIT",
-  "keywords": [
-    "remark",
-    "remark-config",
-    "remark-lint",
-    "remark-preset"
-  ],
-  "repository": "https://github.com/dnb-hugo/remark-preset-lint-dnb",
-  "bugs": "https://github.com/dnb-hugo/remark-preset-lint-dnb/issues",
-  "files": [
-    "index.js"
-  ],
+  "private": true,
+  "repository": "git+https://github.com/dnb-hugo/remark-preset-lint",
+  "bugs": "git+https://github.com/dnb-hugo/remark-preset-lint/issues",
+  "homepage": "git+https://github.com/dnb-hugo/remark-preset-lint",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6"
+  },
   "dependencies": {
     "remark-preset-lint-styleguide": "1.0.0",
     "remark-preset-lint-consistent": "4.0.0",
@@ -26,34 +29,28 @@
     "standard-version": "9.0.0",
     "@commitlint/cli": "11.0.0",
     "husky": "4.3.0",
-    "@dnb-hugo/browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
-    "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
-    "@dnb-hugo/remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
-    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb",
-    "@dnb-hugo/stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb",
-    "@dnb-hugo/textlint-config-dnb": "github:dnb-hugo/textlint-config-dnb"
+    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
+    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
+    "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
+    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
+    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config"
   },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
-    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main"
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "textlint": "textlint",
+    "textlint-fix": "textlint --fix"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "browserslist": [
-    "extends browserslist-config-dnb"
-  ],
   "commitlint": {
     "extends": [
-      "@dnb-hugo/commitlint-config-dnb"
+      "@dnb-hugo/commitlint-config"
     ]
-  },
-  "stylelint": {
-    "extends": "stylelint-config-dnb/scss"
-  },
-  "private": true
+  }
 }
