@@ -1,9 +1,10 @@
-/static/main*.js
-/package-lock.json
-hugo.log
+################################################################################
+# REMOVE THIS SECTION AFTER CLONING, ONLY FOR MAINTAINING THE TEMPLATE REPO
+/.idea
+################################################################################
 
-/data/dnb/webpack/*
-!/data/dnb/webpack/.keep
+# see https://github.com/dnb-hugo/namespace/blob/main/dogmata/package-lock-files.md
+/package-lock.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,hugo,phpstorm,webstorm,sublimetext,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,hugo,phpstorm,webstorm,sublimetext,node
