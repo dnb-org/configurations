@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/commitlint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Commitlint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
