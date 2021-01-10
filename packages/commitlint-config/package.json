@@ -20,7 +20,7 @@
   "dependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "husky": "4.3.5"
+    "husky": "4.3.7"
   },
   "devDependencies": {
     "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
