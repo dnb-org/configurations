@@ -37,7 +37,7 @@
     "textlint-rule-no-todo": "2.0.1",
     "textlint-rule-rousseau": "1.4.6",
     "textlint-rule-spelling": "0.2.0",
-    "textlint-rule-stop-words": "2.0.7",
+    "textlint-rule-stop-words": "2.0.8",
     "textlint-rule-terminology": "2.1.4",
     "textlint-rule-unexpanded-acronym": "1.2.4"
   },
