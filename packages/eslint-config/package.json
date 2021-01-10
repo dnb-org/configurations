@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ESlint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
