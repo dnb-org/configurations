@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/textlint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Textlint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
