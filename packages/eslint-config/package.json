@@ -18,7 +18,8 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "eslint": "7.14.0"
+    "eslint": "7.14.0",
+    "husky": "4.3.0"
   },
   "devDependencies": {
     "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
