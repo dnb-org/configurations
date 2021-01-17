@@ -52,13 +52,6 @@ module.exports = {
         "boogeyman-boogeywoman"
       ]
     },
-    "rousseau": {
-      "showLevels": [
-        "suggestion",
-        "warning",
-        "error"
-      ]
-    },
     "abbr-within-parentheses": true,
     "spelling": {
       "language": "en-gb",
