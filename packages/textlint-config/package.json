@@ -34,7 +34,7 @@
     "textlint-rule-no-todo": "2.0.1",
     "textlint-rule-spelling": "0.3.0",
     "textlint-rule-stop-words": "2.0.9",
-    "textlint-rule-terminology": "2.1.4",
+    "textlint-rule-terminology": "2.1.5",
     "textlint-rule-unexpanded-acronym": "1.2.4"
   },
   "devDependencies": {
