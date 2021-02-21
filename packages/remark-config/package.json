@@ -1,13 +1,13 @@
 {
-  "name": "@dnb-hugo/remark-preset-lint",
+  "name": "@dnb-hugo/remark-config",
   "version": "1.1.0",
   "description": "Remarklint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "repository": "git+https://github.com/dnb-hugo/remark-preset-lint",
-  "bugs": "git+https://github.com/dnb-hugo/remark-preset-lint/issues",
-  "homepage": "git+https://github.com/dnb-hugo/remark-preset-lint",
+  "repository": "git+https://github.com/dnb-hugo/remark-config",
+  "bugs": "git+https://github.com/dnb-hugo/remark-config/issues",
+  "homepage": "git+https://github.com/dnb-hugo/remark-config",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -27,8 +27,6 @@
   },
   "devDependencies": {
     "standard-version": "9.1.0",
-    "@commitlint/cli": "11.0.0",
-    "husky": "4.3.8",
     "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
@@ -36,17 +34,12 @@
     "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config"
   },
   "scripts": {
-    "commitlint": "commitlint --from=HEAD~1",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "textlint-fix": "textlint --fix",
+    "remark": "remark"
   },
   "commitlint": {
     "extends": [

@@ -1,24 +1,28 @@
+## dnb-hugo/remark-config
+
 This is a remark preset used across DNB projects.
 
 It is based on [remark-preset-lint-recommended](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-preset-lint-recommended) with some additions on it's own.
 
 You probably won't need this ;)
 
-## Installation
+### Installation
 
 ```shell script
-npm install -D dnb-hugo/remark-preset-lint-dnb
+npm install -D dnb-hugo/remark-config
 ```
 
-## Configuration
+### Configuration
 
-Put the following into `.remarkrc` in the root of your project. Remove the `write-good` line if you want to ensure the quality of text.
+Put the following into `.remarkrc` in the root of your project. Remove the `write-good` line if you want to ensure the quality of text. It tends to be overzealous though, so it's deactivated by default.
 
 ```json
 {
   "plugins": [
-    "remark-preset-lint-dnb",
+    "@dnb-hugo/remark-config",
     ["remark-lint-write-good", false]
   ]
 }
 ```
+
+### Remark Setup Rules
