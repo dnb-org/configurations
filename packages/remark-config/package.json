@@ -18,20 +18,21 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "remark-preset-lint-styleguide": "1.0.0",
-    "remark-preset-lint-consistent": "4.0.0",
-    "remark-lint-linebreak-style": "2.0.1",
+    "remark-cli": "9.0.0",
     "remark-frontmatter": "3.0.0",
+    "remark-lint": "8.0.0",
+    "remark-lint-linebreak-style": "2.0.1",
     "remark-lint-write-good": "1.2.0",
-    "remark-cli": "9.0.0"
+    "remark-preset-lint-consistent": "4.0.0",
+    "remark-preset-lint-styleguide": "1.0.0"
   },
   "devDependencies": {
-    "standard-version": "9.1.0",
     "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config"
+    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "standard-version": "9.1.1"
   },
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
