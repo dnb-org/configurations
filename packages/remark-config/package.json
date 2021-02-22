@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/remark-config",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Remarklint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
