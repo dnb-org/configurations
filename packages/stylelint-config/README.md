@@ -1,25 +1,23 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config-dnb/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config/dashboard)
 
 ## stylelint-config-dnb
 
-Stylelint configuration used for all DNB projects
-
-Based on [stylelint-config-twbs-bootstrap](https://github.com/twbs/stylelint-config-twbs-bootstrap/).
+Stylelint configuration used for all dnb-hugo projects.
 
 ### Installation
 
 ```bash
-npm install dnb-hugo/stylelint-config-dnb#v1.1.12 --save-dev # or
-npm install dnb-hugo/stylelint-config-dnb --save-dev
+npm install dnb-hugo/stylelint-config#v1.2.3 --save-dev # or
+npm install dnb-hugo/stylelint-config --save-dev
 ```
 
-### Usage
+### Configuration
 
 Add the configuration to your repository (for instance in `.stylelintrc` or `.stylelintrc.json`):
 
 ```json
 {
-  "extends": "@dnb-hugo/stylelint-config-dnb"
+  "extends": "@dnb-hugo/stylelint-config"
 }
 ```
 
@@ -29,16 +27,30 @@ Add scripts to your package.json:
 {
   "scripts": {
     "stylelint": "stylelint assets/scss/",
-    "stylelint-fix": "stylelint assets/scss/ --fix"
+    "stylelint-fix": "stylelint assets/scss/ --fix",
+    "stylelint-config": "stylelint --print-config index.js"
   }
 }
 ```
 
 Exchange the `assets/scss/` with your own styles folder.
 
-Run stylelint:
+### Usage
+
+Run stylelint and show errors and warnings:
 
 ```shell
 npm run stylelint
+```
+
+Run stylelint and fix automatically fixable issues:
+
+```shell
 npm run stylelint-fix
+```
+
+Print the current stylelint configuration:
+
+```shell
+npm run stylelint-config
 ```
