@@ -53,3 +53,8 @@ Print the current stylelint configuration:
 ```shell
 npm run stylelint-config
 ```
+
+### Development
+
+Github Repository: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
+NPM Package: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
