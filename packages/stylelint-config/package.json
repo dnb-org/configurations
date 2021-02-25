@@ -42,6 +42,10 @@
     "npm": ">=6"
   },
   "homepage": "https://github.com/dnb-hugo/stylelint-config#readme",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
