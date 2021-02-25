@@ -7,7 +7,6 @@ Stylelint configuration used for all dnb-hugo projects.
 ### Installation
 
 ```bash
-npm install dnb-hugo/stylelint-config#v1.2.3 --save-dev # or
 npm install dnb-hugo/stylelint-config --save-dev
 ```
 
