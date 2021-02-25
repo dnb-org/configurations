@@ -2,12 +2,10 @@
   "name": "@dnb-hugo/stylelint-config",
   "description": "Stylelint configuration used in dnb-hugo projects.",
   "version": "1.2.6",
-  "author": {
-    "name": "Patrick Kollitsch",
-    "email": "patrick@davids-neighbour.com",
-    "web": "https://davids-neighbour.com"
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/stylelint-config/issues"
   },
-  "bugs": "https://github.com/dnb-hugo/stylelint-config/issues",
   "commitlint": {
     "extends": [
       "@dnb-hugo/commitlint-config"
@@ -47,13 +45,16 @@
   "license": "MIT",
   "main": "index.js",
   "private": true,
-  "repository": "git+https://github.com/dnb-hugo/stylelint-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-hugo/stylelint-config.git"
+  },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
     "lint": "eslint .",
-    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release": "standard-version --release-as patch -a -t \"\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"\" && ./bin/release-hook-postrelease.sh",
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
   }

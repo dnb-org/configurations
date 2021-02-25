@@ -1,13 +1,13 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config/dashboard)
 
-## stylelint-config-dnb
+## dnb-hugo / stylelint-config
 
 Stylelint configuration used for all dnb-hugo projects.
 
 ### Installation
 
 ```bash
-npm install dnb-hugo/stylelint-config --save-dev
+npm install @dnb-hugo/stylelint-config --save-dev
 ```
 
 ### Configuration
