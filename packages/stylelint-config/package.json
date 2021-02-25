@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/stylelint-config",
   "description": "Stylelint configuration used in dnb-hugo projects.",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
