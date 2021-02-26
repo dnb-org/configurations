@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'stylelint-config-sass-guidelines',
-    'stylelint-config-rational-order',
+    'stylelint-config-sass-guidelines'
   ],
   'plugins': [
     'stylelint-order'
