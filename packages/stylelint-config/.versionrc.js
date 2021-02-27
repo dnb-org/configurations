@@ -1,2 +1,2 @@
-const defaultStandardVersion = require('@dnb-hugo/standard-version-config');
+const defaultStandardVersion = require("@dnb-hugo/standard-version-config");
 module.exports = defaultStandardVersion;
