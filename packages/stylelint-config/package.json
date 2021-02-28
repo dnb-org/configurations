@@ -24,7 +24,7 @@
     "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "@dnb-hugo/textlint-config": "2.0.0",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",

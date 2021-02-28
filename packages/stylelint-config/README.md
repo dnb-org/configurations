@@ -1,6 +1,6 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://app.codacy.com/gh/dnb-hugo/stylelint-config/dashboard)
 
-## dnb-hugo / stylelint-config
+## Dnb-hugo / stylelint-config
 
 Stylelint configuration used for all dnb-hugo projects.
 
@@ -56,5 +56,5 @@ npm run stylelint-config
 
 ### Development
 
-- Github Repository: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
+- GitHub Repository: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
 - NPM Package: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
