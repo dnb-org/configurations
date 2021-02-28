@@ -62,9 +62,10 @@ module.exports = {
       "suggestCorrections": true
     },
     "unexpanded-acronym": {
-      "min_acronym_len": 3,
       "ignore_acronyms" : [
-        "DNB"
+        "DNB",
+        "OSS",
+        "NPM"
       ]
     },
     "footnote-order": true,
@@ -73,7 +74,7 @@ module.exports = {
     "no-empty-section": true,
     "no-start-duplicated-conjunction": {
       "interval": 2
-    }
+    },
   },
   "plugins": [
     "html"
