@@ -17,7 +17,7 @@
     "@textlint-rule/textlint-rule-no-invalid-control-character": "1.2.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.7",
     "dictionary-en-gb": "2.3.0",
-    "textlint": "11.8.1",
+    "textlint": "11.8.2",
     "textlint-plugin-html": "0.2.0",
     "textlint-rule-abbr-within-parentheses": "1.0.2",
     "textlint-rule-alex": "3.0.0",
@@ -42,7 +42,7 @@
     "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "standard-version": "9.1.0"
+    "standard-version": "9.1.1"
   },
   "engines": {
     "node": ">=14.0.0",
