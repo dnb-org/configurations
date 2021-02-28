@@ -43,7 +43,6 @@
     "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "husky": "4.3.8",
     "standard-version": "9.1.0"
   },
   "engines": {
@@ -51,14 +50,8 @@
     "npm": ">=6"
   },
   "homepage": "https://github.com/dnb-hugo/textlint-config#readme",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "license": "MIT",
   "main": "index.js",
-  "private": true,
   "repository": "git+https://github.com/dnb-hugo/textlint-config",
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
