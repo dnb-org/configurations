@@ -17,7 +17,6 @@
     "@textlint-rule/textlint-rule-no-invalid-control-character": "1.2.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.7",
     "dictionary-en-gb": "2.3.0",
-    "lodash": "4.17.20",
     "textlint": "11.8.1",
     "textlint-plugin-html": "0.2.0",
     "textlint-rule-abbr-within-parentheses": "1.0.2",
