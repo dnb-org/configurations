@@ -42,6 +42,11 @@
     "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
+    "eslint": "7.20.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.1",
     "standard-version": "9.1.1"
   },
   "engines": {
