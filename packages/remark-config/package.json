@@ -4,7 +4,6 @@
   "description": "Remarklint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "repository": "git+https://github.com/dnb-hugo/remark-config",
   "bugs": "git+https://github.com/dnb-hugo/remark-config/issues",
   "homepage": "git+https://github.com/dnb-hugo/remark-config",
