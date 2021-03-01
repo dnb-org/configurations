@@ -21,3 +21,9 @@ or in the `browserslist` parameter in package.json.
   "browserslist": ["extends @dnb-hugo/browserslist-config"]
 }
 ```
+
+## Philosophy
+
+- we support all currently updated browsers
+- we don't support Internet Explorer lower than version 12
+- we don't support Legacy Edge Browser (lower than version 79)
