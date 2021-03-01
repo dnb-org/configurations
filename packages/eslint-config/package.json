@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESlint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "npm": ">=6"
   },
   "dependencies": {
+    "@dnb-hugo/remark-config": "^2.0.0",
     "eslint": "7.21.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.1.0",
@@ -27,10 +28,10 @@
   "devDependencies": {
     "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/remark-preset-lint": "@dnb-hugo/remark-preset-lint",
+    "@dnb-hugo/remark-config": "2.0.0",
     "@dnb-hugo/standard-version-config": "2.0.0",
-    "@dnb-hugo/stylelint-config": "@dnb-hugo/stylelint-config",
-    "@dnb-hugo/textlint-config": "@dnb-hugo/textlint-config"
+    "@dnb-hugo/stylelint-config": "2.0.11",
+    "@dnb-hugo/textlint-config": "2.0.0"
   },
   "eslintConfig": {
     "extends": "./index.js"
