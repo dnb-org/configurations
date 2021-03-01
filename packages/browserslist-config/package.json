@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo/browserslist-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Browserslint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
