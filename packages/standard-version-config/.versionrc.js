@@ -1,2 +1,2 @@
-const defaultStandardVersion = require('index.js');
+const defaultStandardVersion = require('./index');
 module.exports = defaultStandardVersion;

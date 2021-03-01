@@ -23,7 +23,12 @@
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
     "@dnb-hugo/remark-config": "2.0.0",
-    "@dnb-hugo/textlint-config": "2.0.0"
+    "@dnb-hugo/textlint-config": "2.0.0",
+    "eslint": "7.20.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.1"
   },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
