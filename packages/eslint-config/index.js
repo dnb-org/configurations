@@ -1,9 +1,7 @@
 module.exports = {
-  extends: [
-    "eslint:recommended"
-  ],
-  parserOptions: {
-    ecmaVersion: 6
+  extends: ["airbnb-base", "prettier"],
+  plugins: ["prettier"],
+  rules: {
+    "prettier/prettier": "error",
   },
-  rules: {},
-}
+};
