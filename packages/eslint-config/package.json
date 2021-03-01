@@ -1,10 +1,9 @@
 {
   "name": "@dnb-hugo/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESlint configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "repository": "git+https://github.com/dnb-hugo/eslint-config",
   "bugs": "git+https://github.com/dnb-hugo/eslint-config/issues",
   "homepage": "git+https://github.com/dnb-hugo/eslint-config#readme",
