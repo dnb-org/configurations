@@ -22,10 +22,10 @@
   },
   "devDependencies": {
     "@dnb-hugo/eslint-config": "@dnb-hugo/eslint-config",
+    "@dnb-hugo/remark-config": "2.0.0",
     "@dnb-hugo/standard-version-config": "2.0.0",
     "@dnb-hugo/stylelint-config": "2.0.11",
     "@dnb-hugo/textlint-config": "2.0.0",
-    "@dnb-hugo/remark-config": "2.0.0",
     "standard-version": "9.1.0"
   },
   "scripts": {
