@@ -4,7 +4,6 @@
   "description": "Standard version configuration used in dnb-hugo projects.",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "repository": "git+https://github.com/dnb-hugo/standard-version-config.git",
   "bugs": "git+https://github.com/dnb-hugo/standard-version-config/issues",
   "homepage": "git+https://github.com/dnb-hugo/standard-version-config",
@@ -18,13 +17,13 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "standard-version": "9.1.0"
+    "standard-version": "9.1.1"
   },
   "devDependencies": {
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config"
+    "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
+    "@dnb-hugo/remark-config": "2.0.0",
+    "@dnb-hugo/textlint-config": "2.0.0"
   },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
@@ -33,11 +32,6 @@
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "commitlint": {
     "extends": [
