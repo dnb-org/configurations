@@ -17,8 +17,8 @@
     "npm": ">=6"
   },
   "dependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0"
+    "@commitlint/cli": "12.0.1",
+    "@commitlint/config-conventional": "12.0.1"
   },
   "devDependencies": {
     "@dnb-hugo/eslint-config": "@dnb-hugo/eslint-config",
@@ -26,7 +26,7 @@
     "@dnb-hugo/standard-version-config": "2.0.0",
     "@dnb-hugo/stylelint-config": "2.0.11",
     "@dnb-hugo/textlint-config": "2.0.0",
-    "standard-version": "9.1.0"
+    "standard-version": "9.1.1"
   },
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1",
