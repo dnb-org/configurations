@@ -4,10 +4,17 @@
 
 [Commitlint](https://github.com/conventional-changelog/commitlint) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
-### Usage
+### Rules
+
+This configuration extends on [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) with the following changes:
+
+- Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
+- Maximum line length is 100 characters
+
+### Setup
 
 ```shell
-npm install --save-dev dnb-hugo/commitlint-config
+npm install --save-dev @dnb-hugo/commitlint-config
 ```
 
 Then in package.json add the following lines:
@@ -37,6 +44,18 @@ Lastly add a commit-msg hook to your git repository:
 
 npx --no-install commitlint --edit $1
 ```
+
+### Usage
+
+If you set up the git hook for commit messages you are good to go. Every time you add a commit it will check the message and complain if it's not right.
+
+You can always manually check a commit with `npm run commitlint`.
+
+If you wish to check a particular commit, you can do so by running ` npm run commitlint -- $COMMITHASH`.
+
+### Rules
+
+... to be written ...
 
 ### All configuration packages
 

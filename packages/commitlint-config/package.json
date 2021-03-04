@@ -8,11 +8,13 @@
     "web": "https://davids-neighbour.com"
   },
   "bugs": "git+https://github.com/dnb-hugo/commitlint-config/issues",
-  "devDependencies": {
+  "dependencies": {
     "@commitlint/cli": "12.0.1",
-    "@commitlint/config-conventional": "12.0.1",
-    "@dnb-hugo/eslint-config": "*",
+    "@commitlint/config-conventional": "12.0.1"
+  },
+  "devDependencies": {
     "@dnb-hugo/commitlint-config": "*",
+    "@dnb-hugo/eslint-config": "*",
     "@dnb-hugo/remark-config": "2.0.2",
     "@dnb-hugo/standard-version-config": "2.0.1",
     "@dnb-hugo/stylelint-config": "2.0.12",
@@ -20,8 +22,8 @@
     "standard-version": "9.1.1"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6"
+    "node": ">=14.14.0",
+    "npm": ">=7.6.0"
   },
   "homepage": "git+https://github.com/dnb-hugo/commitlint-config#readme",
   "keywords": [
