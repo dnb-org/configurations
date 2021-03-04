@@ -16,13 +16,26 @@ Then in package.json add the following lines:
 {
   "scripts": {
     "commitlint": "commitlint --from=HEAD~1"
-  },
-  "commitlint": {
-    "extends": [
-      "@dnb-hugo/commitlint-config"
-    ]
   }
 }
+```
+
+Then add .commitlintrc.js with the following content:
+
+```js
+module.exports = {
+  "extends": [
+    "@dnb-hugo/commitlint-config"
+  ]
+};
+```
+
+Lastly add a commit-msg hook to your git repository:
+
+```
+#!/bin/bash
+
+npx --no-install commitlint --edit $1
 ```
 
 ### All configuration packages
