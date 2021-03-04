@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf83f5c0292946ac84d8272e8bbdfca6)](https://www.codacy.com/gh/dnb-hugo/commitlint-config/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dnb-hugo/commitlint-config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf83f5c0292946ac84d8272e8bbdfca6)](https://www.codacy.com/gh/dnb-hugo/commitlint-config/dashboard)
 
 ## DNB-Hugo / commitlint-config
 
