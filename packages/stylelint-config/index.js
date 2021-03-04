@@ -1,6 +1,9 @@
 module.exports = {
   extends: ["stylelint-config-sass-guidelines"],
-  plugins: ["stylelint-order"],
+  plugins: [
+    "stylelint-order",
+    "stylelint-no-unsupported-browser-features"
+  ],
   rules: {
     "at-rule-no-unknown": null,
     indentation: 2,
@@ -23,6 +26,12 @@ module.exports = {
       {
         ignore: ["attribute", "class"],
       },
+    ],
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "severity": "warning"
+      }
     ],
     // scss rules
     "scss/at-extend-no-missing-placeholder": null,

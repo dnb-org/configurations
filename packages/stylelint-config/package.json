@@ -14,6 +14,7 @@
   "dependencies": {
     "stylelint": "13.11.0",
     "stylelint-config-sass-guidelines": "8.0.0",
+    "stylelint-no-unsupported-browser-features": "^4.1.4",
     "stylelint-order": "4.1.0"
   },
   "devDependencies": {
@@ -24,7 +25,7 @@
     "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/textlint-config": "2.0.0",
+    "@dnb-hugo/textlint-config": "2.0.1",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
