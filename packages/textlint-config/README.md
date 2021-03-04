@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/45cb0bd1447d4158942191c7a7e8e05f)](https://www.codacy.com/gh/dnb-hugo/textlint-config/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dnb-hugo/textlint-config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/45cb0bd1447d4158942191c7a7e8e05f)](https://www.codacy.com/gh/dnb-hugo/textlint-config/dashboard)
 
 ## DNB-Hugo / textlint-config
 
