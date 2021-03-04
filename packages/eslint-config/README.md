@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e9363e97b0414e16b047c057ce4f239f)](https://www.codacy.com/gh/dnb-hugo/eslint-config/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dnb-hugo/eslint-config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e9363e97b0414e16b047c057ce4f239f)](https://www.codacy.com/gh/dnb-hugo/eslint-config/dashboard)
 
 ## DNB-Hugo / eslint-config
 

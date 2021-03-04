@@ -1,52 +1,56 @@
 {
   "name": "@dnb-hugo/eslint-config",
-  "version": "2.0.2",
   "description": "ESlint configuration used in dnb-hugo projects.",
-  "main": "index.js",
-  "license": "MIT",
-  "repository": "git+https://github.com/dnb-hugo/eslint-config",
-  "bugs": "git+https://github.com/dnb-hugo/eslint-config/issues",
-  "homepage": "git+https://github.com/dnb-hugo/eslint-config#readme",
+  "version": "2.0.2",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6"
-  },
-  "dependencies": {
-    "@dnb-hugo/remark-config": "^2.0.0",
-    "eslint": "7.21.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "8.1.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.3.1",
-    "standard-version": "^9.1.1"
-  },
-  "devDependencies": {
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/remark-config": "2.0.0",
-    "@dnb-hugo/standard-version-config": "2.0.0",
-    "@dnb-hugo/stylelint-config": "2.0.11",
-    "@dnb-hugo/textlint-config": "2.0.0"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "scripts": {
-    "commitlint": "commitlint --from=HEAD~1",
-    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
-  },
+  "bugs": "git+https://github.com/dnb-hugo/eslint-config/issues",
   "commitlint": {
     "extends": [
       "@dnb-hugo/commitlint-config"
     ]
+  },
+  "dependencies": {
+    "eslint": "7.21.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-compat": "3.9.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "standard-version": "9.1.1"
+  },
+  "devDependencies": {
+    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
+    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
+    "@dnb-hugo/remark-config": "2.0.2",
+    "@dnb-hugo/standard-version-config": "2.0.1",
+    "@dnb-hugo/stylelint-config": "2.0.12",
+    "@dnb-hugo/textlint-config": "2.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "homepage": "git+https://github.com/dnb-hugo/eslint-config#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git+https://github.com/dnb-hugo/eslint-config",
+  "scripts": {
+    "commitlint": "commitlint --from=HEAD~1",
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "textlint": "textlint",
+    "textlint-fix": "textlint --fix"
   }
 }
