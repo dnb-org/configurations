@@ -1,8 +1,8 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/52734e6cba244cf7b6286854b90f2a10)](https://www.codacy.com/gh/dnb-hugo/stylelint-config/dashboard)
 
-## Dnb-hugo / stylelint-config
+## DNB-Hugo / stylelint-config
 
-Stylelint configuration used for all dnb-hugo projects.
+[Stylelint](https://github.com/stylelint/stylelint) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
 ### Installation
 

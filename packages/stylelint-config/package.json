@@ -6,31 +6,24 @@
   "bugs": {
     "url": "https://github.com/dnb-hugo/stylelint-config/issues"
   },
-  "commitlint": {
-    "extends": [
-      "@dnb-hugo/commitlint-config"
-    ]
-  },
   "dependencies": {
-    "stylelint": "13.11.0",
+    "stylelint": "13.12.0",
     "stylelint-config-sass-guidelines": "8.0.0",
     "stylelint-no-unsupported-browser-features": "^4.1.4",
     "stylelint-order": "4.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.0.1",
-    "@commitlint/config-conventional": "12.0.1",
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
+    "@dnb-hugo/browserslist-config": "*",
+    "@dnb-hugo/commitlint-config": "*",
+    "@dnb-hugo/eslint-config": "*",
+    "@dnb-hugo/remark-preset-lint": "*",
+    "@dnb-hugo/standard-version-config": "*",
     "@dnb-hugo/textlint-config": "2.0.1",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
-    "eslint": "7.21.0",
+    "eslint": "7.22.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
