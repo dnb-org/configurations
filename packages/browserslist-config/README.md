@@ -1,8 +1,8 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ee6197f4f9846dbbbdb20331660ac1c)](https://www.codacy.com/gh/dnb-hugo/browserslist-config/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dnb-hugo/browserslist-config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ee6197f4f9846dbbbdb20331660ac1c)](https://www.codacy.com/gh/dnb-hugo/browserslist-config/dashboard)
 
 ## DNB-Hugo / browserslist-config
 
-[Browserslist](https://github.com/browserslist/browserslist) configuration used in dnb-hugo projects.
+[Browserslist](https://github.com/browserslist/browserslist) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
 ### Usage
 
