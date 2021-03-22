@@ -1,8 +1,10 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/95b94ad281a049e292e8e62da1195e20)](https://www.codacy.com/gh/dnb-hugo/remark-config/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dnb-hugo/remark-config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/95b94ad281a049e292e8e62da1195e20)](https://www.codacy.com/gh/dnb-hugo/remark-config/dashboard)
 
 ## DNB-Hugo / remark-config
 
-This is a remark preset used across DNB projects.
+[Remark](https://github.com/remarkjs/remark-lint) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
+
+### Notes
 
 This configuration uses [remark-preset-lint-recommended](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-preset-lint-recommended) with some additions on it's own.
 

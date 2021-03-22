@@ -1,21 +1,13 @@
 {
   "name": "@dnb-hugo/remark-config",
-  "version": "2.0.2",
   "description": "Remarklint configuration used in dnb-hugo projects.",
-  "main": "index.js",
-  "license": "MIT",
-  "repository": "git+https://github.com/dnb-hugo/remark-config",
-  "bugs": "git+https://github.com/dnb-hugo/remark-config/issues",
-  "homepage": "git+https://github.com/dnb-hugo/remark-config",
+  "version": "2.0.2",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6"
-  },
+  "bugs": "git+https://github.com/dnb-hugo/remark-config/issues",
   "dependencies": {
     "remark-cli": "9.0.0",
     "remark-frontmatter": "3.0.0",
@@ -26,24 +18,32 @@
     "remark-preset-lint-styleguide": "1.0.0"
   },
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "@dnb-hugo/browserslist-config": "*",
+    "@dnb-hugo/commitlint-config": "*",
+    "@dnb-hugo/eslint-config": "*",
+    "@dnb-hugo/standard-version-config": "*",
+    "@dnb-hugo/textlint-config": "*",
     "standard-version": "9.1.1"
   },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6"
+  },
+  "homepage": "git+https://github.com/dnb-hugo/remark-config",
+  "keywords": [
+    "remark",
+    "remarklint",
+    "remarklint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git+https://github.com/dnb-hugo/remark-config",
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "remark": "remark",
     "textlint": "textlint",
-    "textlint-fix": "textlint --fix",
-    "remark": "remark"
-  },
-  "commitlint": {
-    "extends": [
-      "@dnb-hugo/commitlint-config"
-    ]
+    "textlint-fix": "textlint --fix"
   }
 }
