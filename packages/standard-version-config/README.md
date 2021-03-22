@@ -1,9 +1,8 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/69b0aa568b6546b7a9316f25e57df752)](https://www.codacy.com/gh/dnb-hugo/standard-version-config/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dnb-hugo/standard-version-config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/69b0aa568b6546b7a9316f25e57df752)](https://www.codacy.com/gh/dnb-hugo/standard-version-config/dashboard)
 
 ## DNB-Hugo / standard-version-config
 
-
-[Standard version](https://github.com/conventional-changelog/standard-version) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
+[Standard Version](https://github.com/conventional-changelog/standard-version) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
 ### Installation
 
