@@ -2,9 +2,7 @@
 
 ## DNB-Hugo / textlint-config
 
-This is a textlint preset used across David's Neighbour's (DNB) projects.
-
-You probably won’t need this ;)
+[Textlint](https://github.com/textlint/textlint) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
 ### Installation
 

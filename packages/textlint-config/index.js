@@ -55,6 +55,5 @@ module.exports = {
     "no-start-duplicated-conjunction": {
       interval: 2,
     },
-  },
-  plugins: ["html"],
+  }
 };
