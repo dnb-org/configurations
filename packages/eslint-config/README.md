@@ -2,7 +2,7 @@
 
 ## DNB-Hugo / eslint-config
 
-ESlint configuration used in dnb-hugo projects.
+[ESLint](https://github.com/eslint/eslint) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
 ### All configuration packages
 
