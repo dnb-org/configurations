@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/browserslist-config",
   "description": "Browserslint configuration used in dnb-hugo projects.",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
