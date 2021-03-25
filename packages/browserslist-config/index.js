@@ -10,6 +10,7 @@ const supportedBrowsers = [
   "iOS >= 12",
   "Safari >= 12",
   "not Explorer <= 11",
+  "not OperaMini"
 ];
 
 module.exports = supportedBrowsers;
