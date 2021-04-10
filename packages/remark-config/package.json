@@ -23,7 +23,7 @@
     "@dnb-hugo/eslint-config": "*",
     "@dnb-hugo/standard-version-config": "*",
     "@dnb-hugo/textlint-config": "*",
-    "standard-version": "9.1.1"
+    "standard-version": "9.2.0"
   },
   "engines": {
     "node": ">=14.0.0",
