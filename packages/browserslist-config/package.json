@@ -12,13 +12,13 @@
     "browserslist": "4.16.3"
   },
   "devDependencies": {
-    "@dnb-hugo/commitlint-config": "2.0.8",
-    "@dnb-hugo/eslint-config": "2.0.4",
-    "@dnb-hugo/remark-config": "2.0.2",
-    "@dnb-hugo/standard-version-config": "2.0.1",
-    "@dnb-hugo/stylelint-config": "2.0.13",
-    "@dnb-hugo/textlint-config": "2.0.1",
-    "standard-version": "9.1.1"
+    "@dnb-hugo/commitlint-config": "2.0.9",
+    "@dnb-hugo/eslint-config": "2.0.5",
+    "@dnb-hugo/remark-config": "2.0.3",
+    "@dnb-hugo/standard-version-config": "2.0.2",
+    "@dnb-hugo/stylelint-config": "2.0.14",
+    "@dnb-hugo/textlint-config": "2.0.2",
+    "standard-version": "9.2.0"
   },
   "engines": {
     "node": ">=14.0.0",
