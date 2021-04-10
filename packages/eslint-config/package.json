@@ -9,21 +9,21 @@
   },
   "bugs": "git+https://github.com/dnb-hugo/eslint-config/issues",
   "dependencies": {
-    "eslint": "7.22.0",
+    "eslint": "7.24.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-compat": "3.9.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-prettier": "3.3.1",
-    "standard-version": "9.1.1"
+    "standard-version": "9.2.0"
   },
   "devDependencies": {
     "@dnb-hugo/browserslist-config": "*",
     "@dnb-hugo/commitlint-config": "*",
-    "@dnb-hugo/remark-config": "2.0.2",
-    "@dnb-hugo/standard-version-config": "2.0.1",
-    "@dnb-hugo/stylelint-config": "2.0.13",
-    "@dnb-hugo/textlint-config": "2.0.1"
+    "@dnb-hugo/remark-config": "2.0.3",
+    "@dnb-hugo/standard-version-config": "2.0.2",
+    "@dnb-hugo/stylelint-config": "2.0.14",
+    "@dnb-hugo/textlint-config": "2.0.2"
   },
   "engines": {
     "node": ">=14.0.0",
