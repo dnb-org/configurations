@@ -9,14 +9,14 @@
   },
   "bugs": "git+https://github.com/dnb-hugo/standard-version-config/issues",
   "dependencies": {
-    "standard-version": "9.1.1"
+    "standard-version": "9.2.0"
   },
   "devDependencies": {
     "@dnb-hugo/commitlint-config": "*",
     "@dnb-hugo/eslint-config": "*",
-    "@dnb-hugo/remark-config": "2.0.2",
-    "@dnb-hugo/textlint-config": "2.0.1",
-    "eslint": "7.22.0",
+    "@dnb-hugo/remark-config": "2.0.3",
+    "@dnb-hugo/textlint-config": "2.0.2",
+    "eslint": "7.24.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
