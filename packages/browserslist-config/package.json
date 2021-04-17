@@ -9,14 +9,12 @@
   },
   "bugs": "git+https://github.com/dnb-hugo/browserslist-config/issues",
   "dependencies": {
-    "browserslist": "4.16.3"
+    "browserslist": "4.16.4"
   },
   "devDependencies": {
-    "@dnb-hugo/commitlint-config": "2.0.9",
     "@dnb-hugo/eslint-config": "2.0.5",
     "@dnb-hugo/remark-config": "2.0.3",
     "@dnb-hugo/standard-version-config": "2.0.2",
-    "@dnb-hugo/stylelint-config": "2.0.14",
     "@dnb-hugo/textlint-config": "2.0.2",
     "standard-version": "9.2.0"
   },
@@ -33,7 +31,6 @@
   "main": "index.js",
   "repository": "git+https://github.com/dnb-hugo/browserslist-config",
   "scripts": {
-    "commitlint": "commitlint --from=HEAD~1",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",

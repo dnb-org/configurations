@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ee6197f4f9846dbbbdb20331660ac1c)](https://www.codacy.com/gh/dnb-hugo/browserslist-config/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ee6197f4f9846dbbbdb20331660ac1c)](https://app.codacy.com/gh/dnb-hugo/browserslist-config/dashboard)
 
 ## DNB-Hugo / browserslist-config
 
@@ -18,7 +18,7 @@ Then add as extension to the `.browserslistrc`
 extends @dnb-hugo/browserslist-config
 ```
 
-or in the `browserslist` parameter in package.json.
+Or in the `browserslist` parameter in package.json.
 
 ```json
 {
@@ -28,9 +28,9 @@ or in the `browserslist` parameter in package.json.
 
 ### Philosophy
 
-- we support all currently updated browsers
-- we don't support Internet Explorer lower than version 12
-- we don't support Legacy Edge Browser (lower than version 79)
+- We support all presently updated browsers
+- We don't support Internet Explorer lower than version 12
+- We don't support legacy Edge Browser (lower than version 79)
 
 ### All configuration packages
 
