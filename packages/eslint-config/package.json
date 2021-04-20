@@ -11,10 +11,10 @@
   "dependencies": {
     "eslint": "7.24.0",
     "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "8.1.0",
+    "eslint-config-prettier": "8.2.0",
     "eslint-plugin-compat": "3.9.0",
     "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-prettier": "3.4.0",
     "standard-version": "9.2.0"
   },
   "devDependencies": {
@@ -47,5 +47,14 @@
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
-  }
+  },
+  "commitlint": {
+    "extends": [
+      "@dnb-hugo/commitlint-config"
+    ]
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ]
 }
