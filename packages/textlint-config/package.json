@@ -36,7 +36,11 @@
     "@dnb-hugo/eslint-config": "*",
     "@dnb-hugo/remark-preset-lint": "*",
     "@dnb-hugo/standard-version-config": "*",
-    "standard-version": "9.2.0"
+    "eslint": "7.24.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.4.0"
   },
   "engines": {
     "node": ">=14.0.0",
