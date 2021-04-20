@@ -8,6 +8,11 @@
     "web": "https://davids-neighbour.com"
   },
   "bugs": "git+https://github.com/dnb-hugo/remark-config/issues",
+  "commitlint": {
+    "extends": [
+      "@dnb-hugo/commitlint-config"
+    ]
+  },
   "dependencies": {
     "remark-cli": "9.0.0",
     "remark-frontmatter": "3.0.0",
