@@ -15,10 +15,10 @@
   "devDependencies": {
     "@dnb-hugo/commitlint-config": "*",
     "@dnb-hugo/eslint-config": "*",
-    "@dnb-hugo/remark-config": "2.0.3",
-    "@dnb-hugo/standard-version-config": "2.0.2",
-    "@dnb-hugo/stylelint-config": "2.0.14",
-    "@dnb-hugo/textlint-config": "2.0.2",
+    "@dnb-hugo/remark-config": "2.0.4",
+    "@dnb-hugo/standard-version-config": "2.0.3",
+    "@dnb-hugo/stylelint-config": "2.0.15",
+    "@dnb-hugo/textlint-config": "2.0.3",
     "standard-version": "9.2.0"
   },
   "engines": {
