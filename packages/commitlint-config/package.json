@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/commitlint-config",
   "description": "Commitlint configuration used in dnb-hugo projects.",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
