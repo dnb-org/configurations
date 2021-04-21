@@ -17,15 +17,7 @@
     "standard-version": "9.2.0"
   },
   "devDependencies": {
-    "@dnb-hugo/commitlint-config": "*",
-    "@dnb-hugo/eslint-config": "*",
-    "@dnb-hugo/remark-config": "2.0.4",
-    "@dnb-hugo/textlint-config": "2.0.3",
-    "eslint": "7.24.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "8.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.4.0"
+    "@dnb-hugo/textlint-config": "file:../textlint-config"
   },
   "engines": {
     "node": ">=14.0.0",

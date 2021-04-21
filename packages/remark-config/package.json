@@ -23,12 +23,8 @@
     "remark-preset-lint-styleguide": "1.0.0"
   },
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "*",
-    "@dnb-hugo/commitlint-config": "*",
-    "@dnb-hugo/eslint-config": "*",
-    "@dnb-hugo/standard-version-config": "*",
-    "@dnb-hugo/textlint-config": "*",
-    "standard-version": "9.2.0"
+    "@dnb-hugo/standard-version-config": "file:../standard-version-config",
+    "@dnb-hugo/textlint-config": "file:../textlint-config"
   },
   "engines": {
     "node": ">=14.0.0",

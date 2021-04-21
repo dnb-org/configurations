@@ -12,11 +12,10 @@
     "browserslist": "4.16.4"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "2.0.6",
-    "@dnb-hugo/remark-config": "2.0.4",
-    "@dnb-hugo/standard-version-config": "2.0.3",
-    "@dnb-hugo/textlint-config": "2.0.3",
-    "standard-version": "9.2.0"
+    "@dnb-hugo/eslint-config": "file:../eslint-config",
+    "@dnb-hugo/remark-config": "file:../remark-config",
+    "@dnb-hugo/standard-version-config": "file:../standard-version-config",
+    "@dnb-hugo/textlint-config": "file:../textlint-config"
   },
   "engines": {
     "node": ">=14.0.0",

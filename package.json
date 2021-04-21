@@ -1,8 +1,40 @@
 {
+  "npmClient": "npm",
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@dnb-hugo/browserslist-config": "file:../browserslist-config",
+    "@dnb-hugo/commitlint-config": "file:../commitlint-config",
+    "@dnb-hugo/eslint-config": "file:../eslint-config",
+    "@dnb-hugo/remark-config": "file:../remark-config",
+    "@dnb-hugo/remark-preset-lint": "*",
+    "@dnb-hugo/standard-version-config": "file:../standard-version-config",
+    "@dnb-hugo/stylelint-config": "file:../stylelint-config",
+    "@dnb-hugo/textlint-config": "file:../textlint-config",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "6.3.0",
+    "cz-customizable-ghooks": "2.0.0",
+    "eslint": "7.24.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.4.0",
     "lerna": "3.22.1",
-    "lerna-wizard": "1.1.1"
+    "lerna-wizard": "1.1.1",
+    "prettier": "2.2.1",
+    "standard-version": "9.2.0"
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@dnb-hugo/browserslist-config": "file:packages/browserslist-config",
+    "@dnb-hugo/commitlint-config": "file:packages/commitlint-config",
+    "@dnb-hugo/eslint-config": "file:packages/eslint-config",
+    "@dnb-hugo/remark-config": "file:packages/remark-config",
+    "@dnb-hugo/standard-version-config": "file:packages/standard-version-config",
+    "@dnb-hugo/stylelint-config": "file:packages/stylelint-config",
+    "@dnb-hugo/textlint-config": "file:packages/textlint-config"
   }
 }
