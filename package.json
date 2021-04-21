@@ -10,19 +10,8 @@
     "@dnb-hugo/standard-version-config": "file:../standard-version-config",
     "@dnb-hugo/stylelint-config": "file:../stylelint-config",
     "@dnb-hugo/textlint-config": "file:../textlint-config",
-    "commitizen": "4.2.3",
-    "cz-conventional-changelog": "3.3.0",
-    "cz-customizable": "6.3.0",
-    "cz-customizable-ghooks": "2.0.0",
-    "eslint": "7.24.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-prettier": "8.2.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.4.0",
-    "lerna": "3.22.1",
-    "lerna-wizard": "1.1.1",
-    "prettier": "2.2.1",
-    "standard-version": "9.2.0"
+    "lerna": "4.0.0",
+    "lerna-wizard": "1.1.1"
   },
   "packages": [
     "packages/*"

@@ -2,5 +2,14 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": [],
+      "message": "chore(release): %s"
+    },
+    "version": {
+      "allowBranch": ["main"]
+    }
+  }
 }
