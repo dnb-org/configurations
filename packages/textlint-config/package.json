@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/textlint-config",
   "description": "Textlint configuration used in dnb-hugo projects.",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -45,5 +45,6 @@
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
-  }
+  },
+  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575"
 }

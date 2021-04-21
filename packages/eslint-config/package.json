@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/eslint-config",
   "description": "ESlint configuration used in dnb-hugo projects.",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -18,10 +18,10 @@
     "standard-version": "9.2.0"
   },
   "devDependencies": {
-    "@dnb-hugo/remark-config": "file:../remark-config",
-    "@dnb-hugo/standard-version-config": "file:../standard-version-config",
-    "@dnb-hugo/stylelint-config": "file:../stylelint-config",
-    "@dnb-hugo/textlint-config": "file:../textlint-config"
+    "@dnb-hugo/remark-config": "^2.0.6",
+    "@dnb-hugo/standard-version-config": "^2.0.5",
+    "@dnb-hugo/stylelint-config": "^2.0.17",
+    "@dnb-hugo/textlint-config": "^2.0.5"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -50,5 +50,6 @@
     "extends": [
       "@dnb-hugo/commitlint-config"
     ]
-  }
+  },
+  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575"
 }
