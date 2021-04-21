@@ -7,7 +7,6 @@
     "@dnb-hugo/commitlint-config": "file:../commitlint-config",
     "@dnb-hugo/eslint-config": "file:../eslint-config",
     "@dnb-hugo/remark-config": "file:../remark-config",
-    "@dnb-hugo/remark-preset-lint": "*",
     "@dnb-hugo/standard-version-config": "file:../standard-version-config",
     "@dnb-hugo/stylelint-config": "file:../stylelint-config",
     "@dnb-hugo/textlint-config": "file:../textlint-config",
