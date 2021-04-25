@@ -1,15 +1,4 @@
-# ignore go.mod so git won't display the redirects as changes all the time
-# adding go.mod without redirects to each `npm run release*` script
-go.mod
-
 /package-lock.json
-hugo.log
-hint-report
-/bin/replacements
-/assets/jsconfig.json
-
-/data/dnb/webpack/*
-!/data/dnb/webpack/.keep
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,hugo,phpstorm,webstorm,sublimetext,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,hugo,phpstorm,webstorm,sublimetext,node
