@@ -43,7 +43,7 @@ module.exports = {
       "rules",
       "at-rules",
     ],
-    "order/properties-alphabetical-order": [false],
+    "order/properties-alphabetical-order": null,
     "order/properties-order": [
       {
         groupName: "special",
