@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/standard-version-config",
   "description": "Standard version configuration used in dnb-hugo projects.",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -17,7 +17,7 @@
     "standard-version": "9.3.0"
   },
   "devDependencies": {
-    "@dnb-hugo/textlint-config": "^2.0.5"
+    "@dnb-hugo/textlint-config": "^2.0.6"
   },
   "engines": {
     "node": ">=14.0.0",

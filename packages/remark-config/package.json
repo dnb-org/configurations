@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/remark-config",
   "description": "Remarklint configuration used in dnb-hugo projects.",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -23,8 +23,8 @@
     "remark-preset-lint-styleguide": "1.0.0"
   },
   "devDependencies": {
-    "@dnb-hugo/standard-version-config": "^2.0.5",
-    "@dnb-hugo/textlint-config": "^2.0.5"
+    "@dnb-hugo/standard-version-config": "^2.0.6",
+    "@dnb-hugo/textlint-config": "^2.0.6"
   },
   "engines": {
     "node": ">=14.0.0",
