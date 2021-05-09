@@ -29,7 +29,6 @@ module.exports = {
     "common-misspellings": {
       ignore: [],
     },
-    "date-weekday-mismatch": true,
     terminology: {
       defaultTerms: true,
       skip: ["Blockquote"],
@@ -55,5 +54,5 @@ module.exports = {
     "no-start-duplicated-conjunction": {
       interval: 2,
     },
-  }
+  },
 };
