@@ -23,6 +23,7 @@
     "node": ">=14.14.0",
     "npm": ">=7.6.0"
   },
+  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-hugo/commitlint-config#readme",
   "keywords": [
     "commitlint",
@@ -34,6 +35,5 @@
   "scripts": {
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
-  },
-  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575"
+  }
 }

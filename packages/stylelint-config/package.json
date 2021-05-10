@@ -19,6 +19,7 @@
     "node": ">=14.0.0",
     "npm": ">=6"
   },
+  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "https://github.com/dnb-hugo/stylelint-config#readme",
   "keywords": [
     "stylelint",
@@ -34,6 +35,5 @@
     "lint": "eslint .",
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
-  },
-  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575"
+  }
 }

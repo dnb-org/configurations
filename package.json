@@ -1,7 +1,15 @@
 {
-  "npmClient": "npm",
   "name": "root",
-  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@dnb-hugo/browserslist-config": "file:packages/browserslist-config",
+    "@dnb-hugo/commitlint-config": "file:packages/commitlint-config",
+    "@dnb-hugo/eslint-config": "file:packages/eslint-config",
+    "@dnb-hugo/remark-config": "file:packages/remark-config",
+    "@dnb-hugo/standard-version-config": "file:packages/standard-version-config",
+    "@dnb-hugo/stylelint-config": "file:packages/stylelint-config",
+    "@dnb-hugo/textlint-config": "file:packages/textlint-config"
+  },
   "devDependencies": {
     "@dnb-hugo/browserslist-config": "file:../browserslist-config",
     "@dnb-hugo/commitlint-config": "file:../commitlint-config",
@@ -11,18 +19,20 @@
     "@dnb-hugo/stylelint-config": "file:../stylelint-config",
     "@dnb-hugo/textlint-config": "file:../textlint-config",
     "lerna": "4.0.0",
-    "lerna-wizard": "1.1.1"
+    "lerna-wizard": "1.1.1",
+    "rimraf": "^3.0.2"
   },
+  "npmClient": "npm",
   "packages": [
     "packages/*"
   ],
-  "dependencies": {
-    "@dnb-hugo/browserslist-config": "file:packages/browserslist-config",
-    "@dnb-hugo/commitlint-config": "file:packages/commitlint-config",
-    "@dnb-hugo/eslint-config": "file:packages/eslint-config",
-    "@dnb-hugo/remark-config": "file:packages/remark-config",
-    "@dnb-hugo/standard-version-config": "file:packages/standard-version-config",
-    "@dnb-hugo/stylelint-config": "file:packages/stylelint-config",
-    "@dnb-hugo/textlint-config": "file:packages/textlint-config"
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "changed": "lerna changed --all --long",
+    "clean": "rimraf logs && rimraf node_modules",
+    "diff": "lerna diff",
+    "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
+    "list": "lerna list --all --long"
   }
 }

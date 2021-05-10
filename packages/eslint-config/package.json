@@ -8,6 +8,11 @@
     "web": "https://davids-neighbour.com"
   },
   "bugs": "git+https://github.com/dnb-hugo/eslint-config/issues",
+  "commitlint": {
+    "extends": [
+      "@dnb-hugo/commitlint-config"
+    ]
+  },
   "dependencies": {
     "eslint": "7.25.0",
     "eslint-config-airbnb-base": "14.2.1",
@@ -30,6 +35,7 @@
   "eslintConfig": {
     "extends": "./index.js"
   },
+  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-hugo/eslint-config#readme",
   "keywords": [
     "eslint",
@@ -41,11 +47,5 @@
   "scripts": {
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"
-  },
-  "commitlint": {
-    "extends": [
-      "@dnb-hugo/commitlint-config"
-    ]
-  },
-  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575"
+  }
 }

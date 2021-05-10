@@ -5,7 +5,9 @@
   "version": "independent",
   "command": {
     "publish": {
-      "ignoreChanges": [],
+      "ignoreChanges": [
+        "*.md"
+      ],
       "message": "chore(release): %s"
     },
     "version": {
