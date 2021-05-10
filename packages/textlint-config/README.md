@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/45cb0bd1447d4158942191c7a7e8e05f)](https://www.codacy.com/gh/dnb-hugo/textlint-config/dashboard)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/45cb0bd1447d4158942191c7a7e8e05f)](https://www.codacy.com/gh/dnb-hugo/textlint-config/dashboard)
 
 ## DNB-Hugo / textlint-config
 

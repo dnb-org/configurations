@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/95b94ad281a049e292e8e62da1195e20)](https://www.codacy.com/gh/dnb-hugo/remark-config/dashboard)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/95b94ad281a049e292e8e62da1195e20)](https://www.codacy.com/gh/dnb-hugo/remark-config/dashboard)
 
 ## DNB-Hugo / remark-config
 

@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ee6197f4f9846dbbbdb20331660ac1c)](https://app.codacy.com/gh/dnb-hugo/browserslist-config/dashboard)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4ee6197f4f9846dbbbdb20331660ac1c)](https://app.codacy.com/gh/dnb-hugo/browserslist-config/dashboard)
 
 ## DNB-Hugo / browserslist-config
 

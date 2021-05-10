@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e9363e97b0414e16b047c057ce4f239f)](https://www.codacy.com/gh/dnb-hugo/eslint-config/dashboard)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e9363e97b0414e16b047c057ce4f239f)](https://www.codacy.com/gh/dnb-hugo/eslint-config/dashboard)
 
 ## DNB-Hugo / eslint-config
 

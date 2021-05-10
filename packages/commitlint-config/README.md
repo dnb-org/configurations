@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf83f5c0292946ac84d8272e8bbdfca6)](https://www.codacy.com/gh/dnb-hugo/commitlint-config/dashboard)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)[![Codacy Badge](https://app.codacy.com/project/badge/Grade/bf83f5c0292946ac84d8272e8bbdfca6)](https://www.codacy.com/gh/dnb-hugo/commitlint-config/dashboard)
 
 ## DNB-Hugo / commitlint-config
 
