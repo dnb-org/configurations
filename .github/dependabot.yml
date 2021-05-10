@@ -4,7 +4,6 @@
 version: 2
 updates:
 
-  # managing dependencies for node/npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -12,8 +11,6 @@ updates:
       day: "friday"
       time: "18:00"
       timezone: "Asia/Bangkok"
-    allow:
-      - dependency-type: "all"
     assignees:
       - "davidsneighbour"
     reviewers:
