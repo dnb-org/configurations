@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/commitlint-config",
   "description": "Commitlint configuration used in dnb-hugo projects.",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -13,11 +13,11 @@
     "@commitlint/config-conventional": "12.1.4"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "^2.0.15",
-    "@dnb-hugo/remark-config": "^2.0.11",
-    "@dnb-hugo/standard-version-config": "^2.0.10",
-    "@dnb-hugo/stylelint-config": "^2.0.24",
-    "@dnb-hugo/textlint-config": "^2.0.10"
+    "@dnb-hugo/eslint-config": "^2.0.16",
+    "@dnb-hugo/remark-config": "^2.0.12",
+    "@dnb-hugo/standard-version-config": "^2.0.11",
+    "@dnb-hugo/stylelint-config": "^2.0.25",
+    "@dnb-hugo/textlint-config": "^2.0.11"
   },
   "engines": {
     "node": ">=14.14.0",
