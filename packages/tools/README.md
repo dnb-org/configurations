@@ -1,6 +1,6 @@
 ## @dnb-org/tools
 
-Tools for [dnb-org](https://github.com/dnb-org/) projects.
+Toolss for [dnb-org](https://github.com/dnb-org/) projects.
 
 ### Installation
 
