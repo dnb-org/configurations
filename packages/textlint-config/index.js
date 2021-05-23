@@ -34,9 +34,6 @@ module.exports = {
       skip: ["Blockquote"],
       exclude: ["CSS"],
     },
-    alex: {
-      allow: ["boogeyman-boogeywoman"],
-    },
     "abbr-within-parentheses": true,
     spelling: {
       language: "en-gb",
