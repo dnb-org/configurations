@@ -4,6 +4,24 @@
 
 [ESLint](https://github.com/eslint/eslint) configuration used in [dnb-hugo](https://github.com/dnb-hugo) projects.
 
+### Usage
+
+Add .eslintrc with the following content to your project:
+
+```json
+{
+    "extends": "@dnb-hugo"
+}
+````
+
+Add the configuration to your projects dependencies:
+
+```bash
+npm add -D @dnb-hugo/eslint-config
+```
+
+Write good code
+
 ### All configuration packages
 
 | Package | Notes |
