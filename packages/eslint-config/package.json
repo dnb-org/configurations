@@ -23,9 +23,10 @@
     "standard-version": "9.3.0"
   },
   "devDependencies": {
-    "@dnb-hugo/remark-config": "^2.0.17",
-    "@dnb-hugo/stylelint-config": "^2.0.30",
-    "@dnb-hugo/textlint-config": "^2.0.16"
+    "@dnb-hugo/browserslist-config": "2.2.15",
+    "@dnb-hugo/remark-config": "2.0.17",
+    "@dnb-hugo/stylelint-config": "2.0.30",
+    "@dnb-hugo/textlint-config": "2.0.16"
   },
   "engines": {
     "node": ">=14",
@@ -44,7 +45,7 @@
   "main": "index.js",
   "repository": "git+https://github.com/dnb-hugo/eslint-config",
   "scripts": {
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
+    "textlint": "textlint .",
+    "textlint-fix": "textlint --fix ."
   }
 }
