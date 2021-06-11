@@ -1,0 +1,28 @@
+{
+  "name": "@dnb-hugo/postcss-config",
+  "version": "1.0.0",
+  "description": "Postcss configuration for dnb-hugo projects.",
+  "repository": "dnb-hugo/configurations",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@dnb-hugo/browserslist-config": "^2.2.16",
+    "@dnb-hugo/eslint-config": "^2",
+    "@dnb-hugo/stylelint-config": "^2.0.30",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.2",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-custom-properties": "^11.0.0",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-sorting": "^6.0.0"
+  },
+  "devDependencies": {
+    "@dnb-hugo/textlint-config": "^2.0.16"
+  }
+}
