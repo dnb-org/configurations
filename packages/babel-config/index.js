@@ -1,3 +1,5 @@
-module.exports = {
-  presets: ["@babel/preset-env"],
+module.exports = function () {
+  return {
+    presets: ["@babel/preset-env"],
+  };
 };
