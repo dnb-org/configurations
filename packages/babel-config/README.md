@@ -4,7 +4,7 @@ Create `.babelrc` with the following content:
 
 ```js
 module.exports = {
-  presets: [ "@dnb-hugo/babel-config" ],
+  presets: [ "module:@dnb-hugo/babel-config" ],
   overrides: [
     {
       // override setup
