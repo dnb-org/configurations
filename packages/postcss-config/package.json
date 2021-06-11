@@ -1,12 +1,17 @@
 {
   "name": "@dnb-hugo/postcss-config",
-  "version": "3.0.0",
   "description": "Postcss configuration for dnb-hugo projects.",
-  "repository": "dnb-hugo/configurations",
-  "main": "index.js",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14"
+  "version": "3.0.0",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": "git+https://github.com/dnb-hugo/configurations/issues",
+  "commitlint": {
+    "extends": [
+      "@dnb-hugo/commitlint-config"
+    ]
   },
   "dependencies": {
     "@dnb-hugo/browserslist-config": "^3.0.0",
@@ -24,5 +29,12 @@
   },
   "devDependencies": {
     "@dnb-hugo/textlint-config": "^3.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "gitHead": "125be2d0e3be5b39fcdbebaec52ff12ca6bc72f7",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git+https://github.com/dnb-hugo/configurations/"
 }
