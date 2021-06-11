@@ -11,7 +11,10 @@
       "message": "chore(release): %s"
     },
     "version": {
-      "allowBranch": ["main", "version/*"]
+      "allowBranch": [
+        "main",
+        "version/*"
+      ]
     }
   }
 }
