@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/eslint-config",
   "description": "ESlint configuration used in dnb-hugo projects.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -23,10 +23,10 @@
     "standard-version": "^9.3.0"
   },
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "^3.0.0",
-    "@dnb-hugo/remark-config": "^3.0.0",
-    "@dnb-hugo/stylelint-config": "^3.0.0",
-    "@dnb-hugo/textlint-config": "^3.0.0"
+    "@dnb-hugo/browserslist-config": "^3.0.1",
+    "@dnb-hugo/remark-config": "^3.0.1",
+    "@dnb-hugo/stylelint-config": "^3.0.1",
+    "@dnb-hugo/textlint-config": "^3.0.1"
   },
   "engines": {
     "node": ">=14.0.0",
