@@ -9,7 +9,7 @@
   },
   "bugs": "git+https://github.com/dnb-hugo/browserslist-config/issues",
   "dependencies": {
-    "browserslist": "4.16.6"
+    "browserslist": "^4.16.6"
   },
   "devDependencies": {
     "@dnb-hugo/eslint-config": "^3.0.0",
@@ -18,7 +18,7 @@
   },
   "engines": {
     "node": ">=14.0.0",
-    "npm": ">=6"
+    "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-hugo/browserslist-config#readme",

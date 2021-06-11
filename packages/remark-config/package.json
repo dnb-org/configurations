@@ -14,20 +14,20 @@
     ]
   },
   "dependencies": {
-    "remark-cli": "9.0.0",
-    "remark-frontmatter": "3.0.0",
-    "remark-lint": "8.0.0",
-    "remark-lint-linebreak-style": "2.0.1",
-    "remark-lint-write-good": "1.2.0",
-    "remark-preset-lint-consistent": "4.0.0",
-    "remark-preset-lint-styleguide": "1.0.0"
+    "remark-cli": "^9.0.0",
+    "remark-frontmatter": "^3.0.0",
+    "remark-lint": "^8.0.0",
+    "remark-lint-linebreak-style": "^2.0.1",
+    "remark-lint-write-good": "^1.2.0",
+    "remark-preset-lint-consistent": "^4.0.0",
+    "remark-preset-lint-styleguide": "^1.0.0"
   },
   "devDependencies": {
     "@dnb-hugo/textlint-config": "^3.0.0"
   },
   "engines": {
     "node": ">=14.0.0",
-    "npm": ">=6"
+    "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-hugo/remark-config",

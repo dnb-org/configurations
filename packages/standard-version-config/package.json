@@ -14,14 +14,14 @@
     ]
   },
   "dependencies": {
-    "standard-version": "9.3.0"
+    "standard-version": "^9.3.0"
   },
   "devDependencies": {
     "@dnb-hugo/textlint-config": "^3.0.0"
   },
   "engines": {
     "node": ">=14.0.0",
-    "npm": ">=6"
+    "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-hugo/standard-version-config",
