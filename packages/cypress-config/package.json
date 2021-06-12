@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "deepmerge": "^4.2.2"
+    "deepmerge": "^4.2.2",
+    "cypress": "^7.5.0"
   },
   "devDependencies": {
     "@dnb-hugo/eslint-config": "^3.0.1",
