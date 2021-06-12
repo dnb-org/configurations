@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/cypress-config",
   "description": "Cypress configuration for dnb-hugo projects.",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -14,9 +14,9 @@
     ]
   },
   "dependencies": {
+    "cypress": "^7.5.0",
     "debug": "^4.1.1",
-    "deepmerge": "^4.2.2",
-    "cypress": "^7.5.0"
+    "deepmerge": "^4.2.2"
   },
   "devDependencies": {
     "@dnb-hugo/eslint-config": "^3.0.1",
