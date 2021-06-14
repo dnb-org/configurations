@@ -9,9 +9,10 @@ npm install -D @dnb-hugo/cypress
 Create `tests/cypress/plugins.index.js` with the following content:
 
 ```js
-module.exports = (on, config) => {
-  return require('@dnb-hugo/cypress-config')(config.configFile)
-}
+// noinspection JSUnresolvedVariable
+module.exports = (on, config) =>
+  // eslint-disable-next-line global-require
+  require("@dnb-hugo/cypress-config")(config.configFile);
 ```
 
 Then add in `cypress.json` at least the following two lines:
