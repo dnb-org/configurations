@@ -1,8 +1,9 @@
+import cssnano from "cssnano";
+
 const purgecss = require("@fullhuman/postcss-purgecss");
 const stylelint = require("stylelint");
 const postcsspresetenv = require("postcss-preset-env");
 const autoprefixer = require("autoprefixer");
-const cssnano = require("cssnano");
 
 module.exports = {
   plugins: [
@@ -17,7 +18,14 @@ module.exports = {
     autoprefixer(),
     postcsspresetenv(),
     cssnano({
-      preset: "default",
+      preset: [
+        "default",
+        {
+          discardComments: {
+            removeAll: true,
+          },
+        },
+      ],
     }),
   ],
 };

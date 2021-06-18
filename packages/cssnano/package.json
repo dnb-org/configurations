@@ -1,6 +1,6 @@
 {
-  "name": "@dnb-hugo/postcss-config",
-  "description": "Postcss configuration for dnb-hugo projects.",
+  "name": "@dnb-hugo/cssnano-config",
+  "description": "cssnano configuration for dnb-hugo projects.",
   "version": "3.0.10",
   "author": {
     "name": "Patrick Kollitsch",
@@ -14,19 +14,7 @@
     ]
   },
   "dependencies": {
-    "@dnb-hugo/browserslist-config": "^3.0.1",
-    "@dnb-hugo/cssnano-config": "^3.0.1",
-    "@dnb-hugo/eslint-config": "^3.0.1",
-    "@dnb-hugo/stylelint-config": "^3.0.1",
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "postcss-cli": "^8.3.1",
-    "postcss-custom-media": "^8.0.0",
-    "postcss-custom-properties": "^11.0.0",
-    "postcss-nested": "^5.0.5",
-    "postcss-preset-env": "^6.7.0",
-    "postcss-sorting": "^6.0.0"
+    "cssnano": "^5.0.6"
   },
   "devDependencies": {
     "@dnb-hugo/textlint-config": "^3.0.1"
