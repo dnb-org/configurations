@@ -20,6 +20,7 @@
     "@dnb-hugo/stylelint-config": "^3.0.13",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
     "postcss": "^8.3.5",
     "postcss-cli": "^8.3.1",
     "postcss-custom-media": "^8.0.0",
