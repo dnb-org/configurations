@@ -1,5 +1,4 @@
-import cssnano from "cssnano";
-
+const cssnano = require("cssnano");
 const purgecss = require("@fullhuman/postcss-purgecss");
 const stylelint = require("stylelint");
 const postcsspresetenv = require("postcss-preset-env");
