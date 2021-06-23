@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/babel-config",
   "description": "Babel configuration for dnb-hugo projects.",
-  "version": "3.0.13",
+  "version": "3.0.15",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -18,8 +18,8 @@
     "@babel/preset-env": "^7.14.5"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "^3.0.13",
-    "@dnb-hugo/textlint-config": "^3.0.13"
+    "@dnb-hugo/eslint-config": "^3.0.15",
+    "@dnb-hugo/textlint-config": "^3.0.15"
   },
   "engines": {
     "node": ">=14.0.0",

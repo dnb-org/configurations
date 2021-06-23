@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/stylelint-config",
   "description": "Stylelint configuration used in dnb-hugo projects.",
-  "version": "3.0.13",
+  "version": "3.0.15",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": {
     "url": "https://github.com/dnb-hugo/stylelint-config/issues"
@@ -13,7 +13,7 @@
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "@dnb-hugo/textlint-config": "^3.0.13"
+    "@dnb-hugo/textlint-config": "^3.0.15"
   },
   "engines": {
     "node": ">=14.0.0",
