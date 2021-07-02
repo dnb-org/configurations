@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/browserslist-config",
   "description": "Browserslint configuration used in dnb-hugo projects.",
-  "version": "3.0.15",
+  "version": "3.0.16",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -12,9 +12,9 @@
     "browserslist": "^4.16.6"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "^3.0.15",
-    "@dnb-hugo/remark-config": "^3.0.15",
-    "@dnb-hugo/textlint-config": "^3.0.15"
+    "@dnb-hugo/eslint-config": "^3.0.16",
+    "@dnb-hugo/remark-config": "^3.0.16",
+    "@dnb-hugo/textlint-config": "^3.0.16"
   },
   "engines": {
     "node": ">=14.0.0",
