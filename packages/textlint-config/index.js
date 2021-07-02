@@ -24,7 +24,7 @@ module.exports = {
     "stop-words": {
       defaultWords: true,
       skip: ["Blockquote"],
-      exclude: ["utilize", "period of time"],
+      exclude: ["utilize", "period of time", "frequently"],
     },
     "common-misspellings": {
       ignore: [],
