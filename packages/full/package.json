@@ -1,0 +1,35 @@
+{
+  "name": "@dnb-hugo/all",
+  "description": "All configuration packages of DNB-Hugo in one single package.",
+  "version": "3.0.17",
+  "author": "Patrick Kollitsch <patrick@hugonewsletter.com>",
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/configurations/issues"
+  },
+  "commitlint": {
+    "extends": [
+      "@dnb-hugo/commitlint-config"
+    ]
+  },
+  "devDependencies": {
+    "@dnb-hugo/babel-config": "^3.0.17",
+    "@dnb-hugo/bootstrap-config": "^3.0.17",
+    "@dnb-hugo/browserslist-config": "^3.0.17",
+    "@dnb-hugo/commitlint-config": "^3.0.17",
+    "@dnb-hugo/cssnano-config": "^3.0.17",
+    "@dnb-hugo/cypress-config": "^3.0.18",
+    "@dnb-hugo/eslint-config": "^3.0.17",
+    "@dnb-hugo/postcss-config": "^3.0.17",
+    "@dnb-hugo/remark-config": "^3.0.17",
+    "@dnb-hugo/standard-version-config": "^3.0.17",
+    "@dnb-hugo/stylelint-config": "^3.0.17",
+    "@dnb-hugo/textlint-config": "^3.0.17",
+    "@dnb-hugo/tools": "^3.0.13"
+  },
+  "homepage": "https://github.com/dnb-hugo/configurations.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-hugo/configurations.com.git"
+  }
+}
