@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://localhost:1313",
+  "baseUrl": "http://localhost:8888",
   "$schema": "https://on.cypress.io/cypress.schema.json",
   "watchForFileChanges": true,
   "downloadsFolder": "tests/cypress/downloads",
