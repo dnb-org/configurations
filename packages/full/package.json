@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/all",
   "description": "All configuration packages of DNB-Hugo in one single package.",
-  "version": "3.0.19",
+  "version": "3.0.20",
   "author": "Patrick Kollitsch <patrick@hugonewsletter.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/configurations/issues"
