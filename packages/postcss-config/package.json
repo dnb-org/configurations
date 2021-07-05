@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/postcss-config",
   "description": "Postcss configuration for dnb-hugo projects.",
-  "version": "3.0.17",
+  "version": "3.0.21",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -14,9 +14,9 @@
     ]
   },
   "dependencies": {
-    "@dnb-hugo/browserslist-config": "^3.0.17",
+    "@dnb-hugo/browserslist-config": "^3.0.21",
     "@dnb-hugo/cssnano-config": "^3.0.17",
-    "@dnb-hugo/eslint-config": "^3.0.17",
+    "@dnb-hugo/eslint-config": "^3.0.21",
     "@dnb-hugo/stylelint-config": "^3.0.17",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.6",
