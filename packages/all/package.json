@@ -11,10 +11,6 @@
       "@dnb-hugo/commitlint-config"
     ]
   },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
-  },
   "dependencies": {
     "@dnb-hugo/babel-config": "^3.0.21",
     "@dnb-hugo/bootstrap-config": "^3.0.15",
@@ -29,6 +25,10 @@
     "@dnb-hugo/stylelint-config": "^3.0.17",
     "@dnb-hugo/textlint-config": "^3.0.17",
     "@dnb-hugo/tools": "^3.0.13"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7"
   },
   "homepage": "https://github.com/dnb-hugo/configurations.com",
   "license": "MIT",

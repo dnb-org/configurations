@@ -1,10 +1,11 @@
 {
   "name": "@dnb-hugo/bootstrap-config",
-  "version": "3.0.15",
   "description": "> TODO: description",
-  "main": "index.js",
+  "version": "3.0.15",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnb-hugo/configurations/issues"
+  },
   "dependencies": {
     "@popperjs/core": "2.9.2",
     "bootstrap": "5.0.2"
@@ -14,11 +15,10 @@
     "npm": ">=7"
   },
   "homepage": "https://github.com/dnb-hugo/configurations#readme",
+  "license": "ISC",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dnb-hugo/configurations.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dnb-hugo/configurations/issues"
   }
 }
