@@ -9,6 +9,10 @@
     "@popperjs/core": "2.9.2",
     "bootstrap": "5.0.2"
   },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7"
+  },
   "homepage": "https://github.com/dnb-hugo/configurations#readme",
   "repository": {
     "type": "git",

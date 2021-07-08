@@ -11,6 +11,10 @@
       "@dnb-hugo/commitlint-config"
     ]
   },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7"
+  },
   "dependencies": {
     "@dnb-hugo/babel-config": "^3.0.21",
     "@dnb-hugo/bootstrap-config": "^3.0.15",
