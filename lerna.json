@@ -5,9 +5,7 @@
   "version": "3.0.23",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md"
-      ],
+      "ignoreChanges": [],
       "message": "chore(release): %s"
     },
     "version": {
