@@ -2,9 +2,10 @@
   "name": "root",
   "version": "0.0.0",
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "lerna-wizard": "^1.1.1",
-    "rimraf": "^3.0.2"
+    "@dnb-hugo/tools": "3.0.13",
+    "lerna": "4.0.0",
+    "lerna-wizard": "1.1.1",
+    "rimraf": "3.0.2"
   },
   "npmClient": "npm",
   "packages": [
@@ -13,11 +14,14 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "changed": "lerna changed --all --long",
-    "clean": "rimraf logs && rimraf node_modules",
+    "clean": "run-p clean:*",
+    "clean:logs": "rimraf logs && rimraf lerna-debug.log",
+    "clean:modules": "rimraf node_modules && rimraf package-lock.json",
+    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json",
     "diff": "lerna diff",
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
-    "list": "lerna list --all --long",
     "info": "lerna info",
+    "list": "lerna list --all --long",
     "release": "",
     "version": ""
   }
