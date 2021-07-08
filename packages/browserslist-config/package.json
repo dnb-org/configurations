@@ -12,7 +12,6 @@
     "browserslist": "^4.16.6"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "^3.0.21",
     "@dnb-hugo/remark-config": "^3.0.17",
     "@dnb-hugo/textlint-config": "^3.0.17"
   },
