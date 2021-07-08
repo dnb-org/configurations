@@ -22,6 +22,7 @@
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
     "info": "lerna info",
     "list": "lerna list --all --long",
+    "postinstall": "lerna exec -- npm install",
     "release": "",
     "version": ""
   }
