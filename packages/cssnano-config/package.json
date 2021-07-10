@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/cssnano-config",
   "description": "cssnano configuration for dnb-hugo projects.",
-  "version": "3.0.22",
+  "version": "3.0.24",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -17,7 +17,7 @@
     "cssnano": "^5.0.6"
   },
   "devDependencies": {
-    "@dnb-hugo/textlint-config": "^3.0.17"
+    "@dnb-hugo/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
