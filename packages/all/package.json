@@ -30,10 +30,10 @@
     "node": ">=14.0.0",
     "npm": ">=7"
   },
-  "homepage": "https://github.com/dnb-hugo/configurations.com",
+  "homepage": "https://github.com/dnb-hugo/configurations",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-hugo/configurations.com.git"
+    "url": "git+https://github.com/dnb-hugo/configurations.git"
   }
 }
