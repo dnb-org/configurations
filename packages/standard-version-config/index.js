@@ -1,8 +1,5 @@
 module.exports = {
   // for available options see https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.1.0/README.md
-  // skip: {
-  //   changelog: true,
-  // },
   scripts: {
     prerelease: "./bin/release-hook-prerelease.sh",
   },
@@ -13,16 +10,17 @@ module.exports = {
     },
   ],
   types: [
+    { type: "build", section: "Build System" },
+    { type: "chore", section: "Chore" },
+    { type: "ci", section: "CI" },
+    { type: "docs", section: "Documentation" },
     { type: "feat", section: "Features" },
     { type: "fix", section: "Bug Fixes" },
-    { type: "docs", section: "Documentation" },
-    { type: "style", section: "Styling" },
-    { type: "refactor", section: "Refactors" },
     { type: "perf", section: "Performance" },
-    { type: "test", section: "Tests" },
-    { type: "build", section: "Build System" },
-    { type: "ci", section: "CI" },
-    { type: "chore", section: "Chore" },
+    { type: "refactor", section: "Refactors" },
     { type: "revert", section: "Reverts" },
+    { type: "style", section: "Styling" },
+    { type: "test", section: "Tests" },
+    { type: "theme", section: "Theme" },
   ],
 };
