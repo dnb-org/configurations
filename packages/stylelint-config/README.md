@@ -12,11 +12,22 @@ npm install @dnb-hugo/stylelint-config --save-dev
 
 ### Configuration
 
-Add the configuration to your repository (for instance in `.stylelintrc` or `.stylelintrc.json`):
+Add the configuration to your repository (for instance in `.stylelintrc` or `.stylelintrc.json` or the `stylelint` parameter in package.json):
 
 ```json
 {
   "extends": "@dnb-hugo/stylelint-config"
+}
+```
+
+To change parts of the configuration use the `rules` parameter.
+
+```json
+{
+  "extends": "@dnb-hugo/stylelint-config",
+  "rules": {
+    "max-nesting-depth": null
+  }
 }
 ```
 
@@ -26,8 +37,8 @@ Add scripts to your package.json:
 {
   "scripts": {
     "stylelint": "stylelint assets/scss/",
-    "stylelint-fix": "stylelint assets/scss/ --fix",
-    "stylelint-config": "stylelint --print-config index.js"
+    "stylelint:fix": "stylelint assets/scss/ --fix",
+    "stylelint:config": "stylelint --print-config index.js"
   }
 }
 ```
@@ -45,19 +56,14 @@ npm run stylelint
 Run stylelint and fix automatically fixable issues:
 
 ```shell
-npm run stylelint-fix
+npm run stylelint:fix
 ```
 
 Print the current stylelint configuration:
 
 ```shell
-npm run stylelint-config
+npm run stylelint:config
 ```
-
-### Development
-
-- GitHub Repository: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
-- NPM Package: https://www.npmjs.com/package/@dnb-hugo/stylelint-config
 
 ### All configuration packages
 

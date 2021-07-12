@@ -34,6 +34,6 @@
   "scripts": {
     "lint": "eslint .",
     "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
+    "textlint:fix": "textlint --fix"
   }
 }
