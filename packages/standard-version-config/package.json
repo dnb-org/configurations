@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo/standard-version-config",
   "description": "Standard version configuration used in dnb-hugo projects.",
-  "version": "3.0.24",
+  "version": "3.0.25",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
