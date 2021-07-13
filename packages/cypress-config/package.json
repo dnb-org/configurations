@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/cypress-config",
   "description": "Cypress configuration for dnb-org projects.",
-  "version": "3.0.25",
+  "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -19,8 +19,8 @@
     "deepmerge": "^4.2.2"
   },
   "devDependencies": {
-    "@dnb-org/eslint-config": "^3.0.25",
-    "@dnb-org/textlint-config": "^3.0.24"
+    "@dnb-org/eslint-config": "^3.1.0",
+    "@dnb-org/textlint-config": "^3.1.0"
   },
   "engines": {
     "node": ">=14.0.0",

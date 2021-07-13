@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/remark-config",
   "description": "Remarklint configuration used in dnb-org projects.",
-  "version": "3.0.24",
+  "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -23,7 +23,7 @@
     "remark-preset-lint-styleguide": "^1.0.0"
   },
   "devDependencies": {
-    "@dnb-org/textlint-config": "^3.0.24"
+    "@dnb-org/textlint-config": "^3.1.0"
   },
   "engines": {
     "node": ">=14.0.0",

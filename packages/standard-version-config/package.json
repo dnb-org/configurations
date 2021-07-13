@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/standard-version-config",
   "description": "Standard version configuration used in dnb-org projects.",
-  "version": "3.0.25",
+  "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -17,7 +17,7 @@
     "standard-version": "^9.3.0"
   },
   "devDependencies": {
-    "@dnb-org/textlint-config": "^3.0.24"
+    "@dnb-org/textlint-config": "^3.1.0"
   },
   "engines": {
     "node": ">=14.0.0",

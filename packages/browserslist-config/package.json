@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/browserslist-config",
   "description": "Browserslint configuration used in dnb-org projects.",
-  "version": "3.0.24",
+  "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -12,8 +12,8 @@
     "browserslist": "^4.16.6"
   },
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.0.24",
-    "@dnb-org/textlint-config": "^3.0.24"
+    "@dnb-org/remark-config": "^3.1.0",
+    "@dnb-org/textlint-config": "^3.1.0"
   },
   "engines": {
     "node": ">=14.0.0",

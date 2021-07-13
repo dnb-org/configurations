@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/stylelint-config",
   "description": "Stylelint configuration used in dnb-org projects.",
-  "version": "3.0.25",
+  "version": "3.1.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": {
     "url": "https://github.com/dnb-org/stylelint-config/issues"
@@ -13,7 +13,7 @@
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "@dnb-org/textlint-config": "^3.0.24"
+    "@dnb-org/textlint-config": "^3.1.0"
   },
   "engines": {
     "node": ">=14.0.0",
