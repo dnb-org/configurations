@@ -1,10 +1,10 @@
 {
-  "name": "@dnb-hugo/stylelint-config",
-  "description": "Stylelint configuration used in dnb-hugo projects.",
+  "name": "@dnb-org/stylelint-config",
+  "description": "Stylelint configuration used in dnb-org projects.",
   "version": "3.0.25",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": {
-    "url": "https://github.com/dnb-hugo/stylelint-config/issues"
+    "url": "https://github.com/dnb-org/stylelint-config/issues"
   },
   "dependencies": {
     "stylelint": "^13.13.1",
@@ -13,14 +13,14 @@
     "stylelint-order": "^4.1.0"
   },
   "devDependencies": {
-    "@dnb-hugo/textlint-config": "^3.0.24"
+    "@dnb-org/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
-  "homepage": "https://github.com/dnb-hugo/stylelint-config#readme",
+  "homepage": "https://github.com/dnb-org/stylelint-config#readme",
   "keywords": [
     "stylelint",
     "stylelint-config"
@@ -29,7 +29,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-hugo/stylelint-config.git"
+    "url": "git+https://github.com/dnb-org/stylelint-config.git"
   },
   "scripts": {
     "lint": "eslint .",

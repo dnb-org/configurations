@@ -1,23 +1,23 @@
 {
-  "name": "@dnb-hugo/postcss-config",
-  "description": "Postcss configuration for dnb-hugo projects.",
+  "name": "@dnb-org/postcss-config",
+  "description": "Postcss configuration for dnb-org projects.",
   "version": "3.0.25",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-hugo/configurations/issues",
+  "bugs": "git+https://github.com/dnb-org/configurations/issues",
   "commitlint": {
     "extends": [
-      "@dnb-hugo/commitlint-config"
+      "@dnb-org/commitlint-config"
     ]
   },
   "dependencies": {
-    "@dnb-hugo/browserslist-config": "^3.0.24",
-    "@dnb-hugo/cssnano-config": "^3.0.24",
-    "@dnb-hugo/eslint-config": "^3.0.25",
-    "@dnb-hugo/stylelint-config": "^3.0.25",
+    "@dnb-org/browserslist-config": "^3.0.24",
+    "@dnb-org/cssnano-config": "^3.0.24",
+    "@dnb-org/eslint-config": "^3.0.25",
+    "@dnb-org/stylelint-config": "^3.0.25",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.6",
     "cssnano": "^5.0.6",
@@ -30,7 +30,7 @@
     "postcss-sorting": "^6.0.0"
   },
   "devDependencies": {
-    "@dnb-hugo/textlint-config": "^3.0.24"
+    "@dnb-org/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -39,5 +39,5 @@
   "gitHead": "125be2d0e3be5b39fcdbebaec52ff12ca6bc72f7",
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-hugo/configurations/"
+  "repository": "git+https://github.com/dnb-org/configurations/"
 }

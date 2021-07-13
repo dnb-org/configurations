@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-hugo/eslint-config",
-  "description": "ESlint configuration used in dnb-hugo projects.",
+  "name": "@dnb-org/eslint-config",
+  "description": "ESlint configuration used in dnb-org projects.",
   "version": "3.0.25",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-hugo/eslint-config/issues",
+  "bugs": "git+https://github.com/dnb-org/eslint-config/issues",
   "commitlint": {
     "extends": [
-      "@dnb-hugo/commitlint-config"
+      "@dnb-org/commitlint-config"
     ]
   },
   "dependencies": {
@@ -23,10 +23,10 @@
     "standard-version": "^9.3.0"
   },
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "^3.0.24",
-    "@dnb-hugo/remark-config": "^3.0.24",
-    "@dnb-hugo/stylelint-config": "^3.0.25",
-    "@dnb-hugo/textlint-config": "^3.0.24"
+    "@dnb-org/browserslist-config": "^3.0.24",
+    "@dnb-org/remark-config": "^3.0.24",
+    "@dnb-org/stylelint-config": "^3.0.25",
+    "@dnb-org/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -36,14 +36,14 @@
     "extends": "./index.js"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
-  "homepage": "git+https://github.com/dnb-hugo/eslint-config#readme",
+  "homepage": "git+https://github.com/dnb-org/eslint-config#readme",
   "keywords": [
     "eslint",
     "eslint-config"
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-hugo/eslint-config",
+  "repository": "git+https://github.com/dnb-org/eslint-config",
   "scripts": {
     "textlint": "textlint .",
     "textlint-fix": "textlint --fix ."

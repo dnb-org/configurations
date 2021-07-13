@@ -2,7 +2,7 @@
   "name": "root",
   "version": "0.0.0",
   "devDependencies": {
-    "@dnb-hugo/tools": "3.0.13",
+    "@dnb-org/tools": "3.0.13",
     "lerna": "4.0.0",
     "lerna-wizard": "1.1.1",
     "rimraf": "3.0.2"

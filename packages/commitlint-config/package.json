@@ -1,36 +1,36 @@
 {
-  "name": "@dnb-hugo/commitlint-config",
-  "description": "Commitlint configuration used in dnb-hugo projects.",
+  "name": "@dnb-org/commitlint-config",
+  "description": "Commitlint configuration used in dnb-org projects.",
   "version": "3.0.25",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-hugo/commitlint-config/issues",
+  "bugs": "git+https://github.com/dnb-org/commitlint-config/issues",
   "dependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "^3.0.25",
-    "@dnb-hugo/remark-config": "^3.0.24",
-    "@dnb-hugo/stylelint-config": "^3.0.25",
-    "@dnb-hugo/textlint-config": "^3.0.24"
+    "@dnb-org/eslint-config": "^3.0.25",
+    "@dnb-org/remark-config": "^3.0.24",
+    "@dnb-org/stylelint-config": "^3.0.25",
+    "@dnb-org/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
-  "homepage": "git+https://github.com/dnb-hugo/commitlint-config#readme",
+  "homepage": "git+https://github.com/dnb-org/commitlint-config#readme",
   "keywords": [
     "commitlint",
     "commitlint-config"
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-hugo/commitlint-config",
+  "repository": "git+https://github.com/dnb-org/commitlint-config",
   "scripts": {
     "textlint": "textlint",
     "textlint-fix": "textlint --fix"

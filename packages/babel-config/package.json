@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-hugo/babel-config",
-  "description": "Babel configuration for dnb-hugo projects.",
+  "name": "@dnb-org/babel-config",
+  "description": "Babel configuration for dnb-org projects.",
   "version": "3.0.25",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-hugo/configurations/issues",
+  "bugs": "git+https://github.com/dnb-org/configurations/issues",
   "commitlint": {
     "extends": [
-      "@dnb-hugo/commitlint-config"
+      "@dnb-org/commitlint-config"
     ]
   },
   "dependencies": {
@@ -18,8 +18,8 @@
     "@babel/preset-env": "^7.14.7"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "^3.0.25",
-    "@dnb-hugo/textlint-config": "^3.0.24"
+    "@dnb-org/eslint-config": "^3.0.25",
+    "@dnb-org/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -28,5 +28,5 @@
   "gitHead": "125be2d0e3be5b39fcdbebaec52ff12ca6bc72f7",
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-hugo/configurations/"
+  "repository": "git+https://github.com/dnb-org/configurations/"
 }

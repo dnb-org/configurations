@@ -3,7 +3,7 @@
 Add the configuration package to your setup:
 
 ```shell
-npm install -D @dnb-hugo/cypress
+npm install -D @dnb-org/cypress
 ```
 
 Create `tests/cypress/plugins.index.js` with the following content:
@@ -12,14 +12,14 @@ Create `tests/cypress/plugins.index.js` with the following content:
 // noinspection JSUnresolvedVariable
 module.exports = (on, config) =>
   // eslint-disable-next-line global-require
-  require("@dnb-hugo/cypress-config")(config.configFile);
+  require("@dnb-org/cypress-config")(config.configFile);
 ```
 
 Then add in `cypress.json` at least the following two lines:
 
 ```json
 {
-  "extends": "@dnb-hugo/cypress-config/base.json",
+  "extends": "@dnb-org/cypress-config/base.json",
   "pluginsFile": "tests/cypress/plugins/index.js"
 }
 ```

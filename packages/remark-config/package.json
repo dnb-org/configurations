@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-hugo/remark-config",
-  "description": "Remarklint configuration used in dnb-hugo projects.",
+  "name": "@dnb-org/remark-config",
+  "description": "Remarklint configuration used in dnb-org projects.",
   "version": "3.0.24",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-hugo/remark-config/issues",
+  "bugs": "git+https://github.com/dnb-org/remark-config/issues",
   "commitlint": {
     "extends": [
-      "@dnb-hugo/commitlint-config"
+      "@dnb-org/commitlint-config"
     ]
   },
   "dependencies": {
@@ -23,14 +23,14 @@
     "remark-preset-lint-styleguide": "^1.0.0"
   },
   "devDependencies": {
-    "@dnb-hugo/textlint-config": "^3.0.24"
+    "@dnb-org/textlint-config": "^3.0.24"
   },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
-  "homepage": "git+https://github.com/dnb-hugo/remark-config",
+  "homepage": "git+https://github.com/dnb-org/remark-config",
   "keywords": [
     "remark",
     "remarklint",
@@ -38,7 +38,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-hugo/remark-config",
+  "repository": "git+https://github.com/dnb-org/remark-config",
   "scripts": {
     "remark": "remark",
     "textlint": "textlint",

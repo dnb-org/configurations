@@ -1,13 +1,13 @@
 {
-  "name": "@dnb-hugo/textlint-config",
-  "description": "Textlint configuration used in dnb-hugo projects.",
+  "name": "@dnb-org/textlint-config",
+  "description": "Textlint configuration used in dnb-org projects.",
   "version": "3.0.24",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-hugo/textlint-config/issues",
+  "bugs": "git+https://github.com/dnb-org/textlint-config/issues",
   "dependencies": {
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.8",
@@ -34,10 +34,10 @@
     "npm": ">=7"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
-  "homepage": "https://github.com/dnb-hugo/textlint-config#readme",
+  "homepage": "https://github.com/dnb-org/textlint-config#readme",
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-hugo/textlint-config",
+  "repository": "git+https://github.com/dnb-org/textlint-config",
   "scripts": {
     "textlint:check": "textlint",
     "textlint:check:all": "textlint .",

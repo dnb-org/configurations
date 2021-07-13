@@ -3,7 +3,7 @@
 Create `postcss.config.js` with the following content:
 
 ```js
-const config = require("@dnb-hugo/postcss-config");
+const config = require("@dnb-org/postcss-config");
 module.exports = config;
 ```
 
