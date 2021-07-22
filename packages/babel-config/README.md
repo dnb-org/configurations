@@ -1,6 +1,6 @@
 ## Usage
 
-Create `.babelrc` with the following content:
+Create `.babelrc.js` with the following content:
 
 ```js
 module.exports = {
