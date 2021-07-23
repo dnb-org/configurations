@@ -14,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "cypress": "^7.6.0",
+    "cypress": "^8.0.0",
     "debug": "^4.3.2",
     "deepmerge": "^4.2.2"
   },
