@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/all",
   "description": "All configuration packages of dnb-org in one single package.",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "author": "Patrick Kollitsch <patrick@hugonewsletter.com>",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
@@ -12,7 +12,7 @@
     ]
   },
   "dependencies": {
-    "@dnb-org/babel-config": "^3.1.0",
+    "@dnb-org/babel-config": "^3.1.1",
     "@dnb-org/bootstrap-config": "^3.1.0",
     "@dnb-org/browserslist-config": "^3.1.0",
     "@dnb-org/commitlint-config": "^3.1.0",
