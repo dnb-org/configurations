@@ -7,7 +7,7 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@dnb-org/all": "3.1.0",
+    "@dnb-org/all": "3.1.1",
     "lerna": "4.0.0",
     "lerna-wizard": "1.1.1",
     "rimraf": "3.0.2"
