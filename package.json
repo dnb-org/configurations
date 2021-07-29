@@ -1,8 +1,13 @@
 {
   "name": "root",
   "version": "0.0.0",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
   "devDependencies": {
-    "@dnb-org/tools": "3.0.15",
+    "@dnb-org/all": "3.1.0",
     "lerna": "4.0.0",
     "lerna-wizard": "1.1.1",
     "rimraf": "3.0.2"
@@ -24,6 +29,9 @@
     "list": "lerna list --all --long",
     "postinstall": "lerna exec -- npm install",
     "release": "",
-    "version": ""
+    "version": "",
+    "textlint": "textlint",
+    "textlint:fix": "textlint --fix",
+    "remark": "remark"
   }
 }

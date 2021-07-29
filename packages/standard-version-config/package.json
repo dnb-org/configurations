@@ -1,27 +1,21 @@
 {
   "name": "@dnb-org/standard-version-config",
-  "description": "Standard version configuration used in dnb-org projects.",
+  "description": "Standard version configuration for in dnb-org projects.",
   "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-org/standard-version-config/issues",
-  "commitlint": {
-    "extends": [
-      "@dnb-org/commitlint-config"
-    ]
+  "bugs": {
+    "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "standard-version": "^9.3.0"
-  },
-  "devDependencies": {
-    "@dnb-org/textlint-config": "^3.1.0"
+    "standard-version": "9.3.1"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-org/standard-version-config",
@@ -31,9 +25,5 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/standard-version-config.git",
-  "scripts": {
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
-  }
+  "repository": "git+https://github.com/dnb-org/configurations/"
 }

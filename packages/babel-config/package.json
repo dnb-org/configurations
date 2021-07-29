@@ -7,23 +7,21 @@
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-org/configurations/issues",
+  "bugs": {
+    "url": "https://github.com/dnb-org/configurations/issues"
+  },
   "commitlint": {
     "extends": [
       "@dnb-org/commitlint-config"
     ]
   },
   "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7"
-  },
-  "devDependencies": {
-    "@dnb-org/eslint-config": "^3.1.0",
-    "@dnb-org/textlint-config": "^3.1.0"
+    "@babel/core": "7.14.8",
+    "@babel/preset-env": "7.14.8"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
   },
   "gitHead": "125be2d0e3be5b39fcdbebaec52ff12ca6bc72f7",
   "license": "MIT",

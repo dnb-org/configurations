@@ -1,46 +1,43 @@
 {
   "name": "@dnb-org/textlint-config",
-  "description": "Textlint configuration used in dnb-org projects.",
+  "description": "Textlint configuration for dnb-org projects.",
   "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-org/textlint-config/issues",
+  "bugs": {
+    "url": "https://github.com/dnb-org/configurations/issues"
+  },
   "dependencies": {
-    "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.8",
-    "dictionary-en-gb": "^2.3.0",
-    "textlint": "^12.0.2",
-    "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-rule-abbr-within-parentheses": "^1.0.2",
-    "textlint-rule-common-misspellings": "^1.0.1",
-    "textlint-rule-en-capitalization": "^2.0.3",
-    "textlint-rule-footnote-order": "^1.0.3",
-    "textlint-rule-max-comma": "^2.0.2",
-    "textlint-rule-no-dead-link": "^4.7.0",
-    "textlint-rule-no-empty-section": "^1.1.0",
-    "textlint-rule-no-exclamation-question-mark": "^1.1.0",
-    "textlint-rule-no-start-duplicated-conjunction": "^2.0.2",
-    "textlint-rule-no-todo": "^2.0.1",
-    "textlint-rule-spelling": "^0.3.0",
-    "textlint-rule-stop-words": "^2.0.9",
-    "textlint-rule-terminology": "^2.1.5",
-    "textlint-rule-unexpanded-acronym": "^1.2.4"
+    "@textlint-rule/textlint-rule-no-invalid-control-character": "2.0.0",
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.8",
+    "dictionary-en-gb": "2.3.0",
+    "textlint": "12.0.2",
+    "textlint-filter-rule-comments": "1.2.2",
+    "textlint-rule-abbr-within-parentheses": "1.0.2",
+    "textlint-rule-common-misspellings": "1.0.1",
+    "textlint-rule-en-capitalization": "2.0.3",
+    "textlint-rule-footnote-order": "1.0.3",
+    "textlint-rule-max-comma": "2.0.2",
+    "textlint-rule-no-dead-link": "4.7.0",
+    "textlint-rule-no-empty-section": "1.1.0",
+    "textlint-rule-no-exclamation-question-mark": "1.1.0",
+    "textlint-rule-no-start-duplicated-conjunction": "2.0.2",
+    "textlint-rule-no-todo": "2.0.1",
+    "textlint-rule-spelling": "0.3.0",
+    "textlint-rule-stop-words": "2.0.9",
+    "textlint-rule-terminology": "2.1.5",
+    "textlint-rule-unexpanded-acronym": "1.2.4"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "https://github.com/dnb-org/textlint-config#readme",
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/textlint-config",
-  "scripts": {
-    "textlint:check": "textlint",
-    "textlint:check:all": "textlint .",
-    "textlint:fix": "textlint --fix"
-  }
+  "repository": "git+https://github.com/dnb-org/configurations/"
 }

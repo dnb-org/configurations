@@ -8,33 +8,21 @@
     "web": "https://davids-neighbour.com"
   },
   "bugs": "git+https://github.com/dnb-org/configurations/issues",
-  "commitlint": {
-    "extends": [
-      "@dnb-org/commitlint-config"
-    ]
-  },
   "dependencies": {
-    "@dnb-org/browserslist-config": "^3.1.0",
-    "@dnb-org/cssnano-config": "^3.1.0",
-    "@dnb-org/eslint-config": "^3.1.0",
-    "@dnb-org/stylelint-config": "^3.1.0",
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^10.2.6",
-    "cssnano": "^5.0.6",
-    "postcss": "^8.3.5",
-    "postcss-cli": "^8.3.1",
-    "postcss-custom-media": "^8.0.0",
-    "postcss-custom-properties": "^11.0.0",
-    "postcss-nested": "^5.0.5",
-    "postcss-preset-env": "^6.7.0",
-    "postcss-sorting": "^6.0.0"
-  },
-  "devDependencies": {
-    "@dnb-org/textlint-config": "^3.1.0"
+    "@fullhuman/postcss-purgecss": "4.0.3",
+    "autoprefixer": "10.3.1",
+    "cssnano": "5.0.7",
+    "postcss": "8.3.6",
+    "postcss-cli": "8.3.1",
+    "postcss-custom-media": "8.0.0",
+    "postcss-custom-properties": "11.0.0",
+    "postcss-nested": "5.0.5",
+    "postcss-preset-env": "6.7.0",
+    "postcss-sorting": "6.0.0"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
   },
   "gitHead": "125be2d0e3be5b39fcdbebaec52ff12ca6bc72f7",
   "license": "MIT",

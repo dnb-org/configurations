@@ -1,25 +1,19 @@
-## @dnb-org/cssnano-config
+## @dnb-org/tools
 
-[CSSnano](https://cssnano.co/) configuration for [dnb-org](https://github.com/dnb-org/) projects.
+Tools for [dnb-org](https://github.com/dnb-org/) projects. 
 
 ### Installation
 
 Use npm to install this package as development dependency:
 
 ```shell
-npm install --save-dev @dnb-org/cssnano-config
+npm install --save-dev @dnb-org/commitlint-config
 ```
 
-### Configuration
+### Dependencies
 
-Create `cssnano.config.js` with the following content:
-
-```js
-const preset = require("@dnb-org/cssnano-config");
-module.exports = preset();
-```
-
-[More information about configuring CSSNano](https://cssnano.co/docs/config-file).
+- [rimraf](https://www.npmjs.com/package/rimraf) - The UNIX command `rm -rf` for node.
+- [npm-run-all](https://www.npmjs.com/package/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
 
 ### All dnb-org configuration packages
 

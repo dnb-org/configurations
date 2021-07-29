@@ -1,4 +1,4 @@
-const defaultPreset = require('cssnano-preset-default');
+const defaultPreset = require("cssnano-preset-default");
 
 module.exports = defaultPreset({
   discardComments: {

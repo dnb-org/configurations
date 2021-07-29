@@ -1,8 +1,12 @@
 {
   "name": "@dnb-org/bootstrap-config",
-  "description": "> TODO: description",
+  "description": "Bootstrap setup for dnb-org projects.",
   "version": "3.1.0",
-  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -11,14 +15,11 @@
     "bootstrap": "5.0.2"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
   },
   "homepage": "https://github.com/dnb-org/configurations#readme",
   "license": "ISC",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dnb-org/configurations.git"
-  }
+  "repository": "git+https://github.com/dnb-org/configurations/"
 }

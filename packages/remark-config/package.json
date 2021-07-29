@@ -1,47 +1,37 @@
 {
   "name": "@dnb-org/remark-config",
-  "description": "Remarklint configuration used in dnb-org projects.",
+  "description": "Remark and remark-lint configuration for dnb-org projects.",
   "version": "3.1.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "bugs": "git+https://github.com/dnb-org/remark-config/issues",
-  "commitlint": {
-    "extends": [
-      "@dnb-org/commitlint-config"
-    ]
+  "bugs": {
+    "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "remark-cli": "^9.0.0",
-    "remark-frontmatter": "^3.0.0",
-    "remark-lint": "^8.0.0",
-    "remark-lint-linebreak-style": "^2.0.1",
-    "remark-lint-write-good": "^1.2.0",
-    "remark-preset-lint-consistent": "^4.0.0",
-    "remark-preset-lint-styleguide": "^1.0.0"
-  },
-  "devDependencies": {
-    "@dnb-org/textlint-config": "^3.1.0"
+    "remark-cli": "9.0.0",
+    "remark-frontmatter": "3.0.0",
+    "remark-lint": "8.0.0",
+    "remark-lint-linebreak-style": "2.0.1",
+    "remark-lint-write-good": "1.2.0",
+    "remark-preset-lint-consistent": "4.0.0",
+    "remark-preset-lint-styleguide": "1.0.0"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=7"
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-org/remark-config",
   "keywords": [
     "remark",
+    "remark-config",
     "remarklint",
     "remarklint-config"
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/remark-config",
-  "scripts": {
-    "remark": "remark",
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
-  }
+  "repository": "git+https://github.com/dnb-org/configurations/"
 }

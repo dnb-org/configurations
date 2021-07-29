@@ -1,0 +1,5 @@
+{
+  "plugins": [
+    "@dnb-org/remark-config"
+  ]
+}
