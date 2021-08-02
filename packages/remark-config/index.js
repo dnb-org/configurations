@@ -1,26 +1,39 @@
 module.exports = {
-  settings: {
-    ignoreName: "node_modules/@dnb-org/remark-config/.remarkignore",
-  },
-
   plugins: [
-    require("remark-preset-lint-styleguide"),
-    require("remark-preset-lint-consistent"),
-    require("remark-frontmatter"),
-    [require("remark-lint-linebreak-style"), "unix"],
-    [require("remark-lint-first-heading-level"), 2],
-    [require("remark-lint-maximum-line-length"), 1000],
+    // presets
+    "remark-preset-lint-styleguide",
+    "remark-preset-lint-consistent",
+
+    // rules
+    ["remark-lint-first-heading-level", 2],
+    ["remark-lint-no-file-name-irregular-characters", "\\.a-zA-Z0-9-_"],
+
+    // plugins
+    "remark-frontmatter",
+    ["remark-lint-linebreak-style", "unix"],
+    ["remark-lint-maximum-line-length", 1000],
     [
-      require("remark-lint-write-good"),
-      "warn",
-      {
-        passive: false,
-        whitelist: ["read-only"],
-      },
+      "remark-lint-write-good",
+      [
+        "warn",
+        {
+          passive: false,
+          whitelist: ["read-only"],
+        },
+      ],
     ],
+    "remark-lint-match-punctuation",
+    "remark-lint-no-repeat-punctuation",
     [
-      require("remark-lint-no-file-name-irregular-characters"),
-      "\\.a-zA-Z0-9-_",
+      "remark-lint-emoji-limit",
+      [
+        "warn",
+        {
+          max: 2,
+        },
+      ],
     ],
+    "remark-lint-no-empty-sections",
+    "remark-lint-heading-whitespace",
   ],
 };

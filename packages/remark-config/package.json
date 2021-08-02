@@ -11,10 +11,16 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
+    "remark": "13.0.0",
     "remark-cli": "9.0.0",
     "remark-frontmatter": "3.0.0",
     "remark-lint": "8.0.0",
+    "remark-lint-emoji-limit": "1.0.1",
+    "remark-lint-heading-whitespace": "^1.0.0",
     "remark-lint-linebreak-style": "2.0.1",
+    "remark-lint-match-punctuation": "0.2.1",
+    "remark-lint-no-empty-sections": "4.0.0",
+    "remark-lint-no-repeat-punctuation": "0.1.4",
     "remark-lint-write-good": "1.2.0",
     "remark-preset-lint-consistent": "4.0.0",
     "remark-preset-lint-styleguide": "1.0.0"
@@ -22,6 +28,9 @@
   "engines": {
     "node": ">=14.14.0",
     "npm": ">=7.15.1"
+  },
+  "scripts": {
+    "remark": "remark --rc-path index.js ."
   },
   "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
   "homepage": "git+https://github.com/dnb-org/remark-config",
