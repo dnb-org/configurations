@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/all",
   "description": "All configuration packages of dnb-org in one single package.",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -18,13 +18,13 @@
   "dependencies": {
     "@dnb-org/babel-config": "^3.2.0",
     "@dnb-org/bootstrap-config": "^3.2.0",
-    "@dnb-org/browserslist-config": "^3.2.2",
+    "@dnb-org/browserslist-config": "^3.2.3",
     "@dnb-org/commitlint-config": "^3.2.0",
     "@dnb-org/cssnano-config": "^3.2.0",
     "@dnb-org/cypress-config": "^3.2.1",
     "@dnb-org/eslint-config": "^3.2.0",
     "@dnb-org/postcss-config": "^3.2.0",
-    "@dnb-org/remark-config": "^3.2.2",
+    "@dnb-org/remark-config": "^3.2.3",
     "@dnb-org/standard-version-config": "^3.2.0",
     "@dnb-org/stylelint-config": "^3.2.0",
     "@dnb-org/textlint-config": "^3.2.0",
