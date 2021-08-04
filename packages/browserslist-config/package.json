@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/browserslist-config",
   "description": "Browserslint configuration for dnb-org projects.",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
