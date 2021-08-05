@@ -36,5 +36,6 @@
   },
   "homepage": "https://github.com/dnb-org/configurations",
   "license": "MIT",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "repository": "git+https://github.com/dnb-org/configurations/",
+  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506"
 }

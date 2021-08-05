@@ -32,7 +32,7 @@
   "scripts": {
     "remark": "remark --rc-path index.js ."
   },
-  "gitHead": "36308992fed9739f669978e0e54b3f8411b03575",
+  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "homepage": "git+https://github.com/dnb-org/remark-config",
   "keywords": [
     "remark",

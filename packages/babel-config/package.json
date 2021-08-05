@@ -23,7 +23,7 @@
     "node": ">=14.14.0",
     "npm": ">=7.15.1"
   },
-  "gitHead": "125be2d0e3be5b39fcdbebaec52ff12ca6bc72f7",
+  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "license": "MIT",
   "main": "index.js",
   "repository": "git+https://github.com/dnb-org/configurations/"
