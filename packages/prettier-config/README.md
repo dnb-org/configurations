@@ -1,38 +1,28 @@
-## @dnb-org/postcss-config
+## @dnb-org/prettier-config
 
 ### Installation
 
 Use npm to install this package as development dependency:
 
 ```shell
-npm install --save-dev @dnb-org/postcss-config
+npm install --save-dev @dnb-org/prettier-config
 ```
 
 ### Configuration
 
-Create `postcss.config.js` with the following content:
+Add prettier to your `package.json`:
 
 ```js
-const config = require("@dnb-org/postcss-config");
-module.exports = config;
+{
+  "prettier": "@dnb-org/prettier-config"
+}
 ```
 
-[More information about PostCSS configuration](https://github.com/postcss/postcss).
+[More information about Prettier configuration](https://prettier.io/docs/en/options.html).
 
 ### Configuration rules in this package
 
 To be written ...
-
-### Note about using PostCSS in  [GoHugo](https://gohugo.io)
-
-GoHugo is weird, but great. To get PostCSS to work with GoHugo the `postcss-cli` package needs to be installed in the 
-project itself and is not handled through this configuration. Run the following to get PostCSS working in GoHugo:
-
-```shell
-npm install --save-dev postcss-cli
-```
-
-A global `postcss-cli` installation won't work if the plugins in this package are not installed globally as well.
 
 ### All dnb-org configuration packages
 
