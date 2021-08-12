@@ -1,0 +1,33 @@
+{
+  "name": "@dnb-org/webpack-config",
+  "description": "Webpack configuration for dnb-org projects.",
+  "version": "3.2.8",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dnb-org/configurations/issues"
+  },
+  "dependencies": {
+    "babel-loader": "8.2.2",
+    "cross-env": "7.0.3",
+    "css-loader": "6.2.0",
+    "html-webpack-plugin": "5.3.2",
+    "style-loader": "3.2.1",
+    "terser-webpack-plugin": "5.1.4",
+    "webpack": "5.50.0",
+    "webpack-cli": "4.7.2",
+    "webpack-merge": "5.8.0"
+  },
+  "engines": {
+    "node": ">=14.14.0",
+    "npm": ">=7.15.1"
+  },
+  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
+  "homepage": "https://github.com/dnb-org/configurations",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git+https://github.com/dnb-org/configurations/"
+}
