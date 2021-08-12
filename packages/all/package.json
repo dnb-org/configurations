@@ -28,7 +28,8 @@
     "@dnb-org/standard-version-config": "^3.2.8",
     "@dnb-org/stylelint-config": "^3.2.8",
     "@dnb-org/textlint-config": "^3.2.8",
-    "@dnb-org/tools": "^3.2.10"
+    "@dnb-org/tools": "^3.2.10",
+    "@dnb-org/webpack-config": "^3.2.10"
   },
   "engines": {
     "node": ">=14.14.0",
