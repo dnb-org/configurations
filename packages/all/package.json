@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/all",
   "description": "All configuration packages of dnb-org in one single package.",
-  "version": "3.2.10",
+  "version": "3.2.11",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -23,7 +23,7 @@
     "@dnb-org/cssnano-config": "^3.2.8",
     "@dnb-org/cypress-config": "^3.2.9",
     "@dnb-org/eslint-config": "^3.2.8",
-    "@dnb-org/postcss-config": "^3.2.8",
+    "@dnb-org/postcss-config": "^3.2.11",
     "@dnb-org/remark-config": "^3.2.9",
     "@dnb-org/standard-version-config": "^3.2.8",
     "@dnb-org/stylelint-config": "^3.2.8",
