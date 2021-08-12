@@ -9,8 +9,10 @@ module.exports = (env) =>
     mode: env.production ? "production" : "development",
     devtool: env.production ? "source-map" : "inline-source-map",
 
+    context: path.resolve(__dirname, "assets"),
+
     entry: {
-      main: "assets/js/theme.js",
+      main: path.join(__dirname, "assets/js", "theme.js"),
     },
 
     target: ["browserslist"],
