@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "cssnano": "^5.0.7"
+    "cssnano": "^5.0.8"
   },
   "engines": {
     "node": ">=14.14.0",
