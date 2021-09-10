@@ -9,7 +9,7 @@
   },
   "bugs": "git+https://github.com/dnb-org/configurations/issues",
   "dependencies": {
-    "prettier": "2.3.2"
+    "prettier": "2.4.0"
   },
   "engines": {
     "node": ">=14.14.0",
