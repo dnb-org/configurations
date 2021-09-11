@@ -27,7 +27,7 @@
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
     "info": "lerna info",
     "list": "lerna list --all --long",
-    "release": "",
+    "release": " ",
     "version": "",
     "textlint": "textlint",
     "textlint:fix": "textlint --fix",
