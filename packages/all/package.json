@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/all",
   "description": "All configuration packages of dnb-org in one single package.",
-  "version": "3.2.20",
+  "version": "3.2.21",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -16,20 +16,20 @@
     ]
   },
   "dependencies": {
-    "@dnb-org/babel-config": "^3.2.20",
-    "@dnb-org/bootstrap-config": "^3.2.19",
-    "@dnb-org/browserslist-config": "^3.2.20",
-    "@dnb-org/commitlint-config": "^3.2.8",
-    "@dnb-org/cssnano-config": "^3.2.18",
-    "@dnb-org/cypress-config": "^3.2.19",
-    "@dnb-org/eslint-config": "^3.2.19",
-    "@dnb-org/postcss-config": "^3.2.19",
-    "@dnb-org/remark-config": "^3.2.18",
-    "@dnb-org/standard-version-config": "^3.2.8",
-    "@dnb-org/stylelint-config": "^3.2.8",
-    "@dnb-org/textlint-config": "^3.2.8",
-    "@dnb-org/tools": "^3.2.10",
-    "@dnb-org/webpack-config": "^3.2.20"
+    "@dnb-org/babel-config": "^3.2.21",
+    "@dnb-org/bootstrap-config": "^3.2.21",
+    "@dnb-org/browserslist-config": "^3.2.21",
+    "@dnb-org/commitlint-config": "^3.2.21",
+    "@dnb-org/cssnano-config": "^3.2.21",
+    "@dnb-org/cypress-config": "^3.2.21",
+    "@dnb-org/eslint-config": "^3.2.21",
+    "@dnb-org/postcss-config": "^3.2.21",
+    "@dnb-org/remark-config": "^3.2.21",
+    "@dnb-org/standard-version-config": "^3.2.21",
+    "@dnb-org/stylelint-config": "^3.2.21",
+    "@dnb-org/textlint-config": "^3.2.21",
+    "@dnb-org/tools": "^3.2.21",
+    "@dnb-org/webpack-config": "^3.2.21"
   },
   "engines": {
     "node": ">=14.14.0",
