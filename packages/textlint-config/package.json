@@ -32,8 +32,8 @@
     "textlint-rule-unexpanded-acronym": "1.2.4"
   },
   "engines": {
-    "node": ">=14.14.0",
-    "npm": ">=7.15.1"
+    "node": ">=16.8.0",
+    "npm": ">=7.21.0"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "homepage": "https://github.com/dnb-org/textlint-config#readme",

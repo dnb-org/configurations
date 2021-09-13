@@ -12,6 +12,10 @@
     "lerna-wizard": "1.1.1",
     "rimraf": "3.0.2"
   },
+  "engines": {
+    "node": ">=16.8.0",
+    "npm": ">=7.21.0"
+  },
   "npmClient": "npm",
   "packages": [
     "packages/*"
@@ -28,9 +32,9 @@
     "info": "lerna info",
     "list": "lerna list --all --long",
     "release": " ",
-    "version": "",
+    "remark": "remark",
     "textlint": "textlint",
     "textlint:fix": "textlint --fix",
-    "remark": "remark"
+    "version": ""
   }
 }

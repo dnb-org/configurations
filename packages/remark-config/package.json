@@ -26,8 +26,8 @@
     "remark-preset-lint-styleguide": "1.0.0"
   },
   "engines": {
-    "node": ">=14.14.0",
-    "npm": ">=7.15.1"
+    "node": ">=16.8.0",
+    "npm": ">=7.21.0"
   },
   "scripts": {
     "remark": "remark --rc-path index.js ."

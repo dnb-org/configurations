@@ -24,16 +24,14 @@
     "@dnb-org/cypress-config": "^3.2.21",
     "@dnb-org/eslint-config": "^3.2.21",
     "@dnb-org/postcss-config": "^3.2.21",
-    "@dnb-org/remark-config": "^3.2.21",
     "@dnb-org/standard-version-config": "^3.2.21",
     "@dnb-org/stylelint-config": "^3.2.21",
-    "@dnb-org/textlint-config": "^3.2.21",
     "@dnb-org/tools": "^3.2.21",
     "@dnb-org/webpack-config": "^3.2.21"
   },
   "engines": {
-    "node": ">=14.14.0",
-    "npm": ">=7.15.1"
+    "node": ">=16.8.0",
+    "npm": ">=7.21.0"
   },
   "homepage": "https://github.com/dnb-org/configurations",
   "license": "MIT",
