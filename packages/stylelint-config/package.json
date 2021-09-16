@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/stylelint-config",
   "description": "Stylelint configuration for in dnb-org projects.",
-  "version": "3.2.22",
+  "version": "3.2.24",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
