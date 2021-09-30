@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/bootstrap-config",
   "description": "Bootstrap setup for dnb-org projects.",
-  "version": "3.2.19",
+  "version": "3.2.21",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
