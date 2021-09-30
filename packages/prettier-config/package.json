@@ -12,8 +12,8 @@
     "prettier": "2.3.2"
   },
   "engines": {
-    "node": ">=14.14.0",
-    "npm": ">=7.15.1"
+    "node": ">=16",
+    "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "license": "MIT",
