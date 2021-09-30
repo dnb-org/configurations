@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/all",
   "description": "All configuration packages of dnb-org in one single package.",
-  "version": "3.2.21",
+  "version": "3.2.22",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
