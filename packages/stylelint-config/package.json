@@ -13,7 +13,7 @@
   "dependencies": {
     "stylelint": "^13.13.1",
     "stylelint-config-sass-guidelines": "^8.0.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1",
+    "stylelint-no-unsupported-browser-features": "^5.0.2",
     "stylelint-order": "^4.1.0"
   },
   "engines": {
