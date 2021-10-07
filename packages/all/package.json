@@ -21,15 +21,15 @@
     "@dnb-org/browserslist-config": "^3.3.0",
     "@dnb-org/commitlint-config": "^3.3.0",
     "@dnb-org/cssnano-config": "^3.3.0",
-    "@dnb-org/cypress-config": "^3.2.25",
+    "@dnb-org/cypress-config": "^3.3.0",
     "@dnb-org/eslint-config": "^3.3.0",
     "@dnb-org/postcss-config": "^3.3.0",
-    "@dnb-org/remark-config": "^3.2.25",
+    "@dnb-org/remark-config": "^3.3.0",
     "@dnb-org/standard-version-config": "^3.3.0",
-    "@dnb-org/stylelint-config": "^3.2.24",
+    "@dnb-org/stylelint-config": "^3.3.0",
     "@dnb-org/textlint-config": "^3.3.0",
     "@dnb-org/tools": "^3.3.0",
-    "@dnb-org/webpack-config": "^3.2.25"
+    "@dnb-org/webpack-config": "^3.3.0"
   },
   "engines": {
     "node": ">=16",
