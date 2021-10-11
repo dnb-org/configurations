@@ -29,9 +29,6 @@
     "node": ">=16",
     "npm": ">=7"
   },
-  "scripts": {
-    "remark": "remark --rc-path index.js ."
-  },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "homepage": "git+https://github.com/dnb-org/remark-config",
   "keywords": [
@@ -42,5 +39,8 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "repository": "git+https://github.com/dnb-org/configurations/",
+  "scripts": {
+    "remark": "remark --rc-path index.js ."
+  }
 }

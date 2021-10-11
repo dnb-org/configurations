@@ -28,9 +28,9 @@
     "info": "lerna info",
     "list": "lerna list --all --long",
     "release": "",
-    "version": "",
+    "remark": "remark",
     "textlint": "textlint",
     "textlint:fix": "textlint --fix",
-    "remark": "remark"
+    "version": ""
   }
 }
