@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/standard-version-config",
   "description": "Standard version configuration for in dnb-org projects.",
-  "version": "3.3.0",
+  "version": "3.3.6",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
