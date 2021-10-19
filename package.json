@@ -7,7 +7,7 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@dnb-org/all": "3.3.2",
+    "@dnb-org/all": "3.3.5",
     "lerna": "4.0.0",
     "lerna-wizard": "1.1.1",
     "rimraf": "3.0.2"
@@ -27,10 +27,11 @@
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
     "info": "lerna info",
     "list": "lerna list --all --long",
-    "release": "",
+    "release": "lerna-wizard",
     "remark": "remark",
     "textlint": "textlint",
     "textlint:fix": "textlint --fix",
-    "version": ""
+    "version": "",
+    "dep-update": "npm run exec -- 'npm-check-updates -u' && npm-check-updates -u && npm run bootstrap"
   }
 }
