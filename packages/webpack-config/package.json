@@ -13,7 +13,7 @@
   "dependencies": {
     "babel-loader": "8.2.2",
     "cross-env": "7.0.3",
-    "css-loader": "6.4.0",
+    "css-loader": "6.5.0",
     "html-webpack-plugin": "5.4.0",
     "style-loader": "3.3.0",
     "terser-webpack-plugin": "5.2.4",
