@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/all",
   "description": "All configuration packages of dnb-org in one single package.",
-  "version": "3.3.8",
+  "version": "3.3.9",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -16,18 +16,18 @@
     ]
   },
   "dependencies": {
-    "@dnb-org/babel-config": "3.3.1",
+    "@dnb-org/babel-config": "^3.3.9",
     "@dnb-org/bootstrap-config": "^3.3.7",
-    "@dnb-org/browserslist-config": "^3.3.8",
-    "@dnb-org/commitlint-config": "^3.3.3",
-    "@dnb-org/cssnano-config": "3.3.0",
+    "@dnb-org/browserslist-config": "^3.3.9",
+    "@dnb-org/commitlint-config": "^3.3.9",
+    "@dnb-org/cssnano-config": "^3.3.9",
     "@dnb-org/cypress-config": "^3.3.8",
     "@dnb-org/eslint-config": "^3.3.8",
-    "@dnb-org/postcss-config": "^3.3.8",
+    "@dnb-org/postcss-config": "^3.3.9",
     "@dnb-org/standard-version-config": "^3.3.7",
-    "@dnb-org/stylelint-config": "^3.3.8",
+    "@dnb-org/stylelint-config": "^3.3.9",
     "@dnb-org/tools": "^3.3.7",
-    "@dnb-org/webpack-config": "^3.3.8"
+    "@dnb-org/webpack-config": "^3.3.9"
   },
   "engines": {
     "node": ">=16",
