@@ -11,7 +11,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "@commitlint/cli": "14.1.0",
+    "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "14.1.0"
   },
   "engines": {
