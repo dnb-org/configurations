@@ -11,7 +11,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "remark": "14.0.1",
+    "remark": "14.0.2",
     "remark-cli": "10.0.0",
     "remark-frontmatter": "4.0.1",
     "remark-lint": "9.1.0",
