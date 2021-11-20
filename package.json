@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@dnb-org/all": "3.3.11",
-    "lerna": "4.0.0",
+    "lerna": "^4.0.0",
     "lerna-wizard": "1.1.1",
     "rimraf": "3.0.2"
   },
@@ -33,5 +33,23 @@
     "textlint:fix": "textlint --fix",
     "version": "",
     "dep-update": "npm run exec -- 'npm-check-updates -u' && npm-check-updates -u && npm run bootstrap"
+  },
+  "dependencies": {
+    "@dnb-org/all": "file:packages/all",
+    "@dnb-org/babel-config": "file:packages/babel-config",
+    "@dnb-org/bootstrap-config": "file:packages/bootstrap-config",
+    "@dnb-org/browserslist-config": "file:packages/browserslist-config",
+    "@dnb-org/commitlint-config": "file:packages/commitlint-config",
+    "@dnb-org/cssnano-config": "file:packages/cssnano-config",
+    "@dnb-org/cypress-config": "file:packages/cypress-config",
+    "@dnb-org/eslint-config": "file:packages/eslint-config",
+    "@dnb-org/postcss-config": "file:packages/postcss-config",
+    "@dnb-org/prettier-config": "file:packages/prettier-config",
+    "@dnb-org/remark-config": "file:packages/remark-config",
+    "@dnb-org/standard-version-config": "file:packages/standard-version-config",
+    "@dnb-org/stylelint-config": "file:packages/stylelint-config",
+    "@dnb-org/textlint-config": "file:packages/textlint-config",
+    "@dnb-org/tools": "file:packages/tools",
+    "@dnb-org/webpack-config": "file:packages/webpack-config"
   }
 }
