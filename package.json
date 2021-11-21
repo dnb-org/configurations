@@ -54,6 +54,9 @@
       "@dnb-org/commitlint-config"
     ]
   },
+  "eslintConfig": {
+    "extends": ["@dnb-org/eslint-config"]
+  },
   "npmClient": "npm",
   "packages": [
     "packages/*"
