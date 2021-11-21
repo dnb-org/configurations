@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/remark-config",
   "description": "Remark and remark-lint configuration for dnb-org projects.",
-  "version": "3.3.8",
+  "version": "3.3.12",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -11,12 +11,12 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "remark": "14.0.1",
-    "remark-cli": "10.0.0",
+    "remark": "14.0.2",
+    "remark-cli": "10.0.1",
     "remark-frontmatter": "4.0.1",
     "remark-lint": "9.1.0",
     "remark-lint-emoji-limit": "1.0.1",
-    "remark-lint-heading-whitespace": "^1.0.0",
+    "remark-lint-heading-whitespace": "1.0.0",
     "remark-lint-linebreak-style": "3.1.0",
     "remark-lint-match-punctuation": "0.2.1",
     "remark-lint-no-empty-sections": "4.0.0",
