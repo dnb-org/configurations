@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/stylelint-config",
   "description": "Stylelint configuration for in dnb-org projects.",
-  "version": "3.3.9",
+  "version": "3.3.12",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -11,10 +11,10 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "stylelint": "^14.0.1",
-    "stylelint-config-sass-guidelines": "^9.0.1",
-    "stylelint-no-unsupported-browser-features": "^5.0.2",
-    "stylelint-order": "^5.0.0"
+    "stylelint": "14.1.0",
+    "stylelint-config-sass-guidelines": "9.0.1",
+    "stylelint-no-unsupported-browser-features": "5.0.2",
+    "stylelint-order": "5.0.0"
   },
   "engines": {
     "node": ">=16",
