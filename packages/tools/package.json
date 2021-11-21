@@ -15,7 +15,8 @@
     "fixpack": "4.0.0",
     "ncp": "^2.0.0",
     "npm-run-all": "4.1.5",
-    "rimraf": "3.0.2"
+    "rimraf": "3.0.2",
+    "replace-between": "0.0.8"
   },
   "engines": {
     "node": ">=16",
