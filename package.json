@@ -6,34 +6,6 @@
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "devDependencies": {
-    "@dnb-org/all": "3.3.11",
-    "lerna": "^4.0.0",
-    "lerna-wizard": "1.1.1",
-    "rimraf": "3.0.2"
-  },
-  "npmClient": "npm",
-  "packages": [
-    "packages/*"
-  ],
-  "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "changed": "lerna changed --all --long",
-    "clean": "run-p clean:logs clean:packages",
-    "clean:logs": "rimraf logs && rimraf lerna-debug.log",
-    "clean:modules": "rimraf node_modules && rimraf package-lock.json",
-    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json",
-    "diff": "lerna diff",
-    "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
-    "info": "lerna info",
-    "list": "lerna list --all --long",
-    "release": "lerna-wizard",
-    "remark": "remark",
-    "textlint": "textlint",
-    "textlint:fix": "textlint --fix",
-    "version": "",
-    "dep-update": "npm run exec -- 'npm-check-updates -u' && npm-check-updates -u && npm run bootstrap"
-  },
   "dependencies": {
     "@dnb-org/all": "file:packages/all",
     "@dnb-org/babel-config": "file:packages/babel-config",
@@ -51,5 +23,39 @@
     "@dnb-org/textlint-config": "file:packages/textlint-config",
     "@dnb-org/tools": "file:packages/tools",
     "@dnb-org/webpack-config": "file:packages/webpack-config"
-  }
+  },
+  "devDependencies": {
+    "@dnb-org/all": "3.3.12",
+    "lerna": "4.0.0",
+    "lerna-wizard": "1.1.1",
+    "rimraf": "3.0.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna link convert && lerna bootstrap",
+    "changed": "lerna changed --all --long",
+    "clean": "run-p clean:logs clean:packages",
+    "clean:all": "run-p clean:logs clean:modules clean:packages",
+    "clean:logs": "rimraf logs && rimraf lerna-debug.log",
+    "clean:modules": "rimraf node_modules && rimraf package-lock.json",
+    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json",
+    "dep-update": "npm run exec -- 'npm-check-updates -u' && npm-check-updates -u && npm run bootstrap",
+    "diff": "lerna diff",
+    "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
+    "info": "lerna info",
+    "list": "lerna list --all --long",
+    "release": "lerna-wizard",
+    "remark": "remark",
+    "textlint": "textlint",
+    "textlint:fix": "textlint --fix",
+    "version": ""
+  },
+  "commitlint": {
+    "extends": [
+      "@dnb-org/commitlint-config"
+    ]
+  },
+  "npmClient": "npm",
+  "packages": [
+    "packages/*"
+  ]
 }
