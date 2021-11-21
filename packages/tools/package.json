@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/tools",
   "description": "Tool packages for dnb-org projects.",
-  "version": "3.3.12",
+  "version": "3.4.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -15,8 +15,8 @@
     "fixpack": "4.0.0",
     "ncp": "2.0.0",
     "npm-run-all": "4.1.5",
-    "rimraf": "3.0.2",
-    "replace-between": "0.0.8"
+    "replace-between": "0.0.8",
+    "rimraf": "3.0.2"
   },
   "engines": {
     "node": ">=16",
