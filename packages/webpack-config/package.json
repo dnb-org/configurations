@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/webpack-config",
   "description": "Webpack configuration for dnb-org projects.",
-  "version": "3.3.11",
+  "version": "3.3.12",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -17,9 +17,9 @@
     "html-webpack-plugin": "5.5.0",
     "style-loader": "3.3.1",
     "terser-webpack-plugin": "5.2.5",
-    "webpack": "5.64.0",
+    "webpack": "5.64.1",
     "webpack-cli": "4.9.1",
-    "webpack-merge": "^5.8.0"
+    "webpack-merge": "5.8.0"
   },
   "engines": {
     "node": ">=16",
