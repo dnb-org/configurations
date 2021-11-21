@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/cssnano-config",
   "description": "Cssnano configuration for dnb-org projects.",
-  "version": "3.3.11",
+  "version": "3.3.12",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "cssnano": "^5.0.10"
+    "cssnano": "5.0.11"
   },
   "engines": {
     "node": ">=16",
