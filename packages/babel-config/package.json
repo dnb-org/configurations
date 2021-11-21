@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/babel-config",
   "description": "Babel configuration for dnb-org projects.",
-  "version": "3.3.9",
+  "version": "3.3.12",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/core": "7.16.0",
-    "@babel/preset-env": "7.16.0"
+    "@babel/preset-env": "7.16.4"
   },
   "engines": {
     "node": ">=16",
