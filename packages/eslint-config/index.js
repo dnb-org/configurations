@@ -4,7 +4,8 @@ module.exports = {
     "prettier",
     "plugin:compat/recommended",
     "plugin:markdown/recommended",
-    "plugin:import/recommended"
+    "plugin:import/recommended",
+    "plugin:import/typescript"
   ],
   overrides: [
     {
