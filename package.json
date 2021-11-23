@@ -43,7 +43,7 @@
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
     "info": "lerna info",
     "list": "lerna list --all --long",
-    "release": "lerna-wizard",
+    "release": "npm run clean:packages && lerna-wizard",
     "remark": "remark",
     "textlint": "textlint",
     "textlint:fix": "textlint --fix",
