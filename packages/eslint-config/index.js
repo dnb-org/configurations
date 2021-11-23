@@ -4,6 +4,7 @@ module.exports = {
     "prettier",
     "plugin:compat/recommended",
     "plugin:markdown/recommended",
+    "plugin:import/recommended"
   ],
   overrides: [
     {
@@ -17,9 +18,9 @@ module.exports = {
       rules: {},
     },
   ],
-  plugins: ["prettier", "markdown"],
+  plugins: ["anti-trojan-source"],
   rules: {
-    "prettier/prettier": "error",
+    "anti-trojan-source/no-bidi": "error"
   },
   env: {
     browser: true,
