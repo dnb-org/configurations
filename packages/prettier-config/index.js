@@ -1,9 +1,24 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  trailingComma: 'es5',
-  singleQuote: true,
-  printWidth: 120,
-  arrowParens: 'always',
+  printWidth: 80,
   tabWidth: 2,
+  useTabs: false,
+  semi: true,
+  singleQuote: true,
+  trailingComma: "es5",
+  quoteProps: "as-needed",
+  bracketSpacing: true,
+  bracketSameLine: true,
+  arrowParens: "always",
+  endOfLine: "lf",
+  goTemplateBracketSpacing: true,
+  overrides: [
+    {
+      files: ["*.html"],
+      options: {
+        parser: "go-template",
+      },
+    },
+  ],
 };
