@@ -1,11 +1,14 @@
 module.exports = {
+  "parser": "@typescript-eslint/parser",
   extends: [
     "airbnb-base",
     "prettier",
     "plugin:compat/recommended",
     "plugin:markdown/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   overrides: [
     {
@@ -19,7 +22,7 @@ module.exports = {
       rules: {},
     },
   ],
-  plugins: ["anti-trojan-source"],
+  plugins: ["anti-trojan-source", "@typescript-eslint"],
   rules: {
     "anti-trojan-source/no-bidi": "error"
   },
