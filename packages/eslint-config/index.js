@@ -29,7 +29,7 @@ module.exports = {
   ],
   rules: {
     "anti-trojan-source/no-bidi": "error",
-    "no-loops/no-loops": 2
+    "no-loops/no-loops": "error"
   },
   env: {
     browser: true,
