@@ -8,7 +8,9 @@ module.exports = {
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
   ],
   overrides: [
     {
@@ -25,11 +27,16 @@ module.exports = {
   plugins: [
     "anti-trojan-source",
     "@typescript-eslint",
-    "no-loops"
+    "no-loops",
+    "prettier"
   ],
   rules: {
+    "prettier/prettier": "error",
     "anti-trojan-source/no-bidi": "error",
-    "no-loops/no-loops": "error"
+    "no-loops/no-loops": "error",
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error"
   },
   env: {
     browser: true,
