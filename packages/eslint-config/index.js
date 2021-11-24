@@ -22,9 +22,14 @@ module.exports = {
       rules: {},
     },
   ],
-  plugins: ["anti-trojan-source", "@typescript-eslint"],
+  plugins: [
+    "anti-trojan-source",
+    "@typescript-eslint",
+    "no-loops"
+  ],
   rules: {
-    "anti-trojan-source/no-bidi": "error"
+    "anti-trojan-source/no-bidi": "error",
+    "no-loops/no-loops": 2
   },
   env: {
     browser: true,

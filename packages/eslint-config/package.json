@@ -20,6 +20,7 @@
     "eslint-plugin-compat": "4.0.0",
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-markdown": "2.2.1",
+    "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-prettier": "4.0.0"
   },
   "engines": {
