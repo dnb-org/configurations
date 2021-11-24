@@ -1,5 +1,5 @@
 module.exports = {
-  "parser": "@typescript-eslint/parser",
+  parser: "@typescript-eslint/parser",
   extends: [
     "airbnb-base",
     "prettier",
@@ -10,7 +10,7 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
   ],
   overrides: [
     {
@@ -24,12 +24,7 @@ module.exports = {
       rules: {},
     },
   ],
-  plugins: [
-    "anti-trojan-source",
-    "@typescript-eslint",
-    "no-loops",
-    "prettier"
-  ],
+  plugins: ["anti-trojan-source", "@typescript-eslint", "no-loops", "prettier"],
   rules: {
     "prettier/prettier": "error",
     "anti-trojan-source/no-bidi": "error",
@@ -37,7 +32,7 @@ module.exports = {
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/ban-ts-comment": "warning"
+    "@typescript-eslint/ban-ts-comment": "warning",
   },
   env: {
     browser: true,
