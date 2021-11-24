@@ -36,7 +36,8 @@ module.exports = {
     "no-loops/no-loops": "error",
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error"
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/ban-ts-comment": "warning"
   },
   env: {
     browser: true,
