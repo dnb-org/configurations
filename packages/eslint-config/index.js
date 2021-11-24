@@ -31,7 +31,7 @@ module.exports = {
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/ban-ts-comment": "warning",
+    "@typescript-eslint/ban-ts-comment": 0,
   },
   env: {
     browser: true,
