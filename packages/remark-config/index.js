@@ -5,7 +5,7 @@ module.exports = {
     "remark-preset-lint-consistent",
 
     // rules
-    ["remark-lint-first-heading-level", 2],
+    ["remark-lint-first-heading-level", 1],
     ["remark-lint-no-file-name-irregular-characters", "\\.a-zA-Z0-9-_"],
 
     // plugins
