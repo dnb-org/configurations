@@ -22,7 +22,10 @@ module.exports = {
       // customize the configuration ESLint uses for ```js
       // fenced code blocks inside .md files.
       files: ["**/*.md/*.js"],
-      rules: {},
+      rules: {
+        "no-console": "off",
+        "import/no-unresolved": "off",
+      },
     },
   ],
   plugins: [
