@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/webpack-config",
   "description": "Webpack configuration for dnb-org projects.",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
