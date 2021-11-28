@@ -10,6 +10,7 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
+    "plugin:sonarjs/recommended",
   ],
   overrides: [
     {
@@ -23,7 +24,7 @@ module.exports = {
       rules: {},
     },
   ],
-  plugins: ["anti-trojan-source", "@typescript-eslint", "no-loops", "prettier"],
+  plugins: ["anti-trojan-source", "@typescript-eslint", "no-loops", "prettier", "sonarjs"],
   rules: {
     "prettier/prettier": "error",
     "anti-trojan-source/no-bidi": "error",
