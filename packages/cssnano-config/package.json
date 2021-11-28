@@ -16,7 +16,7 @@
     ]
   },
   "dependencies": {
-    "cssnano": "5.0.11"
+    "cssnano": "5.0.12"
   },
   "engines": {
     "node": ">=16",

@@ -25,7 +25,7 @@
     "@dnb-org/webpack-config": "file:packages/webpack-config"
   },
   "devDependencies": {
-    "@dnb-org/all": "^3.4.5",
+    "@dnb-org/all": "^3.4.15",
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
     "rimraf": "^3.0.2"
