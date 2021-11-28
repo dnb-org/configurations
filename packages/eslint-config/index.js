@@ -1,5 +1,8 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
+  parserOptions: {
+    sourceType: "module",
+  },
   extends: [
     "airbnb-base",
     "prettier",
@@ -34,6 +37,7 @@ module.exports = {
     "no-loops",
     "prettier",
     "sonarjs",
+    "html",
   ],
   rules: {
     "prettier/prettier": "error",
@@ -43,6 +47,12 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/ban-ts-comment": 0,
+  },
+  settings: {
+    "html/html-extensions": [".html", ".htm"],
+    "html/xml-extensions": [".xml"],
+    "html/indent": "0",
+    "html/report-bad-indent": "error",
   },
   env: {
     browser: true,
