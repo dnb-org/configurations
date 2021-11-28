@@ -14,15 +14,16 @@
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
-    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-anti-trojan-source": "1.0.6",
-    "eslint-plugin-compat": "4.0.0",
-    "eslint-plugin-import": "2.25.3",
-    "eslint-plugin-markdown": "2.2.1",
+    "eslint-plugin-anti-trojan-source": "^1.0.6",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.10.0"
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-unicorn": "^39.0.0"
   },
   "engines": {
     "node": ">=16",
