@@ -47,6 +47,7 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/ban-ts-comment": 0,
+    "unicorn/no-array-for-each": "off",
   },
   settings: {
     "html/html-extensions": [".html", ".htm"],
