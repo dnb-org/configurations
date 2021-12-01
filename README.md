@@ -4,7 +4,7 @@
 
 ## DNB-Org/Configurations
 
-A collection of configurations for website development at DNB Org.
+A collection of configurations for project development at DNB Org.
 
 <!-- prettier-ignore -->
 | Package | Description |
