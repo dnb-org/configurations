@@ -25,7 +25,7 @@
     "@dnb-org/webpack-config": "file:packages/webpack-config"
   },
   "devDependencies": {
-    "@dnb-org/all": "^3.4.15",
+    "@dnb-org/all": "^3.4.17",
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
     "rimraf": "^3.0.2"
@@ -55,7 +55,9 @@
     ]
   },
   "eslintConfig": {
-    "extends": ["@dnb-org/eslint-config"]
+    "extends": [
+      "@dnb-org/eslint-config"
+    ]
   },
   "npmClient": "npm",
   "packages": [

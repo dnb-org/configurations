@@ -1,12 +1,15 @@
 {
   "name": "@dnb-org/textlint-config",
-  "description": "Textlint configuration for dnb-org projects.",
   "version": "3.4.0",
+  "license": "MIT",
+  "description": "Textlint configuration for dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "https://github.com/dnb-org/textlint-config#readme",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -14,7 +17,7 @@
     "@textlint-rule/textlint-rule-no-invalid-control-character": "2.0.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.8",
     "dictionary-en-gb": "2.3.0",
-    "textlint": "12.0.2",
+    "textlint": "12.1.0",
     "textlint-filter-rule-comments": "1.2.2",
     "textlint-rule-abbr-within-parentheses": "1.0.2",
     "textlint-rule-common-misspellings": "1.0.1",
@@ -36,8 +39,5 @@
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "https://github.com/dnb-org/textlint-config#readme",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "main": "index.js"
 }

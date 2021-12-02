@@ -1,12 +1,15 @@
 {
   "name": "@dnb-org/stylelint-config",
-  "description": "Stylelint configuration for in dnb-org projects.",
   "version": "3.4.0",
+  "license": "MIT",
+  "description": "Stylelint configuration for in dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "https://github.com/dnb-org/stylelint-config#readme",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -16,20 +19,17 @@
     "stylelint-no-unsupported-browser-features": "5.0.2",
     "stylelint-order": "5.0.0"
   },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "engines": {
     "node": ">=16",
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "https://github.com/dnb-org/stylelint-config#readme",
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/",
-  "scripts": {
-    "lint": "eslint ."
-  }
+  "main": "index.js"
 }

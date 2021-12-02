@@ -1,12 +1,14 @@
 {
   "name": "@dnb-org/prettier-config",
-  "description": "Prettier configuration for dnb-org projects.",
   "version": "3.4.4",
+  "license": "MIT",
+  "description": "Prettier configuration for dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": "git+https://github.com/dnb-org/configurations/issues",
   "dependencies": {
     "prettier": "^2.5.0",
@@ -18,7 +20,5 @@
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "main": "index.js"
 }

@@ -1,12 +1,15 @@
 {
   "name": "@dnb-org/webpack-config",
-  "description": "Webpack configuration for dnb-org projects.",
   "version": "3.4.2",
+  "license": "MIT",
+  "description": "Webpack configuration for dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "https://github.com/dnb-org/configurations",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -26,8 +29,5 @@
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "https://github.com/dnb-org/configurations",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "main": "index.js"
 }

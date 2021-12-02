@@ -1,12 +1,15 @@
 {
   "name": "@dnb-org/remark-config",
-  "description": "Remark and remark-lint configuration for dnb-org projects.",
   "version": "3.4.1",
+  "license": "MIT",
+  "description": "Remark and remark-lint configuration for dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "git+https://github.com/dnb-org/remark-config",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -25,22 +28,19 @@
     "remark-preset-lint-consistent": "5.1.0",
     "remark-preset-lint-styleguide": "1.0.0"
   },
+  "scripts": {
+    "remark": "remark --rc-path index.js ."
+  },
   "engines": {
     "node": ">=16",
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "git+https://github.com/dnb-org/remark-config",
   "keywords": [
     "remark",
     "remark-config",
     "remarklint",
     "remarklint-config"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/",
-  "scripts": {
-    "remark": "remark --rc-path index.js ."
-  }
+  "main": "index.js"
 }

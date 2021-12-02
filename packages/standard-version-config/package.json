@@ -1,12 +1,15 @@
 {
   "name": "@dnb-org/standard-version-config",
-  "description": "Standard version configuration for in dnb-org projects.",
   "version": "3.4.0",
+  "license": "MIT",
+  "description": "Standard version configuration for in dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "git+https://github.com/dnb-org/standard-version-config",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -18,12 +21,9 @@
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "git+https://github.com/dnb-org/standard-version-config",
   "keywords": [
     "standard-version",
     "standard-version-config"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "main": "index.js"
 }

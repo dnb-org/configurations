@@ -1,12 +1,15 @@
 {
   "name": "@dnb-org/commitlint-config",
-  "description": "Commitlint configuration for in dnb-org projects.",
   "version": "3.4.1",
+  "license": "MIT",
+  "description": "Commitlint configuration for in dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "git+https://github.com/dnb-org/commitlint-config#readme",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
   },
@@ -19,12 +22,9 @@
     "npm": ">=7"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "git+https://github.com/dnb-org/commitlint-config#readme",
   "keywords": [
     "commitlint",
     "commitlint-config"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "main": "index.js"
 }

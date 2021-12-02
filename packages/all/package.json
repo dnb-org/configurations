@@ -1,19 +1,17 @@
 {
   "name": "@dnb-org/all",
-  "description": "All configuration packages of dnb-org in one single package.",
   "version": "3.4.17",
+  "license": "MIT",
+  "description": "All configuration packages of dnb-org in one single package.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
+  "homepage": "https://github.com/dnb-org/configurations",
+  "repository": "git+https://github.com/dnb-org/configurations/",
   "bugs": {
     "url": "https://github.com/dnb-org/configurations/issues"
-  },
-  "commitlint": {
-    "extends": [
-      "@dnb-org/commitlint-config"
-    ]
   },
   "dependencies": {
     "@dnb-org/babel-config": "file:../babel-config",
@@ -29,12 +27,14 @@
     "@dnb-org/tools": "file:../tools",
     "@dnb-org/webpack-config": "file:../webpack-config"
   },
+  "commitlint": {
+    "extends": [
+      "@dnb-org/commitlint-config"
+    ]
+  },
   "engines": {
     "node": ">=16",
     "npm": ">=7"
   },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "homepage": "https://github.com/dnb-org/configurations",
-  "license": "MIT",
-  "repository": "git+https://github.com/dnb-org/configurations/"
+  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506"
 }
