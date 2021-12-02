@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/remark-config",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "license": "MIT",
   "description": "Remark and remark-lint configuration for dnb-org projects.",
   "author": {
