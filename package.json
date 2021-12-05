@@ -37,7 +37,7 @@
     "clean:all": "run-p clean:logs clean:modules clean:packages",
     "clean:logs": "rimraf logs && rimraf lerna-debug.log",
     "clean:modules": "rimraf node_modules && rimraf package-lock.json",
-    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json",
+    "clean:packages": "rimraf packages/*/node_modules",
     "dep-update": "npm run exec -- 'npm-check-updates -u' && npm-check-updates -u && npm run bootstrap",
     "diff": "lerna diff",
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
