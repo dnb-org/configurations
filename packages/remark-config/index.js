@@ -24,15 +24,6 @@ module.exports = {
     ],
     "remark-lint-match-punctuation",
     "remark-lint-no-repeat-punctuation",
-    [
-      "remark-lint-emoji-limit",
-      [
-        "warn",
-        {
-          max: 2,
-        },
-      ],
-    ],
     "remark-lint-no-empty-sections",
     "remark-lint-heading-whitespace",
   ],
