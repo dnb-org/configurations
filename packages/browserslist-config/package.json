@@ -14,7 +14,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "browserslist": "4.18.1"
+    "browserslist": "^4.18.1"
   },
   "engines": {
     "node": ">=16",
