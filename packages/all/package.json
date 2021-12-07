@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/all",
-  "version": "3.4.19",
+  "version": "3.4.20",
   "license": "MIT",
   "description": "All configuration packages of dnb-org in one single package.",
   "author": {

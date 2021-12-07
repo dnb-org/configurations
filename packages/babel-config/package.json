@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/babel-config",
-  "version": "3.4.2",
+  "version": "3.4.3",
   "license": "MIT",
   "description": "Babel configuration for dnb-org projects.",
   "author": {
