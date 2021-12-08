@@ -22,7 +22,10 @@
     "@dnb-org/stylelint-config": "file:packages/stylelint-config",
     "@dnb-org/textlint-config": "file:packages/textlint-config",
     "@dnb-org/tools": "file:packages/tools",
-    "@dnb-org/webpack-config": "file:packages/webpack-config"
+    "@dnb-org/webpack-config": "file:packages/webpack-config",
+    "json-schema": "^0.4.0",
+    "mem": "^9.0.1",
+    "trim": "^1.0.1"
   },
   "devDependencies": {
     "@dnb-org/all": "^3.4.19",
