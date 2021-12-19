@@ -19,6 +19,24 @@ const defaultTextlintConfig = require('@dnb-org/textlint-config-dnb');
 module.exports = defaultTextlintConfig;
 ```
 
+**OR** add a `--config` option to your npm-script:
+
+in package.json:
+
+```npm
+"lint:textlint": "textlint --config @dnb-org/textlint-config .",
+"lint:textlint:fix": "textlint --config @dnb-org/textlint-config --fix .",
+"lint:textlint2": "textlint --config @dnb-org/textlint-config",
+"lint:textlint2:fix": "textlint --config @dnb-org/textlint-config --fix",
+```
+
+To ignore files add a `.textlintignore`:
+
+```
+LICENSE.md
+CHANGELOG.md
+```
+
 ### Configuration rules in this package
 
 To be written ...

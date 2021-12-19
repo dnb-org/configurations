@@ -52,4 +52,7 @@ module.exports = {
       interval: 2,
     },
   },
+  filters: {
+    comments: true,
+  },
 };
