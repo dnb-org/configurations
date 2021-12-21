@@ -17,13 +17,13 @@
     "fixpack": "^4.0.0",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.5",
-    "replace-between": "github:dnb-org/replace-between",
+    "replace-between": "*",
     "rimraf": "^3.0.2"
   },
   "engines": {
     "node": ">=16",
     "npm": ">=7"
   },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
+  "gitHead": "6c5e96f38c60b846429e48231c0d3b73542153d4",
   "main": "index.js"
 }
