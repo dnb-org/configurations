@@ -39,6 +39,7 @@ module.exports = {
     "sonarjs",
     "html",
   ],
+  ignorePatterns: ["**/node_modules/*", "**/vendor/*"],
   rules: {
     "prettier/prettier": "error",
     "anti-trojan-source/no-bidi": "error",
