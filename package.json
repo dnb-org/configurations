@@ -22,10 +22,7 @@
     "@dnb-org/stylelint-config": "file:packages/stylelint-config",
     "@dnb-org/textlint-config": "file:packages/textlint-config",
     "@dnb-org/tools": "file:packages/tools",
-    "@dnb-org/webpack-config": "file:packages/webpack-config",
-    "json-schema": "^0.4.0",
-    "mem": "^9.0.1",
-    "trim": "^1.0.1"
+    "@dnb-org/webpack-config": "file:packages/webpack-config"
   },
   "devDependencies": {
     "@dnb-org/all": "^3.4.19",
@@ -41,7 +38,7 @@
     "clean:logs": "rimraf logs && rimraf lerna-debug.log",
     "clean:modules": "rimraf node_modules && rimraf package-lock.json",
     "clean:packages": "rimraf packages/*/node_modules",
-    "dep-update": "npm run exec -- 'npm-check-updates -u' && npm-check-updates -u && npm run bootstrap",
+    "update": "npm run exec -- 'npm-check-updates -u' && npm run exec -- 'npm install' && npm-check-updates -u && npm install && npm run bootstrap",
     "diff": "lerna diff",
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
     "info": "lerna info",
