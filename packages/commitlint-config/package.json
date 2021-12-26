@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/commitlint-config",
-  "version": "3.4.5",
+  "version": "3.4.6",
   "license": "MIT",
   "description": "Commitlint configuration for in dnb-org projects.",
   "author": {
