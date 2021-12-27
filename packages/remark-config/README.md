@@ -16,17 +16,14 @@ Put the following into `.remarkrc` in the root of your project. Remove the `writ
 
 ```json
 {
-  "plugins": [
-    "@dnb-org/remark-config",
-    ["remark-lint-write-good", false]
-  ]
+  "plugins": ["@dnb-org/remark-config", ["remark-lint-write-good", false]]
 }
 ```
 
 or in `.remarkrc.js`:
 
 ```js
-const defaultRemarkConfig = require('@dnb-org/remark-config');
+const defaultRemarkConfig = require("@dnb-org/remark-config");
 module.exports = defaultRemarkConfig;
 ```
 
@@ -35,9 +32,7 @@ or in `remarkConfig` in `package.json`:
 ```json
 {
   "remarkConfig": {
-    "plugins": [
-      "@dnb-org/remark-config"
-    ]
+    "plugins": ["@dnb-org/remark-config"]
   }
 }
 ```
@@ -55,17 +50,21 @@ The following rules and plugins are added or changed:
 - [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) - support frontmatter in markdown files
 - [remark-lint-linebreak-style](https://www.npmjs.com/package/remark-lint-linebreak-style) - sets the linebreak style to unix `\n` line endings
 - [remark-lint-write-good](https://www.npmjs.com/package/remark-lint-write-good) - checks style of the writing via [write-good](https://github.com/btford/write-good) and can be disabled (see configuration above)
-- [remark-lint-match-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-match-punctuation) to ensure programming punctuation comes in pairs. 
+- [remark-lint-match-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-match-punctuation) to ensure programming punctuation comes in pairs.
 - [remark-lint-no-repeat-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-no-repeat-punctuation) to ensure punktuation not doubled
 - [remark-lint-emoji-limit](https://github.com/zerok/remark-lint-emoji-limit) - to make sure documents are not too emoji-y
 - [remark-lint-no-empty-sections](https://github.com/vhf/remark-lint-no-empty-sections) - to ensure no empty sections are in the documents
 - [remark-lint-heading-whitespace](https://github.com/vhf/remark-lint-heading-whitespace) - makes sure that no exotic whitespaces break parsing of headings
 
-### All dnb-org configuration packages
+<!--- CONFIGURATIONS BEGIN --->
 
-| Package | Notes |
-| --- | --- |
-| [all](https://github.com/dnb-org/configurations/tree/main/packages/all) | All configurations in one package |
+## DNB-Org/Configurations
+
+A collection of configurations for website development at DNB Org.
+
+<!-- prettier-ignore -->
+| Package | Description |
+| --- | ---- |
 | [babel-config](https://github.com/dnb-org/configurations/tree/main/packages/babel-config) | [Babel](https://babeljs.io/) configuration |
 | [bootstrap-config](https://github.com/dnb-org/configurations/tree/main/packages/bootstrap-config) | [Bootstrap](https://getbootstrap.com/) configuration |
 | [browserslist-config](https://github.com/dnb-org/configurations/tree/main/packages/browserslist-config) | [Browserslist](https://github.com/browserslist/browserslist) configuration |
@@ -79,4 +78,7 @@ The following rules and plugins are added or changed:
 | [standard-version-config](https://github.com/dnb-org/configurations/tree/main/packages/standard-version-config) | [Standard Version](https://github.com/conventional-changelog/standard-version) configuration |
 | [stylelint-config](https://github.com/dnb-org/configurations/tree/main/packages/stylelint-config) | [StyleLint](https://github.com/stylelint/stylelint) configuration |
 | [textlint-config](https://github.com/dnb-org/configurations/tree/main/packages/textlint-config) | [TextLint](https://github.com/textlint/textlint) configuration |
+| [webpack-config](https://github.com/dnb-org/configurations/tree/main/packages/webpack-config) | [Webpack](https://webpack.js.org/) configuration |
 | [tools](https://github.com/dnb-org/configurations/tree/main/packages/tools) | Tools |
+
+<!--- CONFIGURATIONS END --->

@@ -15,7 +15,7 @@ npm install --save-dev @dnb-org/textlint-config
 Put the following into `.textlintrc.js` in the root of your project.
 
 ```js
-const defaultTextlintConfig = require('@dnb-org/textlint-config-dnb');
+const defaultTextlintConfig = require("@dnb-org/textlint-config-dnb");
 module.exports = defaultTextlintConfig;
 ```
 
@@ -41,11 +41,15 @@ CHANGELOG.md
 
 To be written ...
 
-### All dnb-org configuration packages
+<!--- CONFIGURATIONS BEGIN --->
 
-| Package | Notes |
-| --- | --- |
-| [all](https://github.com/dnb-org/configurations/tree/main/packages/all) | All configurations in one package |
+## DNB-Org/Configurations
+
+A collection of configurations for website development at DNB Org.
+
+<!-- prettier-ignore -->
+| Package | Description |
+| --- | ---- |
 | [babel-config](https://github.com/dnb-org/configurations/tree/main/packages/babel-config) | [Babel](https://babeljs.io/) configuration |
 | [bootstrap-config](https://github.com/dnb-org/configurations/tree/main/packages/bootstrap-config) | [Bootstrap](https://getbootstrap.com/) configuration |
 | [browserslist-config](https://github.com/dnb-org/configurations/tree/main/packages/browserslist-config) | [Browserslist](https://github.com/browserslist/browserslist) configuration |
@@ -59,4 +63,7 @@ To be written ...
 | [standard-version-config](https://github.com/dnb-org/configurations/tree/main/packages/standard-version-config) | [Standard Version](https://github.com/conventional-changelog/standard-version) configuration |
 | [stylelint-config](https://github.com/dnb-org/configurations/tree/main/packages/stylelint-config) | [StyleLint](https://github.com/stylelint/stylelint) configuration |
 | [textlint-config](https://github.com/dnb-org/configurations/tree/main/packages/textlint-config) | [TextLint](https://github.com/textlint/textlint) configuration |
+| [webpack-config](https://github.com/dnb-org/configurations/tree/main/packages/webpack-config) | [Webpack](https://webpack.js.org/) configuration |
 | [tools](https://github.com/dnb-org/configurations/tree/main/packages/tools) | Tools |
+
+<!--- CONFIGURATIONS END --->

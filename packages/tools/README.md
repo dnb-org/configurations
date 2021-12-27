@@ -1,6 +1,6 @@
 ## @dnb-org/tools
 
-Tools for [dnb-org](https://github.com/dnb-org/) projects. 
+Tools for [dnb-org](https://github.com/dnb-org/) projects.
 
 ### Installation
 
@@ -15,11 +15,15 @@ npm install --save-dev @dnb-org/commitlint-config
 - [rimraf](https://www.npmjs.com/package/rimraf) - The UNIX command `rm -rf` for node.
 - [npm-run-all](https://www.npmjs.com/package/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
 
-### All dnb-org configuration packages
+<!--- CONFIGURATIONS BEGIN --->
 
-| Package | Notes |
-| --- | --- |
-| [all](https://github.com/dnb-org/configurations/tree/main/packages/all) | All configurations in one package |
+## DNB-Org/Configurations
+
+A collection of configurations for website development at DNB Org.
+
+<!-- prettier-ignore -->
+| Package | Description |
+| --- | ---- |
 | [babel-config](https://github.com/dnb-org/configurations/tree/main/packages/babel-config) | [Babel](https://babeljs.io/) configuration |
 | [bootstrap-config](https://github.com/dnb-org/configurations/tree/main/packages/bootstrap-config) | [Bootstrap](https://getbootstrap.com/) configuration |
 | [browserslist-config](https://github.com/dnb-org/configurations/tree/main/packages/browserslist-config) | [Browserslist](https://github.com/browserslist/browserslist) configuration |
@@ -33,4 +37,7 @@ npm install --save-dev @dnb-org/commitlint-config
 | [standard-version-config](https://github.com/dnb-org/configurations/tree/main/packages/standard-version-config) | [Standard Version](https://github.com/conventional-changelog/standard-version) configuration |
 | [stylelint-config](https://github.com/dnb-org/configurations/tree/main/packages/stylelint-config) | [StyleLint](https://github.com/stylelint/stylelint) configuration |
 | [textlint-config](https://github.com/dnb-org/configurations/tree/main/packages/textlint-config) | [TextLint](https://github.com/textlint/textlint) configuration |
+| [webpack-config](https://github.com/dnb-org/configurations/tree/main/packages/webpack-config) | [Webpack](https://webpack.js.org/) configuration |
 | [tools](https://github.com/dnb-org/configurations/tree/main/packages/tools) | Tools |
+
+<!--- CONFIGURATIONS END --->

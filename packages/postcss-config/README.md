@@ -23,9 +23,9 @@ module.exports = config;
 
 To be written ...
 
-### Note about using PostCSS in  [GoHugo](https://gohugo.io)
+### Note about using PostCSS in [GoHugo](https://gohugo.io)
 
-GoHugo is weird, but great. To get PostCSS to work with GoHugo the `postcss-cli` package needs to be installed in the 
+GoHugo is weird, but great. To get PostCSS to work with GoHugo the `postcss-cli` package needs to be installed in the
 project itself and is not handled through this configuration. Run the following to get PostCSS working in GoHugo:
 
 ```shell
@@ -34,11 +34,15 @@ npm install --save-dev postcss-cli
 
 A global `postcss-cli` installation won't work if the plugins in this package are not installed globally as well.
 
-### All dnb-org configuration packages
+<!--- CONFIGURATIONS BEGIN --->
 
-| Package | Notes |
-| --- | --- |
-| [all](https://github.com/dnb-org/configurations/tree/main/packages/all) | All configurations in one package |
+## DNB-Org/Configurations
+
+A collection of configurations for website development at DNB Org.
+
+<!-- prettier-ignore -->
+| Package | Description |
+| --- | ---- |
 | [babel-config](https://github.com/dnb-org/configurations/tree/main/packages/babel-config) | [Babel](https://babeljs.io/) configuration |
 | [bootstrap-config](https://github.com/dnb-org/configurations/tree/main/packages/bootstrap-config) | [Bootstrap](https://getbootstrap.com/) configuration |
 | [browserslist-config](https://github.com/dnb-org/configurations/tree/main/packages/browserslist-config) | [Browserslist](https://github.com/browserslist/browserslist) configuration |
@@ -52,4 +56,7 @@ A global `postcss-cli` installation won't work if the plugins in this package ar
 | [standard-version-config](https://github.com/dnb-org/configurations/tree/main/packages/standard-version-config) | [Standard Version](https://github.com/conventional-changelog/standard-version) configuration |
 | [stylelint-config](https://github.com/dnb-org/configurations/tree/main/packages/stylelint-config) | [StyleLint](https://github.com/stylelint/stylelint) configuration |
 | [textlint-config](https://github.com/dnb-org/configurations/tree/main/packages/textlint-config) | [TextLint](https://github.com/textlint/textlint) configuration |
+| [webpack-config](https://github.com/dnb-org/configurations/tree/main/packages/webpack-config) | [Webpack](https://webpack.js.org/) configuration |
 | [tools](https://github.com/dnb-org/configurations/tree/main/packages/tools) | Tools |
+
+<!--- CONFIGURATIONS END --->
