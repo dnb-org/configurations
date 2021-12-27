@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/browserslist-config",
-  "version": "3.4.5",
+  "version": "3.4.6",
   "license": "MIT",
   "description": "Browserslint configuration for dnb-org projects.",
   "author": {
