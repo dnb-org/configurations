@@ -3,7 +3,6 @@
 ################################################################################
 version: 2
 updates:
-
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -230,6 +229,22 @@ updates:
 
   - package-ecosystem: "npm"
     directory: "/packages/tools/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "18:00"
+      timezone: "Asia/Bangkok"
+    assignees:
+      - "davidsneighbour"
+    reviewers:
+      - "davidsneighbour"
+    target-branch: "main"
+    open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/webpack-config"
     schedule:
       interval: "weekly"
       day: "friday"
