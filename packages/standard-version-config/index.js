@@ -1,7 +1,7 @@
 module.exports = {
   // for available options see https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.1.0/README.md
   scripts: {
-    prerelease: "./bin/release-hook-prerelease.sh",
+    prerelease: "./bin/release-hook-prerelease",
   },
   bumpFiles: [
     {
