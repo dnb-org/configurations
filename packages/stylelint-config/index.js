@@ -7,6 +7,8 @@ module.exports = {
   rules: {
     "at-rule-no-unknown": null,
     indentation: 2,
+    "max-nesting-depth": 3,
+    "selector-max-id": 1,
     "string-quotes": "single",
     "no-duplicate-selectors": true,
     "color-hex-case": "lower",
