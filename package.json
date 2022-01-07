@@ -38,7 +38,6 @@
     "clean:logs": "rimraf logs && rimraf lerna-debug.log",
     "clean:modules": "rimraf node_modules && rimraf package-lock.json",
     "clean:packages": "rimraf packages/*/node_modules",
-    "update": "npm run exec -- 'npm-check-updates -u' && npm run exec -- 'npm install' && npm-check-updates -u && npm install && npm run bootstrap",
     "diff": "lerna diff",
     "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
     "info": "lerna info",
@@ -47,6 +46,7 @@
     "remark": "remark",
     "textlint": "textlint",
     "textlint:fix": "textlint --fix",
+    "update": "npm run exec -- 'npm-check-updates -u' && npm run exec -- 'npm install' && npm-check-updates -u && npm install && npm run bootstrap",
     "version": ""
   },
   "commitlint": {

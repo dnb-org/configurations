@@ -13,8 +13,8 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/preset-env": "^7.16.5"
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7"
   },
   "commitlint": {
     "extends": [
