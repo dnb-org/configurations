@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/eslint-config",
-  "version": "3.4.22",
+  "version": "3.4.23",
   "license": "MIT",
   "description": "ESlint configuration for in dnb-org projects.",
   "author": {
