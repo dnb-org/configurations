@@ -13,7 +13,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "cypress": "^9.2.0",
+    "cypress": "^9.2.1",
     "debug": "^4.3.3",
     "deepmerge": "^4.2.2"
   },
