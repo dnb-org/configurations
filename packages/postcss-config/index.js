@@ -15,7 +15,9 @@ module.exports = {
     }),
     stylelint(),
     autoprefixer(),
-    postcsspresetenv(),
+    postcsspresetenv({
+      stage: 2
+    }),
     cssnano({
       preset: [
         "default",
