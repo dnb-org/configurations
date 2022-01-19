@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://192.168.1.201:1313",
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "watchForFileChanges": true,
+  "downloadsFolder": "tests/cypress/downloads",
+  "fixturesFolder": "tests/cypress/fixtures",
+  "integrationFolder": "tests/cypress/integration",
+  "screenshotsFolder": "tests/cypress/screenshots",
+  "supportFile": "tests/cypress/support/index.js",
+  "videosFolder": "tests/cypress/videos"
+}
