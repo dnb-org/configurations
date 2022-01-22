@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/webpack-config",
-  "version": "3.4.10",
+  "version": "3.4.11",
   "license": "MIT",
   "description": "Webpack configuration for dnb-org projects.",
   "author": {
