@@ -7,7 +7,6 @@
     "web": "https://davids-neighbour.com"
   },
   "dependencies": {
-    "@dnb-org/all": "file:packages/all",
     "@dnb-org/babel-config": "file:packages/babel-config",
     "@dnb-org/bootstrap-config": "file:packages/bootstrap-config",
     "@dnb-org/browserslist-config": "file:packages/browserslist-config",
