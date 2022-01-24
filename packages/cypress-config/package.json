@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/cypress-config",
-  "version": "3.4.13",
+  "version": "3.4.14",
   "license": "MIT",
   "description": "Cypress configuration for dnb-org projects.",
   "author": {
@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "cypress": "^9.3.1",
-    "eslint-plugin-cypress": "^2.12.1",
     "debug": "^4.3.3",
-    "deepmerge": "^4.2.2"
+    "deepmerge": "^4.2.2",
+    "eslint-plugin-cypress": "^2.12.1"
   },
   "commitlint": {
     "extends": [
