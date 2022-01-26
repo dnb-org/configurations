@@ -24,6 +24,22 @@ Add prettier to your `package.json`:
 
 To be written ...
 
+### Use with TailwindCSS
+
+This configuration implements [Tailwinds Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss). To activate it either have a tailwind.config.js in your projects root or override the prettier configuration at `tailwindConfig` with the proper path.
+
+```js
+const defaultConfiguration = require("@dnb-org/prettieron-config");
+const localConfiguration = {
+  tailwindConfig: "new path to your config",
+};
+const configuration = {
+  ...defaultConfiguration,
+  ...localConfiguration,
+};
+module.exports = configuration;
+```
+
 <!--- CONFIGURATIONS BEGIN --->
 
 ## DNB-Org/Configurations
