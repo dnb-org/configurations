@@ -26,8 +26,8 @@
   "devDependencies": {
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
-    "node-fetch": ">=2.6.7",
-    "nanoid": ">=3.1.31"
+    "nanoid": ">=3.2.0",
+    "node-fetch": ">=3.2.0"
   },
   "scripts": {
     "bootstrap": "lerna link convert && lerna bootstrap",
