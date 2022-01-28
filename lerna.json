@@ -6,7 +6,7 @@
   "command": {
     "publish": {
       "ignoreChanges": [],
-      "message": "chore(release): %s"
+      "message": "chore(release): release packages"
     },
     "version": {
       "allowBranch": [
