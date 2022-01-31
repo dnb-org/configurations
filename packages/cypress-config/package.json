@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/cypress-config",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "license": "MIT",
   "description": "Cypress configuration for dnb-org projects.",
   "author": {
