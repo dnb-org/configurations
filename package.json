@@ -27,7 +27,8 @@
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
     "nanoid": ">=3.2.0",
-    "node-fetch": ">=3.2.0"
+    "node-fetch": ">=3.2.0",
+    "trim": ">=1.0.1"
   },
   "scripts": {
     "bootstrap": "lerna link convert && lerna bootstrap",
