@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/standard-version-config",
-  "version": "3.5.2",
+  "version": "3.5.3",
   "license": "MIT",
   "description": "Standard version configuration for in dnb-org projects.",
   "author": {

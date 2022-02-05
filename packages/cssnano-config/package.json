@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/cssnano-config",
-  "version": "3.5.2",
+  "version": "3.5.3",
   "license": "MIT",
   "description": "Cssnano configuration for dnb-org projects.",
   "author": {
