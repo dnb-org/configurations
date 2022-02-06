@@ -13,7 +13,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "axe-core": "^4.4.0",
+    "axe-core": "^4.4.1",
     "cypress": "^9.4.1",
     "cypress-axe": "^0.14.0",
     "debug": "^4.3.3",
