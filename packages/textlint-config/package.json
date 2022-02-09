@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/textlint-config",
-  "version": "3.5.5",
+  "version": "3.5.6",
   "license": "MIT",
   "description": "Textlint configuration for dnb-org projects.",
   "author": {

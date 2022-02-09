@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/stylelint-config",
-  "version": "3.5.5",
+  "version": "3.5.6",
   "license": "MIT",
   "description": "Stylelint configuration for in dnb-org projects.",
   "author": {
