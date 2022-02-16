@@ -2,37 +2,38 @@
   "name": "@dnb-org/eslint-config",
   "version": "3.5.7",
   "license": "MIT",
-  "description": "ESlint configuration for in dnb-org projects.",
+  "description": "ESlint configuration for use in dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "git+https://github.com/dnb-org/eslint-config#readme",
-  "repository": "git+https://github.com/dnb-org/configurations/",
-  "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
-  },
+  "homepage": "https://github.com/dnb-org/eslint-config#readme",
+  "repository": "dnb-org/configurations",
+  "bugs": "https://github.com/dnb-org/configurations/issues",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.11.0",
-    "@typescript-eslint/parser": "^5.11.0",
-    "eslint": "^8.9.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-anti-trojan-source": "^1.1.0",
-    "eslint-plugin-compat": "^4.0.2",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-no-loops": "^0.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.11.0",
-    "eslint-plugin-unicorn": "^40.1.0"
+    "@typescript-eslint/eslint-plugin": ">=5.12.0",
+    "@typescript-eslint/parser": ">=5.12.0",
+    "eslint": ">=8.9.0",
+    "eslint-config-airbnb-base": ">=15.0.0",
+    "eslint-config-prettier": ">=8.3.0",
+    "eslint-plugin-anti-trojan-source": ">=1.1.0",
+    "eslint-plugin-compat": ">=4.0.2",
+    "eslint-plugin-cypress": ">=2.12.1",
+    "eslint-plugin-html": ">=6.2.0",
+    "eslint-plugin-import": ">=2.25.4",
+    "eslint-plugin-markdown": ">=2.2.1",
+    "eslint-plugin-no-loops": ">=0.3.0",
+    "eslint-plugin-prettier": ">=4.0.0",
+    "eslint-plugin-sonarjs": ">=0.11.0",
+    "eslint-plugin-unicorn": ">=40.1.0"
   },
   "engines": {
     "node": ">=16",
     "npm": ">=7"
+  },
+  "eslintConfig": {
+    "extends": "@dnb-org/eslint-config"
   },
   "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "keywords": [
