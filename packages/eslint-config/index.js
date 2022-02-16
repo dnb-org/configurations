@@ -14,7 +14,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:sonarjs/recommended",
-    "plugin:unicorn/recommended",
+    "plugin:unicorn/all",
   ],
   overrides: [
     {
@@ -49,6 +49,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/ban-ts-comment": 0,
     "unicorn/no-array-for-each": "off",
+    "unicorn/prefer-module": "off",
   },
   settings: {
     "html/html-extensions": [".html", ".htm"],
