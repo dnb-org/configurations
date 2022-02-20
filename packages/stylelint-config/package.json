@@ -2,7 +2,7 @@
   "name": "@dnb-org/stylelint-config",
   "version": "3.5.7",
   "license": "MIT",
-  "description": "Stylelint configuration for in dnb-org projects.",
+  "description": "Stylelint configuration for use in dnb-org projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -14,13 +14,10 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "stylelint": "^14.5.0",
+    "stylelint": "^14.5.1",
     "stylelint-config-sass-guidelines": "^9.0.1",
-    "stylelint-no-unsupported-browser-features": "^5.0.2",
+    "stylelint-no-unsupported-browser-features": "^5.0.3",
     "stylelint-order": "^5.0.0"
-  },
-  "scripts": {
-    "lint": "eslint ."
   },
   "engines": {
     "node": ">=16",
