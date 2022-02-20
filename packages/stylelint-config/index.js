@@ -1,9 +1,19 @@
+/**
+ * see https://stylelint.io/user-guide/rules/list/
+ * see https://stylelint.io/user-guide/rules/regex
+ */
 module.exports = {
-  extends: ["stylelint-config-sass-guidelines"],
+  extends: ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
   plugins: ["stylelint-order", "stylelint-no-unsupported-browser-features"],
   rules: {
-    "at-rule-no-unknown": null,
-    indentation: 2,
+    "max-empty-lines": [
+      1,
+      {
+        ignore: ["comments"],
+      },
+    ],
+    "color-no-invalid-hex": true,
+    "indentation": 2,
     "max-nesting-depth": 3,
     "selector-max-id": 1,
     "string-quotes": "single",
