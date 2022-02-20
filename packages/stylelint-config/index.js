@@ -1,6 +1,7 @@
 /**
  * see https://stylelint.io/user-guide/rules/list/
  * see https://stylelint.io/user-guide/rules/regex
+ *
  */
 module.exports = {
   extends: ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
