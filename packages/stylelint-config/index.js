@@ -4,7 +4,7 @@
  *
  */
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  extends: ["stylelint-config-sass-guidelines"],
   plugins: ["stylelint-order", "stylelint-no-unsupported-browser-features"],
   rules: {
     "max-empty-lines": [
