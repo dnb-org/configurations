@@ -15,7 +15,7 @@ npm install --save-dev @dnb-org/textlint-config
 Put the following into `.textlintrc.js` in the root of your project.
 
 ```js
-const defaultTextlintConfig = require("@dnb-org/textlint-config-dnb");
+const defaultTextlintConfig = require("@dnb-org/textlint-config");
 module.exports = defaultTextlintConfig;
 ```
 
