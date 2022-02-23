@@ -15,6 +15,8 @@ module.exports = {
       retry: 3,
       userAgent: "textlint-rule-no-dead-link/1.0",
     },
+
+    "en-spell": true,
     "en-capitalization": {
       allowHeading: true,
       allowFigures: true,
@@ -26,9 +28,11 @@ module.exports = {
       skip: ["Blockquote"],
       exclude: ["utilize", "period of time", "frequently"],
     },
+    apostrophe: true,
     "common-misspellings": {
       ignore: [],
     },
+    "date-weekday-mismatch": true,
     terminology: {
       defaultTerms: true,
       skip: ["Blockquote"],
@@ -43,6 +47,7 @@ module.exports = {
     },
     "unexpanded-acronym": {
       ignore_acronyms: ["DNB", "OSS", "NPM"],
+      min_acronym_len: 3,
     },
     "footnote-order": true,
     "@textlint-rule/no-unmatched-pair": true,
@@ -51,6 +56,13 @@ module.exports = {
     "no-start-duplicated-conjunction": {
       interval: 2,
     },
+    alex: {
+      allow: ["boogeyman-boogeywoman"],
+    },
+    rousseau: {
+      showLevels: ["suggestion", "warning", "error"],
+    },
+    plugins: ["html"],
   },
   filters: {
     comments: true,
