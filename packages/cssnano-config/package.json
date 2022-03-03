@@ -13,7 +13,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "cssnano": "^5.0.17"
+    "cssnano": "^5.1.0"
   },
   "commitlint": {
     "extends": [
