@@ -1,18 +1,8 @@
-"use strict";
+const fs = require("fs");
 
-const fs = require('fs');
+const tailwindPath = "./tailwind.config.js";
 
-const path = './tailwind.config.js';
-let tailwindConfig = null;
-try {
-  if (fs.existsSync(path)) {
-    tailwindConfig = path;
-  }
-} catch (err) {
-  console.log(err);
-}
-
-module.exports = {
+let config = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
@@ -33,5 +23,16 @@ module.exports = {
       },
     },
   ],
-  tailwindConfig,
 };
+
+try {
+  if (fs.existsSync(path)) {
+    config = {
+      ...config,
+      tailwindConfig: tailwindPath,
+    };
+  }
+} catch {
+  // console.log(error);
+}
+module.exports = config;
