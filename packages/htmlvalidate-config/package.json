@@ -29,5 +29,8 @@
     "htmlvalidate-config"
   ],
   "main": "index.js",
-  "gitHead": "2ad8ef2dfb07418070a537b88bb2d231842b27c5"
+  "gitHead": "2ad8ef2dfb07418070a537b88bb2d231842b27c5",
+  "devDependencies": {
+    "html-validate-markdown": "^2.5.0"
+  }
 }
