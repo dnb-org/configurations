@@ -23,7 +23,4 @@ module.exports = {
     "element-required-content": 0,
     "wcag/h30": 0,
   },
-  transform: {
-    "^.*\\.md$": "html-validate-markdown",
-  },
 };
