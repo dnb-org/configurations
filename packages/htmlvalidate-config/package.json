@@ -13,7 +13,9 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "@dnb-org/eslint-config": "^3.5.9"
+    "@dnb-org/eslint-config": "^3.5.9",
+    "cypress-html-validate": "^2.1.3",
+    "html-validate": "^6.5.0"
   },
   "engines": {
     "node": ">=16",
@@ -26,5 +28,6 @@
     "htmlvalidate",
     "htmlvalidate-config"
   ],
-  "main": "index.js"
+  "main": "index.js",
+  "gitHead": "2ad8ef2dfb07418070a537b88bb2d231842b27c5"
 }
