@@ -1,0 +1,30 @@
+{
+  "name": "@dnb-org/htmlvalidate-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "HTMLvalidate configuration for use in dnb-org projects.",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "homepage": "https://github.com/dnb-org/eslint-config#readme",
+  "repository": "dnb-org/configurations",
+  "bugs": "https://github.com/dnb-org/configurations/issues",
+  "dependencies": {
+    "@dnb-org/eslint-config": "^3.5.9"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  },
+  "eslintConfig": {
+    "extends": "@dnb-org/eslint-config"
+  },
+  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
+  "keywords": [
+    "htmlvalidate",
+    "htmlvalidate-config"
+  ],
+  "main": "index.js"
+}
