@@ -2,14 +2,7 @@ module.exports = {
   extends: ["html-validate:recommended"],
   rules: {
     "void-style": 0,
-    "no-inline-styles": [
-      2,
-      {
-        include: [],
-        exclude: [],
-        allowedProperties: ["display"],
-      },
-    ],
+    "no-inline-styles": 0,
     "svg-focusable": 0,
     "no-trailing-whitespace": 0,
     "no-inline-style": 0,
