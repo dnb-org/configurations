@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/bootstrap-config",
-  "version": "3.5.7",
+  "version": "3.5.8",
   "license": "ISC",
   "description": "Bootstrap setup for dnb-org projects.",
   "author": {
