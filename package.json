@@ -14,6 +14,7 @@
     "@dnb-org/cssnano-config": "file:packages/cssnano-config",
     "@dnb-org/cypress-config": "file:packages/cypress-config",
     "@dnb-org/eslint-config": "file:packages/eslint-config",
+    "@dnb-org/htmlvalidate-config": "file:packages/htmlvalidate-config",
     "@dnb-org/postcss-config": "file:packages/postcss-config",
     "@dnb-org/prettier-config": "file:packages/prettier-config",
     "@dnb-org/remark-config": "file:packages/remark-config",
@@ -27,7 +28,7 @@
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
     "nanoid": ">=3.3.1",
-    "node-fetch": ">=3.2.1",
+    "node-fetch": ">=3.2.3",
     "trim": ">=1.0.1"
   },
   "scripts": {

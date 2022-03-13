@@ -13,7 +13,7 @@
     "url": "https://github.com/dnb-org/configurations/issues"
   },
   "dependencies": {
-    "@dnb-org/eslint-config": "^3.5.9",
+    "@dnb-org/eslint-config": "file:../eslint-config",
     "cypress-html-validate": "^2.1.3",
     "html-validate": "^6.5.0"
   },

@@ -13,12 +13,12 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
     "autoprefixer": "^10.4.2",
-    "cssnano": "^5.1.0",
-    "postcss": "^8.4.7",
+    "cssnano": "^5.1.4",
+    "postcss": "^8.4.8",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.2.1",
-    "postcss-nesting": "^10.1.2",
+    "postcss-nesting": "^10.1.3",
     "postcss-preset-env": "^7.4.2",
     "postcss-purgecss": "^2.0.3"
   },
