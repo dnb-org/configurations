@@ -12,7 +12,7 @@
   "repository": "dnb-org/configurations/",
   "bugs": "https://github.com/dnb-org/configurations/issues",
   "dependencies": {
-    "browserslist": ">=4.20.0"
+    "browserslist": ">=4.20.2"
   },
   "engines": {
     "node": ">=16",

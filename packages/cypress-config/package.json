@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "axe-core": "^4.4.1",
-    "cypress": "^9.5.1",
+    "cypress": "^9.5.2",
     "cypress-axe": "^0.14.0",
-    "debug": "^4.3.3",
+    "debug": "^4.3.4",
     "deepmerge": "^4.2.2",
     "eslint-plugin-cypress": "^2.12.1"
   },
