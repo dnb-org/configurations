@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/htmlvalidate-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "MIT",
   "description": "HTMLvalidate configuration for use in dnb-org projects.",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
