@@ -50,6 +50,8 @@ module.exports = {
     "@typescript-eslint/ban-ts-comment": 0,
     "unicorn/no-array-for-each": "off",
     "unicorn/prefer-module": "off",
+    "import/no-unresolved": "off",
+    "@typescript-eslint/no-var-requires": "off",
   },
   settings: {
     "html/html-extensions": [".html", ".htm"],
