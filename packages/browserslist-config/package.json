@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-org/browserslist-config",
+  "name": "@davidsneighbour/browserslist-config",
   "version": "3.5.10",
   "license": "MIT",
-  "description": "Browserslist configuration for dnb-org projects.",
+  "description": "Browserslist configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/dnb-org/browserslist-config#readme",
-  "repository": "dnb-org/configurations/",
-  "bugs": "https://github.com/dnb-org/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/browserslist-config#readme",
+  "repository": "davidsneighbour/configurations/",
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
     "browserslist": ">=4.20.2"
   },

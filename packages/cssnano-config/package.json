@@ -1,23 +1,23 @@
 {
-  "name": "@dnb-org/cssnano-config",
+  "name": "@davidsneighbour/cssnano-config",
   "version": "3.5.9",
   "license": "MIT",
-  "description": "Cssnano configuration for dnb-org projects.",
+  "description": "Cssnano configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "cssnano": "^5.1.4"
+    "cssnano": "^5.1.7"
   },
   "commitlint": {
     "extends": [
-      "@dnb-org/commitlint-config"
+      "@davidsneighbour/commitlint-config"
     ]
   },
   "engines": {

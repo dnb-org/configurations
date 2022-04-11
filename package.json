@@ -7,27 +7,27 @@
     "web": "https://davids-neighbour.com"
   },
   "dependencies": {
-    "@dnb-org/babel-config": "file:packages/babel-config",
-    "@dnb-org/bootstrap-config": "file:packages/bootstrap-config",
-    "@dnb-org/browserslist-config": "file:packages/browserslist-config",
-    "@dnb-org/commitlint-config": "file:packages/commitlint-config",
-    "@dnb-org/cssnano-config": "file:packages/cssnano-config",
-    "@dnb-org/cypress-config": "file:packages/cypress-config",
-    "@dnb-org/eslint-config": "file:packages/eslint-config",
-    "@dnb-org/htmlvalidate-config": "file:packages/htmlvalidate-config",
-    "@dnb-org/postcss-config": "file:packages/postcss-config",
-    "@dnb-org/prettier-config": "file:packages/prettier-config",
-    "@dnb-org/remark-config": "file:packages/remark-config",
-    "@dnb-org/standard-version-config": "file:packages/standard-version-config",
-    "@dnb-org/stylelint-config": "file:packages/stylelint-config",
-    "@dnb-org/textlint-config": "file:packages/textlint-config",
-    "@dnb-org/tools": "file:packages/tools",
-    "@dnb-org/webpack-config": "file:packages/webpack-config"
+    "@davidsneighbour/babel-config": "file:packages/babel-config",
+    "@davidsneighbour/bootstrap-config": "file:packages/bootstrap-config",
+    "@davidsneighbour/browserslist-config": "file:packages/browserslist-config",
+    "@davidsneighbour/commitlint-config": "file:packages/commitlint-config",
+    "@davidsneighbour/cssnano-config": "file:packages/cssnano-config",
+    "@davidsneighbour/cypress-config": "file:packages/cypress-config",
+    "@davidsneighbour/eslint-config": "file:packages/eslint-config",
+    "@davidsneighbour/htmlvalidate-config": "file:packages/htmlvalidate-config",
+    "@davidsneighbour/postcss-config": "file:packages/postcss-config",
+    "@davidsneighbour/prettier-config": "file:packages/prettier-config",
+    "@davidsneighbour/remark-config": "file:packages/remark-config",
+    "@davidsneighbour/standard-version-config": "file:packages/standard-version-config",
+    "@davidsneighbour/stylelint-config": "file:packages/stylelint-config",
+    "@davidsneighbour/textlint-config": "file:packages/textlint-config",
+    "@davidsneighbour/tools": "file:packages/tools",
+    "@davidsneighbour/webpack-config": "file:packages/webpack-config"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
-    "nanoid": ">=3.3.1",
+    "nanoid": ">=3.3.2",
     "node-fetch": ">=3.2.3",
     "trim": ">=1.0.1"
   },
@@ -52,12 +52,12 @@
   },
   "commitlint": {
     "extends": [
-      "@dnb-org/commitlint-config"
+      "@davidsneighbour/commitlint-config"
     ]
   },
   "eslintConfig": {
     "extends": [
-      "@dnb-org/eslint-config"
+      "@davidsneighbour/eslint-config"
     ]
   },
   "npmClient": "npm",

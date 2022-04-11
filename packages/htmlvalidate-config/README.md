@@ -1,4 +1,4 @@
-# `@dnb-org/htmlvalidate-config`
+# `@davidsneighbour/htmlvalidate-config`
 
 ## Rules
 

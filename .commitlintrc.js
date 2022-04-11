@@ -1,5 +1,5 @@
 module.exports = {
   "extends": [
-    "@dnb-org/commitlint-config"
+    "@davidsneighbour/commitlint-config"
   ]
 };

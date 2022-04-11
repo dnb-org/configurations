@@ -1,17 +1,17 @@
 {
-  "name": "@dnb-org/textlint-config",
+  "name": "@davidsneighbour/textlint-config",
   "version": "3.5.11",
   "license": "MIT",
-  "description": "Textlint configuration for dnb-org projects.",
+  "description": "Textlint configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/dnb-org/textlint-config#readme",
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "homepage": "https://github.com/davidsneighbour/textlint-config#readme",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",

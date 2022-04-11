@@ -1,18 +1,18 @@
 {
-  "name": "@dnb-org/prettier-config",
+  "name": "@davidsneighbour/prettier-config",
   "version": "3.5.10",
   "license": "MIT",
-  "description": "Prettier configuration for dnb-org projects.",
+  "description": "Prettier configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "repository": "git+https://github.com/dnb-org/configurations/",
-  "bugs": "git+https://github.com/dnb-org/configurations/issues",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
+  "bugs": "git+https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
-    "prettier": "^2.6.0",
-    "prettier-plugin-go-template": "^0.0.11",
+    "prettier": "^2.6.2",
+    "prettier-plugin-go-template": "^0.0.12",
     "prettier-plugin-tailwindcss": "^0.1.8",
     "prettier-plugin-toml": "^0.3.1"
   },

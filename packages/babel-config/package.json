@@ -1,24 +1,24 @@
 {
-  "name": "@dnb-org/babel-config",
+  "name": "@davidsneighbour/babel-config",
   "version": "3.5.9",
   "license": "MIT",
-  "description": "Babel configuration for dnb-org projects.",
+  "description": "Babel configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.17.7",
+    "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11"
   },
   "commitlint": {
     "extends": [
-      "@dnb-org/commitlint-config"
+      "@davidsneighbour/commitlint-config"
     ]
   },
   "engines": {

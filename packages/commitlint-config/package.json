@@ -1,17 +1,17 @@
 {
-  "name": "@dnb-org/commitlint-config",
+  "name": "@davidsneighbour/commitlint-config",
   "version": "3.5.9",
   "license": "MIT",
-  "description": "Commitlint configuration for in dnb-org projects.",
+  "description": "Commitlint configuration for in davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "git+https://github.com/dnb-org/commitlint-config#readme",
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "homepage": "git+https://github.com/davidsneighbour/commitlint-config#readme",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
     "@commitlint/cli": "^16.2.3",

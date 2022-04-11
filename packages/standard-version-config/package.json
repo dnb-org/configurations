@@ -1,17 +1,17 @@
 {
-  "name": "@dnb-org/standard-version-config",
+  "name": "@davidsneighbour/standard-version-config",
   "version": "3.5.9",
   "license": "MIT",
-  "description": "Standard version configuration for in dnb-org projects.",
+  "description": "Standard version configuration for in davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "git+https://github.com/dnb-org/standard-version-config",
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "homepage": "git+https://github.com/davidsneighbour/standard-version-config",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
     "standard-version": "^9.3.2"

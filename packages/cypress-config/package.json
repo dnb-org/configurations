@@ -1,20 +1,20 @@
 {
-  "name": "@dnb-org/cypress-config",
+  "name": "@davidsneighbour/cypress-config",
   "version": "3.5.9",
   "license": "MIT",
-  "description": "Cypress configuration for dnb-org projects.",
+  "description": "Cypress configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
     "axe-core": "^4.4.1",
-    "cypress": "^9.5.2",
+    "cypress": "^9.5.3",
     "cypress-axe": "^0.14.0",
     "debug": "^4.3.4",
     "deepmerge": "^4.2.2",
@@ -22,7 +22,7 @@
   },
   "commitlint": {
     "extends": [
-      "@dnb-org/commitlint-config"
+      "@davidsneighbour/commitlint-config"
     ]
   },
   "engines": {

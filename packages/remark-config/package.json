@@ -1,17 +1,17 @@
 {
-  "name": "@dnb-org/remark-config",
+  "name": "@davidsneighbour/remark-config",
   "version": "3.5.11",
   "license": "MIT",
-  "description": "Remark and remark-lint configuration for dnb-org projects.",
+  "description": "Remark and remark-lint configuration for davidsneighbour projects.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "git+https://github.com/dnb-org/remark-config",
-  "repository": "git+https://github.com/dnb-org/configurations/",
+  "homepage": "git+https://github.com/davidsneighbour/remark-config",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": {
-    "url": "https://github.com/dnb-org/configurations/issues"
+    "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
     "remark": "^14.0.2",
