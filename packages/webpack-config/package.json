@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/webpack-config",
-  "version": "3.5.10",
+  "version": "4.0.0",
   "license": "MIT",
   "description": "Webpack configuration for davidsneighbour projects.",
   "author": {

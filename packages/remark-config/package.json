@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/remark-config",
-  "version": "3.5.11",
+  "version": "4.0.0",
   "license": "MIT",
   "description": "Remark and remark-lint configuration for davidsneighbour projects.",
   "author": {

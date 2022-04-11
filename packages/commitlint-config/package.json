@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/commitlint-config",
-  "version": "3.5.9",
+  "version": "4.0.0",
   "license": "MIT",
   "description": "Commitlint configuration for in davidsneighbour projects.",
   "author": {
