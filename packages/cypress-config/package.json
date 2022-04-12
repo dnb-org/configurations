@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/cypress-config",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "license": "MIT",
   "description": "Cypress configuration for davidsneighbour projects.",
   "author": {
