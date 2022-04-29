@@ -27,7 +27,7 @@
   "devDependencies": {
     "lerna": "^4.0.0",
     "lerna-wizard": "^1.1.1",
-    "node-fetch": ">=3.2.3"
+    "node-fetch": ">=3.2.4"
   },
   "scripts": {
     "bootstrap": "lerna link convert && lerna bootstrap",
