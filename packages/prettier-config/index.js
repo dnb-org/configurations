@@ -17,10 +17,20 @@ let config = {
   goTemplateBracketSpacing: true,
   overrides: [
     {
-      files: ["*.html"],
-      options: {
-        parser: "go-template",
-      },
+      "files": ["*.html"],
+      "options": {
+        "parser": "go-template",
+        "goTemplateBracketSpacing": true,
+        "bracketSameLine": true
+      }
+    },
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "useTabs": true,
+        "printWidth": 120,
+        "singleQuote": true
+      }
     },
   ],
 };
