@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/standard-version-config",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "license": "MIT",
   "description": "Standard version configuration for in davidsneighbour projects.",
   "author": {
