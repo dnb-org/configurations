@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@davidsneighbour/eslint-config": "file:../eslint-config",
-    "cypress-html-validate": "^2.1.3",
-    "html-validate": "^6.9.1"
+    "cypress-html-validate": "^3.0.0",
+    "html-validate": "^7.0.0"
   },
   "engines": {
     "node": ">=16",
