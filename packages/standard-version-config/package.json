@@ -14,7 +14,7 @@
     "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.5.0"
   },
   "engines": {
     "node": ">=16",
