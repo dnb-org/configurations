@@ -1,5 +1,24 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
+  plugins: [
+    'anti-trojan-source',
+    '@typescript-eslint',
+    'no-loops',
+    'sonarjs',
+    'html',
+    'package-json',
+  ],
+  ignorePatterns: ['**/node_modules/*', '**/vendor/*', '**/.git/*'],
+  settings: {
+    'html/html-extensions': ['.html', '.htm'],
+    'html/xml-extensions': ['.xml'],
+    'html/indent': '0',
+    'html/report-bad-indent': 'error',
+  },
+  env: {
+    browser: true,
+    es2022: true,
+  },
   extends: [
     'airbnb-base',
     'plugin:compat/recommended',
@@ -11,25 +30,6 @@ module.exports = {
     'plugin:sonarjs/recommended',
     "plugin:package-json/recommended",
   ],
-  plugins: [
-    'anti-trojan-source',
-    '@typescript-eslint',
-    'no-loops',
-    'sonarjs',
-    'html',
-    'package-json',
-  ],
-  ignorePatterns: ['**/node_modules/*', '**/vendor/*'],
-  settings: {
-    'html/html-extensions': ['.html', '.htm'],
-    'html/xml-extensions': ['.xml'],
-    'html/indent': '0',
-    'html/report-bad-indent': 'error',
-  },
-  env: {
-    browser: true,
-    es2022: true,
-  },
   rules: {
     'anti-trojan-source/no-bidi': 'error',
     'no-loops/no-loops': 'error',
