@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/eslint-config",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "license": "MIT",
   "description": "ESlint configuration for use in davidsneighbour projects.",
   "author": {
