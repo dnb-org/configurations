@@ -26,17 +26,5 @@
     "eslint-plugin-package-json": "^0.1.4",
     "eslint-plugin-sonarjs": ">=0.13.0"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
   "main": "index.js"
 }

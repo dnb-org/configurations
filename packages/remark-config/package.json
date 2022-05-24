@@ -30,16 +30,5 @@
   "scripts": {
     "remark": "remark --rc-path index.js ."
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "keywords": [
-    "remark",
-    "remark-config",
-    "remarklint",
-    "remarklint-config"
-  ],
   "main": "index.js"
 }

@@ -16,10 +16,5 @@
     "prettier-plugin-tailwindcss": "^0.1.11",
     "prettier-plugin-toml": "^0.3.1"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "main": "index.js"
 }

@@ -41,10 +41,5 @@
     "textlint-rule-terminology": "^3.0.0",
     "textlint-rule-unexpanded-acronym": "^1.2.4"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "main": "index.js"
 }

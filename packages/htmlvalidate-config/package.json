@@ -17,17 +17,5 @@
     "cypress-html-validate": "^4.0.0",
     "html-validate": "^7.1.1"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "eslintConfig": {
-    "extends": "@davidsneighbour/eslint-config"
-  },
-  "keywords": [
-    "htmlvalidate",
-    "htmlvalidate-config"
-  ],
-  "main": "index.js",
-  "gitHead": "2ad8ef2dfb07418070a537b88bb2d231842b27c5"
+  "main": "index.js"
 }

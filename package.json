@@ -1,65 +1,23 @@
 {
-  "name": "root",
-  "version": "0.0.3",
+  "name": "@davidsneighbour/configurations",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "npm run clean:packages && npm run clean:modules",
+    "clean:modules": "rimraf package-lock.json && rimraf node_modules",
+    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json"
+  },
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "dependencies": {
-    "@davidsneighbour/babel-config": "file:packages/babel-config",
-    "@davidsneighbour/bootstrap-config": "file:packages/bootstrap-config",
-    "@davidsneighbour/browserslist-config": "file:packages/browserslist-config",
-    "@davidsneighbour/commitlint-config": "file:packages/commitlint-config",
-    "@davidsneighbour/cssnano-config": "file:packages/cssnano-config",
-    "@davidsneighbour/cypress-config": "file:packages/cypress-config",
-    "@davidsneighbour/eslint-config": "file:packages/eslint-config",
-    "@davidsneighbour/htmlvalidate-config": "file:packages/htmlvalidate-config",
-    "@davidsneighbour/postcss-config": "file:packages/postcss-config",
-    "@davidsneighbour/prettier-config": "file:packages/prettier-config",
-    "@davidsneighbour/remark-config": "file:packages/remark-config",
-    "@davidsneighbour/standard-version-config": "file:packages/standard-version-config",
-    "@davidsneighbour/stylelint-config": "file:packages/stylelint-config",
-    "@davidsneighbour/textlint-config": "file:packages/textlint-config",
-    "@davidsneighbour/tools": "file:packages/tools",
-    "@davidsneighbour/webpack-config": "file:packages/webpack-config"
-  },
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "lerna-wizard": "^1.1.1",
-    "node-fetch": ">=3.2.4"
-  },
-  "scripts": {
-    "bootstrap": "lerna link convert && lerna bootstrap",
-    "changed": "lerna changed --all --long",
-    "clean": "run-p clean:logs clean:packages",
-    "clean:all": "run-p clean:logs clean:modules clean:packages",
-    "clean:logs": "rimraf logs && rimraf lerna-debug.log",
-    "clean:modules": "rimraf node_modules && rimraf package-lock.json",
-    "clean:packages": "rimraf packages/*/node_modules",
-    "diff": "lerna diff",
-    "exec": "lerna exec --no-bail --profile --profile-location=logs/profile/",
-    "info": "lerna info",
-    "list": "lerna list --all --long",
-    "release": "npm run clean:packages && lerna-wizard",
-    "remark": "remark",
-    "textlint": "textlint",
-    "textlint:fix": "textlint --fix",
-    "update": "npm run exec -- 'npm-check-updates -u' && npm run exec -- 'npm install' && npm-check-updates -u && npm install && npm run bootstrap",
-    "version": ""
-  },
-  "commitlint": {
-    "extends": [
-      "@davidsneighbour/commitlint-config"
-    ]
+    "@davidsneighbour/eslint-config": "^4.0.8",
+    "@davidsneighbour/tools": "^4.0.6"
   },
   "eslintConfig": {
     "extends": [
       "@davidsneighbour/eslint-config"
     ]
-  },
-  "npmClient": "npm",
-  "packages": [
-    "packages/*"
-  ]
+  }
 }

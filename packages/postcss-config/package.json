@@ -21,10 +21,5 @@
     "postcss-nesting": "^10.1.7",
     "postcss-preset-env": "^7.6.0"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
   "main": "index.js"
 }

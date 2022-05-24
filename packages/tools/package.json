@@ -24,10 +24,5 @@
     "rimraf": "^3.0.2",
     "wireit": "^0.4.3"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "6c5e96f38c60b846429e48231c0d3b73542153d4",
   "main": "index.js"
 }

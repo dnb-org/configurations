@@ -1,0 +1,8 @@
+#!/bin/bash
+
+VERSION=$(npm version patch)
+git add package*
+git commit -m "chore(release): release ${VERSION}"
+git tag "${VERSION}"
+npm publish
+git push origin --tags

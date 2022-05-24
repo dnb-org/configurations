@@ -17,14 +17,5 @@
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "keywords": [
-    "commitlint",
-    "commitlint-config"
-  ],
   "main": "index.js"
 }

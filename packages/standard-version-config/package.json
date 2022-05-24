@@ -16,14 +16,5 @@
   "dependencies": {
     "standard-version": "^9.5.0"
   },
-  "engines": {
-    "node": ">=16",
-    "npm": ">=7"
-  },
-  "gitHead": "55c20949cd12651b0dfc600b5b316c8a42776506",
-  "keywords": [
-    "standard-version",
-    "standard-version-config"
-  ],
   "main": "index.js"
 }
