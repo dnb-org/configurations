@@ -1,5 +1,8 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: './tsconfig.json',
+  },
   plugins: [
     'anti-trojan-source',
     '@typescript-eslint',
@@ -15,6 +18,7 @@ module.exports = {
     'html/indent': '0',
     'html/report-bad-indent': 'error',
   },
+  // https://eslint.org/docs/user-guide/configuring/language-options
   env: {
     browser: true,
     es2022: true,
