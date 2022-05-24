@@ -12,8 +12,8 @@
   "bugs": "git+https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
     "prettier": "^2.6.2",
-    "prettier-plugin-go-template": "^0.0.12",
-    "prettier-plugin-tailwindcss": "^0.1.10",
+    "prettier-plugin-go-template": "^0.0.13",
+    "prettier-plugin-tailwindcss": "^0.1.11",
     "prettier-plugin-toml": "^0.3.1"
   },
   "engines": {

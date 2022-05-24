@@ -14,7 +14,7 @@
     "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "stylelint": "^14.8.2",
+    "stylelint": "^14.8.4",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-no-unsupported-browser-features": "^5.0.3",
