@@ -23,7 +23,11 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     "unicorn",
   ],
-  ignorePatterns: ['**/node_modules/*', '**/vendor/*', '**/.git/*'],
+  ignorePatterns: [
+    '**/node_modules/*',
+    '**/vendor/*',
+    '**/.git/*'
+  ],
   settings: {
     'html/html-extensions': ['.html', '.htm'],
     'html/xml-extensions': ['.xml'],
