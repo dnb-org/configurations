@@ -59,10 +59,6 @@ You can always manually check a commit with `npm run commitlint`.
 
 If you wish to check a particular commit, you can do so by running ` npm run commitlint -- $COMMITHASH`.
 
-### Rules
-
-... to be written ...
-
 <!--- CONFIGURATIONS BEGIN --->
 
 ## davidsneighbour/Configurations
