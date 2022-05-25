@@ -13,6 +13,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/eslint-config#readme",
   "dependencies": {
+    "@davidsneighbour/prettier-config": "^4.0.6",
     "@typescript-eslint/eslint-plugin": ">=5.26.0",
     "@typescript-eslint/parser": ">=5.26.0",
     "eslint": ">=8.16.0",
@@ -25,7 +26,8 @@
     "eslint-plugin-markdown": ">=2.2.1",
     "eslint-plugin-no-loops": ">=0.3.0",
     "eslint-plugin-package-json": "^0.1.4",
-    "eslint-plugin-sonarjs": ">=0.13.0"
+    "eslint-plugin-sonarjs": ">=0.13.0",
+    "eslint-plugin-unicorn": "^42.0.0"
   },
   "script": {
     "release": "../../release"

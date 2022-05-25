@@ -1,15 +1,27 @@
+import fs from 'fs';
+
+const path = './tsconfig.json';
+let projectValue = '';
+if (fs.existsSync(path)) {
+  projectValue = path;
+}
+
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json',
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    project: projectValue,
   },
   plugins: [
-    'anti-trojan-source',
     '@typescript-eslint',
-    'no-loops',
-    'sonarjs',
+    'anti-trojan-source',
     'html',
+    'no-loops',
     'package-json',
+    'sonarjs',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
+    "unicorn",
   ],
   ignorePatterns: ['**/node_modules/*', '**/vendor/*', '**/.git/*'],
   settings: {
