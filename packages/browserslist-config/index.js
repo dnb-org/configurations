@@ -9,7 +9,7 @@ const supportedBrowsers = [
   "Firefox ESR",
   "iOS >= 12",
   "Safari >= 12",
-  "not Explorer <= 11",
+  "not Explorer all",
   "not op_mini all",
   "not op_mob > 0",
   "not opera > 0",
