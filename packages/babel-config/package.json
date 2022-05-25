@@ -13,8 +13,8 @@
     "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "@babel/core": "^7.18.0",
-    "@babel/preset-env": "^7.18.0"
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
   },
   "main": "index.js",
   "script": {
