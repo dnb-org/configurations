@@ -1,0 +1,37 @@
+#!/bin/bash
+
+REQUIRED_TOOLS=(
+  npm
+  git
+  npm-check-updates
+)
+
+for TOOL in "${REQUIRED_TOOLS[@]}"; do
+  if ! command -v "${TOOL}" >/dev/null; then
+    echo "${TOOL} is required... "
+    exit 1
+  fi
+done
+
+SCRIPTPATH="$(
+  cd "$(dirname "$0")" >/dev/null 2>&1 || exit
+  pwd -P
+)"
+
+for dir in packages/*/
+do
+    dir=${dir%*/}
+    echo "Updating ${dir}"
+    cd "${SCRIPTPATH}"/"${dir}" || exit
+    npm-check-updates -u
+    if [[ $(git status --porcelain --untracked-files=no) ]]; then
+      npm install
+      echo "Updating dependencies and releasing"
+      git add package.json
+      git commit -m "chore(deps): update dependencies for ${dir}"
+      ../../release
+    fi
+    echo
+done
+
+cd "${SCRIPTPATH}" || exit
