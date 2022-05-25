@@ -15,4 +15,4 @@ const supportedBrowsers = [
   "not opera > 0",
 ];
 
-module.exports = supportedBrowsers;
+export default supportedBrowsers;
