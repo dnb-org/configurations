@@ -28,7 +28,8 @@
     "remark-preset-lint-styleguide": "^1.0.0"
   },
   "scripts": {
-    "remark": "remark --rc-path index.js ."
+    "remark": "remark --rc-path index.js .",
+    "release": "../../release"
   },
   "main": "index.js"
 }

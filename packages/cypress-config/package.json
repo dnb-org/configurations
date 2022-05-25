@@ -20,5 +20,8 @@
     "deepmerge": "^4.2.2",
     "eslint-plugin-cypress": "^2.12.1"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "script": {
+    "release": "../../release"
+  }
 }

@@ -16,5 +16,8 @@
   "dependencies": {
     "standard-version": "^9.5.0"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "script": {
+    "release": "../../release"
+  }
 }

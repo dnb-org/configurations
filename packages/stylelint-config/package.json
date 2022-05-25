@@ -20,5 +20,8 @@
     "stylelint-no-unsupported-browser-features": "^5.0.3",
     "stylelint-order": "^5.0.0"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "script": {
+    "release": "../../release"
+  }
 }

@@ -15,5 +15,8 @@
   "dependencies": {
     "cssnano": "^5.1.9"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "script": {
+    "release": "../../release"
+  }
 }

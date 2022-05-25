@@ -24,5 +24,8 @@
     "rimraf": "^3.0.2",
     "wireit": "^0.4.3"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "script": {
+    "release": "../../release"
+  }
 }

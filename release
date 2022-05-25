@@ -21,3 +21,4 @@ git commit -m "chore(release): release ${NAME}@${VERSION_SEM}"
 git tag "${NAME}@${VERSION_SEM}"
 npm publish
 git push origin --tags
+git push origin --all
