@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/browserslist-config",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "license": "MIT",
   "description": "Browserslist configuration for davidsneighbour projects.",
   "author": {
