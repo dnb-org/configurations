@@ -29,7 +29,7 @@ Or in the `browserslist` parameter in `package.json`.
 ## Configuration rules in this package
 
 - We support all presently updated browsers.
-- We don't support Internet Explorer lower than version 12, see [#253](https://github.com/davidsneighbour/configurations/issues/253).
+- We don't support Internet Explorer.
 - We don't support legacy Edge Browser (lower than version 79).
 - We don't support Opera Mini and Mobile.
 
