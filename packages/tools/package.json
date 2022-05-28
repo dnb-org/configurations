@@ -22,10 +22,12 @@
     "npm-watch": "^0.11.0",
     "replace-between": "^0.0.8",
     "rimraf": "^3.0.2",
-    "wireit": "^0.4.3"
+    "wireit": "^0.4.3",
+    "lockfile-lint": "^4.7.4"
   },
   "main": "index.js",
   "script": {
-    "release": "../../release"
+    "release": "../../release",
+    "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity"
   }
 }
