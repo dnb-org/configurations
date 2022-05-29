@@ -1,6 +1,6 @@
 // https://github.com/browserslist/browserslist#readme
 
-const supportedBrowsers = [
+module.exports = [
   ">= 0.5%",
   "last 2 major versions",
   "not dead",
@@ -9,10 +9,7 @@ const supportedBrowsers = [
   "Firefox ESR",
   "iOS >= 12",
   "Safari >= 12",
-  "not Explorer all",
   "not op_mini all",
   "not op_mob > 0",
   "not opera > 0",
 ];
-
-export default supportedBrowsers;
