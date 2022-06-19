@@ -38,11 +38,11 @@
     "textlint-rule-rousseau": "^1.4.7",
     "textlint-rule-spelling": "^0.3.0",
     "textlint-rule-stop-words": "^3.0.1",
-    "textlint-rule-terminology": "^3.0.0",
+    "textlint-rule-terminology": "^3.0.1",
     "textlint-rule-unexpanded-acronym": "^1.2.4"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release"
   }
 }
