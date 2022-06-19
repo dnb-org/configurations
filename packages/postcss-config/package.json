@@ -13,16 +13,16 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
     "autoprefixer": "^10.4.7",
-    "cssnano": "^5.1.9",
+    "cssnano": "^5.1.12",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.1.0",
     "postcss-loader": "^7.0.0",
-    "postcss-nesting": "^10.1.7",
-    "postcss-preset-env": "^7.6.0"
+    "postcss-nesting": "^10.1.8",
+    "postcss-preset-env": "^7.7.1"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release"
   }
 }
