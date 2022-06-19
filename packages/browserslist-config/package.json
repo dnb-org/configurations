@@ -15,7 +15,7 @@
     "browserslist": ">=4.20.4"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release"
   }
 }
