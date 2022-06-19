@@ -18,7 +18,7 @@
     "html-validate": "^7.1.1"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release"
   }
 }
