@@ -14,14 +14,14 @@
   },
   "dependencies": {
     "axe-core": "^4.4.2",
-    "cypress": "^10.0.1",
-    "cypress-axe": "^0.14.0",
+    "cypress": "^10.1.0",
+    "cypress-axe": "^1.0.0",
     "debug": "^4.3.4",
     "deepmerge": "^4.2.2",
     "eslint-plugin-cypress": "^2.12.1"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release"
   }
 }
