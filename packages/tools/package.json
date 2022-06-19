@@ -16,17 +16,17 @@
     "cross-env": "^7.0.3",
     "fixpack": "^4.0.0",
     "ncp": "^2.0.0",
-    "node-fetch": "^3.2.4",
-    "npm-check-updates": "^13.0.3",
+    "node-fetch": "^3.2.6",
+    "npm-check-updates": "^14.0.1",
     "npm-run-all": "^4.1.5",
     "npm-watch": "^0.11.0",
     "replace-between": "^0.0.8",
     "rimraf": "^3.0.2",
-    "wireit": "^0.4.3",
-    "lockfile-lint": "^4.7.4"
+    "wireit": "^0.7.0",
+    "lockfile-lint": "^4.7.5"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release",
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity"
   }
