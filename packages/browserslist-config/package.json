@@ -12,7 +12,7 @@
   "repository": "davidsneighbour/configurations/",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
-    "browserslist": ">=4.20.3"
+    "browserslist": ">=4.20.4"
   },
   "main": "index.js",
   "script": {
