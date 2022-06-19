@@ -17,7 +17,7 @@
     "standard-version": "^9.5.0"
   },
   "main": "index.js",
-  "script": {
+  "scripts": {
     "release": "../../release"
   }
 }
