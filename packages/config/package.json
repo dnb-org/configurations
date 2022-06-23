@@ -1,0 +1,14 @@
+{
+  "name": "@davidsneighbour/config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Configurations for davidsneighbours projects.",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/config",
+  "repository": "git+https://github.com/davidsneighbour/configurations/",
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "dependencies": {},
+  "scripts": {
+    "release": "../../release"
+  }
+}
