@@ -14,8 +14,8 @@
     "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "@commitlint/cli": "^17.0.2",
-    "@commitlint/config-conventional": "^17.0.2"
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3"
   },
   "main": "index.js",
   "scripts": {
