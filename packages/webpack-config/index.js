@@ -64,6 +64,11 @@ module.exports = (env) =>
     module: {
       rules: [
         {
+          test: /\.tsx?$/,
+          use: 'ts-loader',
+          exclude: /node_modules/,
+        },
+        {
           loader: "babel-loader",
           test: /\.js?$/,
           exclude: /node_modules/,
@@ -81,5 +86,9 @@ module.exports = (env) =>
           type: "asset/resource",
         },
       ],
+    },
+
+    resolve: {
+      extensions: ['.tsx', '.ts', '.js'],
     },
   });
