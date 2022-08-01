@@ -16,9 +16,9 @@
   "dependencies": {
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.8",
-    "@textlint/markdown-to-ast": "^12.1.1",
+    "@textlint/markdown-to-ast": "^12.2.1",
     "dictionary-en-gb": "^2.4.0",
-    "textlint": "^12.1.1",
+    "textlint": "^12.2.1",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-plugin-html": "^0.3.0",
     "textlint-rule-abbr-within-parentheses": "^1.0.2",
@@ -38,7 +38,7 @@
     "textlint-rule-rousseau": "^1.4.7",
     "textlint-rule-spelling": "^0.3.0",
     "textlint-rule-stop-words": "^3.0.1",
-    "textlint-rule-terminology": "^3.0.1",
+    "textlint-rule-terminology": "^3.0.2",
     "textlint-rule-unexpanded-acronym": "^1.2.4"
   },
   "main": "index.js",
