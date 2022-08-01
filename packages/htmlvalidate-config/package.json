@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/htmlvalidate-config",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "license": "MIT",
   "description": "HTMLvalidate configuration for use in davidsneighbour projects.",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
