@@ -27,7 +27,7 @@
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-package-json": "^0.1.4",
     "eslint-plugin-sonarjs": "^0.13.0",
-    "eslint-plugin-unicorn": "^42.0.0"
+    "eslint-plugin-unicorn": "^43.0.2"
   },
   "scripts": {
     "release": "../../release"
