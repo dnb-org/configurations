@@ -13,8 +13,8 @@
     "url": "https://github.com/davidsneighbour/configurations/issues"
   },
   "dependencies": {
-    "axe-core": "^4.4.2",
-    "cypress": "^10.1.0",
+    "axe-core": "^4.4.3",
+    "cypress": "^10.3.1",
     "cypress-axe": "^1.0.0",
     "debug": "^4.3.4",
     "deepmerge": "^4.2.2",
