@@ -12,15 +12,12 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@davidsneighbour/config": "^1.0.9",
-    "@davidsneighbour/eslint-config": "^4.1.5",
-    "@davidsneighbour/prettier-config": "^4.0.9",
-    "@davidsneighbour/tools": "^4.0.8"
+    "@davidsneighbour/config": "^1.0.11"
   },
   "eslintConfig": {
     "extends": [
       "@davidsneighbour/eslint-config"
     ]
   },
-  "prettier": "@davidsneighbour/prettier-config"
+  "prettier": "@davidsneighbour/config/prettier"
 }

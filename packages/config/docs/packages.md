@@ -62,7 +62,7 @@ Add a key in your `package.json` file.
 
 or create a `.prettierrc` , `.prettierrc.yaml` , `.prettierrc.yml` or `.prettierrc.json` file and export a string.
 
-```yml
+```yaml
 "@davidsneighbour/config/prettier"
 ```
 
