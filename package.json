@@ -12,8 +12,9 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@davidsneighbour/eslint-config": "^4.1.1",
-    "@davidsneighbour/prettier-config": "^4.0.6",
+    "@davidsneighbour/config": "^1.0.9",
+    "@davidsneighbour/eslint-config": "^4.1.5",
+    "@davidsneighbour/prettier-config": "^4.0.9",
     "@davidsneighbour/tools": "^4.0.8"
   },
   "eslintConfig": {

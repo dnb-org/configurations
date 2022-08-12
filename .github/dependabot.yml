@@ -36,22 +36,6 @@ updates:
       separator: "/"
 
   - package-ecosystem: "npm"
-    directory: "/packages/bootstrap-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
     directory: "/packages/browserslist-config/"
     schedule:
       interval: "monthly"
@@ -197,22 +181,6 @@ updates:
 
   - package-ecosystem: "npm"
     directory: "/packages/textlint-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/tools/"
     schedule:
       interval: "monthly"
       day: "friday"
