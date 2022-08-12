@@ -9,7 +9,8 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
     "@popperjs/core": "^2.11.5",
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "@types/bootstrap": "^5.2.1"
   },
   "scripts": {
     "release": "../../release"
