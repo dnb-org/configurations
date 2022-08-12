@@ -3,6 +3,7 @@
 - [ESLint](#eslint)
 - [Browserslist](#browserslist)
 - [Tools](#tools)
+- [Prettier](#prettier)
 
 # Bootstrap
 
@@ -48,3 +49,44 @@ Adds requirements for commonly used tool packages
 
 - [rimraf](https://www.npmjs.com/package/rimraf) - The UNIX command `rm -rf` for node.
 - [npm-run-all](https://www.npmjs.com/package/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
+
+# Prettier
+
+[More information about Prettier configuration](https://prettier.io/docs/en/options.html).
+
+Add a key in your `package.json` file.
+
+```json
+"prettier": "@davidsneighbour/config/prettier"
+```
+
+or create a `.prettierrc` , `.prettierrc.yaml` , `.prettierrc.yml` or `.prettierrc.json` file and export a string.
+
+```yml
+"@davidsneighbour/config/prettier"
+```
+
+or create a `prettier.config.js` or `.prettierrc.js` file and export an object.
+
+```js
+module.exports = {
+  ...require("@davidsneighbour/config/prettier"),
+  endOfLine: 'lf', // to overwrite the property
+};
+```
+
+Use with TailwindCSS:
+
+This configuration implements [Tailwinds Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss). To activate it either have a tailwind.config.js in your projects root or override the prettier configuration at `tailwindConfig` with the proper path.
+
+```js
+const defaultConfiguration = require("@davidsneighbour/config/prettier");
+const localConfiguration = {
+  tailwindConfig: "new path to your config",
+};
+const configuration = {
+  ...defaultConfiguration,
+  ...localConfiguration,
+};
+module.exports = configuration;
+```
