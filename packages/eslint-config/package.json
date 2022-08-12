@@ -13,9 +13,9 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/eslint-config#readme",
   "dependencies": {
-    "@davidsneighbour/prettier-config": "^4.0.8",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
+    "@davidsneighbour/prettier-config": "^4.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
     "eslint": "^8.21.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
@@ -26,7 +26,7 @@
     "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-package-json": "^0.1.4",
-    "eslint-plugin-sonarjs": "^0.14.0",
+    "eslint-plugin-sonarjs": "^0.15.0",
     "eslint-plugin-unicorn": "^43.0.2"
   },
   "scripts": {
