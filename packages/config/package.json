@@ -7,7 +7,10 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/config",
   "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "dependencies": {},
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0"
+  },
   "scripts": {
     "release": "../../release"
   }
