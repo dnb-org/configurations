@@ -1,17 +1,18 @@
 {
   "name": "@davidsneighbour/config",
+  "description": "Configurations for davidsneighbours projects.",
   "version": "1.0.7",
   "license": "MIT",
-  "description": "Configurations for davidsneighbours projects.",
-  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/config",
   "repository": "git+https://github.com/davidsneighbour/configurations/",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/config",
   "dependencies": {
+    "@davidsneighbour/browserslist-config": "^4.0.14",
     "@davidsneighbour/eslint-config": "^4.1.5",
     "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.0",
-    "@types/bootstrap": "^5.2.1"
+    "@types/bootstrap": "^5.2.1",
+    "bootstrap": "^5.2.0"
   },
   "scripts": {
     "release": "../../release"

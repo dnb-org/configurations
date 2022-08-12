@@ -1,6 +1,9 @@
-# Packages and their use
+- [Bootstrap](#bootstrap)
+- [Markdownlint](#markdownlint)
+- [ESLint](#eslint)
+- [Browserslist](#browserslist)
 
-## Bootstrap
+# Bootstrap
 
 Adds requirements for packages used by Bootstrap
 
@@ -8,12 +11,12 @@ Adds requirements for packages used by Bootstrap
 - [bootstrap](https://www.npmjs.com/package/bootstrap) - Sleek, intuitive, and powerful front-end framework for faster and easier web development.
 - @types/bootstrap - Typescript types for Bootstrap
 
-## Markdownlint 
+# Markdownlint
 
-Adds a configuration file for Markdownlint. 
+Adds a configuration file for Markdownlint.
 Currently does not add markdownlint itself as package. Install it in VSCode as plugin.
 
-Local configuration:
+Local configuration in `.markdownlint.json`:
 
 ```json
 {
@@ -21,7 +24,7 @@ Local configuration:
 }
 ```
 
-Add changes like:
+Add local overrides:
 
 ```json
 {
@@ -29,3 +32,11 @@ Add changes like:
   "MD040": false
 }
 ```
+
+# ESLint
+
+This adds [@davidsneighbour/eslint-config](https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config) as requirement and makes it's configuration available. Read the [package documentation of @davidsneighbour/eslint-config](https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config).
+
+# Browserslist
+
+This adds [@davidsneighbour/browserslist-config](https://github.com/davidsneighbour/configurations/tree/main/packages/browserslist-config) as requirement and makes it's configuration available. Read the [package documentation of @davidsneighbour/browserslist-config](https://github.com/davidsneighbour/configurations/tree/main/packages/browserslist-config).
