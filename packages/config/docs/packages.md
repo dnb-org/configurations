@@ -2,6 +2,7 @@
 - [Markdownlint](#markdownlint)
 - [ESLint](#eslint)
 - [Browserslist](#browserslist)
+- [Tools](#tools)
 
 # Bootstrap
 
@@ -40,3 +41,10 @@ This adds [@davidsneighbour/eslint-config](https://github.com/davidsneighbour/co
 # Browserslist
 
 This adds [@davidsneighbour/browserslist-config](https://github.com/davidsneighbour/configurations/tree/main/packages/browserslist-config) as requirement and makes it's configuration available. Read the [package documentation of @davidsneighbour/browserslist-config](https://github.com/davidsneighbour/configurations/tree/main/packages/browserslist-config).
+
+# Tools
+
+Adds requirements for commonly used tool packages
+
+- [rimraf](https://www.npmjs.com/package/rimraf) - The UNIX command `rm -rf` for node.
+- [npm-run-all](https://www.npmjs.com/package/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
