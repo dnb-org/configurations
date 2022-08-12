@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "description": "Configurations for davidsneighbours projects.",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
@@ -8,7 +8,7 @@
   "repository": "git+https://github.com/davidsneighbour/configurations/",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
-    "@davidsneighbour/eslint-config": "^4.1.3",
+    "@davidsneighbour/eslint-config": "^4.1.4",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.0",
     "@types/bootstrap": "^5.2.1"
