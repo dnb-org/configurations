@@ -1,8 +1,8 @@
-## @davidsneighbour/config
+# @davidsneighbour/config
 
 Configuration for use in [davidsneighbour](https://github.com/davidsneighbour/) projects.
 
-### Installation
+## Installation
 
 Use npm to install this package as development dependency:
 
@@ -10,6 +10,6 @@ Use npm to install this package as development dependency:
 npm install --save-dev @davidsneighbour/config
 ```
 
-### Configuration
+## Configuration
 
 To be written...
