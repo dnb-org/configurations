@@ -1,21 +1,21 @@
 {
   "name": "@davidsneighbour/browserslist-config",
+  "description": "Browserslist configuration for davidsneighbour projects.",
   "version": "4.0.13",
   "license": "MIT",
-  "description": "Browserslist configuration for davidsneighbour projects.",
+  "repository": "davidsneighbour/configurations/",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/davidsneighbour/browserslist-config#readme",
-  "repository": "davidsneighbour/configurations/",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/browserslist-config#readme",
   "dependencies": {
     "browserslist": ">=4.21.3"
   },
-  "main": "index.js",
   "scripts": {
     "release": "../../release"
-  }
+  },
+  "main": "index.js"
 }
