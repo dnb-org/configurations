@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Droid Sans Mono', monospace"
+	}
+}
