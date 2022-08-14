@@ -7,7 +7,7 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@davidsneighbour/config": "^1.0.15"
+    "@davidsneighbour/config": "^1.0.17"
   },
   "scripts": {
     "clean": "npm run clean:packages && npm run clean:modules",
