@@ -13,3 +13,7 @@ npm install --save-dev @davidsneighbour/config
 ## Configuration
 
 To be written...
+
+## For now
+
+Read docs/packages.md for details.

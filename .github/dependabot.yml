@@ -1,5 +1,6 @@
 ################################################################################
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+# https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/dependabot.json
 ################################################################################
 version: 2
 updates:
@@ -20,39 +21,7 @@ updates:
       separator: "/"
 
   - package-ecosystem: "npm"
-    directory: "/packages/babel-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
     directory: "/packages/browserslist-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/commitlint-config/"
     schedule:
       interval: "monthly"
       day: "friday"
@@ -85,70 +54,6 @@ updates:
 
   - package-ecosystem: "npm"
     directory: "/packages/eslint-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/remark-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/stylelint-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/textlint-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/webpack-config"
     schedule:
       interval: "monthly"
       day: "friday"
