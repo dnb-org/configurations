@@ -3,7 +3,7 @@
   "description": "Configurations for @davidsneighbours projects.",
   "version": "1.0.17",
   "license": "MIT",
-  "repository": "git+https://github.com/davidsneighbour/configurations/",
+  "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/config",
