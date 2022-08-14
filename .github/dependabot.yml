@@ -68,7 +68,7 @@ updates:
       separator: "/"
 
   - package-ecosystem: "npm"
-    directory: "/packages/cssnano-config/"
+    directory: "/packages/config/"
     schedule:
       interval: "monthly"
       day: "friday"
@@ -116,39 +116,7 @@ updates:
       separator: "/"
 
   - package-ecosystem: "npm"
-    directory: "/packages/postcss-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
     directory: "/packages/remark-config/"
-    schedule:
-      interval: "monthly"
-      day: "friday"
-      time: "18:00"
-      timezone: "Asia/Bangkok"
-    assignees:
-      - "davidsneighbour"
-    reviewers:
-      - "davidsneighbour"
-    target-branch: "main"
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: "/"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/standard-version-config/"
     schedule:
       interval: "monthly"
       day: "friday"
