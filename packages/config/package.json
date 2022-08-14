@@ -45,7 +45,14 @@
     "cypress-axe": "^1.0.0",
     "debug": "^4.3.4",
     "deepmerge": "^4.2.2",
-    "eslint-plugin-cypress": "^2.12.1"
+    "eslint-plugin-cypress": "^2.12.1",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "stylelint": "^14.10.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^27.0.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.3",
+    "stylelint-order": "^5.0.0"
   },
   "scripts": {
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",

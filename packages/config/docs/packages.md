@@ -173,3 +173,103 @@ This configuration setup uses the approach of [Gleb Bahmutov's blog post](https:
 -   The base url is set to http://localhost:1313 - default for all Hugo dev server instances.
 -   IDEs like IntelliJ import the schema to offer typeahead code hints.
 -   `watchForFileChanges` is enabled.
+
+# Commitlint
+
+## Rules
+
+This configuration extends on [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) with the following changes:
+
+-   Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
+-   Maximum line length is 100 characters
+
+## Setup
+
+In package.json add the following lines:
+
+```json
+{
+  "scripts": {
+    "commitlint": "commitlint --from=HEAD~1"
+  }
+}
+```
+
+Then add .commitlintrc.js with the following content:
+
+```js
+module.exports = {
+  extends: ["@davidsneighbour/config/commitlint"],
+};
+```
+
+Lastly add a commit-msg hook to your git repository:
+
+```bash
+#!/bin/bash
+
+npx --no-install commitlint --edit $1
+```
+
+## Usage
+
+If you set up the git hook for commit messages you are good to go. Every time you add a commit it will check the message and complain if it's not right.
+
+You can always manually check a commit with `npm run commitlint`.
+
+If you wish to check a particular commit, you can do so by running ` npm run commitlint -- $COMMITHASH`.
+
+# Stylelint
+
+Add the configuration to your repository (for instance in `.stylelintrc` or `.stylelintrc.json` or the `stylelint` parameter in package.json):
+
+```json
+{
+  "extends": "@davidsneighbour/config/stylelint"
+}
+```
+
+To change parts of the configuration use the `rules` parameter.
+
+```json
+{
+  "extends": "@davidsneighbour/config/stylelint",
+  "rules": {
+    "max-nesting-depth": null
+  }
+}
+```
+
+Add scripts to your package.json:
+
+```json
+{
+  "scripts": {
+    "lint:styles": "stylelint assets/scss/",
+    "lint:styles:fix": "stylelint assets/scss/ --fix",
+    "lint:styles:config": "stylelint --print-config index.js"
+  }
+}
+```
+
+Exchange the `assets/scss/` with your own styles folder.
+
+### Usage
+
+Run stylelint and show errors and warnings:
+
+```shell
+npm run stylelint
+```
+
+Run stylelint and fix automatically fixable issues:
+
+```shell
+npm run stylelint:fix
+```
+
+Print the current stylelint configuration:
+
+```shell
+npm run stylelint:config
+```
