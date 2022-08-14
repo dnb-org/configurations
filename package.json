@@ -1,11 +1,6 @@
 {
   "name": "@davidsneighbour/configurations",
   "version": "1.0.0",
-  "scripts": {
-    "clean": "npm run clean:packages && npm run clean:modules",
-    "clean:modules": "rimraf package-lock.json && rimraf node_modules",
-    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json"
-  },
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -13,6 +8,11 @@
   },
   "devDependencies": {
     "@davidsneighbour/config": "^1.0.15"
+  },
+  "scripts": {
+    "clean": "npm run clean:packages && npm run clean:modules",
+    "clean:modules": "rimraf package-lock.json && rimraf node_modules",
+    "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json"
   },
   "eslintConfig": {
     "extends": [
