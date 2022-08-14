@@ -12,7 +12,7 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@davidsneighbour/config": "^1.0.11"
+    "@davidsneighbour/config": "^1.0.15"
   },
   "eslintConfig": {
     "extends": [
