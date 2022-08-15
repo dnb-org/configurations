@@ -1,9 +1,28 @@
+# Overview
+
+- [Overview](#overview)
 - [Bootstrap](#bootstrap)
 - [Markdownlint](#markdownlint)
 - [ESLint](#eslint)
 - [Browserslist](#browserslist)
 - [Tools](#tools)
 - [Prettier](#prettier)
+- [PostCSS](#postcss)
+- [cssnano](#cssnano)
+- [Standard Version](#standard-version)
+- [Cypress](#cypress)
+  - [Default settings of this configuration](#default-settings-of-this-configuration)
+- [Commitlint](#commitlint)
+  - [Rules](#rules)
+  - [Setup](#setup)
+  - [Usage](#usage)
+- [Stylelint](#stylelint)
+  - [Usage](#usage-1)
+- [Babel](#babel)
+- [Webpack](#webpack)
+- [Remark Lint](#remark-lint)
+  - [Configuration rules in this package](#configuration-rules-in-this-package)
+- [Textlint](#textlint)
 
 # Bootstrap
 
@@ -169,10 +188,10 @@ This configuration setup uses the approach of [Gleb Bahmutov's blog post](https:
 
 ## Default settings of this configuration
 
--   All cypress files reside within the `tests` directory (no need for additional directories in the root directory).
--   The base url is set to http://localhost:1313 - default for all Hugo dev server instances.
--   IDEs like IntelliJ import the schema to offer typeahead code hints.
--   `watchForFileChanges` is enabled.
+- All cypress files reside within the `tests` directory (no need for additional directories in the root directory).
+- The base url is set to <http://localhost:1313> - default for all Hugo dev server instances.
+- IDEs like IntelliJ import the schema to offer typeahead code hints.
+- `watchForFileChanges` is enabled.
 
 # Commitlint
 
@@ -180,8 +199,8 @@ This configuration setup uses the approach of [Gleb Bahmutov's blog post](https:
 
 This configuration extends on [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) with the following changes:
 
--   Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
--   Maximum line length is 100 characters
+- Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
+- Maximum line length is 100 characters
 
 ## Setup
 
@@ -217,7 +236,7 @@ If you set up the git hook for commit messages you are good to go. Every time yo
 
 You can always manually check a commit with `npm run commitlint`.
 
-If you wish to check a particular commit, you can do so by running ` npm run commitlint -- $COMMITHASH`.
+If you wish to check a particular commit, you can do so by running `npm run commitlint -- $COMMITHASH`.
 
 # Stylelint
 
@@ -348,24 +367,24 @@ or in `remarkConfig` in `package.json`:
 }
 ```
 
-### Configuration rules in this package
+## Configuration rules in this package
 
 The `davidsneighbour` ruleset for `remark-lint` uses the following two presets:
 
--   [remark-preset-lint-styleguide](https://www.npmjs.com/package/remark-preset-lint-styleguide) - a preset to maintain good quality readable markdown files.
--   [remark-preset-lint-consistent](https://www.npmjs.com/package/remark-preset-lint-consistent) - a preset that enforces consistency and helps avoiding common known pitfalls in markdown parsers (consistency rules may override the styleguide rules).
+- [remark-preset-lint-styleguide](https://www.npmjs.com/package/remark-preset-lint-styleguide) - a preset to maintain good quality readable markdown files.
+- [remark-preset-lint-consistent](https://www.npmjs.com/package/remark-preset-lint-consistent) - a preset that enforces consistency and helps avoiding common known pitfalls in markdown parsers (consistency rules may override the styleguide rules).
 
 The following rules and plugins are added or changed:
 
--   [remark-lint-first-heading-level](https://www.npmjs.com/package/remark-lint-first-heading-level) - sets the first heading level to h2, so that h1 can be used as page title after parsing
--   [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) - support frontmatter in markdown files
--   [remark-lint-linebreak-style](https://www.npmjs.com/package/remark-lint-linebreak-style) - sets the linebreak style to unix `\n` line endings
--   [remark-lint-write-good](https://www.npmjs.com/package/remark-lint-write-good) - checks style of the writing via [write-good](https://github.com/btford/write-good) and can be disabled (see configuration above)
--   [remark-lint-match-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-match-punctuation) to ensure programming punctuation comes in pairs.
--   [remark-lint-no-repeat-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-no-repeat-punctuation) to ensure punktuation not doubled
--   [remark-lint-emoji-limit](https://github.com/zerok/remark-lint-emoji-limit) - to make sure documents are not too emoji-y
--   [remark-lint-no-empty-sections](https://github.com/vhf/remark-lint-no-empty-sections) - to ensure no empty sections are in the documents
--   [remark-lint-heading-whitespace](https://github.com/vhf/remark-lint-heading-whitespace) - makes sure that no exotic whitespaces break parsing of headings
+- [remark-lint-first-heading-level](https://www.npmjs.com/package/remark-lint-first-heading-level) - sets the first heading level to h2, so that h1 can be used as page title after parsing
+- [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) - support frontmatter in markdown files
+- [remark-lint-linebreak-style](https://www.npmjs.com/package/remark-lint-linebreak-style) - sets the linebreak style to unix `\n` line endings
+- [remark-lint-write-good](https://www.npmjs.com/package/remark-lint-write-good) - checks style of the writing via [write-good](https://github.com/btford/write-good) and can be disabled (see configuration above)
+- [remark-lint-match-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-match-punctuation) to ensure programming punctuation comes in pairs.
+- [remark-lint-no-repeat-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-no-repeat-punctuation) to ensure punktuation not doubled
+- [remark-lint-emoji-limit](https://github.com/zerok/remark-lint-emoji-limit) - to make sure documents are not too emoji-y
+- [remark-lint-no-empty-sections](https://github.com/vhf/remark-lint-no-empty-sections) - to ensure no empty sections are in the documents
+- [remark-lint-heading-whitespace](https://github.com/vhf/remark-lint-heading-whitespace) - makes sure that no exotic whitespaces break parsing of headings
 
 # Textlint
 
