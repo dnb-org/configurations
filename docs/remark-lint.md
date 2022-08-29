@@ -43,3 +43,23 @@ The following rules and plugins are added or changed:
 - [remark-lint-emoji-limit](https://github.com/zerok/remark-lint-emoji-limit) - to make sure documents are not too emoji-y
 - [remark-lint-no-empty-sections](https://github.com/vhf/remark-lint-no-empty-sections) - to ensure no empty sections are in the documents
 - [remark-lint-heading-whitespace](https://github.com/vhf/remark-lint-heading-whitespace) - makes sure that no exotic whitespaces break parsing of headings
+
+
+# All configurations
+
+- [Babel](/docs/babel.md)
+- [Bootstrap](/docs/bootstrap.md)
+- [Browserslist](/docs/browserslist.md)
+- [Commitlint](/docs/commitlint.md)
+- [CssNano](/docs/cssnano.md)
+- [Cypress](/docs/cypress.md)
+- [ESLint](/docs/eslint.md)
+- [Markdownlint](/docs/markdownlint.md)
+- [PostCSS](/docs/postcss.md)
+- [Prettier](/docs/prettier.md)
+- [Remark Lint](/docs/remark-lint.md)
+- [Standard Version](/docs/standard-version.md)
+- [Stylelint](/docs/stylelint.md)
+- [Textlint](/docs/textlint.md)
+- [Tools](/docs/tools.md)
+- [Webpack](/docs/webpack.md)

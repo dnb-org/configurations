@@ -26,3 +26,23 @@ This configuration setup uses the approach of [Gleb Bahmutov's blog post](https:
 - The base url is set to <http://localhost:1313> - default for all Hugo dev server instances.
 - IDEs like IntelliJ import the schema to offer typeahead code hints.
 - `watchForFileChanges` is enabled.
+
+
+# All configurations
+
+- [Babel](/docs/babel.md)
+- [Bootstrap](/docs/bootstrap.md)
+- [Browserslist](/docs/browserslist.md)
+- [Commitlint](/docs/commitlint.md)
+- [CssNano](/docs/cssnano.md)
+- [Cypress](/docs/cypress.md)
+- [ESLint](/docs/eslint.md)
+- [Markdownlint](/docs/markdownlint.md)
+- [PostCSS](/docs/postcss.md)
+- [Prettier](/docs/prettier.md)
+- [Remark Lint](/docs/remark-lint.md)
+- [Standard Version](/docs/standard-version.md)
+- [Stylelint](/docs/stylelint.md)
+- [Textlint](/docs/textlint.md)
+- [Tools](/docs/tools.md)
+- [Webpack](/docs/webpack.md)

@@ -2,7 +2,7 @@
 
 Run `npm install @davidsneighbour/config` to install this package and its subpackages.
 
-Read on for more information about specific configuration setups and configurations:
+Read on for more information about the included specific configuration setups and configurations:
 
 - [Babel](/docs/babel.md)
 - [Bootstrap](/docs/bootstrap.md)
