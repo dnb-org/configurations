@@ -1,0 +1,20 @@
+[default]
+check-filename = true
+check-file = true
+unicode = false
+
+[default.extend-identifiers]
+eq = "eq"
+color = "color"
+monetization = "monetization"
+
+[files]
+extend-exclude = [
+  "package-lock.json",
+  "CHANGELOG.md",
+  "go.sum",
+  ".git",
+  ".gitignore",
+]
+ignore-hidden = false
+ignore-vcs = true
