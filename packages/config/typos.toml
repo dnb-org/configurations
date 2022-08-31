@@ -16,5 +16,5 @@ extend-exclude = [
   ".git",
   ".gitignore",
 ]
-ignore-hidden = false
+ignore-hidden = true
 ignore-vcs = true
