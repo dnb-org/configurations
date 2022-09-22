@@ -13,7 +13,7 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@davidsneighbour/browserslist-config": "^4.0.16",
-    "@davidsneighbour/eslint-config": "^4.1.9",
+    "@davidsneighbour/eslint-config": "^4.1.10",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@popperjs/core": "^2.11.6",
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
