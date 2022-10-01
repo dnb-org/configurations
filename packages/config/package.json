@@ -73,7 +73,7 @@
     "stylelint": "^14.12.1",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-config-standard": "^28.0.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.4",
+    "stylelint-no-unsupported-browser-features": "^6.0.1",
     "stylelint-order": "^5.0.0",
     "terser-webpack-plugin": "^5.3.6",
     "textlint": "^12.2.2",
