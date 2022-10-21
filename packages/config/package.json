@@ -10,10 +10,9 @@
   "dependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
     "@davidsneighbour/browserslist-config": "^4.0.17",
     "@davidsneighbour/eslint-config": "^4.1.12",
+    "@davidsneighbour/commitlint-config": "^4.1.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@popperjs/core": "^2.11.6",
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
