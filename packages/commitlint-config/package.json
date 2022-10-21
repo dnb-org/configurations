@@ -1,0 +1,22 @@
+{
+  "name": "@davidsneighbour/commitlint-config",
+  "description": "Commitlint configuration for davidsneighbour projects.",
+  "version": "4.0.17",
+  "license": "MIT",
+  "repository": "davidsneighbour/configurations/",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/commitlint-config#readme",
+  "dependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0"
+  },
+  "scripts": {
+    "release": "../../release"
+  },
+  "main": "index.js"
+}
