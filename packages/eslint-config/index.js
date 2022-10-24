@@ -51,6 +51,7 @@ module.exports = {
     "plugin:package-json/recommended",
   ],
   rules: {
+    "indent": ["error", "tab"],
     'anti-trojan-source/no-bidi': 'error',
     'no-loops/no-loops': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
