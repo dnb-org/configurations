@@ -11,7 +11,7 @@
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
     "@davidsneighbour/browserslist-config": "^4.0.18",
-    "@davidsneighbour/eslint-config": "^4.1.14",
+    "@davidsneighbour/eslint-config": "^4.1.15",
     "@davidsneighbour/commitlint-config": "^4.1.1",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@popperjs/core": "^2.11.6",
