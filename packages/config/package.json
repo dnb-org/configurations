@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/config",
   "description": "Configurations for @davidsneighbours projects.",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
