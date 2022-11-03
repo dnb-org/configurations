@@ -4,8 +4,11 @@
  *
  */
 module.exports = {
+  // https://github.com/bjankord/stylelint-config-sass-guidelines
+  // https://sass-guidelin.es/
   extends: ["stylelint-config-sass-guidelines"],
   plugins: ["stylelint-order", "stylelint-no-unsupported-browser-features"],
+  // https://stylelint.io/user-guide/rules/
   rules: {
     "max-empty-lines": [
       1,
@@ -320,4 +323,5 @@ module.exports = {
       },
     ],
   },
+  "ignoreFiles": []
 };

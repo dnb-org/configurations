@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const path = './tsconfig.json';
+const path = './tsconfig.eslint.json';
 let projectValue = '';
 if (fs.existsSync(path)) {
   projectValue = path;
@@ -9,9 +9,10 @@ if (fs.existsSync(path)) {
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    "ecmaVersion": "latest",
-    "sourceType": "module",
+    ecmaVersion: "latest",
+    sourceType: "module",
     project: projectValue,
+    extraFileExtensions: ['json'],
   },
   plugins: [
     '@typescript-eslint',
