@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/eslint-config",
-  "version": "4.1.17",
+  "version": "4.1.21",
   "description": "ESlint configuration for use in davidsneighbour projects.",
   "main": "index.js",
   "repository": "davidsneighbour/configurations",
@@ -13,8 +13,8 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
