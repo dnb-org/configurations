@@ -13,9 +13,9 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.45.1",
-    "@typescript-eslint/parser": "^5.45.1",
-    "eslint": "^8.29.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-anti-trojan-source": "^1.1.0",
     "eslint-plugin-compat": "^4.0.2",
@@ -26,7 +26,7 @@
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-package-json": "^0.1.4",
     "eslint-plugin-sonarjs": "^0.17.0",
-    "eslint-plugin-unicorn": "^45.0.1"
+    "eslint-plugin-unicorn": "^45.0.2"
   },
   "scripts": {
     "release": "../../release"
