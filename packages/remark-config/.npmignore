@@ -8,3 +8,4 @@ bin
 .textlintrc.js
 .versionrc.js
 SECURITY.md
+node_modules
