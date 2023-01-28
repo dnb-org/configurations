@@ -1,15 +1,18 @@
 {
-  "name": "@davidsneighbour/configurations",
-  "version": "1.0.2",
+  "name": "root",
+  "private": true,
+  "version": "independent",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
-    "@davidsneighbour/config": "file:./packages/config"
+    "@davidsneighbour/config": "file:./packages/config",
+    "lerna": "^6.4.1"
   },
   "scripts": {
+    "release": "lerna publish --no-private",
     "clean": "npm run clean:packages && npm run clean:modules",
     "clean:modules": "rimraf package-lock.json && rimraf node_modules",
     "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json"
@@ -19,5 +22,11 @@
       "@davidsneighbour/eslint-config"
     ]
   },
-  "prettier": "@davidsneighbour/config/prettier"
+  "prettier": "@davidsneighbour/config/prettier",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "npm-check-updates": "^16.6.3"
+  }
 }

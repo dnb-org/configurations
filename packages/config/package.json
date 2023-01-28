@@ -10,9 +10,9 @@
   "dependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
-    "@davidsneighbour/browserslist-config": "^4.0.25",
-    "@davidsneighbour/eslint-config": "^4.1.26",
-    "@davidsneighbour/commitlint-config": "^4.1.9",
+    "@davidsneighbour/browserslist-config": "*",
+    "@davidsneighbour/eslint-config": "*",
+    "@davidsneighbour/commitlint-config": "*",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@popperjs/core": "^2.11.6",
     "@types/bootstrap": "^5.2.6",
