@@ -44,6 +44,6 @@
   "main": "index.js",
   "repository": "https://github.com/davidsneighbour/configurations",
   "scripts": {
-    "release": "../../release"
+    "fixpack": "fixpack"
   }
 }

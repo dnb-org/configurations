@@ -16,7 +16,7 @@
     "@commitlint/config-conventional": "^17.4.2"
   },
   "scripts": {
-    "release": "../../release"
+    "fixpack": "fixpack"
   },
   "main": "index.js"
 }

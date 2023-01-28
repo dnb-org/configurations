@@ -68,6 +68,6 @@
   },
   "scripts": {
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
-    "release": "../../release"
+    "fixpack": "fixpack"
   }
 }
