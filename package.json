@@ -8,7 +8,12 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
+    "@davidsneighbour/browserslist-config": "file:./packages/browserslist-config",
+    "@davidsneighbour/commitlint-config": "file:./packages/commitlint-config",
     "@davidsneighbour/config": "file:./packages/config",
+    "@davidsneighbour/eslint-config": "file:./packages/eslint-config",
+    "@davidsneighbour/remark-config": "file:./packages/remark-config",
+    "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
     "lerna": "^6.4.1"
   },
   "scripts": {
