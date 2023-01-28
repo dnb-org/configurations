@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/textlint-config",
   "description": "Textlint configuration used in davidsneighbour's projects.",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
