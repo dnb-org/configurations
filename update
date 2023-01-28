@@ -18,11 +18,19 @@ SCRIPTPATH="$(
   pwd -P
 )"
 
-for dir in packages/*/
-do
-    dir=${dir%*/}
+PACKAGES=(
+  eslint-config
+  remark-config
+  textlint-config
+  commitlint-config
+  browserslist-config
+  config
+)
+
+for PACKAGE in "${PACKAGES[@]}"; do
+    dir=${PACKAGE%*/}
     echo "Updating ${dir}"
-    cd "${SCRIPTPATH}"/"${dir}" || exit
+    cd "${SCRIPTPATH}"/packages/"${dir}" || exit
     npm-check-updates -u
     if [[ $(git status --porcelain --untracked-files=no) ]]; then
       npm install
