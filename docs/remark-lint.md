@@ -4,14 +4,14 @@ Put the following into `.remarkrc` in the root of your project. Remove the `writ
 
 ```json
 {
-  "plugins": ["@davidsneighbour/config/remark", ["remark-lint-write-good", false]]
+  "plugins": ["@davidsneighbour/remark-config", ["remark-lint-write-good", false]]
 }
 ```
 
 or in `.remarkrc.js`:
 
 ```js
-const defaultRemarkConfig = require("@davidsneighbour/config/remark");
+const defaultRemarkConfig = require("@davidsneighbour/remark-config");
 module.exports = defaultRemarkConfig;
 ```
 
@@ -20,7 +20,7 @@ or in `remarkConfig` in `package.json`:
 ```json
 {
   "remarkConfig": {
-    "plugins": ["@davidsneighbour/config/remark"]
+    "plugins": ["@davidsneighbour/remark-config"]
   }
 }
 ```
