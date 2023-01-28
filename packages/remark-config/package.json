@@ -9,12 +9,12 @@
   },
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
-    "remark-cli": "9.0.0",
-    "remark-frontmatter": "3.0.0",
-    "remark-lint": "8.0.0",
-    "remark-lint-linebreak-style": "2.0.1",
+    "remark-cli": "11.0.0",
+    "remark-frontmatter": "4.0.1",
+    "remark-lint": "9.1.1",
+    "remark-lint-linebreak-style": "3.1.1",
     "remark-lint-write-good": "1.2.0",
-    "remark-preset-lint-consistent": "4.0.0",
+    "remark-preset-lint-consistent": "5.1.1",
     "remark-preset-lint-styleguide": "1.0.0"
   },
   "engines": {
