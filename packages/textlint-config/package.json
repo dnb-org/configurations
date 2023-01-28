@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/textlint-config",
   "description": "Textlint configuration used in davidsneighbour's projects.",
-  "version": "4.1.2",
+  "version": "5.0.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -9,6 +9,9 @@
   },
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "dependencies": {
+    "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
+    "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.9",
+    "@textlint/markdown-to-ast": "^13.0.1",
     "textlint": "^13.0.1",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-plugin-html": "^0.3.0",
@@ -30,10 +33,7 @@
     "textlint-rule-spelling": "^0.3.0",
     "textlint-rule-stop-words": "^3.0.1",
     "textlint-rule-terminology": "^3.0.4",
-    "textlint-rule-unexpanded-acronym": "^1.2.4",
-    "@textlint-rule/textlint-rule-no-invalid-control-character": "^2.0.0",
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.9",
-    "@textlint/markdown-to-ast": "^13.0.1"
+    "textlint-rule-unexpanded-acronym": "^1.2.4"
   },
   "engines": {
     "node": ">=14.0.0",
