@@ -20,5 +20,6 @@
   "scripts": {
     "fixpack": "fixpack"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "gitHead": "8af7f637920a8701d198aa71ecd164fe02b1f6e7"
 }

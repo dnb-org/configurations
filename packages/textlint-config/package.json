@@ -46,5 +46,6 @@
   "repository": "https://github.com/davidsneighbour/configurations",
   "scripts": {
     "fixpack": "fixpack"
-  }
+  },
+  "gitHead": "8af7f637920a8701d198aa71ecd164fe02b1f6e7"
 }
