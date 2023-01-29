@@ -42,5 +42,8 @@
   "prettier": "@davidsneighbour/config/prettier",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
