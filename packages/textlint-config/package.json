@@ -2,12 +2,15 @@
   "name": "@davidsneighbour/textlint-config",
   "description": "Textlint configuration used in davidsneighbour's projects.",
   "version": "5.0.5",
+  "license": "MIT",
+  "repository": "https://github.com/davidsneighbour/configurations",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/textlint-config#readme",
   "dependencies": {
     "@textlint-rule/textlint-rule-no-invalid-control-character": "2.0.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "1.0.9",
@@ -36,16 +39,13 @@
     "textlint-rule-terminology": "3.0.4",
     "textlint-rule-unexpanded-acronym": "1.2.4"
   },
+  "scripts": {
+    "fixpack": "fixpack"
+  },
+  "main": "index.js",
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=6"
-  },
-  "homepage": "https://github.com/davidsneighbour/textlint-config#readme",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "https://github.com/davidsneighbour/configurations",
-  "scripts": {
-    "fixpack": "fixpack"
   },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }
