@@ -30,7 +30,7 @@
     "clean": "npm-run-p clean:*",
     "clean:lerna": "rimraf lerna-debug.log && lerna run clean",
     "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json && rimraf package-lock.json && rimraf node_modules",
-    "release": "lerna publish --no-private --message 'chore(release): publish v%s' --signoff-git-commit --sign-git-commit --sign-git-tag",
+    "release": "lerna publish --no-private --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
     "reset": "lerna clean && lerna bootstrap",
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity"
   },
