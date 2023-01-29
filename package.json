@@ -8,21 +8,31 @@
     "web": "https://davids-neighbour.com"
   },
   "devDependencies": {
+    "@davidsneighbour/babel-config": "file:./packages/babel-config",
     "@davidsneighbour/browserslist-config": "file:./packages/browserslist-config",
     "@davidsneighbour/commitlint-config": "file:./packages/commitlint-config",
-    "@davidsneighbour/config": "file:./packages/config",
+    "@davidsneighbour/cssnano-config": "file:./packages/cssnano-config",
+    "@davidsneighbour/cypress-config": "file:./packages/cypress-config",
     "@davidsneighbour/eslint-config": "file:./packages/eslint-config",
+    "@davidsneighbour/htmlvalidate-config": "file:./packages/htmlvalidate-config",
+    "@davidsneighbour/markdownlint-config": "file:./packages/markdownlint-config",
+    "@davidsneighbour/postcss-config": "file:./packages/postcss-config",
+    "@davidsneighbour/prettier-config": "file:./packages/prettier-config",
     "@davidsneighbour/remark-config": "file:./packages/remark-config",
+    "@davidsneighbour/standard-version-config": "file:./packages/standard-version-config",
+    "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
     "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
-    "fixpack": "^4.0.0",
-    "lerna": "^6.4.1",
-    "npm-check-updates": "^16.6.3"
+    "@davidsneighbour/tools": "file:./packages/tools",
+    "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
+    "lerna": "6.4.1"
   },
   "scripts": {
     "clean": "npm-run-p clean:*",
     "clean:lerna": "rimraf lerna-debug.log && lerna run clean",
     "clean:packages": "rimraf packages/*/node_modules && rimraf packages/*/package-lock.json && rimraf package-lock.json && rimraf node_modules",
-    "release": "lerna publish --no-private --message 'chore(release): publish v%s' --signoff-git-commit --sign-git-commit --sign-git-tag"
+    "release": "lerna publish --no-private --message 'chore(release): publish v%s' --signoff-git-commit --sign-git-commit --sign-git-tag",
+    "reset": "lerna clean && lerna bootstrap",
+    "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity"
   },
   "eslintConfig": {
     "extends": [

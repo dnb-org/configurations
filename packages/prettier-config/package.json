@@ -1,0 +1,24 @@
+{
+  "name": "@davidsneighbour/prettier-config",
+  "description": "Prettier configuration for use in @davidsneighbour projects.",
+  "version": "5.0.1",
+  "license": "MIT",
+  "repository": "davidsneighbour/configurations",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/prettier.md",
+  "dependencies": {
+    "prettier": "^2.8.3",
+    "prettier-plugin-go-template": "0.0.13",
+    "prettier-plugin-tailwindcss": "0.2.2",
+    "prettier-plugin-toml": "0.3.1"
+  },
+  "scripts": {
+    "fixpack": "fixpack"
+  },
+  "main": "index.js"
+}
