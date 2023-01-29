@@ -13,6 +13,7 @@ Read on for more information about the specific configuration setups and used ru
 ## Testing
 
 - [Cypress](packages/cypress-config)
+- [HTML Validate](packages/htmlvalidate-config/)
 
 ## Linters and Formatters
 
