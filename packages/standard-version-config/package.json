@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/standard-version-config",
   "description": "Standard-Version configuration for use in @davidsneighbour projects.",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
