@@ -44,22 +44,21 @@ The following rules and plugins are added or changed:
 - [remark-lint-no-empty-sections](https://github.com/vhf/remark-lint-no-empty-sections) - to ensure no empty sections are in the documents
 - [remark-lint-heading-whitespace](https://github.com/vhf/remark-lint-heading-whitespace) - makes sure that no exotic whitespaces break parsing of headings
 
-
 # All configurations
 
-- [Babel](/docs/babel.md)
-- [Bootstrap](/docs/bootstrap.md)
-- [Browserslist](/docs/browserslist.md)
-- [Commitlint](/docs/commitlint.md)
-- [CssNano](/docs/cssnano.md)
-- [Cypress](/docs/cypress.md)
-- [ESLint](/docs/eslint.md)
-- [Markdownlint](/docs/markdownlint.md)
-- [PostCSS](/docs/postcss.md)
-- [Prettier](/docs/prettier.md)
-- [Remark Lint](/docs/remark-lint.md)
-- [Standard Version](/docs/standard-version.md)
-- [Stylelint](/docs/stylelint.md)
-- [Textlint](/docs/textlint.md)
-- [Tools](/docs/tools.md)
-- [Webpack](/docs/webpack.md)
+- [Babel](/davidsneighbour/configurations/tree/main/packages/babel-config)
+- [Bootstrap](/davidsneighbour/configurations/tree/main/packages/bootstrap-config)
+- [Browserslist](/davidsneighbour/configurations/tree/main/packages/browserslist-config)
+- [Commitlint](/davidsneighbour/configurations/tree/main/packages/commitlint-config)
+- [CssNano](/davidsneighbour/configurations/tree/main/packages/cssnano-config)
+- [Cypress](/davidsneighbour/configurations/tree/main/packages/cypress-config)
+- [ESLint](/davidsneighbour/configurations/tree/main/packages/eslint-config)
+- [Markdownlint](/davidsneighbour/configurations/tree/main/packages/markdownlint-config)
+- [PostCSS](/davidsneighbour/configurations/tree/main/packages/postcss-config)
+- [Prettier](/davidsneighbour/configurations/tree/main/packages/prettier-config)
+- [Remark Lint](/davidsneighbour/configurations/tree/main/packages/remark-config)
+- [Standard Version](/davidsneighbour/configurations/tree/main/packages/standard-version-config)
+- [Stylelint](/davidsneighbour/configurations/tree/main/packages/stylelint-config)
+- [Textlint](/davidsneighbour/configurations/tree/main/packages/textlint-config)
+- [Tools](/davidsneighbour/configurations/tree/main/packages/tools)
+- [Webpack](/davidsneighbour/configurations/tree/main/packages/webpack-config)

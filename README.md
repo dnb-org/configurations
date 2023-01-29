@@ -6,34 +6,34 @@ Read on for more information about the specific configuration setups and used ru
 
 ## Build Tools
 
-- [Babel](/docs/babel.md)
-- [ESLint](/docs/eslint.md)
-- [Webpack](/docs/webpack.md)
+- [Babel](packages/babel-config)
+- [ESLint](packages/eslint-config)
+- [Webpack](packages/webpack-config)
 
 ## Testing
 
-- [Cypress](/docs/cypress.md)
+- [Cypress](packages/cypress-config)
 
 ## Linters and Formatters
 
-- [Browserslist](/docs/browserslist.md)
-- [CssNano](/docs/cssnano.md)
-- [PostCSS](/docs/postcss.md)
-- [Prettier](/docs/prettier.md)
-- [Stylelint](/docs/stylelint.md)
+- [Browserslist](packages/browserslist-config)
+- [CssNano](packages/cssnano-config)
+- [PostCSS](packages/postcss-config)
+- [Prettier](packages/prettier-config)
+- [Stylelint](packages/stylelint-config)
 
 ## Project Management
 
-- [Commitlint](/docs/commitlint.md)
-- [Standard Version](/docs/standard-version.md)
+- [Commitlint](packages/commitlint-config)
+- [Standard Version](packages/standard-version-config)
 
 ## Markdown and Writing
 
-- [Markdownlint](/docs/markdownlint.md)
-- [Remark Lint](/docs/remark-lint.md)
-- [Textlint](/docs/textlint.md)
+- [Markdownlint](packages/markdownlint-config)
+- [Remark Lint](packages/remark-config)
+- [Textlint](packages/textlint-config)
 
 ## Tools 
 
-- [Bootstrap](/docs/bootstrap.md)
-- [Tools](/docs/tools.md)
+- [Bootstrap](packages/bootstrap-config)
+- [Tools](packages/tools)
