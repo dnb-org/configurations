@@ -14,7 +14,7 @@
   "dependencies": {
     "cross-env": "7.0.3",
     "debug": "4.3.4",
-    "deepmerge": "4.2.2",
+    "deepmerge": "4.3.0",
     "fixpack": "4.0.0",
     "lockfile-lint": "4.10.0",
     "ncp": "2.0.0",
