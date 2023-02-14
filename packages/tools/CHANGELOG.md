@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [5.0.11](https://github.com/davidsneighbour/configurations/compare/v5.0.10...v5.0.11) (2023-02-14)
 
-**Note:** Version bump only for package root
-
-
-
-
-
-## [5.0.10](https://github.com/davidsneighbour/configurations/compare/v5.0.9...v5.0.10) (2023-02-14)
-
-**Note:** Version bump only for package root
+**Note:** Version bump only for package @davidsneighbour/tools
