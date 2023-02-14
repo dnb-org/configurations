@@ -4,7 +4,7 @@ Add the configuration to your repository (for instance in `.stylelintrc` or `.st
 
 ```json
 {
-  "extends": "@davidsneighbour/config/stylelint"
+  "extends": "@davidsneighbour/stylelint-config"
 }
 ```
 
@@ -12,7 +12,7 @@ To change parts of the configuration use the `rules` parameter.
 
 ```json
 {
-  "extends": "@davidsneighbour/config/stylelint",
+  "extends": "@davidsneighbour/stylelint-config",
   "rules": {
     "max-nesting-depth": null
   }
