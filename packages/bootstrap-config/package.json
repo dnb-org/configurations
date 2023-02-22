@@ -10,7 +10,7 @@
     "web": "https://davids-neighbour.com"
   },
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/bootstrap.md",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/bootstrap-config",
   "dependencies": {
     "@popperjs/core": "2.11.6",
     "@types/bootstrap": "5.2.6",
@@ -19,6 +19,5 @@
   "scripts": {
     "fixpack": "fixpack"
   },
-  "main": "index.js",
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }
