@@ -19,7 +19,6 @@ module.exports = {
     'anti-trojan-source',
     'html',
     'no-loops',
-    'package-json',
     'sonarjs',
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     "unicorn",
