@@ -2,8 +2,9 @@ const fs = require("fs");
 
 const tailwindPath = "./tailwind.config.js";
 
+// https://prettier.io/docs/en/options.html
 let config = {
-  printWidth: 80,
+  printWidth: 120,
   tabWidth: 2,
   useTabs: false,
   semi: true,
@@ -28,7 +29,6 @@ let config = {
       "files": ["*.js", "*.ts"],
       "options": {
         "useTabs": true,
-        "printWidth": 120,
         "singleQuote": true
       }
     },
