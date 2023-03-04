@@ -1,21 +1,20 @@
 # Remark Lint
 
-Put the following into `.remarkrc` in the root of your project. Remove the `write-good` line if you want to ensure the quality of text. It tends to be overzealous though, so it's deactivated by default.
+## Why?
+
+This package contains configuration for [remark-lint](https://github.com/remarkjs/remark-lint/) to lint markdown code styles. It bundles standard presets and sets some opinionated rules.. It is used by [@davidsneighbour](https://github.com/davidsneighbour) to lint markdown files in all projects.
+
+## Configuration
+
+**Method 1:** add it as JSON structure in `.remarkrc` at the root of your project:
 
 ```json
 {
-  "plugins": ["@davidsneighbour/remark-config", ["remark-lint-write-good", false]]
+  "plugins": ["@davidsneighbour/remark-config"]
 }
 ```
 
-or in `.remarkrc.js`:
-
-```js
-const defaultRemarkConfig = require("@davidsneighbour/remark-config");
-module.exports = defaultRemarkConfig;
-```
-
-or in `remarkConfig` in `package.json`:
+**Method 2:** add it as a configuration object under `remarkConfig` in `package.json`:
 
 ```json
 {
@@ -25,26 +24,48 @@ or in `remarkConfig` in `package.json`:
 }
 ```
 
+**Method 3:** add it as a JavaScript object in `.remarkrc.js` at the root of your project. This package is [ESM only](https://gist.github.com/davidsneighbour/0efcc9b24d21e6226c973e401a413b2c) now:
+
+```js
+import defaultRemarkConfig from "@davidsneighbour/remark-config";
+
+const localRemarkConfig = [
+    // add your changes here
+];
+
+const mergedConfiguration = {
+    ...defaultRemarkConfig,
+    ...localRemarkConfig,
+};
+
+export default mergedConfiguration;
+```
+
+Or without changes:
+
+```js
+import defaultRemarkConfig from "@davidsneighbour/remark-config";
+export default defaultRemarkConfig;
+```
+
 ## Configuration rules in this package
 
 The `davidsneighbour` ruleset for `remark-lint` uses the following two presets:
 
-- [remark-preset-lint-styleguide](https://www.npmjs.com/package/remark-preset-lint-styleguide) - a preset to maintain good quality readable markdown files.
-- [remark-preset-lint-consistent](https://www.npmjs.com/package/remark-preset-lint-consistent) - a preset that enforces consistency and helps avoiding common known pitfalls in markdown parsers (consistency rules may override the styleguide rules).
+- [`remark-preset-lint-styleguide`](https://www.npmjs.com/package/remark-preset-lint-styleguide) - a preset to maintain good quality readable markdown files.
+- [`remark-preset-lint-consistent`](https://www.npmjs.com/package/remark-preset-lint-consistent) - a preset that enforces consistency and helps avoid common known pitfalls in markdown parsers (consistency rules may override the styleguide rules).
 
-The following rules and plugins are added or changed:
+The following plugins are added:
 
-- [remark-lint-first-heading-level](https://www.npmjs.com/package/remark-lint-first-heading-level) - sets the first heading level to h2, so that h1 can be used as page title after parsing
-- [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) - support frontmatter in markdown files
-- [remark-lint-linebreak-style](https://www.npmjs.com/package/remark-lint-linebreak-style) - sets the linebreak style to unix `\n` line endings
-- [remark-lint-write-good](https://www.npmjs.com/package/remark-lint-write-good) - checks style of the writing via [write-good](https://github.com/btford/write-good) and can be disabled (see configuration above)
-- [remark-lint-match-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-match-punctuation) to ensure programming punctuation comes in pairs.
-- [remark-lint-no-repeat-punctuation](https://github.com/laysent/remark-lint-plugins/tree/HEAD/packages/remark-lint-no-repeat-punctuation) to ensure punktuation not doubled
-- [remark-lint-emoji-limit](https://github.com/zerok/remark-lint-emoji-limit) - to make sure documents are not too emoji-y
-- [remark-lint-no-empty-sections](https://github.com/vhf/remark-lint-no-empty-sections) - to ensure no empty sections are in the documents
-- [remark-lint-heading-whitespace](https://github.com/vhf/remark-lint-heading-whitespace) - makes sure that no exotic whitespaces break parsing of headings
+- [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) to support frontmatter in markdown files
 
-# All configurations
+The following rules have different settings than the presets:
+
+- [remark-lint-linebreak-style](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-linebreak-style) - prefer unix linebreak `\n`.
+- [remark-lint-maximum-line-length](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-maximum-line-length) - removes any limit to line length.
+- [remark-lint-no-file-name-irregular-characters](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-file-name-irregular-characters) - lint filenames for irregular characters.
+
+## All configurations
 
 - [Babel](/packages/babel-config)
 - [Bootstrap](/packages/bootstrap-config)
