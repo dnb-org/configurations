@@ -12,15 +12,21 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/stylelint.md",
   "dependencies": {
+    "postcss": "^8.3.3",
+    "postcss-scss": "^4.0.2",
     "stylelint": "15.2.0",
-    "stylelint-config-sass-guidelines": "9.0.1",
     "stylelint-config-standard": "30.0.1",
     "stylelint-no-unsupported-browser-features": "6.1.0",
-    "stylelint-order": "6.0.2"
+    "stylelint-order": "6.0.2",
+    "stylelint-scss": "^4.0.0"
   },
   "scripts": {
     "fixpack": "fixpack"
   },
   "main": "index.js",
+  "engines": {
+    "node": ">=18.12.1",
+    "npm": ">=8.19.2"
+  },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }
