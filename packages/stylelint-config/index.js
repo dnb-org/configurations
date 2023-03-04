@@ -43,9 +43,7 @@ const config = {
     "at-rule-no-unknown": true,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
-    "block-opening-brace-space-before": "always",
     "color-function-notation": "modern",
-    "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
@@ -88,8 +86,6 @@ const config = {
         "message": "(name) => `Expected custom property name \"${name}\" to be kebab-case`"
       }
     ],
-    "declaration-bang-space-after": "never",
-    "declaration-bang-space-before": "always",
     "declaration-block-no-duplicate-custom-properties": true,
     "declaration-block-no-duplicate-properties": [
       true,
@@ -101,12 +97,9 @@ const config = {
     ],
     "declaration-block-no-redundant-longhand-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
-    "declaration-block-semicolon-newline-after": "always",
-    "declaration-block-semicolon-space-before": "never",
+
     "declaration-block-single-line-max-declarations": 1,
-    "declaration-block-trailing-semicolon": "always",
-    "declaration-colon-space-after": "always-single-line",
-    "declaration-colon-space-before": "never",
+
     "declaration-empty-line-before": [
       "always",
       {
@@ -142,15 +135,12 @@ const config = {
     "font-family-no-missing-generic-family-keyword": true,
     "font-weight-notation": "numeric",
     "function-calc-no-unspaced-operator": true,
-    "function-comma-space-after": "always-single-line",
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-name-case": "lower",
     "function-no-unknown": true,
-    "function-parentheses-space-inside": "never",
     "function-url-quotes": "always",
     "hue-degree-notation": "angle",
     "import-notation": "url",
-    "indentation": 2,
     "keyframe-block-no-duplicate-selectors": true,
     "keyframe-declaration-no-important": true,
     "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
@@ -168,14 +158,6 @@ const config = {
         ]
       }
     ],
-    "max-empty-lines": [
-      1,
-      {
-        "ignore": [
-          "comments"
-        ]
-      }
-    ],
     "max-nesting-depth": [
       3,
       {
@@ -189,7 +171,6 @@ const config = {
     ],
     "media-feature-name-no-unknown": true,
     "media-feature-name-no-vendor-prefix": true,
-    "media-feature-parentheses-space-inside": "never",
     "named-grid-areas-no-invalid": true,
     "no-descending-specificity": true,
     "no-duplicate-at-import-rules": true,
@@ -198,7 +179,6 @@ const config = {
     "no-invalid-double-slash-comments": true,
     "no-invalid-position-at-import-rule": true,
     "no-irregular-whitespace": true,
-    "no-missing-end-of-source-newline": true,
     "number-leading-zero": "always",
     "number-max-precision": 4,
     "number-no-trailing-zeros": true,
@@ -247,7 +227,6 @@ const config = {
         "message": "(selector) => `Expected id selector \"${selector}\" to be kebab-case`"
       }
     ],
-    "selector-list-comma-newline-after": "always",
     "selector-max-compound-selectors": 3,
     "selector-max-id": 1,
     "selector-no-qualifying-type": [
@@ -275,7 +254,6 @@ const config = {
     ],
     "shorthand-property-no-redundant-values": true,
     "string-no-newline": true,
-    "string-quotes": "single",
     "unit-no-unknown": true,
     "value-keyword-case": "lower",
     "value-no-vendor-prefix": [
