@@ -58,6 +58,5 @@ If you wish to check a particular commit, you can do so by running `npm run comm
 - [Remark Lint](/packages/remark-config)
 - [Standard Version](/packages/standard-version-config)
 - [Stylelint](/packages/stylelint-config)
-- [Textlint](/packages/textlint-config)
 - [Tools](/packages/tools)
 - [Webpack](/packages/webpack-config)

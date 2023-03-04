@@ -1,29 +1,13 @@
-# Textlint
+# Textlint Configuration (deprecated)
 
-Put the following into `.textlintrc.js` in the root of your project.
+I deprecated @davidsneighbour/textlint-config due to several issues:
 
-```js
-const defaultTextlintConfig = require("@davidsneighbour/textlint-config");
-module.exports = defaultTextlintConfig;
-```
+- [It's not possible to extend the configuration properly](https://textlint.github.io/docs/configuring.html#sharable-configuration), even with a JS based configuration the config file needs to be in the root of a project.
+- Many of the used plugins lead to security review issues (`npm audit`) that can't be easily fixed without un-using the plugins in question and struggle with keeping up to API changes in textlint itself.
+- Other plugins are not maintained anymore.
+- Newer tools like [Vale](https://vale.sh/) or [Write Good](https://github.com/btford/write-good) are more flexible and easier to use and maintained properly.
 
-**OR** add a `--config` option to your npm-script:
-
-in package.json:
-
-```npm
-"lint:textlint": "textlint --config @davidsneighbour/textlint-config .",
-"lint:textlint:fix": "textlint --config @davidsneighbour/textlint-config --fix .",
-"lint:textlint2": "textlint --config @davidsneighbour/textlint-config",
-"lint:textlint2:fix": "textlint --config @davidsneighbour/textlint-config --fix",
-```
-
-To ignore files add a `.textlintignore`:
-
-```ignore
-LICENSE.md
-CHANGELOG.md
-```
+I will keep the package on npm for now, but I will not update it anymore. It will be marked as deprecated as soon as a replacement (most probably [Vale](https://vale.sh/)) is available.
 
 # All configurations
 
@@ -40,6 +24,5 @@ CHANGELOG.md
 - [Remark Lint](/packages/remark-config)
 - [Standard Version](/packages/standard-version-config)
 - [Stylelint](/packages/stylelint-config)
-- [Textlint](/packages/textlint-config)
 - [Tools](/packages/tools)
 - [Webpack](/packages/webpack-config)

@@ -42,6 +42,5 @@ This configuration setup uses the approach of [Gleb Bahmutov's blog post](https:
 - [Remark Lint](/packages/remark-config)
 - [Standard Version](/packages/standard-version-config)
 - [Stylelint](/packages/stylelint-config)
-- [Textlint](/packages/textlint-config)
 - [Tools](/packages/tools)
 - [Webpack](/packages/webpack-config)

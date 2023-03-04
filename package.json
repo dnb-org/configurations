@@ -22,7 +22,6 @@
     "@davidsneighbour/remark-config": "file:./packages/remark-config",
     "@davidsneighbour/standard-version-config": "file:./packages/standard-version-config",
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
-    "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
     "lerna": "6.5.1"
@@ -34,7 +33,8 @@
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
     "release": "lerna publish --no-private --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
     "reset": "lerna clean && lerna bootstrap",
-    "update": "npm-check-updates --deep --upgrade --target=minor"
+    "update": "npm-check-updates --deep --upgrade --target=minor",
+    "lint:textlint": "textlint --config @davidsneighbour/textlint-config README.md"
   },
   "eslintConfig": {
     "extends": [

@@ -35,6 +35,5 @@ A global `postcss-cli` installation won't work if the plugins in this package ar
 - [Remark Lint](/packages/remark-config)
 - [Standard Version](/packages/standard-version-config)
 - [Stylelint](/packages/stylelint-config)
-- [Textlint](/packages/textlint-config)
 - [Tools](/packages/tools)
 - [Webpack](/packages/webpack-config)

@@ -54,6 +54,5 @@ module.exports = configuration;
 - [Remark Lint](/packages/remark-config#readme)
 - [Standard Version](/packages/standard-version-config#readme)
 - [Stylelint](/packages/stylelint-config#readme)
-- [Textlint](/packages/textlint-config#readme)
 - [Tools](/packages/tools#readme)
 - [Webpack](/packages/webpack-config#readme)
