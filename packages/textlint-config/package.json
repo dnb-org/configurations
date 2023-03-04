@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/textlint-config",
   "description": "Textlint configuration used in davidsneighbour's projects.",
-  "version": "5.0.15",
+  "version": "5.0.16",
   "license": "MIT",
   "repository": "https://github.com/davidsneighbour/configurations",
   "author": {

@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/bootstrap-config",
   "description": "Bootstrap configuration for use in @davidsneighbour projects.",
-  "version": "5.0.13",
+  "version": "5.0.16",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
