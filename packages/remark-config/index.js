@@ -1,17 +1,32 @@
 "use strict";
 
-module.exports.plugins = [
+const config = {
 
-  require("remark-preset-lint-styleguide"),
-  require("remark-preset-lint-consistent"),
-  require("remark-frontmatter"),
-  [require("remark-lint-linebreak-style"), "unix"],
-  [require("remark-lint-first-heading-level"), 2],
-  [require("remark-lint-maximum-line-length"), 1000],
-  [require("remark-lint-write-good"), "warn", {
-    "passive": false,
-    "whitelist": ["read-only"]
-  }],
-  [require("remark-lint-no-file-name-irregular-characters"), "\\.a-zA-Z0-9-_"],
+  "plugins": [
 
-];
+    // presets
+    "remark-preset-lint-styleguide",
+    "remark-preset-lint-consistent",
+
+    // added plugins
+    "remark-frontmatter",
+
+    // changed rules
+    [
+      "remark-lint-linebreak-style",
+      "unix"
+    ],
+    [
+      "remark-lint-maximum-line-length",
+      false
+    ],
+    [
+      "remark-lint-no-file-name-irregular-characters",
+      "\\.a-zA-Z0-9-_"
+    ],
+
+  ]
+
+};
+
+export default config;
