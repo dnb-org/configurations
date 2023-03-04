@@ -15,8 +15,8 @@
     "fixpack": "fixpack"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6"
+    "node": ">=18.12.1",
+    "npm": ">=8.19.2"
   },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }

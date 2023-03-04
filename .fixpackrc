@@ -31,7 +31,8 @@
   // will error if these not present
   "required": [
     "name",
-    "version"
+    "version",
+    "engines"
   ],
   // will warn if these not present
   "warn": [

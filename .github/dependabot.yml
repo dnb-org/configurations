@@ -56,7 +56,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/bootstrap-config/"
     schedule:
@@ -74,7 +74,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/browserslist-config/"
     schedule:
@@ -92,7 +92,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/commitlint-config/"
     schedule:
@@ -110,7 +110,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/cssnano-config/"
     schedule:
@@ -128,7 +128,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/cypress-config/"
     schedule:
@@ -146,7 +146,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/eslint-config/"
     schedule:
@@ -164,7 +164,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/markdownlint-config/"
     schedule:
@@ -182,7 +182,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/postcss-config/"
     schedule:
@@ -200,7 +200,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/prettier-config/"
     schedule:
@@ -218,7 +218,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/remark-config/"
     schedule:
@@ -236,7 +236,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/standard-version-config/"
     schedule:
@@ -254,7 +254,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/stylelint-config/"
     schedule:
@@ -272,25 +272,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
-  - package-ecosystem: "npm"
-    directory: "/packages/textlint-config/"
-    schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
-      timezone: Asia/Bangkok
-    assignees:
-      - davidsneighbour
-    reviewers:
-      - davidsneighbour
-    target-branch: main
-    open-pull-requests-limit: 999
-    pull-request-branch-name:
-      separator: /
-    labels:
-      - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/tools/"
     schedule:
@@ -308,7 +290,7 @@ updates:
       separator: /
     labels:
       - type:dependencies
-    
+
   - package-ecosystem: "npm"
     directory: "/packages/webpack-config/"
     schedule:
