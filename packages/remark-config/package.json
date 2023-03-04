@@ -17,26 +17,19 @@
     "remarklint-config"
   ],
   "dependencies": {
-    "remark": "14.0.2",
     "remark-cli": "11.0.0",
     "remark-frontmatter": "4.0.1",
-    "remark-lint": "9.1.1",
-    "remark-lint-heading-whitespace": "1.0.0",
-    "remark-lint-linebreak-style": "3.1.1",
-    "remark-lint-match-punctuation": "0.2.1",
-    "remark-lint-no-empty-sections": "4.0.0",
-    "remark-lint-no-repeat-punctuation": "0.1.4",
-    "remark-lint-write-good": "1.2.0",
     "remark-preset-lint-consistent": "5.1.1",
     "remark-preset-lint-styleguide": "1.0.0"
   },
   "scripts": {
-    "fixpack": "fixpack"
+    "fixpack": "fixpack",
+    "lint": "remark README.md"
   },
   "main": "index.js",
   "type": "module",
   "engines": {
-    "node": ">=14.0.0",
+    "node": ">=16.0.0",
     "npm": ">=6"
   },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
