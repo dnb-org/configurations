@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.19](https://github.com/davidsneighbour/configurations/compare/v5.0.18...v5.0.19) (2023-03-12)
+
+
+### Bug Fixes
+
+* removed replace-between package for being not updated for 5 years ([3fc0eee](https://github.com/davidsneighbour/configurations/commit/3fc0eeea6d1cd0a5a93cf217bd9a2822138b892d))
+
+
+
+
+
 ## [5.0.18](https://github.com/davidsneighbour/configurations/compare/v5.0.17...v5.0.18) (2023-03-08)
 
 **Note:** Version bump only for package root
