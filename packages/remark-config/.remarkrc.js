@@ -1,9 +1,12 @@
-import defaultRemarkConfig from "@davidsneighbour/remark-config";
+/** @type {Preset} */
+import defaultRemarkConfig from '@davidsneighbour/remark-config';
 
+/** @type {Preset} */
 const localRemarkConfig = [
-    // add your changes here
+    // add your local changes here
 ];
 
+/** @type {Preset} */
 const mergedConfiguration = {
     ...defaultRemarkConfig,
     ...localRemarkConfig,
