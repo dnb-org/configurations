@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/davidsneighbour/configurations/compare/v5.0.20...v5.1.0) (2023-03-12)
+
+
+### Features
+
+* add ts-types for remark-config ([050351b](https://github.com/davidsneighbour/configurations/commit/050351b3abb468ef9dd4e7a10f99bc605bc625ce))
+
+
+
+
+
 ## [5.0.20](https://github.com/davidsneighbour/configurations/compare/v5.0.19...v5.0.20) (2023-03-12)
 
 
