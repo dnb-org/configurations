@@ -12,9 +12,9 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.54.0",
-    "@typescript-eslint/parser": "5.54.0",
-    "eslint": "8.35.0",
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
+    "eslint": "8.36.0",
     "eslint-config-airbnb": ">=19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-anti-trojan-source": "1.1.1",
