@@ -13,6 +13,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/remark-lint.md",
   "keywords": [
     "remark",
+    "remark-cli",
     "remarklint",
     "remarklint-config"
   ],
@@ -85,7 +86,8 @@
   },
   "scripts": {
     "fixpack": "fixpack",
-    "lint": "remark README.md"
+    "lint": "remark README.md",
+    "prepare": "tsc"
   },
   "main": "index.js",
   "engines": {
