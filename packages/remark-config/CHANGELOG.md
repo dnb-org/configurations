@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.1](https://github.com/davidsneighbour/configurations/compare/v5.1.0...v5.1.1) (2023-03-18)
+
+
+### Bug Fixes
+
+* trailing comma ([08bbb9e](https://github.com/davidsneighbour/configurations/commit/08bbb9e84ebf9fb7dcdd6c6baa654dcdd7e28ab7))
+
+
+
+
+
 # [5.1.0](https://github.com/davidsneighbour/configurations/compare/v5.0.20...v5.1.0) (2023-03-12)
 
 

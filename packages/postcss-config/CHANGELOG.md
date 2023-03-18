@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.1](https://github.com/davidsneighbour/configurations/compare/v5.1.0...v5.1.1) (2023-03-18)
+
+**Note:** Version bump only for package @davidsneighbour/postcss-config
+
+
+
+
+
 ## [5.0.19](https://github.com/davidsneighbour/configurations/compare/v5.0.18...v5.0.19) (2023-03-12)
 
 **Note:** Version bump only for package @davidsneighbour/postcss-config
