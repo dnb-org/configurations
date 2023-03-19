@@ -40,7 +40,7 @@ const config = {
         ]
       }
     ],
-    "at-rule-no-unknown": true,
+    "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
     "color-function-notation": "modern",
