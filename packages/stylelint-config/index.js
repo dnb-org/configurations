@@ -179,9 +179,7 @@ const config = {
     "no-invalid-double-slash-comments": true,
     "no-invalid-position-at-import-rule": true,
     "no-irregular-whitespace": true,
-    "number-leading-zero": "always",
     "number-max-precision": 4,
-    "number-no-trailing-zeros": true,
     "plugin/no-unsupported-browser-features": [
       true,
       {
