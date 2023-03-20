@@ -45,7 +45,7 @@ const config = {
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
-    "color-function-notation": "modern",
+    "color-function-notation": null,
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
