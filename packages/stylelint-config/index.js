@@ -179,7 +179,7 @@ const config = {
     "no-duplicate-selectors": true,
     "no-empty-source": true,
     "no-invalid-double-slash-comments": true,
-    "no-invalid-position-at-import-rule": true,
+    "no-invalid-position-at-import-rule": null,
     "no-irregular-whitespace": true,
     "number-max-precision": 4,
     "plugin/no-unsupported-browser-features": [
