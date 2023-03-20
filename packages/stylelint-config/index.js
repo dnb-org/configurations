@@ -264,7 +264,7 @@ const config = {
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-pattern": "^[_]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
-    "scss/function-no-unknown": true,
+    "scss/function-no-unknown": [true, { ignoreFunctions: ["/(tint|shade)-color/"] }],
     "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/selector-no-redundant-nesting-selector": true,
   },
