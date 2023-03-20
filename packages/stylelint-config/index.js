@@ -142,7 +142,7 @@ const config = {
     "function-no-unknown": null,
     "function-url-quotes": "always",
     "hue-degree-notation": "angle",
-    "import-notation": "url",
+    "import-notation": "string",
     "keyframe-block-no-duplicate-selectors": true,
     "keyframe-declaration-no-important": true,
     "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
