@@ -11,6 +11,8 @@ const config = {
     "stylelint-no-unsupported-browser-features",
     "stylelint-order"
   ],
+
+
   "rules": {
     "alpha-value-notation": [
       "percentage",
@@ -137,7 +139,7 @@ const config = {
     "function-calc-no-unspaced-operator": true,
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-name-case": "lower",
-    "function-no-unknown": true,
+    "function-no-unknown": null,
     "function-url-quotes": "always",
     "hue-degree-notation": "angle",
     "import-notation": "url",
@@ -262,6 +264,7 @@ const config = {
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-pattern": "^[_]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
+    "scss/function-no-unknown": true,
     "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/selector-no-redundant-nesting-selector": true,
   },
