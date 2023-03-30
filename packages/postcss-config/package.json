@@ -19,8 +19,8 @@
     "postcss-cli": "10.1.0",
     "postcss-import": "15.1.0",
     "postcss-loader": "7.1.0",
-    "postcss-nesting": "11.2.1",
-    "postcss-preset-env": "8.0.1"
+    "postcss-nesting": "11.2.2",
+    "postcss-preset-env": "8.2.0"
   },
   "scripts": {
     "fixpack": "fixpack"

@@ -12,9 +12,9 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/bootstrap-config",
   "dependencies": {
-    "@popperjs/core": "2.11.6",
+    "@popperjs/core": "2.11.7",
     "@types/bootstrap": "5.2.6",
-    "bootstrap": "^5.3.0-alpha1"
+    "bootstrap": "^5.3.0-alpha2"
   },
   "scripts": {
     "fixpack": "fixpack"
