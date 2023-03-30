@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/stylelint-config",
   "description": "Stylelint configuration for use in @davidsneighbour projects.",
-  "version": "5.1.11",
+  "version": "5.1.13",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
