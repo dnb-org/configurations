@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/babel-config",
   "description": "Babel configuration for use in @davidsneighbour projects.",
-  "version": "5.1.1",
+  "version": "5.1.14",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
