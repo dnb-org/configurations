@@ -14,7 +14,7 @@
   "dependencies": {
     "prettier": "^2.8.7",
     "prettier-plugin-go-template": "0.0.13",
-    "prettier-plugin-tailwindcss": "0.2.6",
+    "prettier-plugin-tailwindcss": "0.2.7",
     "prettier-plugin-toml": "0.3.1"
   },
   "scripts": {
