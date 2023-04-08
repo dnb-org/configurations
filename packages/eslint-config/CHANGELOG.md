@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.17](https://github.com/davidsneighbour/configurations/compare/v5.1.16...v5.1.17) (2023-04-08)
+
+**Note:** Version bump only for package @davidsneighbour/eslint-config
+
+
+
+
+
 ## [5.1.16](https://github.com/davidsneighbour/configurations/compare/v5.1.15...v5.1.16) (2023-04-07)
 
 **Note:** Version bump only for package @davidsneighbour/eslint-config
