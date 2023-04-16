@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.18](https://github.com/davidsneighbour/configurations/compare/v5.1.17...v5.1.18) (2023-04-16)
+
+**Note:** Version bump only for package @davidsneighbour/stylelint-config
+
+
+
+
+
 ## [5.1.14](https://github.com/davidsneighbour/configurations/compare/v5.1.13...v5.1.14) (2023-04-01)
 
 **Note:** Version bump only for package @davidsneighbour/stylelint-config
