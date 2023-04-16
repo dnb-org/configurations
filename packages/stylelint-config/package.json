@@ -12,9 +12,9 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/stylelint.md",
   "dependencies": {
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.22",
     "postcss-scss": "^4.0.6",
-    "stylelint": "15.4.0",
+    "stylelint": "15.5.0",
     "stylelint-no-unsupported-browser-features": "6.1.0",
     "stylelint-order": "6.0.3",
     "stylelint-scss": "^4.6.0"
