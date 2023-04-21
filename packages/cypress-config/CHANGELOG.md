@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.20](https://github.com/davidsneighbour/configurations/compare/v5.1.19...v5.1.20) (2023-04-21)
+
+**Note:** Version bump only for package @davidsneighbour/cypress-config
+
+
+
+
+
 ## [5.1.13](https://github.com/davidsneighbour/configurations/compare/v5.1.12...v5.1.13) (2023-03-30)
 
 **Note:** Version bump only for package @davidsneighbour/cypress-config
