@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.21](https://github.com/davidsneighbour/configurations/compare/v5.1.20...v5.1.21) (2023-04-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-fetch to v3 ([#609](https://github.com/davidsneighbour/configurations/issues/609)) ([1f1d364](https://github.com/davidsneighbour/configurations/commit/1f1d3642dadcd69a6d1d4c067764ed9aa0633346))
+
+
+
+
+
 ## [5.1.20](https://github.com/davidsneighbour/configurations/compare/v5.1.19...v5.1.20) (2023-04-21)
 
 **Note:** Version bump only for package root
