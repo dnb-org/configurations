@@ -12,8 +12,8 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/markdownlint.md",
   "dependencies": {
-    "@babel/core": "7.21.4",
-    "@babel/preset-env": "7.21.4",
+    "@babel/core": "7.21.5",
+    "@babel/preset-env": "7.21.5",
     "babel-loader": "9.1.2"
   },
   "scripts": {

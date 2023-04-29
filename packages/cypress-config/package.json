@@ -15,7 +15,7 @@
     "cypress": "12.11.0",
     "cypress-axe": "1.4.0",
     "cypress-html-validate": "5.1.2",
-    "eslint-plugin-cypress": "2.13.2"
+    "eslint-plugin-cypress": "2.13.3"
   },
   "scripts": {
     "fixpack": "fixpack"
