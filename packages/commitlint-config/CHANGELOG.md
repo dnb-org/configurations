@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.26](davidsneighbour/configurations/compare/v5.1.25...v5.1.26) (2023-05-07)
+
+**Note:** Version bump only for package @davidsneighbour/commitlint-config
+
+
+
+
+
 ## [5.1.18](davidsneighbour/configurations/compare/v5.1.17...v5.1.18) (2023-04-16)
 
 **Note:** Version bump only for package @davidsneighbour/commitlint-config

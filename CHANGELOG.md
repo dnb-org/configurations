@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.26](https://github.com/davidsneighbour/configurations/compare/v5.1.25...v5.1.26) (2023-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-scss to v5 ([#639](https://github.com/davidsneighbour/configurations/issues/639)) ([e0f5d32](https://github.com/davidsneighbour/configurations/commit/e0f5d32d3b3fef9a025de04fa3249299e0f748e2))
+
+
+
+
+
 ## [5.1.25](https://github.com/davidsneighbour/configurations/compare/v5.1.24...v5.1.25) (2023-05-01)
 
 **Note:** Version bump only for package root
