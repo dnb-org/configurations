@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.27](https://github.com/davidsneighbour/configurations/compare/v5.1.26...v5.1.27) (2023-05-08)
+
+
+### Bug Fixes
+
+* **markdownlint:** proper package list ([5071c5d](https://github.com/davidsneighbour/configurations/commit/5071c5d0ca5f3dd0f37e2557daffd1df8e97b047))
+
+
+
+
+
 ## [5.1.26](https://github.com/davidsneighbour/configurations/compare/v5.1.25...v5.1.26) (2023-05-07)
 
 
