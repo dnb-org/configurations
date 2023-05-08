@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.29](https://github.com/davidsneighbour/configurations/compare/v5.1.28...v5.1.29) (2023-05-08)
+
+
+### Bug Fixes
+
+* add json configuration ([610360b](https://github.com/davidsneighbour/configurations/commit/610360bc70d8e1c53d023ed8adc24bf0ca9550e0))
+
+
+
+
+
 ## [5.1.28](https://github.com/davidsneighbour/configurations/compare/v5.1.27...v5.1.28) (2023-05-08)
 
 
