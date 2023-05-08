@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.28](https://github.com/davidsneighbour/configurations/compare/v5.1.27...v5.1.28) (2023-05-08)
+
+
+### Bug Fixes
+
+* **markdownlint:** add markdownlint-cli2 to dependencies ([b238c4e](https://github.com/davidsneighbour/configurations/commit/b238c4ea8f97e9a1ca154d6c8bdd74e06be4377d))
+
+
+
+
+
 ## [5.1.27](https://github.com/davidsneighbour/configurations/compare/v5.1.26...v5.1.27) (2023-05-08)
 
 
