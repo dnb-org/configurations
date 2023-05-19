@@ -12,7 +12,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/webpack.md",
   "dependencies": {
-    "css-loader": "6.7.3",
+    "css-loader": "6.7.4",
     "html-webpack-plugin": "5.5.1",
     "sass-loader": "13.2.2",
     "style-loader": "3.3.2",
