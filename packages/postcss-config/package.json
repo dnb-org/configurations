@@ -20,7 +20,7 @@
     "postcss-import": "15.1.0",
     "postcss-loader": "7.3.0",
     "postcss-nesting": "11.2.2",
-    "postcss-preset-env": "8.3.2"
+    "postcss-preset-env": "8.4.1"
   },
   "scripts": {
     "fixpack": "fixpack"
