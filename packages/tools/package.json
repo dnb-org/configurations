@@ -16,7 +16,7 @@
     "debug": "4.3.4",
     "deepmerge": "4.3.1",
     "fixpack": "4.0.0",
-    "lockfile-lint": "4.10.1",
+    "lockfile-lint": "4.10.5",
     "ncp": "2.0.0",
     "node-fetch": "3.3.1",
     "npm-check-updates": "16.10.12",
