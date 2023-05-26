@@ -12,7 +12,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/htmlvalidate.md",
   "dependencies": {
-    "axe-core": "4.7.1",
+    "axe-core": "4.7.2",
     "html-validate": "7.18.0"
   },
   "scripts": {
