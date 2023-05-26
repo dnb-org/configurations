@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/postcss-config",
   "description": "PostCSS configuration for use in @davidsneighbour projects.",
-  "version": "5.1.34",
+  "version": "5.1.36",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
