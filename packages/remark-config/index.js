@@ -93,7 +93,7 @@ const config = {
     [remarkLintFileExtension, ['error', 'md']],
     [remarkLintFinalDefinition, ['error']],
     [remarkLintFinalNewline, ['error']],
-    [remarkLintFirstHeadingLevel, ['warn', 1]],
+    [remarkLintFirstHeadingLevel, ['warn', 2]],
     [remarkLintHardBreakSpaces, ['error']],
     [remarkLintHeadingIncrement, ['error']],
     [remarkLintHeadingStyle, ['error', 'atx']],
