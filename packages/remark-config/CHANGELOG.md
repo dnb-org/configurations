@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.38](https://github.com/davidsneighbour/configurations/compare/v5.1.37...v5.1.38) (2023-05-30)
+
+
+### Bug Fixes
+
+* first heading level 2 ([e415b25](https://github.com/davidsneighbour/configurations/commit/e415b25ae457552fbf01586f4460fd2d8f651584))
+
+
+
+
+
 ## [5.1.31](https://github.com/davidsneighbour/configurations/compare/v5.1.30...v5.1.31) (2023-05-17)
 
 **Note:** Version bump only for package @davidsneighbour/remark-config

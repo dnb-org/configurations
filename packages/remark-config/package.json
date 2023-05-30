@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/remark-config",
   "description": "Remarklint configuration used in davidsneighbour projects.",
-  "version": "5.1.31",
+  "version": "5.1.38",
   "license": "MIT",
   "repository": "https://github.com/davidsneighbour/configurations",
   "author": {
