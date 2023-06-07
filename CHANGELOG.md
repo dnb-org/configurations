@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.41](https://github.com/davidsneighbour/configurations/compare/v5.1.40...v5.1.41) (2023-06-07)
+
+
+### Bug Fixes
+
+* fix config confusion in the markdownlint-config package ([304c654](https://github.com/davidsneighbour/configurations/commit/304c654673ec51bd9bb6342ad5c48b5bc8503bf8))
+
+
+
+
+
 ## [5.1.40](https://github.com/davidsneighbour/configurations/compare/v5.1.39...v5.1.40) (2023-06-07)
 
 
