@@ -1,21 +1,20 @@
-# Markdownlint
+Adds a configuration file for Markdownlint. Install markdownlint in VSCode as plugin.
 
-Adds a configuration file for Markdownlint.
-Currently does not add markdownlint itself as package. Install it in VSCode as plugin.
+Local configuration in `.markdownlint.json` or `markdownlint.jsonc`:
 
-Local configuration in `.markdownlint.json`:
-
-```json
+```jsonc
 {
-    "extends": "node_modules/@davidsneighbour/config/.markdownlint.json"
+  "extends": "@davidsneighbour/markdownlint-config"
 }
 ```
 
+The filename, and -format can be any of the ones listed on the [markdownlint-cli2 configuration page](https://github.com/DavidAnson/markdownlint-cli2#configuration) but my advise is to keep with JSON or JSONC.
+
 Add local overrides:
 
-```json
+```jsonc
 {
-  "extends": "node_modules/@davidsneighbour/config/.markdownlint.json",
+  "extends": "@davidsneighbour/markdownlint-config",
   "MD040": false
 }
 ```

@@ -1,5 +1,0 @@
-module.exports = {
-  "MD013": false,
-  "MD025": false,
-  "MD041": false
-};
