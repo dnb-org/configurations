@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.42](https://github.com/davidsneighbour/configurations/compare/v5.1.41...v5.1.42) (2023-06-08)
+
+**Note:** Version bump only for package root
+
+
+
+
+
 ## [5.1.41](https://github.com/davidsneighbour/configurations/compare/v5.1.40...v5.1.41) (2023-06-07)
 
 
