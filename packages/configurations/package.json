@@ -1,0 +1,36 @@
+{
+  "name": "@davidsneighbour/configurations",
+  "description": "Wrapper to load all configurations from @davidsneighbour/configurations.",
+  "version": "5.1.0",
+  "license": "MIT",
+  "repository": "davidsneighbour/configurations",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/configurations/blob/main/packages/configurations/README.md",
+  "dependencies": {
+    "@davidsneighbour/babel-config": "5.1.38",
+    "@davidsneighbour/bootstrap-config": "5.1.39",
+    "@davidsneighbour/browserslist-config": "5.1.38",
+    "@davidsneighbour/commitlint-config": "5.1.38",
+    "@davidsneighbour/cssnano-config": "5.1.38",
+    "@davidsneighbour/cypress-config": "5.1.41",
+    "@davidsneighbour/eslint-config": "5.1.40",
+    "@davidsneighbour/htmlvalidate-config": "5.1.40",
+    "@davidsneighbour/markdownlint-config": "5.1.41",
+    "@davidsneighbour/postcss-config": "5.1.39",
+    "@davidsneighbour/prettier-config": "5.1.31",
+    "@davidsneighbour/remark-config": "5.1.38",
+    "@davidsneighbour/standard-version-config": "5.0.16",
+    "@davidsneighbour/stylelint-config": "5.1.42",
+    "@davidsneighbour/textlint-config": "5.0.16",
+    "@davidsneighbour/tools": "5.1.35",
+    "@davidsneighbour/webpack-config": "5.1.42"
+  },
+  "scripts": {
+    "fixpack": "fixpack"
+  }
+}
