@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.1](https://github.com/davidsneighbour/configurations/compare/v5.2.0...v5.2.1) (2023-06-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency html-validate to v8 ([#700](https://github.com/davidsneighbour/configurations/issues/700)) ([6ff3f23](https://github.com/davidsneighbour/configurations/commit/6ff3f23010fc047dbbad56b9a5c0b9615dfc0919))
+* **deps:** update dependency html-validate to v8 ([#702](https://github.com/davidsneighbour/configurations/issues/702)) ([8cdbd97](https://github.com/davidsneighbour/configurations/commit/8cdbd970457bedf7e4542e720056fdbe86ed16f3))
+* **deps:** update dependency html-validate to v8 ([#703](https://github.com/davidsneighbour/configurations/issues/703)) ([b569d85](https://github.com/davidsneighbour/configurations/commit/b569d858f3c582d53c2b4ba0d028784f814ef3b5))
+* **deps:** update dependency markdownlint to v0.29.0 ([#695](https://github.com/davidsneighbour/configurations/issues/695)) ([705ea47](https://github.com/davidsneighbour/configurations/commit/705ea4742a078cd8acc3b8e21e31781302a5c8ca))
+
+
+
+
+
 # [5.2.0](https://github.com/davidsneighbour/configurations/compare/v5.1.42...v5.2.0) (2023-06-08)
 
 
