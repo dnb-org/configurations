@@ -24,7 +24,7 @@
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
-    "lerna": "6.6.2"
+    "lerna": "7.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -32,6 +32,7 @@
   "scripts": {
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
     "release": "lerna publish --no-private --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
+    "repair": "lerna repair",
     "reset": "lerna clean && lerna bootstrap",
     "update": "npm run update:packages && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release",
     "update:packages": "npm-check-updates --deep --upgrade --target=minor"
@@ -41,12 +42,14 @@
       "@davidsneighbour/eslint-config"
     ]
   },
-  "prettier": "@davidsneighbour/config/prettier",
+  "prettier": "@davidsneighbour/prettier-config",
   "workspaces": [
     "packages/*"
   ],
   "remarkConfig": {
-    "plugins": ["@davidsneighbour/remark-config"]
+    "plugins": [
+      "@davidsneighbour/remark-config"
+    ]
   },
   "engines": {
     "node": ">=18.12.1",
