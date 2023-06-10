@@ -13,7 +13,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/markdownlint.md",
   "dependencies": {
     "markdownlint": "^0.29.0",
-    "markdownlint-cli2": "^0.7.1"
+    "markdownlint-cli2": "^0.8.0"
   },
   "scripts": {
     "fixpack": "fixpack"
