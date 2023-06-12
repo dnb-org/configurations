@@ -12,6 +12,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/stylelint.md",
   "dependencies": {
+    "@davidsneighbour/browserslist-config": "^5.1.38",
     "postcss": "^8.4.24",
     "postcss-scss": "^4.0.6",
     "stylelint": "15.7.0",

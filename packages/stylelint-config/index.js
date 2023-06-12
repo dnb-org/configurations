@@ -185,6 +185,7 @@ const config = {
     "plugin/no-unsupported-browser-features": [
       true,
       {
+        "browsers": "extends @davidsneighbour/browserslist-config",
         "severity": "warning"
       }
     ],
