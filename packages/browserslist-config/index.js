@@ -18,5 +18,6 @@ module.exports = [
   "not ucandroid > 0",
   "not and_uc > 0",
   "not and_qq > 0",
+  "not kaios 2.5",
   "node >= 16",
 ];
