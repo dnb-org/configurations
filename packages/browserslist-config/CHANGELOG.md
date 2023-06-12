@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.2](davidsneighbour/configurations/compare/v5.2.1...v5.2.2) (2023-06-12)
+
+**Note:** Version bump only for package @davidsneighbour/browserslist-config
+
+
+
+
+
 ## [5.1.38](davidsneighbour/configurations/compare/v5.1.37...v5.1.38) (2023-05-30)
 
 **Note:** Version bump only for package @davidsneighbour/browserslist-config
