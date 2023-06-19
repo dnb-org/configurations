@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/htmlvalidate-config",
   "description": "HTML Validate configuration for use in @davidsneighbour projects.",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
