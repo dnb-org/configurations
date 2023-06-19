@@ -24,7 +24,7 @@
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
-    "lerna": "7.0.1"
+    "lerna": "7.0.2"
   },
   "publishConfig": {
     "access": "public"
