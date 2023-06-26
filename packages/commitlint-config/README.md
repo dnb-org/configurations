@@ -1,11 +1,9 @@
-# Commitlint
-
 ## Rules
 
 This configuration extends on [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) with the following changes:
 
-- Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
-- Maximum line length is 100 characters
+*   Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
+*   Maximum line length is 100 characters
 
 ## Setup
 
@@ -45,18 +43,18 @@ If you wish to check a particular commit, you can do so by running `npm run comm
 
 # All configurations
 
-- [Babel](/packages/babel-config)
-- [Bootstrap](/packages/bootstrap-config)
-- [Browserslist](/packages/browserslist-config)
-- [Commitlint](/packages/commitlint-config)
-- [CssNano](/packages/cssnano-config)
-- [Cypress](/packages/cypress-config)
-- [ESLint](/packages/eslint-config)
-- [Markdownlint](/packages/markdownlint-config)
-- [PostCSS](/packages/postcss-config)
-- [Prettier](/packages/prettier-config)
-- [Remark Lint](/packages/remark-config)
-- [Standard Version](/packages/standard-version-config)
-- [Stylelint](/packages/stylelint-config)
-- [Tools](/packages/tools)
-- [Webpack](/packages/webpack-config)
+*   [Babel](/packages/babel-config)
+*   [Bootstrap](/packages/bootstrap-config)
+*   [Browserslist](/packages/browserslist-config)
+*   [Commitlint](/packages/commitlint-config)
+*   [CssNano](/packages/cssnano-config)
+*   [Cypress](/packages/cypress-config)
+*   [ESLint](/packages/eslint-config)
+*   [Markdownlint](/packages/markdownlint-config)
+*   [PostCSS](/packages/postcss-config)
+*   [Prettier](/packages/prettier-config)
+*   [Remark Lint](/packages/remark-config)
+*   [Standard Version](/packages/standard-version-config)
+*   [Stylelint](/packages/stylelint-config)
+*   [Tools](/packages/tools)
+*   [Webpack](/packages/webpack-config)
