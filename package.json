@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "@davidsneighbour/babel-config": "file:./packages/babel-config",
+    "@davidsneighbour/bootstrap-config": "file:./packages/bootstrap-config",
     "@davidsneighbour/browserslist-config": "file:./packages/browserslist-config",
     "@davidsneighbour/commitlint-config": "file:./packages/commitlint-config",
+    "@davidsneighbour/configurations": "file:./packages/configurations",
     "@davidsneighbour/cssnano-config": "file:./packages/cssnano-config",
     "@davidsneighbour/cypress-config": "file:./packages/cypress-config",
     "@davidsneighbour/eslint-config": "file:./packages/eslint-config",
@@ -22,6 +24,7 @@
     "@davidsneighbour/remark-config": "file:./packages/remark-config",
     "@davidsneighbour/standard-version-config": "file:./packages/standard-version-config",
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
+    "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
     "lerna": "7.1.1"
@@ -34,8 +37,8 @@
     "release": "lerna publish --no-private --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
     "repair": "lerna repair",
     "reset": "lerna clean && npm run repair",
-    "update": "npm run update:packages && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release",
-    "update:packages": "npm-check-updates --deep --upgrade --target=minor"
+    "update": "npm-check-updates --deep --upgrade --target=minor && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release",
+    "update:major": "npm-check-updates --deep --upgrade --target=major && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release"
   },
   "eslintConfig": {
     "extends": [
@@ -52,7 +55,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.12.1",
-    "npm": ">=8.19.2"
+    "node": ">=20.3.0",
+    "npm": ">=9.6.7"
   }
 }
