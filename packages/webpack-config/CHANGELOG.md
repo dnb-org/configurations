@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.12](https://github.com/davidsneighbour/configurations/compare/v5.2.11...v5.2.12) (2023-07-03)
+
+**Note:** Version bump only for package @davidsneighbour/webpack-config
+
+
+
+
+
 ## [5.2.7](https://github.com/davidsneighbour/configurations/compare/v5.2.6...v5.2.7) (2023-06-26)
 
 **Note:** Version bump only for package @davidsneighbour/webpack-config
