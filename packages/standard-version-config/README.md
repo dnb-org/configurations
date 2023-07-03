@@ -1,4 +1,4 @@
-# Standard Version
+# Commit and Tag Version (fka Standard Version)
 
 Create a file `.versionrc.js` with the following contents:
 
@@ -12,9 +12,9 @@ Add the following scripts to your package.json:
 ```json
 {
   "scripts": {
-    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh"
+    "release": "commit-and-tag-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "commit-and-tag-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "commit-and-tag-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh"
   }
 }
 ```
