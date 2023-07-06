@@ -13,9 +13,9 @@
   "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/stylelint.md",
   "dependencies": {
     "@davidsneighbour/browserslist-config": "^5.2.4",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.25",
     "postcss-scss": "^4.0.6",
-    "stylelint": "15.10.0",
+    "stylelint": "15.10.1",
     "stylelint-no-unsupported-browser-features": "6.1.0",
     "stylelint-order": "6.0.3",
     "stylelint-scss": "^5.0.1"
