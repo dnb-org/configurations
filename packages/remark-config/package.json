@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/remark-config",
   "description": "Remarklint configuration used in davidsneighbour projects.",
-  "version": "5.1.38",
+  "version": "5.2.16",
   "license": "MIT",
   "repository": "https://github.com/davidsneighbour/configurations",
   "author": {
@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "remark": "14.0.3",
-    "remark-lint-frontmatter-schema": "3.15.2",
     "remark-cli": "11.0.0",
     "remark-frontmatter": "^4.0.1",
     "remark-lint": "^9.1.2",
@@ -36,6 +35,7 @@
     "remark-lint-final-definition": "^3.1.2",
     "remark-lint-final-newline": "^2.1.2",
     "remark-lint-first-heading-level": "^3.1.2",
+    "remark-lint-frontmatter-schema": "3.15.2",
     "remark-lint-hard-break-spaces": "^3.1.2",
     "remark-lint-heading-increment": "^3.1.2",
     "remark-lint-heading-style": "^3.1.2",

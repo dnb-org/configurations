@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.16](https://github.com/davidsneighbour/configurations/compare/v5.2.15...v5.2.16) (2023-07-07)
+
+
+### Bug Fixes
+
+* add configs to remark configuration ([d9992d2](https://github.com/davidsneighbour/configurations/commit/d9992d21c64fb43930aad2678b15c439506832c7))
+
+
+
+
+
 ## [5.1.38](https://github.com/davidsneighbour/configurations/compare/v5.1.37...v5.1.38) (2023-05-30)
 
 
