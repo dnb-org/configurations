@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.14](https://github.com/davidsneighbour/configurations/compare/v5.2.13...v5.2.14) (2023-07-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.22.8 ([#770](https://github.com/davidsneighbour/configurations/issues/770)) ([86fb8a7](https://github.com/davidsneighbour/configurations/commit/86fb8a7d2d824c78598bfb94e937bc753c0d498e))
+* **deps:** update dependency cypress to v12.17.0 ([#737](https://github.com/davidsneighbour/configurations/issues/737)) ([2e3bf0e](https://github.com/davidsneighbour/configurations/commit/2e3bf0efff7e03f74aad248e7524c07452804c76))
+* **deps:** update dependency npm-check-updates to v16.10.15 ([#773](https://github.com/davidsneighbour/configurations/issues/773)) ([ffafc4a](https://github.com/davidsneighbour/configurations/commit/ffafc4a7b4b79082bba3246fb446f03001555cc1))
+
+
+
+
+
 ## [5.2.13](https://github.com/davidsneighbour/configurations/compare/v5.2.12...v5.2.13) (2023-07-06)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/tools",
   "description": "Tooling packages for use in @davidsneighbour projects.",
-  "version": "5.2.12",
+  "version": "5.2.14",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
