@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/configurations",
   "description": "Wrapper to load all configurations from @davidsneighbour/configurations.",
-  "version": "5.2.14",
+  "version": "5.2.15",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
@@ -18,7 +18,7 @@
     "@davidsneighbour/commitlint-config": "^5.2.8",
     "@davidsneighbour/cssnano-config": "^5.2.13",
     "@davidsneighbour/cypress-config": "^5.2.14",
-    "@davidsneighbour/eslint-config": "^5.2.13",
+    "@davidsneighbour/eslint-config": "^5.2.15",
     "@davidsneighbour/htmlvalidate-config": "^5.2.4",
     "@davidsneighbour/markdownlint-config": "^5.2.2",
     "@davidsneighbour/postcss-config": "^5.2.13",

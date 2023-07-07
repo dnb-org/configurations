@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.15](https://github.com/davidsneighbour/configurations/compare/v5.2.14...v5.2.15) (2023-07-07)
+
+
+### Bug Fixes
+
+* add configs to eslint configuration ([e69f85d](https://github.com/davidsneighbour/configurations/commit/e69f85d9aea1733074aee8cd40f1a0eb0497d1ce))
+
+
+
+
+
 ## [5.2.13](https://github.com/davidsneighbour/configurations/compare/v5.2.12...v5.2.13) (2023-07-06)
 
 
