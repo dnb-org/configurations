@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.17](https://github.com/davidsneighbour/configurations/compare/v5.2.16...v5.2.17) (2023-07-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-loader to v9.1.3 ([#778](https://github.com/davidsneighbour/configurations/issues/778)) ([8a7137b](https://github.com/davidsneighbour/configurations/commit/8a7137b8322ff92c4c49fa5a4dcdbd505ae41502))
+* **deps:** update dependency cypress to v12.17.1 ([#780](https://github.com/davidsneighbour/configurations/issues/780)) ([c56fd37](https://github.com/davidsneighbour/configurations/commit/c56fd37bbb61c29bbd9ee08fd70ede81b61e8fa2))
+* **deps:** update typescript-eslint monorepo to v5.62.0 ([#779](https://github.com/davidsneighbour/configurations/issues/779)) ([57fda40](https://github.com/davidsneighbour/configurations/commit/57fda40a0995fd9ebfdae1be32f6410f6f14e03b))
+
+
+
+
+
 ## [5.2.16](https://github.com/davidsneighbour/configurations/compare/v5.2.15...v5.2.16) (2023-07-07)
 
 

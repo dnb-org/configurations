@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/postcss-config",
   "description": "PostCSS configuration for use in @davidsneighbour projects.",
-  "version": "5.2.13",
+  "version": "5.2.17",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
@@ -15,12 +15,12 @@
     "@fullhuman/postcss-purgecss": "5.0.0",
     "autoprefixer": "10.4.14",
     "cssnano": "6.0.1",
+    "pixrem": "5.0.0",
     "postcss": "8.4.25",
     "postcss-cli": "10.1.0",
     "postcss-import": "15.1.0",
     "postcss-loader": "7.3.3",
     "postcss-nesting": "11.3.0",
-    "pixrem": "5.0.0",
     "postcss-preset-env": "8.5.1"
   },
   "scripts": {

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.17](https://github.com/davidsneighbour/configurations/compare/v5.2.16...v5.2.17) (2023-07-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-loader to v9.1.3 ([#778](https://github.com/davidsneighbour/configurations/issues/778)) ([8a7137b](https://github.com/davidsneighbour/configurations/commit/8a7137b8322ff92c4c49fa5a4dcdbd505ae41502))
+
+
+
+
+
 ## [5.2.14](https://github.com/davidsneighbour/configurations/compare/v5.2.13...v5.2.14) (2023-07-07)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/tools",
   "description": "Tooling packages for use in @davidsneighbour projects.",
-  "version": "5.2.14",
+  "version": "5.2.17",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
@@ -17,10 +17,10 @@
     "deepmerge": "4.3.1",
     "fixpack": "4.0.0",
     "lockfile-lint": "4.10.6",
-    "npm-package-json-lint": "^7.0.0",
     "ncp": "2.0.0",
     "node-fetch": "3.3.1",
     "npm-check-updates": "16.10.15",
+    "npm-package-json-lint": "^7.0.0",
     "npm-run-all": "4.1.5",
     "npm-watch": "0.11.0",
     "rimraf": "5.0.1",

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.17](https://github.com/davidsneighbour/configurations/compare/v5.2.16...v5.2.17) (2023-07-12)
+
+**Note:** Version bump only for package @davidsneighbour/prettier-config
+
+
+
+
+
 ## [5.1.31](https://github.com/davidsneighbour/configurations/compare/v5.1.30...v5.1.31) (2023-05-17)
 
 **Note:** Version bump only for package @davidsneighbour/prettier-config

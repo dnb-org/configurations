@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/stylelint-config",
   "description": "Stylelint configuration for use in @davidsneighbour projects.",
-  "version": "5.2.13",
+  "version": "5.2.17",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
@@ -14,8 +14,8 @@
   "dependencies": {
     "@davidsneighbour/browserslist-config": "^5.2.4",
     "postcss": "^8.4.25",
-    "postcss-scss": "^4.0.6",
     "postcss-cli": "10.1.0",
+    "postcss-scss": "^4.0.6",
     "stylelint": "15.10.1",
     "stylelint-no-unsupported-browser-features": "6.1.0",
     "stylelint-order": "6.0.3",
