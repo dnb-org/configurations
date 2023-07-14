@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.18](https://github.com/davidsneighbour/configurations/compare/v5.2.17...v5.2.18) (2023-07-14)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.22.9 ([#784](https://github.com/davidsneighbour/configurations/issues/784)) ([3c75b7d](https://github.com/davidsneighbour/configurations/commit/3c75b7daa5560159ce6a49ee6052abb40bdb8852))
+
+
+
+
+
 ## [5.2.17](https://github.com/davidsneighbour/configurations/compare/v5.2.16...v5.2.17) (2023-07-12)
 
 

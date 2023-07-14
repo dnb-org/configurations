@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.18](https://github.com/davidsneighbour/configurations/compare/v5.2.17...v5.2.18) (2023-07-14)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.22.9 ([#784](https://github.com/davidsneighbour/configurations/issues/784)) ([3c75b7d](https://github.com/davidsneighbour/configurations/commit/3c75b7daa5560159ce6a49ee6052abb40bdb8852))
+* **deps:** update dependency postcss to v8.4.26 ([#785](https://github.com/davidsneighbour/configurations/issues/785)) ([8dc0c22](https://github.com/davidsneighbour/configurations/commit/8dc0c223defb8a0f4a8c94ca479e7453b65b188d))
+
+
+
+
+
 ## [5.2.17](https://github.com/davidsneighbour/configurations/compare/v5.2.16...v5.2.17) (2023-07-12)
 
 
