@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/configurations",
   "description": "Wrapper to load all configurations from @davidsneighbour/configurations.",
-  "version": "5.2.18",
+  "version": "5.2.19",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
@@ -18,11 +18,11 @@
     "@davidsneighbour/commitlint-config": "^5.2.8",
     "@davidsneighbour/cssnano-config": "^5.2.17",
     "@davidsneighbour/cypress-config": "^5.2.17",
-    "@davidsneighbour/eslint-config": "^5.2.17",
+    "@davidsneighbour/eslint-config": "^5.2.19",
     "@davidsneighbour/htmlvalidate-config": "^5.2.4",
     "@davidsneighbour/markdownlint-config": "^5.2.2",
     "@davidsneighbour/postcss-config": "^5.2.18",
-    "@davidsneighbour/prettier-config": "^5.2.17",
+    "@davidsneighbour/prettier-config": "^5.2.19",
     "@davidsneighbour/remark-config": "^5.2.16",
     "@davidsneighbour/standard-version-config": "^5.2.12",
     "@davidsneighbour/stylelint-config": "^5.2.18",
