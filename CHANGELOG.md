@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.21](https://github.com/davidsneighbour/configurations/compare/v5.2.20...v5.2.21) (2023-07-16)
+
+
+### Bug Fixes
+
+* **markdownlint:** proper value for MD004 ([e548ca1](https://github.com/davidsneighbour/configurations/commit/e548ca194053a8775d005089669fc3da926d8979))
+
+
+
+
+
 ## [5.2.20](https://github.com/davidsneighbour/configurations/compare/v5.2.19...v5.2.20) (2023-07-16)
 
 **Note:** Version bump only for package root

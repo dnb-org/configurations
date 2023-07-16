@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/markdownlint-config",
   "description": "Markdownlint configuration for use in @davidsneighbour projects.",
-  "version": "5.2.20",
+  "version": "5.2.21",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": {
