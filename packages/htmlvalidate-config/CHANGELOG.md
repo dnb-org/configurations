@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.20](https://github.com/davidsneighbour/configurations/compare/v5.2.19...v5.2.20) (2023-07-16)
+
+**Note:** Version bump only for package @davidsneighbour/htmlvalidate-config
+
+
+
+
+
 ## [5.2.4](https://github.com/davidsneighbour/configurations/compare/v5.2.3...v5.2.4) (2023-06-19)
 
 **Note:** Version bump only for package @davidsneighbour/htmlvalidate-config
