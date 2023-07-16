@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.22](https://github.com/davidsneighbour/configurations/compare/v5.2.21...v5.2.22) (2023-07-16)
+
+**Note:** Version bump only for package @davidsneighbour/babel-config
+
+
+
+
+
 ## [5.2.18](https://github.com/davidsneighbour/configurations/compare/v5.2.17...v5.2.18) (2023-07-14)
 
 
