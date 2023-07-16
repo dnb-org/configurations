@@ -23,7 +23,7 @@ Add local rule overrides:
 
 The configuration differs from the [default ruleset](https://github.com/DavidAnson/vscode-markdownlint#rules) in the following points:
 
-* [MD004](https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md) (unordered list style) is set to "asterisk". That is by preference.
+* [MD004](https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md) (unordered list style) is set to "consistent". That is by preference.
 * [MD013](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md) (line-length) is disabled. I find that today the editor can take care of line flow and having only 80 characters long lines breaks the ease of working with these files.
 * [MD025](https://github.com/DavidAnson/markdownlint/blob/main/doc/md025.md) (single-title/single-h1) is disabled. The rule should be kept in mind, but every now and then multiple top level headlines are useful.
 * [MD030](https://github.com/DavidAnson/markdownlint/blob/main/doc/md030.md) (list-marker-space) is disabled. There is no reason to have two spaces after list item markers.
