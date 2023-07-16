@@ -27,7 +27,7 @@
     "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
-    "lerna": "7.1.3"
+    "lerna": "7.1.4"
   },
   "publishConfig": {
     "access": "public"
