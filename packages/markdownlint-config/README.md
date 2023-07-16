@@ -1,6 +1,8 @@
-Adds a configuration file for Markdownlint. Install markdownlint in VSCode as plugin.
+Adds a configuration file for Markdownlint.
 
-Local configuration in `.markdownlint.json` or `markdownlint.jsonc`:
+## Usage with VSCode
+
+Install the VSCode plugin [Markdownlint by David Anson](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint). Then add a local configuration file in `.markdownlint.json` or `markdownlint.jsonc`:
 
 ```jsonc
 {
@@ -8,9 +10,9 @@ Local configuration in `.markdownlint.json` or `markdownlint.jsonc`:
 }
 ```
 
-The filename, and -format can be any of the ones listed on the [markdownlint-cli2 configuration page](https://github.com/DavidAnson/markdownlint-cli2#configuration) but my advise is to keep with JSON or JSONC.
+The filename, and -format can be any of the ones listed on the [markdownlint-cli2 configuration page](https://github.com/DavidAnson/markdownlint-cli2#configuration) but my advice is to stay with JSON or JSONC.
 
-Add local overrides:
+Add local rule overrides:
 
 ```jsonc
 {
@@ -19,20 +21,34 @@ Add local overrides:
 }
 ```
 
-# All configurations
+The configuration differs from the [default ruleset](https://github.com/DavidAnson/vscode-markdownlint#rules) in the following points:
 
-- [Babel](/packages/babel-config)
-- [Bootstrap](/packages/bootstrap-config)
-- [Browserslist](/packages/browserslist-config)
-- [Commitlint](/packages/commitlint-config)
-- [CssNano](/packages/cssnano-config)
-- [Cypress](/packages/cypress-config)
-- [ESLint](/packages/eslint-config)
-- [Markdownlint](/packages/markdownlint-config)
-- [PostCSS](/packages/postcss-config)
-- [Prettier](/packages/prettier-config)
-- [Remark Lint](/packages/remark-config)
-- [Standard Version](/packages/standard-version-config)
-- [Stylelint](/packages/stylelint-config)
-- [Tools](/packages/tools)
-- [Webpack](/packages/webpack-config)
+* [MD004](https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md) (unordered list style) is set to "asterisk". That is by preference.
+* [MD013](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md) (line-length) is disabled. I find that today the editor can take care of line flow and having only 80 characters long lines breaks the ease of working with these files.
+* [MD025](https://github.com/DavidAnson/markdownlint/blob/main/doc/md025.md) (single-title/single-h1) is disabled. The rule should be kept in mind, but every now and then multiple top level headlines are useful.
+* [MD030](https://github.com/DavidAnson/markdownlint/blob/main/doc/md030.md) (list-marker-space) is disabled. There is no reason to have two spaces after list item markers.
+* [MD041](https://github.com/DavidAnson/markdownlint/blob/main/doc/md041.md) (first-line-heading/first-line-h1) is disabled. Many README files might start with badges instead of headings.
+
+## Usage with CLI (or [Lint Staged](https://github.com/okonet/lint-staged))
+
+## Additional tips for the work with Markdown
+
+* Working with VSCode I suggest installing the plugin [Markdown All In One by Yu Zhang](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one).
+
+## All configurations
+
+* [Babel](/packages/babel-config)
+* [Bootstrap](/packages/bootstrap-config)
+* [Browserslist](/packages/browserslist-config)
+* [Commitlint](/packages/commitlint-config)
+* [CssNano](/packages/cssnano-config)
+* [Cypress](/packages/cypress-config)
+* [ESLint](/packages/eslint-config)
+* [Markdownlint](/packages/markdownlint-config)
+* [PostCSS](/packages/postcss-config)
+* [Prettier](/packages/prettier-config)
+* [Remark Lint](/packages/remark-config)
+* [Standard Version](/packages/standard-version-config)
+* [Stylelint](/packages/stylelint-config)
+* [Tools](/packages/tools)
+* [Webpack](/packages/webpack-config)
