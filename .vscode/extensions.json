@@ -7,6 +7,8 @@
         "christian-kohler.npm-intellisense",
         "howardzuo.vscode-npm-dependency",
         "davidanson.vscode-markdownlint",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "golang.go",
+        "casualjim.gotemplate"
     ]
 }
