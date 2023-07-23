@@ -20,6 +20,7 @@
     "webpack-cli": "5.1.4",
     "webpack-merge": "5.9.0"
   },
+  "devDependencies": {},
   "scripts": {
     "fixpack": "fixpack"
   },

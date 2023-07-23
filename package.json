@@ -29,7 +29,7 @@
     "lerna": "7.1.4"
   },
   "scripts": {
-    "fixpack": "fixpack",
+    "fixpack": "fixpack && lerna run fixpack --parallel",
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
     "release": "lerna publish --no-private --force-publish --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
     "repair": "lerna repair",

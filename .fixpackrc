@@ -42,12 +42,9 @@
     "homepage",
     "repository",
     "bugs",
-    "devDependencies",
     "scripts",
-    "private",
     "main",
     "bugs",
-    "dependencies",
     "engines"
   ],
   // will warn if these not present
