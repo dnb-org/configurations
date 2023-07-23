@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.25](https://github.com/davidsneighbour/configurations/compare/v5.2.24...v5.2.25) (2023-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v12.17.2 ([#800](https://github.com/davidsneighbour/configurations/issues/800)) ([06521ea](https://github.com/davidsneighbour/configurations/commit/06521ea8993141b1a3d41668a7bc92e322dd508f))
+
+
+
+
+
 ## [5.2.24](https://github.com/davidsneighbour/configurations/compare/v5.2.23...v5.2.24) (2023-07-16)
 
 **Note:** Version bump only for package @davidsneighbour/cypress-config

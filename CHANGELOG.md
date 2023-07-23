@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.25](https://github.com/davidsneighbour/configurations/compare/v5.2.24...v5.2.25) (2023-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.6.7 ([#796](https://github.com/davidsneighbour/configurations/issues/796)) ([1bf1058](https://github.com/davidsneighbour/configurations/commit/1bf1058d218adc69185f73460eaf8484aea15228))
+* **deps:** update dependency cypress to v12.17.2 ([#800](https://github.com/davidsneighbour/configurations/issues/800)) ([06521ea](https://github.com/davidsneighbour/configurations/commit/06521ea8993141b1a3d41668a7bc92e322dd508f))
+* **deps:** update dependency eslint-plugin-react to v7.33.0 ([#799](https://github.com/davidsneighbour/configurations/issues/799)) ([ea32e1a](https://github.com/davidsneighbour/configurations/commit/ea32e1a7e4d251e1ed28fdb2139477affb9551ec))
+* **deps:** update dependency npm-check-updates to v16.10.16 ([#794](https://github.com/davidsneighbour/configurations/issues/794)) ([5740eaa](https://github.com/davidsneighbour/configurations/commit/5740eaadbdce84f73af39e7e9afbbf6e849ae6f1))
+* **deps:** update dependency stylelint to v15.10.2 ([#797](https://github.com/davidsneighbour/configurations/issues/797)) ([ecbfc55](https://github.com/davidsneighbour/configurations/commit/ecbfc55bdd9200d31c8926f3a30195fca6b3c418))
+* **deps:** update dependency webpack to v5.88.2 ([#795](https://github.com/davidsneighbour/configurations/issues/795)) ([1888012](https://github.com/davidsneighbour/configurations/commit/1888012b17ce0536daacc350435e36f57187c60f))
+
+
+
+
+
 ## [5.2.24](https://github.com/davidsneighbour/configurations/compare/v5.2.23...v5.2.24) (2023-07-16)
 
 **Note:** Version bump only for package root

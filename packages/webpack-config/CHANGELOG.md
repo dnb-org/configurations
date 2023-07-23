@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.25](https://github.com/davidsneighbour/configurations/compare/v5.2.24...v5.2.25) (2023-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack to v5.88.2 ([#795](https://github.com/davidsneighbour/configurations/issues/795)) ([1888012](https://github.com/davidsneighbour/configurations/commit/1888012b17ce0536daacc350435e36f57187c60f))
+
+
+
+
+
 ## [5.2.24](https://github.com/davidsneighbour/configurations/compare/v5.2.23...v5.2.24) (2023-07-16)
 
 **Note:** Version bump only for package @davidsneighbour/webpack-config

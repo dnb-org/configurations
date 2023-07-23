@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.25](https://github.com/davidsneighbour/configurations/compare/v5.2.24...v5.2.25) (2023-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v15.10.2 ([#797](https://github.com/davidsneighbour/configurations/issues/797)) ([ecbfc55](https://github.com/davidsneighbour/configurations/commit/ecbfc55bdd9200d31c8926f3a30195fca6b3c418))
+
+
+
+
+
 ## [5.2.24](https://github.com/davidsneighbour/configurations/compare/v5.2.23...v5.2.24) (2023-07-16)
 
 **Note:** Version bump only for package @davidsneighbour/stylelint-config
