@@ -52,33 +52,42 @@ export default defaultRemarkConfig;
 
 The `davidsneighbour` ruleset for `remark-lint` uses the following two presets:
 
-- [`remark-preset-lint-styleguide`](https://www.npmjs.com/package/remark-preset-lint-styleguide) - a preset to maintain good quality readable markdown files.
-- [`remark-preset-lint-consistent`](https://www.npmjs.com/package/remark-preset-lint-consistent) - a preset that enforces consistency and helps avoid common known pitfalls in markdown parsers (consistency rules may override the styleguide rules).
+*   [`remark-preset-lint-styleguide`](https://www.npmjs.com/package/remark-preset-lint-styleguide) - a preset to maintain good quality readable markdown files.
+*   [`remark-preset-lint-consistent`](https://www.npmjs.com/package/remark-preset-lint-consistent) - a preset that enforces consistency and helps avoid common known pitfalls in markdown parsers (consistency rules may override the styleguide rules).
 
 The following plugins are added:
 
-- [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) to support frontmatter in markdown files
+*   [remark-frontmatter](https://github.com/remarkjs/remark-frontmatter) to support frontmatter in markdown files
 
 The following rules have different settings than the presets:
 
-- [remark-lint-linebreak-style](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-linebreak-style) - prefer unix linebreak `\n`.
-- [remark-lint-maximum-line-length](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-maximum-line-length) - removes any limit to line length.
-- [remark-lint-no-file-name-irregular-characters](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-file-name-irregular-characters) - lint filenames for irregular characters.
+*   [remark-lint-linebreak-style](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-linebreak-style) - prefer unix linebreak `\n`.
+*   [remark-lint-maximum-line-length](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-maximum-line-length) - removes any limit to line length.
+*   [remark-lint-no-file-name-irregular-characters](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-file-name-irregular-characters) - lint filenames for irregular characters.
+
+## Scripts in package.json
+
+```json
+"scripts": {
+ "lint:remark": "remark",
+ "lint:remark2": "remark ."
+}
+```
 
 ## All configurations
 
-- [Babel](/packages/babel-config)
-- [Bootstrap](/packages/bootstrap-config)
-- [Browserslist](/packages/browserslist-config)
-- [Commitlint](/packages/commitlint-config)
-- [CssNano](/packages/cssnano-config)
-- [Cypress](/packages/cypress-config)
-- [ESLint](/packages/eslint-config)
-- [Markdownlint](/packages/markdownlint-config)
-- [PostCSS](/packages/postcss-config)
-- [Prettier](/packages/prettier-config)
-- [Remark Lint](/packages/remark-config)
-- [Standard Version](/packages/standard-version-config)
-- [Stylelint](/packages/stylelint-config)
-- [Tools](/packages/tools)
-- [Webpack](/packages/webpack-config)
+*   [Babel](/packages/babel-config)
+*   [Bootstrap](/packages/bootstrap-config)
+*   [Browserslist](/packages/browserslist-config)
+*   [Commitlint](/packages/commitlint-config)
+*   [CssNano](/packages/cssnano-config)
+*   [Cypress](/packages/cypress-config)
+*   [ESLint](/packages/eslint-config)
+*   [Markdownlint](/packages/markdownlint-config)
+*   [PostCSS](/packages/postcss-config)
+*   [Prettier](/packages/prettier-config)
+*   [Remark Lint](/packages/remark-config)
+*   [Standard Version](/packages/standard-version-config)
+*   [Stylelint](/packages/stylelint-config)
+*   [Tools](/packages/tools)
+*   [Webpack](/packages/webpack-config)

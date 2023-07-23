@@ -3,21 +3,21 @@
   "description": "Commitlint configuration for davidsneighbour projects.",
   "version": "5.2.24",
   "license": "MIT",
-  "repository": "davidsneighbour/configurations/",
-  "author": {
-    "name": "Patrick Kollitsch",
-    "email": "patrick@davids-neighbour.com",
-    "web": "https://davids-neighbour.com"
-  },
+  "repository": "davidsneighbour/configurations",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "homepage": "https://github.com/davidsneighbour/commitlint-config#readme",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/commitlint-config",
   "dependencies": {
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7"
   },
   "scripts": {
-    "fixpack": "fixpack"
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }

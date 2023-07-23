@@ -4,19 +4,19 @@
   "version": "5.2.24",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
-  "author": {
-    "name": "Patrick Kollitsch",
-    "email": "patrick@davids-neighbour.com",
-    "web": "https://davids-neighbour.com"
-  },
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/standard-version.md",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/standard-version-config",
   "dependencies": {
     "commit-and-tag-version": "11.2.2"
   },
   "scripts": {
-    "fixpack": "fixpack"
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "gitHead": "f8530751889b9217e312db40bf231f7d61a850c2"
 }

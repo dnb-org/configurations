@@ -4,13 +4,9 @@
   "version": "5.2.24",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
-  "author": {
-    "name": "Patrick Kollitsch",
-    "email": "patrick@davids-neighbour.com",
-    "web": "https://davids-neighbour.com"
-  },
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "homepage": "https://github.com/davidsneighbour/configurations/blob/main/packages/configurations/README.md",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/configurations",
   "dependencies": {
     "@davidsneighbour/babel-config": "^5.2.24",
     "@davidsneighbour/bootstrap-config": "^5.2.24",
@@ -30,7 +26,11 @@
     "@davidsneighbour/tools": "^5.2.24",
     "@davidsneighbour/webpack-config": "^5.2.24"
   },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
-    "fixpack": "fixpack"
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   }
 }

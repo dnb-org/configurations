@@ -3,14 +3,10 @@
   "description": "Remarklint configuration used in davidsneighbour projects.",
   "version": "5.2.24",
   "license": "MIT",
-  "repository": "https://github.com/davidsneighbour/configurations",
-  "author": {
-    "name": "Patrick Kollitsch",
-    "email": "patrick@davids-neighbour.com",
-    "web": "https://davids-neighbour.com"
-  },
+  "repository": "davidsneighbour/configurations",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "homepage": "https://github.com/davidsneighbour/configurations/blob/main/docs/remark-lint.md",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/remark-config",
   "keywords": [
     "remark",
     "remark-cli",
@@ -87,14 +83,12 @@
     "unified": "^10.1.2"
   },
   "scripts": {
-    "fixpack": "fixpack",
-    "lint": "remark README.md",
-    "prepare": "tsc"
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
   "main": "index.js",
   "engines": {
-    "node": ">=18.12.1",
-    "npm": ">=8.19.2"
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4",
   "type": "module"

@@ -328,7 +328,6 @@ gradle-app.setting
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -553,3 +552,5 @@ npm-debug.log
 yarn-error.log
 
 # End of https://www.toptal.com/developers/gitignore/api/vue,hugo,node,sass,vuejs,phpstorm,sublimetext,visualstudiocode,react,reactnative
+
+TODO.md

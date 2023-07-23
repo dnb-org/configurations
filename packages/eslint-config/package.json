@@ -4,13 +4,9 @@
   "version": "5.2.24",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
-  "author": {
-    "name": "Patrick Kollitsch",
-    "email": "patrick@davids-neighbour.com",
-    "web": "https://davids-neighbour.com"
-  },
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
-  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config#readme",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
@@ -35,8 +31,12 @@
     "eslint-plugin-unicorn": "47.0.0"
   },
   "scripts": {
-    "fixpack": "fixpack"
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }
