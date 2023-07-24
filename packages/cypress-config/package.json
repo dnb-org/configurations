@@ -10,7 +10,7 @@
   "dependencies": {
     "cypress": "12.17.2",
     "cypress-axe": "1.4.0",
-    "cypress-html-validate": "5.1.2",
+    "cypress-html-validate": "6.0.2",
     "eslint-plugin-cypress": "2.13.3"
   },
   "scripts": {
