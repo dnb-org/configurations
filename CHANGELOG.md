@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.26](https://github.com/davidsneighbour/configurations/compare/v5.2.25...v5.2.26) (2023-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency html-validate to v8 ([#736](https://github.com/davidsneighbour/configurations/issues/736)) ([e703fc1](https://github.com/davidsneighbour/configurations/commit/e703fc15e67945719e10ea418e2a0dc2706be635))
+* **deps:** update dependency postcss-nesting to v12 ([#766](https://github.com/davidsneighbour/configurations/issues/766)) ([6a0978a](https://github.com/davidsneighbour/configurations/commit/6a0978a75ce21ec91c3af338920c11fdf2757272))
+* **deps:** update dependency postcss-preset-env to v9 ([#767](https://github.com/davidsneighbour/configurations/issues/767)) ([ab4c414](https://github.com/davidsneighbour/configurations/commit/ab4c4144779ad6f591054325f9e9e9889fbe9d74))
+
+
+
+
+
 ## [5.2.25](https://github.com/davidsneighbour/configurations/compare/v5.2.24...v5.2.25) (2023-07-23)
 
 
