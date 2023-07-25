@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.27](https://github.com/davidsneighbour/configurations/compare/v5.2.26...v5.2.27) (2023-07-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss-preset-env to v9.1.0 ([#809](https://github.com/davidsneighbour/configurations/issues/809)) ([2f243f9](https://github.com/davidsneighbour/configurations/commit/2f243f902fd17e0ad3dcf1218aec9a2ea3fd2f27))
+
+
+
+
+
 ## [5.2.26](https://github.com/davidsneighbour/configurations/compare/v5.2.25...v5.2.26) (2023-07-24)
 
 

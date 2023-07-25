@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.27](https://github.com/davidsneighbour/configurations/compare/v5.2.26...v5.2.27) (2023-07-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss-preset-env to v9.1.0 ([#809](https://github.com/davidsneighbour/configurations/issues/809)) ([2f243f9](https://github.com/davidsneighbour/configurations/commit/2f243f902fd17e0ad3dcf1218aec9a2ea3fd2f27))
+* **deps:** update typescript-eslint monorepo to v6.2.0 ([#810](https://github.com/davidsneighbour/configurations/issues/810)) ([4488e7b](https://github.com/davidsneighbour/configurations/commit/4488e7ba3e0dd70430f85c71d8e4c27be7d8772c))
+
+
+
+
+
 ## [5.2.26](https://github.com/davidsneighbour/configurations/compare/v5.2.25...v5.2.26) (2023-07-24)
 
 
