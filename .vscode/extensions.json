@@ -10,6 +10,7 @@
         "yzhang.markdown-all-in-one",
         "golang.go",
         "casualjim.gotemplate",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "stylelint.vscode-stylelint"
     ]
 }
