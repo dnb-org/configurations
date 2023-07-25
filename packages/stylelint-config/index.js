@@ -4,6 +4,7 @@
  */
 const config = {
   "customSyntax": "postcss-scss",
+  "cache": true,
   "extends": [],
   "ignoreFiles": [],
   "plugins": [
@@ -11,8 +12,6 @@ const config = {
     "stylelint-no-unsupported-browser-features",
     "stylelint-order"
   ],
-
-
   "rules": {
     "alpha-value-notation": [
       "percentage",
@@ -99,9 +98,7 @@ const config = {
     ],
     "declaration-block-no-redundant-longhand-properties": true,
     "declaration-block-no-shorthand-property-overrides": true,
-
     "declaration-block-single-line-max-declarations": 1,
-
     "declaration-empty-line-before": [
       "always",
       {
@@ -253,7 +250,6 @@ const config = {
         ]
       }
     ],
-
     "scss/at-extend-no-missing-placeholder": null,
     "scss/at-function-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/at-import-no-partial-leading-underscore": true,
@@ -570,5 +566,4 @@ const config = {
     }
   ]
 };
-
 module.exports = config;
