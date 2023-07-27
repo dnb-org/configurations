@@ -10,7 +10,7 @@
   "dependencies": {
     "@popperjs/core": "2.11.8",
     "@types/bootstrap": "5.2.6",
-    "bootstrap": "^5.3.0"
+    "bootstrap": "^5.3.1"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
