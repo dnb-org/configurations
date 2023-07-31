@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.28](https://github.com/davidsneighbour/configurations/compare/v5.2.27...v5.2.28) (2023-07-31)
+
+**Note:** Version bump only for package @davidsneighbour/postcss-config
+
+
+
+
+
 ## [5.2.27](https://github.com/davidsneighbour/configurations/compare/v5.2.26...v5.2.27) (2023-07-25)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.28](https://github.com/davidsneighbour/configurations/compare/v5.2.27...v5.2.28) (2023-07-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency npm-check-updates to v16.10.17 ([#814](https://github.com/davidsneighbour/configurations/issues/814)) ([3272fa4](https://github.com/davidsneighbour/configurations/commit/3272fa40478c823ec7170388fb4fb2d22a20a42b))
+
+
+
+
+
 ## [5.2.27](https://github.com/davidsneighbour/configurations/compare/v5.2.26...v5.2.27) (2023-07-25)
 
 **Note:** Version bump only for package @davidsneighbour/tools

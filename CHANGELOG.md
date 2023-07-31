@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.28](https://github.com/davidsneighbour/configurations/compare/v5.2.27...v5.2.28) (2023-07-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency bootstrap to v5.3.1 ([#813](https://github.com/davidsneighbour/configurations/issues/813)) ([c37448e](https://github.com/davidsneighbour/configurations/commit/c37448e551123f025e358fd5685b62f46100a7f9))
+* **deps:** update dependency browserslist to v4.21.10 ([#822](https://github.com/davidsneighbour/configurations/issues/822)) ([f24d956](https://github.com/davidsneighbour/configurations/commit/f24d956730e03e09dad07a48cf7f38029022bc61))
+* **deps:** update dependency eslint to v8.46.0 ([#820](https://github.com/davidsneighbour/configurations/issues/820)) ([14aada3](https://github.com/davidsneighbour/configurations/commit/14aada3623ca95e7e0061597eaccc82546feb0c9))
+* **deps:** update dependency eslint-config-prettier to v8.9.0 ([#815](https://github.com/davidsneighbour/configurations/issues/815)) ([fdc9ec1](https://github.com/davidsneighbour/configurations/commit/fdc9ec13e5b6a1951538c521fa7243bad80fa363))
+* **deps:** update dependency eslint-plugin-import to v2.28.0 ([#817](https://github.com/davidsneighbour/configurations/issues/817)) ([727196c](https://github.com/davidsneighbour/configurations/commit/727196c88dbb32671b19b60f58d04cadbf207ea3))
+* **deps:** update dependency eslint-plugin-markdown to v3.0.1 ([#819](https://github.com/davidsneighbour/configurations/issues/819)) ([7593411](https://github.com/davidsneighbour/configurations/commit/75934111c99ee41bebf9d718f41fa37fe8844af3))
+* **deps:** update dependency eslint-plugin-react to v7.33.1 ([#821](https://github.com/davidsneighbour/configurations/issues/821)) ([ec7dabe](https://github.com/davidsneighbour/configurations/commit/ec7dabe2432479e7c76a1d33421f48e9d107f424))
+* **deps:** update dependency eslint-plugin-unicorn to v48.0.1 ([#812](https://github.com/davidsneighbour/configurations/issues/812)) ([c693db0](https://github.com/davidsneighbour/configurations/commit/c693db086a13b4ddd3fc4d56dae9f509b049f67b))
+* **deps:** update dependency npm-check-updates to v16.10.17 ([#814](https://github.com/davidsneighbour/configurations/issues/814)) ([3272fa4](https://github.com/davidsneighbour/configurations/commit/3272fa40478c823ec7170388fb4fb2d22a20a42b))
+
+
+
+
+
 ## [5.2.27](https://github.com/davidsneighbour/configurations/compare/v5.2.26...v5.2.27) (2023-07-25)
 
 
