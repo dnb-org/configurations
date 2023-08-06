@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.29](https://github.com/davidsneighbour/configurations/compare/v5.2.28...v5.2.29) (2023-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lockfile-lint to v4.11.0 ([#824](https://github.com/davidsneighbour/configurations/issues/824)) ([3b957d9](https://github.com/davidsneighbour/configurations/commit/3b957d9863a011447ee1a0093e1624766e9d3745))
+* **deps:** update dependency lockfile-lint to v4.12.0 ([#827](https://github.com/davidsneighbour/configurations/issues/827)) ([08cf8f9](https://github.com/davidsneighbour/configurations/commit/08cf8f9f6c5adb45ed6275199ad952fa6b5a8a2e))
+
+
+
+
+
 ## [5.2.28](https://github.com/davidsneighbour/configurations/compare/v5.2.27...v5.2.28) (2023-07-31)
 
 

@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.29](https://github.com/davidsneighbour/configurations/compare/v5.2.28...v5.2.29) (2023-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v12.17.3 ([#825](https://github.com/davidsneighbour/configurations/issues/825)) ([4e59670](https://github.com/davidsneighbour/configurations/commit/4e596703eaed5846963e98f9c4a11df86f6a22cf))
+* **deps:** update dependency eslint-config-prettier to v8.10.0 ([#828](https://github.com/davidsneighbour/configurations/issues/828)) ([536a596](https://github.com/davidsneighbour/configurations/commit/536a596ffd93dc69d279f58a1be3011ceb3d8b42))
+* **deps:** update dependency lockfile-lint to v4.11.0 ([#824](https://github.com/davidsneighbour/configurations/issues/824)) ([3b957d9](https://github.com/davidsneighbour/configurations/commit/3b957d9863a011447ee1a0093e1624766e9d3745))
+* **deps:** update dependency lockfile-lint to v4.12.0 ([#827](https://github.com/davidsneighbour/configurations/issues/827)) ([08cf8f9](https://github.com/davidsneighbour/configurations/commit/08cf8f9f6c5adb45ed6275199ad952fa6b5a8a2e))
+* **deps:** update typescript-eslint monorepo to v6.2.1 ([#823](https://github.com/davidsneighbour/configurations/issues/823)) ([3b19f2b](https://github.com/davidsneighbour/configurations/commit/3b19f2bb6f50e98af6f3630368667cd55645537a))
+
+
+
+
+
 ## [5.2.28](https://github.com/davidsneighbour/configurations/compare/v5.2.27...v5.2.28) (2023-07-31)
 
 
