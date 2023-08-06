@@ -1,7 +1,6 @@
 {
     "recommendations": [
         "naumovs.color-highlight",
-        "github.copilot",
         "github.copilot-labs",
         "nrwl.angular-console",
         "christian-kohler.npm-intellisense",
