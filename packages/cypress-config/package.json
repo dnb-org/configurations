@@ -11,7 +11,7 @@
     "cypress": "12.17.3",
     "cypress-axe": "1.4.0",
     "cypress-html-validate": "6.0.2",
-    "eslint-plugin-cypress": "2.13.3"
+    "eslint-plugin-cypress": "2.14.0"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
