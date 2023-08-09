@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.30](https://github.com/davidsneighbour/configurations/compare/v5.2.29...v5.2.30) (2023-08-09)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.22.10 ([#836](https://github.com/davidsneighbour/configurations/issues/836)) ([c317d43](https://github.com/davidsneighbour/configurations/commit/c317d43ad21cc9e98336a06f604a5610382e7d7b))
+* **deps:** update dependency eslint-plugin-cypress to v2.14.0 ([#839](https://github.com/davidsneighbour/configurations/issues/839)) ([73c6fec](https://github.com/davidsneighbour/configurations/commit/73c6fecc4a7728324511a71d61bd5312ea0d2aee))
+* **deps:** update dependency html-validate to v8.2.0 ([#837](https://github.com/davidsneighbour/configurations/issues/837)) ([3db2e19](https://github.com/davidsneighbour/configurations/commit/3db2e196460ed2cf87630af2528c3e9372459443))
+* **deps:** update dependency npm-check-updates to v16.10.18 ([#835](https://github.com/davidsneighbour/configurations/issues/835)) ([5cacdae](https://github.com/davidsneighbour/configurations/commit/5cacdae374e9e17673d07d3effdbe7318d148356))
+* **deps:** update dependency stylelint-scss to v5.1.0 ([#840](https://github.com/davidsneighbour/configurations/issues/840)) ([7dfe51e](https://github.com/davidsneighbour/configurations/commit/7dfe51e5b596dafd78cef391a06d13cae622d787))
+* **deps:** update typescript-eslint monorepo to v6.3.0 ([#838](https://github.com/davidsneighbour/configurations/issues/838)) ([6c782ae](https://github.com/davidsneighbour/configurations/commit/6c782aefaddea7896b3265d6cba02d08688edb2a))
+
+
+
+
+
 ## [5.2.29](https://github.com/davidsneighbour/configurations/compare/v5.2.28...v5.2.29) (2023-08-06)
 
 

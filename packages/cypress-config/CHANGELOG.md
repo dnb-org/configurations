@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.30](https://github.com/davidsneighbour/configurations/compare/v5.2.29...v5.2.30) (2023-08-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-cypress to v2.14.0 ([#839](https://github.com/davidsneighbour/configurations/issues/839)) ([73c6fec](https://github.com/davidsneighbour/configurations/commit/73c6fecc4a7728324511a71d61bd5312ea0d2aee))
+
+
+
+
+
 ## [5.2.29](https://github.com/davidsneighbour/configurations/compare/v5.2.28...v5.2.29) (2023-08-06)
 
 
