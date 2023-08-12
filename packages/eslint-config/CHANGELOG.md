@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.31](https://github.com/davidsneighbour/configurations/compare/v5.2.30...v5.2.31) (2023-08-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.47.0 ([#851](https://github.com/davidsneighbour/configurations/issues/851)) ([d364735](https://github.com/davidsneighbour/configurations/commit/d364735504a2cdf4cd5495d2aeaa63d3e5cefbe1))
+* **deps:** update dependency eslint-plugin-mdx to v2.2.0 ([#842](https://github.com/davidsneighbour/configurations/issues/842)) ([de1681f](https://github.com/davidsneighbour/configurations/commit/de1681fa5ae7f7d3db18334fa15fc3d49792be5f))
+
+
+
+
+
 ## [5.2.30](https://github.com/davidsneighbour/configurations/compare/v5.2.29...v5.2.30) (2023-08-09)
 
 
