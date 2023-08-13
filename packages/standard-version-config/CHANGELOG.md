@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.32](https://github.com/davidsneighbour/configurations/compare/v5.2.31...v5.2.32) (2023-08-13)
+
+**Note:** Version bump only for package @davidsneighbour/standard-version-config
+
+
+
+
+
 ## [5.2.31](https://github.com/davidsneighbour/configurations/compare/v5.2.30...v5.2.31) (2023-08-12)
 
 **Note:** Version bump only for package @davidsneighbour/standard-version-config
