@@ -7,6 +7,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "dependencies": {
+    "eslint-plugin-perfectionist": "^1.5.1"
+  },
   "devDependencies": {
     "@davidsneighbour/babel-config": "file:./packages/babel-config",
     "@davidsneighbour/bootstrap-config": "file:./packages/bootstrap-config",
