@@ -38,7 +38,7 @@
     "repair": "lerna repair",
     "reset": "lerna clean && npm run repair",
     "update": "npm-check-updates --deep --upgrade --target=minor && npm run reset && npm install && fixpack && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release",
-    "update:major": "npm-check-updates --deep --upgrade --target=major && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release"
+    "update:major": "npm-check-updates --deep --upgrade && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release"
   },
   "publishConfig": {
     "access": "public"
