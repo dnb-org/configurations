@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.33](https://github.com/davidsneighbour/configurations/compare/v5.2.32...v5.2.33) (2023-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency autoprefixer to v10.4.15 ([#852](https://github.com/davidsneighbour/configurations/issues/852)) ([f66d4db](https://github.com/davidsneighbour/configurations/commit/f66d4db42a326f61b3fc05ad342fbcfe78d5fb63))
+* **deps:** update dependency cypress to v12.17.4 ([#856](https://github.com/davidsneighbour/configurations/issues/856)) ([16c8a08](https://github.com/davidsneighbour/configurations/commit/16c8a0856c37b61481f45c6ce817b4c95d9b3d30))
+* **deps:** update dependency eslint-plugin-react to v7.33.2 ([#857](https://github.com/davidsneighbour/configurations/issues/857)) ([2956988](https://github.com/davidsneighbour/configurations/commit/2956988e8de701b5ad6fd8bc13f53784377f6db1))
+* **deps:** update dependency npm-check-updates to v16.11.2 ([#860](https://github.com/davidsneighbour/configurations/issues/860)) ([8d395c5](https://github.com/davidsneighbour/configurations/commit/8d395c52600f8bb99f92e7a31b3b4a0891f9aada))
+* **deps:** update dependency npm-check-updates to v16.12.1 ([#861](https://github.com/davidsneighbour/configurations/issues/861)) ([4f02d04](https://github.com/davidsneighbour/configurations/commit/4f02d041fa0859a590a7d3e1611a7b910ba20542))
+* **deps:** update dependency npm-check-updates to v16.12.2 ([#862](https://github.com/davidsneighbour/configurations/issues/862)) ([1ed00e3](https://github.com/davidsneighbour/configurations/commit/1ed00e32b39c8b679d6dce83f13b642a505d7bad))
+* **deps:** update dependency postcss to v8.4.28 ([#854](https://github.com/davidsneighbour/configurations/issues/854)) ([8cc768b](https://github.com/davidsneighbour/configurations/commit/8cc768b2ef80ebcb4b94f47eb1aad641cb81bdc9))
+* **deps:** update dependency postcss-scss to v4.0.7 ([#858](https://github.com/davidsneighbour/configurations/issues/858)) ([02f9f07](https://github.com/davidsneighbour/configurations/commit/02f9f07c619e1294e4b43fa0d5f73d4111a796f1))
+* **deps:** update dependency prettier to v3.0.2 ([#859](https://github.com/davidsneighbour/configurations/issues/859)) ([ed8ea61](https://github.com/davidsneighbour/configurations/commit/ed8ea618bc6eac54e43f5089df50a0c93f534792))
+* **deps:** update dependency stylelint to v15.10.3 ([#865](https://github.com/davidsneighbour/configurations/issues/865)) ([e8b65d0](https://github.com/davidsneighbour/configurations/commit/e8b65d095fc121b9a7b85acb1d872b0eb2780624))
+* **deps:** update typescript-eslint monorepo to v6.4.0 ([#853](https://github.com/davidsneighbour/configurations/issues/853)) ([589c338](https://github.com/davidsneighbour/configurations/commit/589c338ca1cca90e9346830c86a35852cff6f388))
+
+
+
+
+
 ## [5.2.32](https://github.com/davidsneighbour/configurations/compare/v5.2.31...v5.2.32) (2023-08-13)
 
 **Note:** Version bump only for package root
