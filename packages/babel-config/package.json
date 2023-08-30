@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/babel-config",
   "dependencies": {
     "@babel/core": "7.22.11",
-    "@babel/preset-env": "7.22.10",
+    "@babel/preset-env": "7.22.14",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-loader": "9.1.3",
