@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.36](https://github.com/davidsneighbour/configurations/compare/v5.2.34...v5.2.36) (2023-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lockfile-lint to v4.12.1 ([#877](https://github.com/davidsneighbour/configurations/issues/877)) ([4244bcc](https://github.com/davidsneighbour/configurations/commit/4244bccd362e7016aaf25432d4282c9124dedae3))
+* **deps:** update dependency npm-check-updates to v16.13.2 ([#876](https://github.com/davidsneighbour/configurations/issues/876)) ([f7dd195](https://github.com/davidsneighbour/configurations/commit/f7dd1958a7d4e7ec8ea2a203be10052352307045))
+
+
+
+
+
 ## [5.2.35](https://github.com/davidsneighbour/configurations/compare/v5.2.34...v5.2.35) (2023-08-25)
 
 **Note:** Version bump only for package @davidsneighbour/tools

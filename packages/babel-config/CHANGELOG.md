@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.36](https://github.com/davidsneighbour/configurations/compare/v5.2.34...v5.2.36) (2023-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/preset-env to v7.22.14 ([#884](https://github.com/davidsneighbour/configurations/issues/884)) ([187a034](https://github.com/davidsneighbour/configurations/commit/187a0344ce263408d67c38a6788aadc37e88a317))
+
+
+
+
+
 ## [5.2.35](https://github.com/davidsneighbour/configurations/compare/v5.2.34...v5.2.35) (2023-08-25)
 
 **Note:** Version bump only for package @davidsneighbour/babel-config
