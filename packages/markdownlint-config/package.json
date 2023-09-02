@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/markdownlint-config",
   "dependencies": {
     "markdownlint": "^0.30.0",
-    "markdownlint-cli2": "^0.9.0"
+    "markdownlint-cli2": "^0.9.2"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
