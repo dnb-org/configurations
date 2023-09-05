@@ -2,13 +2,12 @@
 // https://browsersl.ist/
 module.exports = [
   ">= 0.5%",
-  "last 2 major versions",
-  "supports es6-module",
-  "Chrome >= 60",
-  "Firefox >= 60",
+  "Chrome >= 109",
+  "Firefox >= 110",
   "Firefox ESR",
   "iOS >= 12",
   "Safari >= 12",
+  "Edge >= 100",
   "not ie > 0",
   "not ie_mob > 0",
   "not dead",
@@ -18,6 +17,5 @@ module.exports = [
   "not ucandroid > 0",
   "not and_uc > 0",
   "not and_qq > 0",
-  "not kaios 2.5",
-  "node >= 16",
+  "not kaios 2.5"
 ];
