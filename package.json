@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "dependencies": {
-    "eslint-plugin-perfectionist": "^1.5.1"
+    "eslint-plugin-perfectionist": "^2.0.0"
   },
   "devDependencies": {
     "@davidsneighbour/babel-config": "file:./packages/babel-config",
