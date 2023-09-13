@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.40](https://github.com/davidsneighbour/configurations/compare/v5.2.39...v5.2.40) (2023-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress-html-validate to v6.1.0 ([#908](https://github.com/davidsneighbour/configurations/issues/908)) ([fa8b322](https://github.com/davidsneighbour/configurations/commit/fa8b322c37c53548e7f8c310014af34eb7567d1e))
+
+
+
+
+
 ## [5.2.39](https://github.com/davidsneighbour/configurations/compare/v5.2.38...v5.2.39) (2023-09-09)
 
 **Note:** Version bump only for package @davidsneighbour/cypress-config
