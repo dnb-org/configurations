@@ -16,12 +16,12 @@
     "lockfile-lint": "4.12.1",
     "ncp": "2.0.0",
     "node-fetch": "3.3.2",
-    "npm-check-updates": "16.13.3",
+    "npm-check-updates": "16.14.0",
     "npm-package-json-lint": "^7.0.0",
     "npm-run-all": "4.1.5",
     "npm-watch": "0.11.0",
     "rimraf": "5.0.1",
-    "wireit": "0.13.0"
+    "wireit": "0.14.0"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
