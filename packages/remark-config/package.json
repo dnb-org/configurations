@@ -31,7 +31,7 @@
     "remark-lint-final-definition": "^3.1.2",
     "remark-lint-final-newline": "^2.1.2",
     "remark-lint-first-heading-level": "^3.1.2",
-    "remark-lint-frontmatter-schema": "3.15.2",
+    "remark-lint-frontmatter-schema": "3.15.3",
     "remark-lint-hard-break-spaces": "^3.1.2",
     "remark-lint-heading-increment": "^3.1.2",
     "remark-lint-heading-style": "^3.1.2",
