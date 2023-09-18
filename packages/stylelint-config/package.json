@@ -15,7 +15,7 @@
     "stylelint": "15.10.3",
     "stylelint-no-unsupported-browser-features": "7.0.0",
     "stylelint-order": "6.0.3",
-    "stylelint-scss": "^5.1.0"
+    "stylelint-scss": "^5.2.1"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
