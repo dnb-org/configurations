@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/bootstrap to v5.2.7 ([#922](https://github.com/davidsneighbour/configurations/issues/922)) ([d14b0e5](https://github.com/davidsneighbour/configurations/commit/d14b0e5ed57957c561fddea89c34a7ba2377d80a))
+
+
+
+
+
 ## [5.2.40](https://github.com/davidsneighbour/configurations/compare/v5.2.39...v5.2.40) (2023-09-13)
 
 **Note:** Version bump only for package @davidsneighbour/bootstrap-config

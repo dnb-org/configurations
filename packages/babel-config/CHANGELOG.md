@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.22.20 ([#921](https://github.com/davidsneighbour/configurations/issues/921)) ([6b6ef6b](https://github.com/davidsneighbour/configurations/commit/6b6ef6b96a2552dc6e90b9c0c7c3c99db288729e))
+* **deps:** update dependency @babel/core to v7.22.19 ([#914](https://github.com/davidsneighbour/configurations/issues/914)) ([f520f8d](https://github.com/davidsneighbour/configurations/commit/f520f8d62dabf116d5b54b9d9bfc2672c3048ca0))
+
+
+
+
+
 ## [5.2.40](https://github.com/davidsneighbour/configurations/compare/v5.2.39...v5.2.40) (2023-09-13)
 
 **Note:** Version bump only for package @davidsneighbour/babel-config

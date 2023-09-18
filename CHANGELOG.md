@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.22.20 ([#921](https://github.com/davidsneighbour/configurations/issues/921)) ([6b6ef6b](https://github.com/davidsneighbour/configurations/commit/6b6ef6b96a2552dc6e90b9c0c7c3c99db288729e))
+* **deps:** update dependency @babel/core to v7.22.19 ([#914](https://github.com/davidsneighbour/configurations/issues/914)) ([f520f8d](https://github.com/davidsneighbour/configurations/commit/f520f8d62dabf116d5b54b9d9bfc2672c3048ca0))
+* **deps:** update dependency @types/bootstrap to v5.2.7 ([#922](https://github.com/davidsneighbour/configurations/issues/922)) ([d14b0e5](https://github.com/davidsneighbour/configurations/commit/d14b0e5ed57957c561fddea89c34a7ba2377d80a))
+* **deps:** update dependency bootstrap to v5.3.2 ([#915](https://github.com/davidsneighbour/configurations/issues/915)) ([657342a](https://github.com/davidsneighbour/configurations/commit/657342af21fe1f310904319051b91f9ed8f5a618))
+* **deps:** update dependency npm-check-updates to v16.14.2 ([#912](https://github.com/davidsneighbour/configurations/issues/912)) ([4ce1352](https://github.com/davidsneighbour/configurations/commit/4ce13527559b1cf60fccadcc536808477645c0ea))
+* **deps:** update dependency remark-lint-frontmatter-schema to v3.15.3 ([#917](https://github.com/davidsneighbour/configurations/issues/917)) ([afed564](https://github.com/davidsneighbour/configurations/commit/afed5646e6eb4f10dce2243cef2ac027cabbad85))
+* **deps:** update dependency stylelint-scss to v5.2.0 ([#918](https://github.com/davidsneighbour/configurations/issues/918)) ([8f38d33](https://github.com/davidsneighbour/configurations/commit/8f38d33f71d5e6c33ac96369acf8c15d48583fe6))
+
+
+
+
+
 ## [5.2.40](https://github.com/davidsneighbour/configurations/compare/v5.2.39...v5.2.40) (2023-09-13)
 
 

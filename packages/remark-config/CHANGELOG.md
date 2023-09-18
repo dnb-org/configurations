@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-lint-frontmatter-schema to v3.15.3 ([#917](https://github.com/davidsneighbour/configurations/issues/917)) ([afed564](https://github.com/davidsneighbour/configurations/commit/afed5646e6eb4f10dce2243cef2ac027cabbad85))
+
+
+
+
+
 ## [5.2.40](https://github.com/davidsneighbour/configurations/compare/v5.2.39...v5.2.40) (2023-09-13)
 
 **Note:** Version bump only for package @davidsneighbour/remark-config
