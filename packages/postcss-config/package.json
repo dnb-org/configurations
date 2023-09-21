@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/postcss-config",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "autoprefixer": "10.4.15",
+    "autoprefixer": "10.4.16",
     "cssnano": "6.0.1",
     "pixrem": "5.0.0",
     "postcss": "8.4.30",
