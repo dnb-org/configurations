@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.42](https://github.com/davidsneighbour/configurations/compare/v5.2.41...v5.2.42) (2023-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.23.0 ([#941](https://github.com/davidsneighbour/configurations/issues/941)) ([c85bf8f](https://github.com/davidsneighbour/configurations/commit/c85bf8ff1b1c3420ccea32391d2a971d44506500))
+
+
+
+
+
 ## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
 
 

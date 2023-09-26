@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.42](https://github.com/davidsneighbour/configurations/compare/v5.2.41...v5.2.42) (2023-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency browserslist to v4.21.11 ([#932](https://github.com/davidsneighbour/configurations/issues/932)) ([137bc12](https://github.com/davidsneighbour/configurations/commit/137bc12d81924682f76c88d5b80cd6efb717ca36))
+
+
+
+
+
 ## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
 
 **Note:** Version bump only for package @davidsneighbour/browserslist-config

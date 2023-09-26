@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.42](https://github.com/davidsneighbour/configurations/compare/v5.2.41...v5.2.42) (2023-09-26)
+
+**Note:** Version bump only for package @davidsneighbour/cssnano-config
+
+
+
+
+
 ## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
 
 **Note:** Version bump only for package @davidsneighbour/cssnano-config

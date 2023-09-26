@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.42](https://github.com/davidsneighbour/configurations/compare/v5.2.41...v5.2.42) (2023-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency autoprefixer to v10.4.16 ([#930](https://github.com/davidsneighbour/configurations/issues/930)) ([f5724c2](https://github.com/davidsneighbour/configurations/commit/f5724c2827001e3243739b4746a744491ea40ee7))
+* **deps:** update dependency postcss to v8.4.30 ([#928](https://github.com/davidsneighbour/configurations/issues/928)) ([eee3c22](https://github.com/davidsneighbour/configurations/commit/eee3c226dab1c4b44194127869a7e43bed001050))
+* **deps:** update dependency postcss-preset-env to v9.1.4 ([#925](https://github.com/davidsneighbour/configurations/issues/925)) ([9868391](https://github.com/davidsneighbour/configurations/commit/9868391627927dbea357cfa2cde5352c1532020e))
+
+
+
+
+
 ## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
 
 **Note:** Version bump only for package @davidsneighbour/postcss-config

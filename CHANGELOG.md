@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.42](https://github.com/davidsneighbour/configurations/compare/v5.2.41...v5.2.42) (2023-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.23.0 ([#941](https://github.com/davidsneighbour/configurations/issues/941)) ([c85bf8f](https://github.com/davidsneighbour/configurations/commit/c85bf8ff1b1c3420ccea32391d2a971d44506500))
+* **deps:** update dependency autoprefixer to v10.4.16 ([#930](https://github.com/davidsneighbour/configurations/issues/930)) ([f5724c2](https://github.com/davidsneighbour/configurations/commit/f5724c2827001e3243739b4746a744491ea40ee7))
+* **deps:** update dependency axe-core to v4.8.2 ([#931](https://github.com/davidsneighbour/configurations/issues/931)) ([2cd481b](https://github.com/davidsneighbour/configurations/commit/2cd481b713df1d7d814c351ba68bbdeb56af7e98))
+* **deps:** update dependency browserslist to v4.21.11 ([#932](https://github.com/davidsneighbour/configurations/issues/932)) ([137bc12](https://github.com/davidsneighbour/configurations/commit/137bc12d81924682f76c88d5b80cd6efb717ca36))
+* **deps:** update dependency eslint to v8.50.0 ([#940](https://github.com/davidsneighbour/configurations/issues/940)) ([dfddaa5](https://github.com/davidsneighbour/configurations/commit/dfddaa55f28a43a9ec21d9c31582165265a6d10a))
+* **deps:** update dependency eslint-plugin-cypress to v2.15.1 ([#927](https://github.com/davidsneighbour/configurations/issues/927)) ([7ec9e7b](https://github.com/davidsneighbour/configurations/commit/7ec9e7bd18e4d6d927238a66a7055da0afb2ce17))
+* **deps:** update dependency html-validate to v8.4.1 ([#939](https://github.com/davidsneighbour/configurations/issues/939)) ([35b2558](https://github.com/davidsneighbour/configurations/commit/35b25587c52274a0ed437ab389e409843201d6a1))
+* **deps:** update dependency postcss to v8.4.30 ([#928](https://github.com/davidsneighbour/configurations/issues/928)) ([eee3c22](https://github.com/davidsneighbour/configurations/commit/eee3c226dab1c4b44194127869a7e43bed001050))
+* **deps:** update dependency postcss-preset-env to v9.1.4 ([#925](https://github.com/davidsneighbour/configurations/issues/925)) ([9868391](https://github.com/davidsneighbour/configurations/commit/9868391627927dbea357cfa2cde5352c1532020e))
+* **deps:** update typescript-eslint monorepo to v6.7.2 ([#926](https://github.com/davidsneighbour/configurations/issues/926)) ([a8ec7a8](https://github.com/davidsneighbour/configurations/commit/a8ec7a856d213208ea0501b306db5db4c9d498b7))
+* **deps:** update typescript-eslint monorepo to v6.7.3 ([#942](https://github.com/davidsneighbour/configurations/issues/942)) ([2666717](https://github.com/davidsneighbour/configurations/commit/26667179fef09686a0ec9557b756ba8f0d485fe4))
+
+
+
+
+
 ## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
 
 

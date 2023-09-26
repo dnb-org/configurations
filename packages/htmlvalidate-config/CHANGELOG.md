@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.42](https://github.com/davidsneighbour/configurations/compare/v5.2.41...v5.2.42) (2023-09-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency axe-core to v4.8.2 ([#931](https://github.com/davidsneighbour/configurations/issues/931)) ([2cd481b](https://github.com/davidsneighbour/configurations/commit/2cd481b713df1d7d814c351ba68bbdeb56af7e98))
+* **deps:** update dependency html-validate to v8.4.1 ([#939](https://github.com/davidsneighbour/configurations/issues/939)) ([35b2558](https://github.com/davidsneighbour/configurations/commit/35b25587c52274a0ed437ab389e409843201d6a1))
+
+
+
+
+
 ## [5.2.41](https://github.com/davidsneighbour/configurations/compare/v5.2.40...v5.2.41) (2023-09-18)
 
 **Note:** Version bump only for package @davidsneighbour/htmlvalidate-config
