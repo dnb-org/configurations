@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/htmlvalidate-config",
   "dependencies": {
     "axe-core": "4.8.2",
-    "html-validate": "8.4.1"
+    "html-validate": "8.5.0"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
