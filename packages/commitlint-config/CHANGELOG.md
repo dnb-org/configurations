@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.44](https://github.com/davidsneighbour/configurations/compare/v5.2.43...v5.2.44) (2023-10-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v17.7.2 ([#946](https://github.com/davidsneighbour/configurations/issues/946)) ([b956263](https://github.com/davidsneighbour/configurations/commit/b956263990e52dec0b6f216b3c51f9f8e0ab4c42))
+
+
+
+
+
 ## [5.2.43](https://github.com/davidsneighbour/configurations/compare/v5.2.42...v5.2.43) (2023-09-27)
 
 **Note:** Version bump only for package @davidsneighbour/commitlint-config
