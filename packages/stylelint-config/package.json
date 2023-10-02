@@ -9,9 +9,9 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/stylelint-config",
   "dependencies": {
     "@davidsneighbour/browserslist-config": "^5.2.43",
-    "postcss": "^8.4.30",
+    "postcss": "^8.4.31",
     "postcss-cli": "10.1.0",
-    "postcss-scss": "^4.0.8",
+    "postcss-scss": "^4.0.9",
     "stylelint": "15.10.3",
     "stylelint-no-unsupported-browser-features": "7.0.0",
     "stylelint-order": "6.0.3",
