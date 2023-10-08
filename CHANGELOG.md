@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.3.0](https://github.com/davidsneighbour/configurations/compare/v5.2.44...v5.3.0) (2023-10-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency npm-check-updates to v16.14.5 ([#957](https://github.com/davidsneighbour/configurations/issues/957)) ([40de165](https://github.com/davidsneighbour/configurations/commit/40de165a9a6a1bfb14e12e8f65f836e355157ce0))
+* **deps:** update typescript-eslint monorepo to v6.7.4 ([#955](https://github.com/davidsneighbour/configurations/issues/955)) ([8e9b399](https://github.com/davidsneighbour/configurations/commit/8e9b399fe8900aefbf41db91608838d48fbaff9f))
+
+
+### Features
+
+* add use-nesting plugin ([35b5f69](https://github.com/davidsneighbour/configurations/commit/35b5f691f376d7730e7f36939f22b7720e4abe12))
+
+
+
+
+
 ## [5.2.44](https://github.com/davidsneighbour/configurations/compare/v5.2.43...v5.2.44) (2023-10-02)
 
 

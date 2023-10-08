@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.3.0](https://github.com/davidsneighbour/configurations/compare/v5.2.44...v5.3.0) (2023-10-08)
+
+
+### Features
+
+* add use-nesting plugin ([35b5f69](https://github.com/davidsneighbour/configurations/commit/35b5f691f376d7730e7f36939f22b7720e4abe12))
+
+
+
+
+
 ## [5.2.44](https://github.com/davidsneighbour/configurations/compare/v5.2.43...v5.2.44) (2023-10-02)
 
 **Note:** Version bump only for package @davidsneighbour/stylelint-config
