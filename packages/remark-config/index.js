@@ -101,7 +101,7 @@ const config = {
     [remarkLintLinkTitleStyle, ['error', '"']],
     [remarkLintListItemBulletIndent, ['error']],
     [remarkLintListItemContentIndent, ['error']],
-    [remarkLintListItemIndent, ['error', 'mixed']],
+    [remarkLintListItemIndent, ['error', 'space']],
     [remarkLintListItemSpacing, ['error']],
     [remarkLintMaximumHeadingLength, ['warn', 60]],
     [remarkLintMaximumLineLength, false],
