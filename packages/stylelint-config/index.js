@@ -10,9 +10,11 @@ const config = {
   "plugins": [
     "stylelint-scss",
     "stylelint-no-unsupported-browser-features",
-    "stylelint-order"
+    "stylelint-order",
+    "stylelint-use-nesting"
   ],
   "rules": {
+    "csstools/use-nesting": ["always", { "syntax": "scss" }],
     "alpha-value-notation": [
       "percentage",
       {
