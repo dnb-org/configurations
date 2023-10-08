@@ -23,4 +23,7 @@ module.exports = {
     { type: "test", section: "Tests" },
     { type: "theme", section: "Theme" },
   ],
+  skip: {
+    changelog: true
+  }
 };
