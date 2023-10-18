@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commit-and-tag-version to v11.3.0 ([#962](https://github.com/davidsneighbour/configurations/issues/962)) ([4317b62](https://github.com/davidsneighbour/configurations/commit/4317b624f9c7ba1e5ac02649d34fae411de107cc))
+
+
+
+
+
 ## [5.5.2](https://github.com/davidsneighbour/configurations/compare/v5.5.1...v5.5.2) (2023-10-08)
 
 **Note:** Version bump only for package @davidsneighbour/standard-version-config

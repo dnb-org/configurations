@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.23.2 ([#965](https://github.com/davidsneighbour/configurations/issues/965)) ([e103923](https://github.com/davidsneighbour/configurations/commit/e103923e7b664268e82b2451c3f226f388cc3cc0))
+
+
+
+
+
 ## [5.5.2](https://github.com/davidsneighbour/configurations/compare/v5.5.1...v5.5.2) (2023-10-08)
 
 **Note:** Version bump only for package @davidsneighbour/babel-config

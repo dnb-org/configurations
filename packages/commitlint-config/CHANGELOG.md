@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.8.0 ([#971](https://github.com/davidsneighbour/configurations/issues/971)) ([fd9b810](https://github.com/davidsneighbour/configurations/commit/fd9b81059bf6495611bd36c2f6e055fc0316f03d))
+
+
+
+
+
 ## [5.5.2](https://github.com/davidsneighbour/configurations/compare/v5.5.1...v5.5.2) (2023-10-08)
 
 **Note:** Version bump only for package @davidsneighbour/commitlint-config
