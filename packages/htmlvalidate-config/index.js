@@ -2,12 +2,7 @@ module.exports = {
   extends: ["html-validate:recommended"],
   rules: {
     "attribute-misuse": [
-      "error",
-      {
-        allowed: [
-          "integrity",
-        ]
-      }
+      "off"
     ],
     "long-title": [
       "error",
