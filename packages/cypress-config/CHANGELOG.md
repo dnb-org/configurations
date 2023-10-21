@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.4](https://github.com/davidsneighbour/configurations/compare/v5.5.3...v5.5.4) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cypress to v13.3.2 ([#982](https://github.com/davidsneighbour/configurations/issues/982)) ([edb7b0b](https://github.com/davidsneighbour/configurations/commit/edb7b0b7cf4111adcf7962de4e0f90666be9c49c))
+
+
+
+
+
 ## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
 
 

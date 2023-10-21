@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.4](https://github.com/davidsneighbour/configurations/compare/v5.5.3...v5.5.4) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.8.1 ([#983](https://github.com/davidsneighbour/configurations/issues/983)) ([2a54bf4](https://github.com/davidsneighbour/configurations/commit/2a54bf4ca3fcba79f169e5e32d0de18ae533db45))
+
+
+
+
+
 ## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
 
 

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.4](https://github.com/davidsneighbour/configurations/compare/v5.5.3...v5.5.4) (2023-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v17.8.1 ([#983](https://github.com/davidsneighbour/configurations/issues/983)) ([2a54bf4](https://github.com/davidsneighbour/configurations/commit/2a54bf4ca3fcba79f169e5e32d0de18ae533db45))
+* **deps:** update dependency cypress to v13.3.2 ([#982](https://github.com/davidsneighbour/configurations/issues/982)) ([edb7b0b](https://github.com/davidsneighbour/configurations/commit/edb7b0b7cf4111adcf7962de4e0f90666be9c49c))
+* disable integrity attribute (waiting for upstream fix) ([e2a8ac0](https://github.com/davidsneighbour/configurations/commit/e2a8ac03a23595e6ea37a4a7b632a9d8f8c7f494))
+
+
+
+
+
 ## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
 
 

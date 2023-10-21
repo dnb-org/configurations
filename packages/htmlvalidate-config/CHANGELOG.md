@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.4](https://github.com/davidsneighbour/configurations/compare/v5.5.3...v5.5.4) (2023-10-21)
+
+
+### Bug Fixes
+
+* disable integrity attribute (waiting for upstream fix) ([e2a8ac0](https://github.com/davidsneighbour/configurations/commit/e2a8ac03a23595e6ea37a4a7b632a9d8f8c7f494))
+
+
+
+
+
 ## [5.5.3](https://github.com/davidsneighbour/configurations/compare/v5.5.2...v5.5.3) (2023-10-18)
 
 
