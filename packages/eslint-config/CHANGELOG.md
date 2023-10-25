@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.6](https://github.com/davidsneighbour/configurations/compare/v5.5.5...v5.5.6) (2023-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.52.0 ([#985](https://github.com/davidsneighbour/configurations/issues/985)) ([2e54f16](https://github.com/davidsneighbour/configurations/commit/2e54f16a3fb89a71b2011738bfc7a61c4f34904b))
+* **deps:** update dependency eslint-plugin-import to v2.29.0 ([#986](https://github.com/davidsneighbour/configurations/issues/986)) ([1f21eed](https://github.com/davidsneighbour/configurations/commit/1f21eed40c311e2f2ce043b64220df790db61448))
+* **deps:** update typescript-eslint monorepo to v6.9.0 ([#988](https://github.com/davidsneighbour/configurations/issues/988)) ([e2f1548](https://github.com/davidsneighbour/configurations/commit/e2f1548a49cb0cd7174434110ef9c6a54a43ec44))
+
+
+
+
+
 ## [5.5.5](https://github.com/davidsneighbour/configurations/compare/v5.5.4...v5.5.5) (2023-10-21)
 
 **Note:** Version bump only for package @davidsneighbour/eslint-config

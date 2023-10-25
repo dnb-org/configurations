@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.6](https://github.com/davidsneighbour/configurations/compare/v5.5.5...v5.5.6) (2023-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency html-validate to v8.7.0 ([#987](https://github.com/davidsneighbour/configurations/issues/987)) ([2467a25](https://github.com/davidsneighbour/configurations/commit/2467a253215f826f1fdf257daa3f3dc9cf188467))
+
+
+
+
+
 ## [5.5.5](https://github.com/davidsneighbour/configurations/compare/v5.5.4...v5.5.5) (2023-10-21)
 
 
