@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/commitlint-config",
   "dependencies": {
     "@commitlint/cli": "17.8.1",
-    "@commitlint/config-conventional": "17.8.1"
+    "@commitlint/config-conventional": "18.1.0"
   },
   "scripts": {
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
