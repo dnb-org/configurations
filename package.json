@@ -29,7 +29,7 @@
     "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
-    "lerna": "7.4.1"
+    "lerna": "7.4.2"
   },
   "scripts": {
     "fixpack": "fixpack && lerna run fixpack --parallel",
