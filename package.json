@@ -20,7 +20,7 @@
     "@davidsneighbour/cypress-config": "file:./packages/cypress-config",
     "@davidsneighbour/eslint-config": "file:./packages/eslint-config",
     "@davidsneighbour/htmlvalidate-config": "file:./packages/htmlvalidate-config",
-    "@davidsneighbour/markdownlint-config": "^5.5.8",
+    "@davidsneighbour/markdownlint-config": "^5.5.9",
     "@davidsneighbour/postcss-config": "file:./packages/postcss-config",
     "@davidsneighbour/prettier-config": "file:./packages/prettier-config",
     "@davidsneighbour/remark-config": "file:./packages/remark-config",
@@ -32,7 +32,7 @@
     "lerna": "7.4.2"
   },
   "scripts": {
-    "fixpack": "fixpack && lerna run fixpack --parallel",
+    "fixpack": "fixpack && lerna run fixpack",
     "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
     "release": "lerna publish --no-private --force-publish --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
     "repair": "lerna repair",

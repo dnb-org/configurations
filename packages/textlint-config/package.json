@@ -8,8 +8,10 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/textlint-config",
   "scripts": {
+    "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
+  "main": "index.js",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"

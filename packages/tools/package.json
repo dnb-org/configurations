@@ -24,12 +24,13 @@
     "wireit": "0.14.1"
   },
   "scripts": {
+    "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
+  "main": "index.js",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
-  "main": "index.js",
   "gitHead": "f8530751889b9217e312db40bf231f7d61a850c2"
 }

@@ -12,6 +12,7 @@
     "@commitlint/config-conventional": "18.1.0"
   },
   "scripts": {
+    "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
   "main": "index.js",
