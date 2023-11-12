@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/postcss-config",
   "dependencies": {
     "cssnano": "^6.0.1",
-    "@davidsneighbour/browserslist-config": "5.5.12",
+    "@davidsneighbour/browserslist-config": "5.5.14",
     "@fullhuman/postcss-purgecss": "5.0.0",
     "autoprefixer": "10.4.16",
     "doiuse": "^6.0.2",
