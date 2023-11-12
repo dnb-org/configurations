@@ -54,7 +54,6 @@ import remarkLintNoHeadingPunctuation from "remark-lint-no-heading-punctuation";
 import remarkLintNoHTML from "remark-lint-no-html";
 import remarkLintNoInlinePadding from "remark-lint-no-inline-padding";
 import remarkLintNoLiteralURLs from "remark-lint-no-literal-urls";
-import remarkLintNoMissingBlankLines from "remark-lint-no-missing-blank-lines";
 import remarkLintNoMultipleToplevelHeadings from "remark-lint-no-multiple-toplevel-headings";
 import remarkLintNoReferenceLikeUrl from "remark-lint-no-reference-like-url";
 import remarkLintNoShellDollars from "remark-lint-no-shell-dollars";
@@ -125,7 +124,6 @@ const config = {
     [remarkLintNoHTML, ['warn']],
     [remarkLintNoInlinePadding, ['error']],
     [remarkLintNoLiteralURLs, ['error']],
-    [remarkLintNoMissingBlankLines, ['error']],
     [remarkLintNoMultipleToplevelHeadings, ['error', 1]],
     [remarkLintNoReferenceLikeUrl, ['error']],
     [remarkLintNoShellDollars, ['error']],
