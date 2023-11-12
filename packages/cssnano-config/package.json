@@ -8,6 +8,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/cssnano-config",
   "dependencies": {
+    "@davidsneighbour/browserslist-config": "5.5.12",
     "cssnano": "^6.0.1"
   },
   "scripts": {
