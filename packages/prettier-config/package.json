@@ -8,7 +8,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/prettier-config",
   "dependencies": {
-    "prettier": "^3.0.3",
+    "prettier": "^3.1.0",
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-tailwindcss": "0.5.7",
     "prettier-plugin-toml": "1.0.0"
