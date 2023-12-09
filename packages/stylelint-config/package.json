@@ -12,9 +12,9 @@
     "postcss": "^8.4.32",
     "postcss-cli": "11.0.0",
     "postcss-scss": "^4.0.9",
-    "stylelint": "^16.0.0",
+    "stylelint": "^16.0.1",
     "stylelint-no-unsupported-browser-features": "7.0.0",
-    "stylelint-order": "6.0.3",
+    "stylelint-order": "6.0.4",
     "stylelint-scss": "^5.3.1",
     "stylelint-use-nesting": "^4.1.0"
   },
