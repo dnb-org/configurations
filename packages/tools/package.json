@@ -25,7 +25,7 @@
   },
   "scripts": {
     "fixpack": "fixpack",
-    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
+    "update": "npm-check-updates -u && npm install && lerna repair && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
   "main": "index.js",
   "engines": {
