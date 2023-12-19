@@ -24,7 +24,7 @@
     "eslint-plugin-mdx": "3.0.0",
     "eslint-plugin-no-loops": "0.3.0",
     "eslint-plugin-package-json": "0.3.2",
-    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-prettier": "5.1.0",
     "eslint-plugin-react": ">=7.33.2",
     "eslint-plugin-react-hooks": ">=4.6.0",
     "eslint-plugin-sonarjs": "0.23.0",
