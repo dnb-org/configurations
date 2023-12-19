@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/webpack-config",
   "dependencies": {
     "css-loader": "6.8.1",
-    "html-webpack-plugin": "5.5.4",
+    "html-webpack-plugin": "5.6.0",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss-loader": "7.3.3",
     "sass-loader": "13.3.2",
