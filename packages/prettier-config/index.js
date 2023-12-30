@@ -33,6 +33,9 @@ let config = {
       }
     },
   ],
+  plugins: [
+    "prettier-plugin-go-template"
+  ],
 };
 
 try {
