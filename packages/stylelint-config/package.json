@@ -27,5 +27,8 @@
     "node": ">=20.9.0",
     "npm": ">=10.1.0"
   },
-  "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
+  "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4",
+  "devDependencies": {
+    "stylelint-config-standard-scss": "^12.0.0"
+  }
 }

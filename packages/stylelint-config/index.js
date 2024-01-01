@@ -5,11 +5,9 @@
 const config = {
   "customSyntax": "postcss-scss",
   "cache": true,
-  "extends": [],
+  "extends": ["stylelint-config-standard-scss"],
   "ignoreFiles": [],
   "plugins": [
-    "stylelint-scss",
-    "stylelint-no-unsupported-browser-features",
     "stylelint-order",
     "stylelint-use-nesting"
   ],
