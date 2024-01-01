@@ -10,7 +10,7 @@
   "devDependencies": {
     "@davidsneighbour/babel-config": "file:./packages/babel-config",
     "@davidsneighbour/bootstrap-config": "file:./packages/bootstrap-config",
-    "@davidsneighbour/browserslist-config": "file:./packages/browserslist-config",
+    "@davidsneighbour/browserslist-config": "^5.5.26",
     "@davidsneighbour/commitlint-config": "file:./packages/commitlint-config",
     "@davidsneighbour/configurations": "file:./packages/configurations",
     "@davidsneighbour/cypress-config": "file:./packages/cypress-config",
