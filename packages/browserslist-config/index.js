@@ -6,7 +6,7 @@ module.exports = [
   "Firefox >= 117",
   "Firefox ESR",
   "iOS >= 12",
-  "Safari >= 12",
+  "Safari >= 16.4",
   "Edge >= 112",
   "not ie > 0",
   "not ie_mob > 0",
