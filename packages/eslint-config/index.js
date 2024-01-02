@@ -52,7 +52,8 @@ export default [
       'plugin:@typescript-eslint/eslint-recommended',
       'plugin:@typescript-eslint/recommended',
       'plugin:sonarjs/recommended',
-      "plugin:package-json/recommended",
+      'plugin:package-json/recommended',
+      'plugin:toml/standard'
     ],
     rules: {
       "indent": ["error", "tab"],
