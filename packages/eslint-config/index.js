@@ -48,7 +48,6 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:sonarjs/recommended',
-    'plugin:package-json/recommended',
     'plugin:toml/standard',
     "plugin:jsdoc/recommended-error"
   ],
