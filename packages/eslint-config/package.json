@@ -29,7 +29,8 @@
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-sonarjs": "0.23.0",
-    "eslint-plugin-unicorn": "50.0.1"
+    "eslint-plugin-unicorn": "50.0.1",
+    "eslint-plugin-toml": "0.8.0"
   },
   "scripts": {
     "fixpack": "fixpack",
@@ -40,9 +41,5 @@
     "node": ">=20.9.0",
     "npm": ">=10.1.0"
   },
-  "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4",
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-plugin-toml": "^0.8.0"
-  }
+  "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }
