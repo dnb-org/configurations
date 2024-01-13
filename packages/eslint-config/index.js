@@ -5,10 +5,7 @@ if (fs.existsSync(path)) {
   projectValue = path;
 }
 
-import perfectionistNatural from 'eslint-plugin-perfectionist/configs/recommended-natural'
-
 export default [
-  perfectionistNatural,
   {
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -25,8 +22,7 @@ export default [
       'sonarjs',
       // https://github.com/sindresorhus/eslint-plugin-unicorn
       "unicorn",
-      "jsdoc",
-      "plugin:perfectionist/recommended-natural"
+      "jsdoc"
     ],
     ignorePatterns: [
       '**/node_modules/*',
