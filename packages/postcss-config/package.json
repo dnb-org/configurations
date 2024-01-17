@@ -10,7 +10,7 @@
   "dependencies": {
     "@davidsneighbour/browserslist-config": "^5.8.7",
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "autoprefixer": "10.4.16",
+    "autoprefixer": "10.4.17",
     "cssnano": "^6.0.3",
     "doiuse": "^6.0.2",
     "pixrem": "5.0.0",
