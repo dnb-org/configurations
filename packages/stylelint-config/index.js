@@ -8,7 +8,7 @@ const config = {
   "extends": ["stylelint-config-standard-scss"],
   "ignoreFiles": [],
   "plugins": [
-    // "stylelint-use-nesting",
+    "stylelint-use-nesting",
     "stylelint-no-unsupported-browser-features",
     "stylelint-order"
   ],
@@ -185,7 +185,7 @@ const config = {
       {
         "browsers": "extends @davidsneighbour/browserslist-config",
         "severity": "warning",
-        "ignore": ["rem"],
+        "ignore": ["rem", "css-nesting"],
         "ignorePartialSupport": true
       }
     ],
