@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/cypress-config",
   "description": "Cypress configuration for use in @davidsneighbour projects.",
-  "version": "5.8.14",
+  "version": "5.8.15",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
