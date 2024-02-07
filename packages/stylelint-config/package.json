@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/stylelint-config",
   "dependencies": {
     "@davidsneighbour/browserslist-config": "^5.8.15",
-    "postcss": "8.4.34",
+    "postcss": "8.4.35",
     "postcss-cli": "11.0.0",
     "postcss-scss": "4.0.9",
     "stylelint": "16.2.1",
