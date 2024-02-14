@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/commitlint-config",
   "dependencies": {
     "@commitlint/cli": "18.6.1",
-    "@commitlint/config-conventional": "18.6.1"
+    "@commitlint/config-conventional": "18.6.2"
   },
   "scripts": {
     "fixpack": "fixpack",
