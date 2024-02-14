@@ -139,7 +139,7 @@ const config = {
     [remarkLintTableCellPadding, ['error', 'padded']],
     [remarkLintTablePipeAlignment, ['error']],
     [remarkLintTablePipes, ['error']],
-    [remarkLintUnorderedListMarkerStyle, ['error', '-']],
+    [remarkLintUnorderedListMarkerStyle, ['error', '*']],
 
   ]
 
