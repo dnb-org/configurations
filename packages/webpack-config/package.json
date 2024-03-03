@@ -26,7 +26,7 @@
   "main": "index.js",
   "engines": {
     "node": ">=20.9.0",
-    "npm": ">=10.1.0"
+    "npm": ">=10.4.0"
   },
   "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
 }
