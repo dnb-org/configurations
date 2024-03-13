@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/babel-config",
   "description": "Babel configuration for use in @davidsneighbour projects.",
-  "version": "5.10.0",
+  "version": "5.10.1",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
@@ -26,5 +26,5 @@
     "node": ">=20.9.0",
     "npm": ">=10.1.0"
   },
-  "gitHead": "02b17cf7c0919408fe75d816ed92631e04f389f4"
+  "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd"
 }
