@@ -8,6 +8,7 @@
 /**
  * @typedef {import('unified').Preset} Preset
  */
+import remarkFootnotes from "remark-footnotes";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkLint from "remark-lint";
 import remarkLintBlockquoteIndentation from "remark-lint-blockquote-indentation";
@@ -79,6 +80,7 @@ const config = {
     // the linter
     [remarkLint],
     // the rules alphabetically
+    [remarkFootnotes],
     [remarkFrontmatter],
     [remarkLintBlockquoteIndentation, ['error', 2]],
     [remarkLintCheckboxCharacterStyle, ['error', { checked: 'x', unchecked: ' ' }]],
