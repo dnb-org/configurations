@@ -14,7 +14,7 @@
     "cssnano": "^6.1.0",
     "doiuse": "^6.0.2",
     "pixrem": "5.0.0",
-    "postcss": "8.4.35",
+    "postcss": "8.4.36",
     "postcss-cli": "11.0.0",
     "postcss-import": "16.0.1",
     "postcss-loader": "8.1.1",
