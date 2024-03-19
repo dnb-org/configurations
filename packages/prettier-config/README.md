@@ -1,31 +1,34 @@
-# Prettier
+## Add `@davidsneighbour/prettier-config` to your project
 
-[More information about Prettier configuration](https://prettier.io/docs/en/options.html).
+Install the plugin:
 
-Add a key in your `package.json` file.
+```bash
+npm install --save-dev @davidsneighbour/prettier-config
+```
+
+There are several ways to add a configuration, but the following are the config options I advise to use `@davidsneighbour/prettier-config` without or with overrides.
+
+Add a key to your `package.json` file:
 
 ```json
-"prettier": "@davidsneighbour/prettier-config"
+{
+  "prettier": "@davidsneighbour/prettier-config"
+}
 ```
 
-or create a `.prettierrc` , `.prettierrc.yaml` , `.prettierrc.yml` or `.prettierrc.json` file and export a string.
-
-```yaml
-"@davidsneighbour/prettier-config"
-```
-
-or create a `prettier.config.js` or `.prettierrc.js` file and export an object.
+or create a `.prettierrc.mjs` file and export an object that overrides settings:
 
 ```js
-module.exports = {
-  ...require("@davidsneighbour/prettier-config"),
-  endOfLine: 'lf', // to overwrite the property
+import prettierConfig from "@davidsneighbour/prettier-config";
+export default {
+  ...prettierConfig,
+  // Add your overrides here.
 };
 ```
 
-## Use with TailwindCSS:
+## Use with TailwindCSS
 
-This configuration implements [Tailwinds Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss). To activate it either have a tailwind.config.js in your projects root or override the prettier configuration at `tailwindConfig` with the proper path.
+This configuration implements [Tailwind's Prettier Plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss). To activate it either have a `tailwind.config.js` in your project root or override the prettier configuration at `tailwindConfig` with the proper path.
 
 ```js
 const defaultConfiguration = require("@davidsneighbour/prettier-config");
@@ -39,20 +42,6 @@ const configuration = {
 module.exports = configuration;
 ```
 
-# All configurations
+## More information
 
-- [Babel](/packages/babel-config#readme)
-- [Bootstrap](/packages/bootstrap-config#readme)
-- [Browserslist](/packages/browserslist-config#readme)
-- [Commitlint](/packages/commitlint-config#readme)
-- [CssNano](/packages/cssnano-config#readme)
-- [Cypress](/packages/cypress-config#readme)
-- [ESLint](/packages/eslint-config#readme)
-- [Markdownlint](/packages/markdownlint-config#readme)
-- [PostCSS](/packages/postcss-config#readme)
-- [Prettier](/packages/prettier-config#readme)
-- [Remark Lint](/packages/remark-config#readme)
-- [Standard Version](/packages/standard-version-config#readme)
-- [Stylelint](/packages/stylelint-config#readme)
-- [Tools](/packages/tools#readme)
-- [Webpack](/packages/webpack-config#readme)
+* [More information about available Prettier configuration options](https://prettier.io/docs/en/options.html).
