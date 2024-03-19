@@ -2,40 +2,45 @@ const fs = require("fs");
 
 // https://prettier.io/docs/en/options.html
 let config = {
+
+  editorconfig: true,
   printWidth: 120,
   tabWidth: 2,
   useTabs: false,
   semi: true,
-  singleQuote: true,
-  trailingComma: "es5",
+  singleQuote: false,
   quoteProps: "as-needed",
+  trailingComma: "all",
   bracketSpacing: true,
   bracketSameLine: true,
   arrowParens: "always",
+  proseWrap: "preserve", // for markdown wrapping
+  htmlWhitespaceSensitivity: "css", // <css|strict|ignore>
   endOfLine: "lf",
-  goTemplateBracketSpacing: true,
+  embeddedLanguageFormatting: "off", // <auto|off>
+  singleAttributePerLine: false, // for html attributes
+
   overrides: [
     {
       "files": ["*.html"],
       "options": {
-        "parser": "go-template",
+        "parser": "go-template", // see https://prettier.io/docs/en/options#parser
         "goTemplateBracketSpacing": true,
-        "printWidth": 120,
-        "bracketSameLine": true
+        "bracketSameLine": true, // for go-template plugin
       }
     },
     {
       "files": ["*.js", "*.ts"],
       "options": {
-        "useTabs": false,
-        "printWidth": 120,
         "singleQuote": true
       }
     },
   ],
+
   plugins: [
     "prettier-plugin-go-template"
   ],
+
 };
 
 const tailwindPath = "./tailwind.config.js";
@@ -46,7 +51,8 @@ try {
       tailwindConfig: tailwindPath,
     };
   }
-} catch {
-  // console.log(error);
+} catch (error) {
+  console.log(error);
 }
-module.exports = config;
+
+export default config;

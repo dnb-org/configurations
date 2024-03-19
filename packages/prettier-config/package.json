@@ -17,7 +17,7 @@
     "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
-  "main": "index.js",
+  "main": "index.mjs",
   "engines": {
     "node": ">=20.9.0",
     "npm": ">=10.1.0"
