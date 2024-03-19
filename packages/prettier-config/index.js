@@ -1,7 +1,5 @@
 const fs = require("fs");
 
-const tailwindPath = "./tailwind.config.js";
-
 // https://prettier.io/docs/en/options.html
 let config = {
   printWidth: 120,
@@ -22,13 +20,15 @@ let config = {
       "options": {
         "parser": "go-template",
         "goTemplateBracketSpacing": true,
+        "printWidth": 120,
         "bracketSameLine": true
       }
     },
     {
       "files": ["*.js", "*.ts"],
       "options": {
-        "useTabs": true,
+        "useTabs": false,
+        "printWidth": 120,
         "singleQuote": true
       }
     },
@@ -38,8 +38,9 @@ let config = {
   ],
 };
 
+const tailwindPath = "./tailwind.config.js";
 try {
-  if (fs.existsSync(path)) {
+  if (fs.existsSync(tailwindPath)) {
     config = {
       ...config,
       tailwindConfig: tailwindPath,
