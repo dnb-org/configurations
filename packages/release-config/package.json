@@ -1,0 +1,46 @@
+{
+  "name": "@davidsneighbour/release-config",
+  "description": "Release script configuration for @davidsneighbour's projects",
+  "version": "2024.0.0",
+  "license": "MIT",
+  "repository": "davidsneighbour/configurations",
+  "author": {
+    "name": "Patrick Kollitsch",
+    "email": "patrick@davids-neighbour.com",
+    "web": "https://davids-neighbour.com"
+  },
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/release-config",
+  "dependencies": {
+    "@davidsneighbour/tools": "5.11.1",
+    "commit-and-tag-version": "12.2.0"
+  },
+  "scripts": {
+    "fixpack": "fixpack",
+    "release": "wireit",
+    "release:major": "wireit",
+    "release:minor": "wireit",
+    "release:patch": "wireit"
+  },
+  "wireit": {
+    "release:major": {
+      "command": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/hooks/postrelease"
+    },
+    "release:minor": {
+      "command": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/hooks/postrelease"
+    },
+    "release:patch": {
+      "command": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/hooks/postrelease"
+    },
+    "release": {
+      "dependencies": [
+        "release:patch"
+      ]
+    }
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=10.1.0"
+  }
+}
