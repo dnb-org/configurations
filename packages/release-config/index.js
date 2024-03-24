@@ -3,6 +3,11 @@ const config = {
   // https://github.com/absolute-version/commit-and-tag-version
   scripts: {
     prerelease: "./bin/release/prerelease",
+    // prerelease:
+    // prebump / postbump
+    // prechangelog / postchangelog
+    // precommit/ postcommit
+    // pretag / posttag
   },
   bumpFiles: [
     {
