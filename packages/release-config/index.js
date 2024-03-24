@@ -1,5 +1,6 @@
 module.exports = {
-  // and
+  // for available commit-and-tag-version options see
+  // https://github.com/absolute-version/commit-and-tag-version
   scripts: {
     prerelease: "./bin/release/prerelease",
   },
