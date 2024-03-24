@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   // for available commit-and-tag-version options see
   // https://github.com/absolute-version/commit-and-tag-version
   scripts: {
@@ -32,3 +32,4 @@ module.exports = {
     { type: "theme", section: "Theme" },
   ],
 };
+export default config;
