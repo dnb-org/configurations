@@ -19,7 +19,7 @@
     "@davidsneighbour/markdownlint-config": "^2024.0.3",
     "@davidsneighbour/postcss-config": "^2024.0.3",
     "@davidsneighbour/prettier-config": "^2024.0.3",
-    "@davidsneighbour/standard-version-config": "^5.11.1",
+    "@davidsneighbour/release-config": "^2024.0.3",
     "@davidsneighbour/stylelint-config": "^2024.0.3",
     "@davidsneighbour/textlint-config": "^2024.0.3",
     "@davidsneighbour/tools": "^2024.0.3",
