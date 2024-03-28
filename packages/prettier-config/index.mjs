@@ -36,11 +36,21 @@ let config = {
         "singleQuote": true
       }
     },
+    {
+      "files": "*.properties",
+      "options": {
+        "printWidth": 0
+      }
+    }
   ],
 
   plugins: [
     "prettier-plugin-go-template",
-    "prettier-plugin-sh"
+    "prettier-plugin-sh",
+    "prettier-plugin-toml",
+    "prettier-plugin-properties",
+    "@prettier/plugin-php",
+    "@prettier/plugin-xml"
   ],
 
 };
