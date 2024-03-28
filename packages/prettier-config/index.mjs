@@ -1,6 +1,7 @@
 const fs = require("fs");
 
 // https://prettier.io/docs/en/options.html
+// https://json.schemastore.org/prettierrc
 let config = {
 
   editorconfig: true,
@@ -38,7 +39,8 @@ let config = {
   ],
 
   plugins: [
-    "prettier-plugin-go-template"
+    "prettier-plugin-go-template",
+    "prettier-plugin-sh"
   ],
 
 };
