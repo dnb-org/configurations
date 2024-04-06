@@ -44,7 +44,6 @@
     "bugs",
     "scripts",
     "main",
-    "bugs",
     "engines"
   ],
   // will warn if these not present

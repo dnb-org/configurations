@@ -32,8 +32,8 @@ Or in the `browserslist` parameter in `package.json`.
 | **Testing** | | |
 | [Cypress](packages/cypress-config) | [HTML Validate](packages/htmlvalidate-config/) |  |
 | **Linters and Formatters** | | |
-| [Browserslist](packages/browserslist-config) | [CssNano](packages/cssnano-config) | [ESLint](packages/eslint-config) |
-| [PostCSS](packages/postcss-config) | [Prettier](packages/prettier-config) | [Stylelint](packages/stylelint-config) |
+| [Browserslist](packages/browserslist-config) | [ESLint](packages/eslint-config) | [PostCSS](packages/postcss-config) |
+| [Prettier](packages/prettier-config) | [Stylelint](packages/stylelint-config) | |
 | **Project Management** | | |
 | [Commitlint](packages/commitlint-config) | [Release](packages/release-config) |  |
 | **Markdown and Writing** | | |
