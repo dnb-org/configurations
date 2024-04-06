@@ -37,18 +37,18 @@ The configuration differs from the [default ruleset](https://github.com/DavidAns
 
 ## All configurations
 
-*   [Babel](/packages/babel-config)
-*   [Bootstrap](/packages/bootstrap-config)
-*   [Browserslist](/packages/browserslist-config)
-*   [Commitlint](/packages/commitlint-config)
-*   [CssNano](/packages/cssnano-config)rm
-*   [Cypress](/packages/cypress-config)
-*   [ESLint](/packages/eslint-config)
-*   [Markdownlint](/packages/markdownlint-config)
-*   [PostCSS](/packages/postcss-config)
-*   [Prettier](/packages/prettier-config)
-*   [Remark Lint](/packages/remark-config)
-*   [Standard Version](/packages/standard-version-config)
-*   [Stylelint](/packages/stylelint-config)
-*   [Tools](/packages/tools)
-*   [Webpack](/packages/webpack-config)
+| Configurations | | |
+| --- | --- | --- |
+| **Build Tools** | | |
+| [Babel](packages/babel-config) | [Webpack](packages/webpack-config) | |
+| **Testing** | | |
+| [Cypress](packages/cypress-config) | [HTML Validate](packages/htmlvalidate-config/) |  |
+| **Linters and Formatters** | | |
+| [Browserslist](packages/browserslist-config) | [CssNano](packages/cssnano-config) | [ESLint](packages/eslint-config) |
+| [PostCSS](packages/postcss-config) | [Prettier](packages/prettier-config) | [Stylelint](packages/stylelint-config) |
+| **Project Management** | | |
+| [Commitlint](packages/commitlint-config) | [Release](packages/release-config) |  |
+| **Markdown and Writing** | | |
+| [Markdownlint](packages/markdownlint-config) | [Remark Lint](packages/remark-config) |  |
+| **Other Tools** | | |
+| [Bootstrap](packages/bootstrap-config) | [Tools](packages/tools) |  |
