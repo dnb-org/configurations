@@ -1,20 +1,19 @@
 {
-    "recommendations": [
-        "naumovs.color-highlight",
-        "github.copilot-labs",
-        "nrwl.angular-console",
-        "christian-kohler.npm-intellisense",
-        "howardzuo.vscode-npm-dependency",
-        "davidanson.vscode-markdownlint",
-        "yzhang.markdown-all-in-one",
-        "golang.go",
-        "casualjim.gotemplate",
-        "tamasfe.even-better-toml",
-        "stylelint.vscode-stylelint",
-        "foxundermoon.shell-format",
-        "timonwong.shellcheck",
-        "remisa.shellman",
-        "mkhl.shfmt",
-        "ms-vscode.vscode-speech"
-    ]
+  "recommendations": [
+    "naumovs.color-highlight",
+    "oouo-diogo-perdigao.docthis",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "tamasfe.even-better-toml",
+    "github.copilot",
+    "github.copilot-chat",
+    "yzhang.markdown-all-in-one",
+    "christian-kohler.npm-intellisense",
+    "rescuetime.rescuetime",
+    "timonwong.shellcheck",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "chrischinchilla.vale-vscode",
+    "redhat.vscode-yaml"
+  ]
 }
