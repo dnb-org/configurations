@@ -22,9 +22,7 @@
     "@davidsneighbour/prettier-config": "file:./packages/prettier-config",
     "@davidsneighbour/release-config": "file:./packages/release-config",
     "@davidsneighbour/remark-config": "file:./packages/remark-config",
-    "@davidsneighbour/standard-version-config": "file:./packages/standard-version-config",
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
-    "@davidsneighbour/textlint-config": "file:./packages/textlint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
     "lerna": "8.1.2"
@@ -42,8 +40,8 @@
     "access": "public"
   },
   "engines": {
-    "node": ">=20.9.0",
-    "npm": ">=10.1.0"
+    "node": ">=20.12.0",
+    "npm": ">=10.5.0"
   },
   "eslintConfig": {
     "extends": [
