@@ -112,6 +112,24 @@ updates:
       - type:dependencies
 
   - package-ecosystem: "npm"
+    directory: "/packages/configurations/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "18:00"
+      timezone: Asia/Bangkok
+    assignees:
+      - davidsneighbour
+    reviewers:
+      - davidsneighbour
+    target-branch: main
+    open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: /
+    labels:
+      - type:dependencies
+
+  - package-ecosystem: "npm"
     directory: "/packages/cssnano-config/"
     schedule:
       interval: "weekly"
@@ -149,6 +167,24 @@ updates:
 
   - package-ecosystem: "npm"
     directory: "/packages/eslint-config/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "18:00"
+      timezone: Asia/Bangkok
+    assignees:
+      - davidsneighbour
+    reviewers:
+      - davidsneighbour
+    target-branch: main
+    open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: /
+    labels:
+      - type:dependencies
+
+  - package-ecosystem: "npm"
+    directory: "/packages/htmlvalidate-config/"
     schedule:
       interval: "weekly"
       day: "friday"
@@ -220,7 +256,7 @@ updates:
       - type:dependencies
 
   - package-ecosystem: "npm"
-    directory: "/packages/remark-config/"
+    directory: "/packages/release-config/"
     schedule:
       interval: "weekly"
       day: "friday"
@@ -238,7 +274,7 @@ updates:
       - type:dependencies
 
   - package-ecosystem: "npm"
-    directory: "/packages/standard-version-config/"
+    directory: "/packages/remark-config/"
     schedule:
       interval: "weekly"
       day: "friday"
