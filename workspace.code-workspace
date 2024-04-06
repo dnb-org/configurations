@@ -5,7 +5,6 @@
     }
   ],
   "settings": {
-    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Droid Sans Mono', monospace",
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#ab307e",
       "activityBar.background": "#ab307e",
@@ -24,7 +23,6 @@
       "titleBar.activeForeground": "#e7e7e7",
       "titleBar.inactiveBackground": "#83256199",
       "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "peacock.color": "#832561"
+    }
   }
 }
