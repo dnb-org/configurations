@@ -34,25 +34,19 @@
     "fixpack:major": "wireit",
     "lint:lockfiles": "wireit",
     "release": "wireit",
+    "update": "wireit",
     "update:commit": "wireit",
     "update:packages": "wireit",
     "update:packages:major": "wireit"
   },
   "wireit": {
-    "fixpack": {
-      "command": "fixpack || fixpack"
-    },
-    "fixpack:major": {
-      "command": "fixpack || fixpack"
-    },
-    "lint:lockfiles": {
-      "command": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
-      "env": {
-        "WIREIT_FAILURES": "continue"
-      }
-    },
     "release": {
       "command": "lerna publish --no-private --no-changelog --force-publish --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag"
+    },
+    "update": {
+      "dependencies": [
+        "update:commit"
+      ]
     },
     "update:commit": {
       "command": "git add -A && git commit -m 'chore(deps): update dependencies'",
@@ -60,10 +54,22 @@
         "lint:lockfiles"
       ]
     },
-    "update:packages": {
-      "command": "npm-check-updates --target=minor"
+    "lint:lockfiles": {
+      "command": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
+      "env": {
+        "WIREIT_FAILURES": "continue"
+      },
+      "dependencies": [
+        "fixpack"
+      ]
     },
-    "update:packages:major": {
+    "fixpack": {
+      "command": "fixpack || fixpack",
+      "dependencies": [
+        "update:packages"
+      ]
+    },
+    "update:packages": {
       "command": "npm-check-updates"
     }
   },
