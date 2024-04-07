@@ -554,3 +554,4 @@ yarn-error.log
 # End of https://www.toptal.com/developers/gitignore/api/vue,hugo,node,sass,vuejs,phpstorm,sublimetext,visualstudiocode,react,reactnative
 
 TODO.md
+.wireit

@@ -1,8 +1,8 @@
 Create a file `.versionrc.js` with the following contents:
 
 ```javascript
-const defaultStandardVersion = require("@davidsneighbour/standard-version-config");
-module.exports = defaultStandardVersion;
+import defaultStandardVersion from '@davidsneighbour/release-config';
+export default defaultStandardVersion;
 ```
 
 Add the following scripts to your package.json:
