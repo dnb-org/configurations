@@ -1,11 +1,11 @@
-const fs = require('fs');
+import fs from 'fs';
 const path = './tsconfig.eslint.json';
 let projectValue = '';
 if (fs.existsSync(path)) {
   projectValue = path;
 }
 
-module.exports = {
+export default {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: "latest",

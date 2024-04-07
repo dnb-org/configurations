@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ["html-validate:recommended"],
   rules: {
     "attribute-misuse": [

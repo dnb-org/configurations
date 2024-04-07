@@ -14,6 +14,7 @@
     "wayou.vscode-todo-highlight",
     "gruntfuggly.todo-tree",
     "chrischinchilla.vale-vscode",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "davidanson.vscode-markdownlint"
   ]
 }

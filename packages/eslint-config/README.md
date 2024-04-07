@@ -1,5 +1,3 @@
-# ESLint
-
 Add .eslintrc with the following content to your project:
 
 ```json

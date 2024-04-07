@@ -17,7 +17,7 @@
     "ncp": "2.0.0",
     "node-fetch": "3.3.2",
     "npm-check-updates": "16.14.18",
-    "npm-package-json-lint": "^7.1.0",
+    "npm-package-json-lint": "7.1.0",
     "npm-run-all2": "6.1.2",
     "npm-watch": "0.11.0",
     "rimraf": "5.0.5",
@@ -32,5 +32,6 @@
     "node": ">=20.12.0",
     "npm": ">=10.5.0"
   },
-  "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd"
+  "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd",
+  "type": "module"
 }

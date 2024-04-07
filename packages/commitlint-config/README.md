@@ -20,7 +20,7 @@ In package.json add the following lines:
 Then add .commitlintrc.js with the following content:
 
 ```js
-module.exports = {
+export default {
   extends: ["@davidsneighbour/config/commitlint"],
 };
 ```

@@ -3,7 +3,7 @@
 Create `.babelrc.js` with the following content:
 
 ```js
-module.exports = {
+export default = {
   presets: ["module:@davidsneighbour/babel-config"],
 };
 ```
@@ -29,7 +29,7 @@ We could also create a `babel` property inside of `package.json`:
 To override settings of the preset use the `overrides` parameter:
 
 ```js
-module.exports = {
+export default {
   presets: ["module:@davidsneighbour/babel-config"],
   overrides: [
     {

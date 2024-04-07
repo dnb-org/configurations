@@ -26,5 +26,6 @@
       "import": "./index.js",
       "require": "./index.js"
     }
-  }
+  },
+  "type": "module"
 }

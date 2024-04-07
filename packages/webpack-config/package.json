@@ -28,5 +28,6 @@
     "node": ">=20.12.0",
     "npm": ">=10.5.0"
   },
-  "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd"
+  "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd",
+  "type": "module"
 }
