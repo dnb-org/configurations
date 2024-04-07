@@ -26,17 +26,62 @@
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
-    "@types/node": "^20.12.5",
+    "@types/node": "20.12.5",
     "lerna": "8.1.2"
   },
   "scripts": {
-    "fixpack": "fixpack && lerna run fixpack",
-    "lint:lockfiles": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
-    "release": "lerna publish --no-private --no-changelog --force-publish --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag",
-    "repair": "lerna repair",
-    "reset": "lerna clean && npm run repair",
-    "update": "npm-check-updates --deep --upgrade --target=minor && npm run reset && npm install && fixpack && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release",
-    "update:major": "npm-check-updates --deep --upgrade && npm run reset && npm install && git add -A && git commit -m 'chore(deps): update dependencies' && npm run release"
+    "fixpack": "wireit",
+    "update": "wireit",
+    "lint:lockfiles": "wireit",
+    "release": "wireit",
+    "reset": "wireit",
+    "update:major": "wireit"
+  },
+  "wireit": {
+    "update": {
+      "command": "npm run reset",
+      "dependencies": [
+        "update:packages",
+        "fixpack"
+      ]
+    },
+    "update:major": {
+      "command": "npm run reset",
+      "dependencies": [
+        "update:packages:major",
+        "fixpack:deep"
+      ]
+    },
+    "fixpack": {
+      "command": "fixpack",
+      "dependencies": [
+        ""
+      ]
+    },
+    "fixpack:deep": {
+      "command": "lerna run fixpack",
+      "dependencies": [
+        "fixpack"
+      ]
+    },
+    "updates:commit": {
+      "command": "git add -A && git commit -m 'chore(deps): update dependencies'"
+    },
+    "updates:packages": {
+      "command": "npm-check-updates --target=minor"
+    },
+    "updates:packages:major": {
+      "command": "npm-check-updates --deep --color --upgrade --no-interactive"
+    },
+    "reset": {
+      "command": "lerna clean && lerna repair"
+    },
+    "lint:lockfile": {
+      "command": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity"
+    },
+    "release": {
+      "command": "lerna publish --no-private --no-changelog --force-publish --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag"
+    }
   },
   "publishConfig": {
     "access": "public"
@@ -44,15 +89,5 @@
   "engines": {
     "node": ">=20.12.0",
     "npm": ">=10.5.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@davidsneighbour/eslint-config"
-    ]
-  },
-  "remarkConfig": {
-    "plugins": [
-      "@davidsneighbour/remark-config"
-    ]
   }
 }
