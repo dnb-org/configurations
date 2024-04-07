@@ -40,16 +40,10 @@
   },
   "wireit": {
     "fixpack": {
-      "command": "fixpack || fixpack",
-      "env": {
-        "WIREIT_FAILURES": "continue"
-      }
+      "command": "fixpack || fixpack"
     },
     "fixpack:major": {
-      "command": "fixpack || fixpack",
-      "env": {
-        "WIREIT_FAILURES": "continue"
-      }
+      "command": "fixpack || fixpack"
     },
     "lint:lockfiles": {
       "command": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
