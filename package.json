@@ -31,56 +31,46 @@
   },
   "scripts": {
     "fixpack": "wireit",
-    "update": "wireit",
+    "fixpack:major": "wireit",
     "lint:lockfiles": "wireit",
     "release": "wireit",
-    "reset": "wireit",
-    "update:major": "wireit"
+    "update:commit": "wireit",
+    "update:packages": "wireit",
+    "update:packages:major": "wireit"
   },
   "wireit": {
-    "update": {
-      "command": "npm run reset",
-      "dependencies": [
-        "update:packages",
-        "fixpack"
-      ]
-    },
-    "update:major": {
-      "command": "npm run reset",
-      "dependencies": [
-        "update:packages:major",
-        "fixpack:deep"
-      ]
-    },
     "fixpack": {
-      "command": "fixpack",
-      "dependencies": [
-        ""
-      ]
+      "command": "fixpack || fixpack",
+      "env": {
+        "WIREIT_FAILURES": "continue"
+      }
     },
-    "fixpack:deep": {
-      "command": "lerna run fixpack",
-      "dependencies": [
-        "fixpack"
-      ]
+    "fixpack:major": {
+      "command": "fixpack || fixpack",
+      "env": {
+        "WIREIT_FAILURES": "continue"
+      }
     },
-    "updates:commit": {
-      "command": "git add -A && git commit -m 'chore(deps): update dependencies'"
-    },
-    "updates:packages": {
-      "command": "npm-check-updates --target=minor"
-    },
-    "updates:packages:major": {
-      "command": "npm-check-updates --deep --color --upgrade --no-interactive"
-    },
-    "reset": {
-      "command": "lerna clean && lerna repair"
-    },
-    "lint:lockfile": {
-      "command": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity"
+    "lint:lockfiles": {
+      "command": "lockfile-lint --path package-lock.json --type=npm --validate-https --allowed-hosts=npm --empty-hostname=false --validate-package-names --validate-checksum --validate-integrity",
+      "env": {
+        "WIREIT_FAILURES": "continue"
+      }
     },
     "release": {
       "command": "lerna publish --no-private --no-changelog --force-publish --message 'chore(release): publish %s' --signoff-git-commit --sign-git-commit --sign-git-tag"
+    },
+    "update:commit": {
+      "command": "git add -A && git commit -m 'chore(deps): update dependencies'",
+      "dependencies": [
+        "lint:lockfiles"
+      ]
+    },
+    "update:packages": {
+      "command": "npm-check-updates --target=minor"
+    },
+    "update:packages:major": {
+      "command": "npm-check-updates"
     }
   },
   "publishConfig": {

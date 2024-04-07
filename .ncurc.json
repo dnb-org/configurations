@@ -1,0 +1,9 @@
+{
+  "cache": true,
+  "color": true,
+  "install": "always",
+  "interactive": false,
+  "upgrade": true,
+  "root": true,
+  "workspaces": true
+}
