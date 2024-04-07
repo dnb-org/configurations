@@ -1,6 +1,6 @@
 # Configuration Packages for @davidsneighbour
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/davidsneighbour/configurations?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/configurations/issues) ![LastChanges](https://img.shields.io/github/last-commit/davidsneighbour/configurations?color=%23ff7700&logo=github&style=for-the-badge) [![Codacy Badge](https://img.shields.io/codacy/grade/dc398b66acca45ab8a69fb1baa842af6?logo=codacy&style=for-the-badge)](https://www.codacy.com/gh/davidsneighbour/configurations/dashboard) ![License](https://img.shields.io/github/license/davidsneighbour/configurations?logo=github&style=for-the-badge)
+[![GitHub issues](https://img.shields.io/github/issues-raw/davidsneighbour/configurations?logo=github&style=for-the-badge)](https://github.com/davidsneighbour/configurations/issues) ![LastChanges](https://img.shields.io/github/last-commit/davidsneighbour/configurations?color=%23ff7700&logo=github&style=for-the-badge) ![License](https://img.shields.io/github/license/davidsneighbour/configurations?logo=github&style=for-the-badge)
 
 ## All configurations
 
