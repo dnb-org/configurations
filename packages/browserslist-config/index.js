@@ -1,6 +1,6 @@
 // https://github.com/browserslist/browserslist#readme
 // https://browsersl.ist/
-export default [
+module.exports = [
   ">= 0.5%",
   "Chrome >= 112",
   "Firefox >= 117",
