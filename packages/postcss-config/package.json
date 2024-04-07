@@ -27,8 +27,8 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=20.9.0",
-    "npm": ">=10.1.0"
+    "node": ">=20.12.0",
+    "npm": ">=10.5.0"
   },
   "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd"
 }
