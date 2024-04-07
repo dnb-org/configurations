@@ -26,6 +26,7 @@
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
+    "@types/node": "^20.12.5",
     "lerna": "8.1.2"
   },
   "scripts": {
@@ -49,7 +50,6 @@
       "@davidsneighbour/eslint-config"
     ]
   },
-  "prettier": "@davidsneighbour/prettier-config",
   "remarkConfig": {
     "plugins": [
       "@davidsneighbour/remark-config"

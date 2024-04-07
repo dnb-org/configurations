@@ -1,3 +1,5 @@
+`@davidsneighbour/prettier-config` is a shared Prettier configuration for my projects. It's uses [the ESM format](https://github.com/davidsneighbour/namespace/blob/main/tenets/esm.md) and exports an object with the configuration.
+
 ## Add `@davidsneighbour/prettier-config` to your project
 
 Install the plugin:
@@ -16,7 +18,7 @@ Add a key to your `package.json` file:
 }
 ```
 
-or create a `.prettierrc.mjs` file and export an object that overrides settings:
+or create a `.prettierrc.js` file and export an object that overrides settings:
 
 ```js
 import prettierConfig from "@davidsneighbour/prettier-config";
@@ -25,6 +27,8 @@ export default {
   // Add your overrides here.
 };
 ```
+
+If your project does not uses the ESM format, you need to use the `.mjs` extension for this file.
 
 ## Use with TailwindCSS
 

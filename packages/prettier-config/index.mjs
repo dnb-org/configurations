@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("node:fs");
 
 // https://prettier.io/docs/en/options.html
 // https://json.schemastore.org/prettierrc
@@ -60,6 +60,7 @@ try {
   if (fs.existsSync(tailwindPath)) {
     config = {
       ...config,
+      // @ts-ignore -- tailwindConfig is part of prettier-plugin-tailwindcss
       tailwindConfig: tailwindPath,
     };
   }
