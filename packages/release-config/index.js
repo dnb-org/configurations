@@ -37,4 +37,4 @@ const config = {
     { type: "theme", section: "Theme" },
   ],
 };
-export default config;
+module.exports = config;
