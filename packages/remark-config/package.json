@@ -92,6 +92,6 @@
     "node": ">=20.12.0",
     "npm": ">=10.5.0"
   },
-  "gitHead": "ffb73c118c1582f7500abc733bc0beebea93cdbd",
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
   "type": "module"
 }
