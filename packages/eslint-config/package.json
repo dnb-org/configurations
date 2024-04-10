@@ -8,7 +8,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config",
   "dependencies": {
-    "eslint": "9.0.0",
+    "@eslint/js": "^9.0.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
@@ -19,7 +19,6 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "48.2.3",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-markdown": "4.0.1",
     "eslint-plugin-mdx": "3.1.5",
     "eslint-plugin-no-loops": "0.3.0",
     "eslint-plugin-prettier": "5.1.3",
@@ -39,5 +38,11 @@
     "npm": ">=10.5.0"
   },
   "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/eslint__js": "^8.42.3",
+    "@types/eslint-plugin-markdown": "^2.0.2",
+    "eslint": "^9.0.0",
+    "eslint-plugin-markdown": "^4.0.1"
+  }
 }
