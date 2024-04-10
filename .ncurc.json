@@ -1,7 +1,7 @@
 {
   "cache": true,
   "color": true,
-  "install": "always",
+  "install": "ask",
   "interactive": false,
   "upgrade": true,
   "root": true,

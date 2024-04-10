@@ -15,7 +15,6 @@ export default [
       extraFileExtensions: ['json'],
     },
     plugins: [
-      '@typescript-eslint',
       'anti-trojan-source',
       'html',
       'no-loops',
@@ -46,8 +45,6 @@ export default [
       'plugin:markdown/recommended',
       'plugin:import/recommended',
       'plugin:import/typescript',
-      'plugin:@typescript-eslint/eslint-recommended',
-      'plugin:@typescript-eslint/recommended',
       'plugin:sonarjs/recommended',
       'plugin:toml/standard',
       "plugin:jsdoc/recommended-error"
@@ -59,8 +56,8 @@ export default [
       '@typescript-eslint/no-unused-vars': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/ban-ts-comment': 0,
-      'import/no-unresolved': 'off',
       '@typescript-eslint/no-var-requires': 'off',
+      'import/no-unresolved': 'off',
 
       //////////////////////////////////////////////
       // "jsdoc/check-access": 1, // Recommended
