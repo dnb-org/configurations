@@ -10,7 +10,7 @@
   "dependencies": {
     "cypress": "13.7.3",
     "cypress-axe": "1.5.0",
-    "eslint-plugin-cypress": "2.15.1"
+    "eslint-plugin-cypress": "2.15.2"
   },
   "scripts": {
     "fixpack": "fixpack",
