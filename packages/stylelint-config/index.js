@@ -13,7 +13,7 @@ const config = {
   ],
   "rules": {
     "alpha-value-notation": [
-      "percentage",
+      "number",
       {
         "exceptProperties": [
           "opacity",
