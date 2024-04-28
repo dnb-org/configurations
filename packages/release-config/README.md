@@ -1,18 +1,21 @@
 Create a file `.versionrc.js` with the following contents:
 
 ```javascript
-import defaultStandardVersion from '@davidsneighbour/release-config';
-export default defaultStandardVersion;
+const defaultStandardVersion = require('@davidsneighbour/release-config');
+module.exports = defaultStandardVersion;
 ```
+
+> [!CAUTION]
+> `commit-and-tag-version` does not yet support the ESM format. Keep it common(js)!
 
 Add the following scripts to your package.json:
 
 ```json
 {
   "scripts": {
-    "release": "commit-and-tag-version --release-as patch -a -t \"v\" && ./bin/release/postrelease.sh",
-    "release-next": "commit-and-tag-version --release-as minor -a -t \"v\" && ./bin/release/postrelease.sh",
-    "release-major": "commit-and-tag-version --release-as major -a -t \"v\" && ./bin/release/postrelease.sh"
+    "release": "commit-and-tag-version --release-as patch -a -t \"v\" && ./bin/repo/release/postrelease",
+    "release-next": "commit-and-tag-version --release-as minor -a -t \"v\" && ./bin/repo/release/postrelease",
+    "release-major": "commit-and-tag-version --release-as major -a -t \"v\" && ./bin/repo/release/postrelease"
   }
 }
 ```
