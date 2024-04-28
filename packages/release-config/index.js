@@ -1,6 +1,6 @@
 const config = {
   scripts: {
-    prerelease: "./bin/release/prerelease",
+    prerelease: "./bin/repo/release/prerelease",
     // prerelease:
     // prebump / postbump
     // prechangelog / postchangelog
