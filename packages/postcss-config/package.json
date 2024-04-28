@@ -11,7 +11,7 @@
     "@davidsneighbour/browserslist-config": "^2024.3.6",
     "@fullhuman/postcss-purgecss": "6.0.0",
     "autoprefixer": "10.4.19",
-    "cssnano": "^6.1.2",
+    "cssnano": "^7.0.1",
     "doiuse": "^6.0.2",
     "pixrem": "5.0.0",
     "postcss": "8.4.38",
