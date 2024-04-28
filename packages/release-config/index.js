@@ -32,6 +32,7 @@ const config = {
     { type: "revert", section: "Reverts" },
     { type: "test", section: "Tests" },
     { type: "chore", section: "Chore" },
+    { type: "config", section: "Configuration" },
     { type: "build", section: "Build System" },
     { type: "ci", section: "CI" },
   ]
