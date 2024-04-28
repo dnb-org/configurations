@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/eslint-config",
   "description": "ESlint configuration for use in davidsneighbour projects.",
-  "version": "2024.3.6",
+  "version": "2024.3.9",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
@@ -38,11 +38,5 @@
     "npm": ">=10.5.0"
   },
   "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module",
-  "devDependencies": {
-    "@types/eslint-plugin-markdown": "^2.0.2",
-    "@types/eslint__js": "^8.42.3",
-    "eslint": "^9.1.1",
-    "eslint-plugin-markdown": "^4.0.1"
-  }
+  "type": "module"
 }
