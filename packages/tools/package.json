@@ -20,7 +20,7 @@
     "npm-package-json-lint": "7.1.0",
     "npm-run-all2": "6.1.2",
     "npm-watch": "0.13.0",
-    "rimraf": "5.0.5",
+    "rimraf": "5.0.7",
     "wireit": "0.14.4"
   },
   "scripts": {
