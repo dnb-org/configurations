@@ -21,11 +21,11 @@ const config = {
   // https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md
   header: "Changelog",
   types: [
+    { type: "content", section: "Content" },
+    { type: "docs", section: "Documentation" },
     { type: "feat", section: "Features" },
     { type: "theme", section: "Theme" },
     { type: "style", section: "Styling" },
-    { type: "content", section: "Content" },
-    { type: "docs", section: "Documentation" },
     { type: "fix", section: "Bug Fixes" },
     { type: "perf", section: "Performance" },
     { type: "refactor", section: "Refactors" },
