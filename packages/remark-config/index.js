@@ -8,9 +8,8 @@
 /**
  * @typedef {import('unified').Preset} Preset
  */
-import remarkFootnotes from "remark-footnotes";
-import remarkFrontmatter from "remark-frontmatter";
 import remarkLint from "remark-lint";
+import remarkFrontmatter from "remark-frontmatter";
 import remarkLintBlockquoteIndentation from "remark-lint-blockquote-indentation";
 import remarkLintCheckboxCharacterStyle from "remark-lint-checkbox-character-style";
 import remarkLintCheckboxContentIndent from "remark-lint-checkbox-content-indent";
@@ -35,7 +34,6 @@ import remarkLintListItemIndent from "remark-lint-list-item-indent";
 import remarkLintListItemSpacing from "remark-lint-list-item-spacing";
 import remarkLintMaximumHeadingLength from "remark-lint-maximum-heading-length";
 import remarkLintMaximumLineLength from "remark-lint-maximum-line-length";
-import remarkLintNoAutoLinkWithoutProtocol from "remark-lint-no-auto-link-without-protocol";
 import remarkLintNoBlockquoteWithoutMarker from "remark-lint-no-blockquote-without-marker";
 import remarkLintNoConsecutiveBlankLines from "remark-lint-no-consecutive-blank-lines";
 import remarkLintNoDuplicateDefinitions from "remark-lint-no-duplicate-definitions";
@@ -53,7 +51,6 @@ import remarkLintNoHeadingIndent from "remark-lint-no-heading-indent";
 import remarkLintNoHeadingLikeParagraph from "remark-lint-no-heading-like-paragraph";
 import remarkLintNoHeadingPunctuation from "remark-lint-no-heading-punctuation";
 import remarkLintNoHTML from "remark-lint-no-html";
-import remarkLintNoInlinePadding from "remark-lint-no-inline-padding";
 import remarkLintNoLiteralURLs from "remark-lint-no-literal-urls";
 import remarkLintNoMultipleToplevelHeadings from "remark-lint-no-multiple-toplevel-headings";
 import remarkLintNoReferenceLikeUrl from "remark-lint-no-reference-like-url";
@@ -80,7 +77,6 @@ const config = {
     // the linter
     [remarkLint],
     // the rules alphabetically
-    [remarkFootnotes],
     [remarkFrontmatter],
     [remarkLintBlockquoteIndentation, ['error', 2]],
     [remarkLintCheckboxCharacterStyle, ['error', { checked: 'x', unchecked: ' ' }]],
@@ -106,7 +102,6 @@ const config = {
     [remarkLintListItemSpacing, ['error', { checkBlanks: true }]],
     [remarkLintMaximumHeadingLength, ['warn', 60]],
     [remarkLintMaximumLineLength, false],
-    [remarkLintNoAutoLinkWithoutProtocol, ['error']],
     [remarkLintNoBlockquoteWithoutMarker, ['error']],
     [remarkLintNoConsecutiveBlankLines, ['error']],
     [remarkLintNoDuplicateDefinitions, ['error']],
@@ -124,7 +119,6 @@ const config = {
     [remarkLintNoHeadingLikeParagraph, ['error']],
     [remarkLintNoHeadingPunctuation, ['error', '.,;:']],
     [remarkLintNoHTML, ['warn']],
-    [remarkLintNoInlinePadding, ['error']],
     [remarkLintNoLiteralURLs, ['error']],
     [remarkLintNoMultipleToplevelHeadings, ['error', 1]],
     [remarkLintNoReferenceLikeUrl, ['error']],
