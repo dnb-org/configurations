@@ -3,7 +3,7 @@
 This configuration extends on [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint) with the following changes:
 
 *   Types are of one of: content, docs, feat, fix, layouts, refactor, test, chore, wip
-*   Maximum line length is 100 characters
+*   Max line length is 100 characters
 
 ## Setup
 
