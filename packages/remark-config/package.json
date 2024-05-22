@@ -13,10 +13,10 @@
     "remarklint",
     "remarklint-config"
   ],
+  "type": "module",
   "dependencies": {
     "remark": "15.0.1",
     "remark-cli": "12.0.1",
-    "remark-footnotes": "4.0.1",
     "remark-frontmatter": "5.0.0",
     "remark-lint": "10.0.0",
     "remark-lint-blockquote-indentation": "4.0.0",
@@ -44,7 +44,6 @@
     "remark-lint-list-item-spacing": "5.0.0",
     "remark-lint-maximum-heading-length": "4.0.0",
     "remark-lint-maximum-line-length": "4.0.1",
-    "remark-lint-no-auto-link-without-protocol": "3.1.2",
     "remark-lint-no-blockquote-without-marker": "6.0.0",
     "remark-lint-no-consecutive-blank-lines": "5.0.0",
     "remark-lint-no-duplicate-definitions": "4.0.0",
@@ -62,7 +61,6 @@
     "remark-lint-no-heading-like-paragraph": "4.0.0",
     "remark-lint-no-heading-punctuation": "4.0.0",
     "remark-lint-no-html": "4.0.0",
-    "remark-lint-no-inline-padding": "4.1.2",
     "remark-lint-no-literal-urls": "4.0.0",
     "remark-lint-no-missing-blank-lines": "4.0.0",
     "remark-lint-no-multiple-toplevel-headings": "4.0.0",
@@ -92,6 +90,5 @@
     "node": ">=20.12.0",
     "npm": ">=10.5.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module"
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
 }
