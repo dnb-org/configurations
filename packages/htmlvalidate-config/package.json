@@ -15,7 +15,7 @@
     "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
-  "main": "index.js",
+  "main": "index.cjs",
   "engines": {
     "node": ">=22.1.0",
     "npm": ">=10.8.0"
@@ -23,9 +23,8 @@
   "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
   "exports": {
     ".": {
-      "import": "./index.js",
-      "require": "./index.js"
+      "import": "./index.cjs",
+      "require": "./index.cjs"
     }
-  },
-  "type": "module"
+  }
 }
