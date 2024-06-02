@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/tools",
   "description": "Tooling packages for use in @davidsneighbour projects.",
-  "version": "2024.3.14",
+  "version": "2024.3.15",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
@@ -22,6 +22,7 @@
     "npm-run-all2": "6.2.0",
     "npm-watch": "0.13.0",
     "rimraf": "5.0.7",
+    "secretlint": "^8.2.4",
     "wireit": "0.14.4"
   },
   "scripts": {

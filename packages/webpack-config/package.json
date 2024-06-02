@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/webpack-config",
   "description": "Webpack configuration for use in @davidsneighbour projects.",
-  "version": "2024.3.14",
+  "version": "2024.3.15",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
