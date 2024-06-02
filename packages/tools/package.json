@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/tools",
   "description": "Tooling packages for use in @davidsneighbour projects.",
-  "version": "2024.3.15",
+  "version": "2024.3.16",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
@@ -9,6 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/tools",
   "type": "module",
   "dependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
     "cross-env": "7.0.3",
     "debug": "4.3.5",
     "deepmerge": "4.3.1",
