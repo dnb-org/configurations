@@ -4,7 +4,6 @@ module.exports = [
   ">= 0.5%",
   "Chrome >= 112",
   "Firefox >= 121",
-  "Firefox ESR",
   "iOS >= 16",
   "Safari >= 16.4",
   "Edge >= 112",
