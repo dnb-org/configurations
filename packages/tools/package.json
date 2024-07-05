@@ -20,7 +20,7 @@
     "node-fetch": "3.3.2",
     "npm-check-updates": "16.14.20",
     "npm-package-json-lint": "8.0.0",
-    "npm-run-all2": "6.2.0",
+    "npm-run-all2": "6.2.2",
     "npm-watch": "0.13.0",
     "rimraf": "5.0.7",
     "secretlint": "^8.2.4",
