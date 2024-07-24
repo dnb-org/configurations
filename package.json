@@ -25,8 +25,8 @@
     "@davidsneighbour/stylelint-config": "file:./packages/stylelint-config",
     "@davidsneighbour/tools": "file:./packages/tools",
     "@davidsneighbour/webpack-config": "file:./packages/webpack-config",
-    "@types/node": "20.14.11",
-    "lerna": "8.1.6"
+    "@types/node": "20.14.12",
+    "lerna": "8.1.7"
   },
   "scripts": {
     "lint": "wireit",
