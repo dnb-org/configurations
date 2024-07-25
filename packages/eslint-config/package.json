@@ -26,7 +26,7 @@
     "eslint-plugin-react-hooks": "4.6.2",
     "eslint-plugin-sonarjs": "1.0.4",
     "eslint-plugin-toml": "0.11.1",
-    "eslint-plugin-unicorn": "54.0.0"
+    "eslint-plugin-unicorn": "55.0.0"
   },
   "scripts": {
     "fixpack": "fixpack",
