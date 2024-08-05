@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/remark-config",
   "description": "Remarklint configuration used in davidsneighbour projects.",
-  "version": "2024.3.26",
+  "version": "2024.3.27",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
@@ -32,7 +32,7 @@
     "remark-lint-final-definition": "4.0.1",
     "remark-lint-final-newline": "3.0.0",
     "remark-lint-first-heading-level": "4.0.0",
-    "remark-lint-frontmatter-schema": "3.15.4",
+    "remark-lint-frontmatter-schema": "^3.15.3",
     "remark-lint-hard-break-spaces": "4.0.0",
     "remark-lint-heading-increment": "4.0.0",
     "remark-lint-heading-style": "4.0.0",
@@ -90,5 +90,8 @@
     "node": ">=22.1.0",
     "npm": ">=10.8.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
+  "devDependencies": {
+    "@apidevtools/json-schema-ref-parser": "^11.7.0"
+  }
 }
