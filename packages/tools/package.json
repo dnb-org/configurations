@@ -24,7 +24,7 @@
     "npm-watch": "0.13.0",
     "rimraf": "6.0.1",
     "secretlint": "^8.2.4",
-    "wireit": "0.14.6"
+    "wireit": "0.14.7"
   },
   "scripts": {
     "fixpack": "fixpack",
