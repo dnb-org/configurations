@@ -8,7 +8,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config",
   "dependencies": {
-    "@eslint/js": "^9.8.0",
+    "@eslint/js": "^9.9.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
@@ -17,7 +17,7 @@
     "eslint-plugin-cypress": "3.4.0",
     "eslint-plugin-html": "8.1.1",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsdoc": "50.0.0",
+    "eslint-plugin-jsdoc": "50.0.1",
     "eslint-plugin-jsx-a11y": "6.9.0",
     "eslint-plugin-mdx": "3.1.5",
     "eslint-plugin-no-loops": "0.4.0",
