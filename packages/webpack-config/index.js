@@ -1,5 +1,9 @@
-import { resolve as _resolve, join } from "node:path";
 import TerserPlugin from "terser-webpack-plugin";
+import { dirname, resolve as _resolve, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // noinspection JSUnresolvedVariable
 export default {
