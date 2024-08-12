@@ -8,6 +8,11 @@ export default (/** @type {{ production: any; }} */ env) =>
   mode: env.production ? "production" : "development",
   devtool: env.production ? "source-map" : "inline-source-map",
 
+  output: {
+    path: join(__dirname, 'static/assets/dist'),
+  },
+
+  watch: true,
   watchOptions: {
     aggregateTimeout: 200,
     poll: 1000,
