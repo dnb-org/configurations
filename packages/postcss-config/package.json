@@ -7,12 +7,13 @@
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/postcss-config",
+  "type": "module",
   "dependencies": {
-    "@davidsneighbour/browserslist-config": "^2024.3.27",
+    "@davidsneighbour/browserslist-config": "2024.3.27",
     "@fullhuman/postcss-purgecss": "6.0.0",
     "autoprefixer": "10.4.20",
-    "cssnano": "^7.0.5",
-    "doiuse": "^6.0.2",
+    "cssnano": "7.0.5",
+    "doiuse": "6.0.2",
     "pixrem": "5.0.0",
     "postcss": "8.4.41",
     "postcss-cli": "11.0.0",
@@ -30,6 +31,5 @@
     "node": ">=22.1.0",
     "npm": ">=10.8.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module"
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
 }
