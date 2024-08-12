@@ -1,0 +1,23 @@
+{
+  "name": "@davidsneighbour/frontmatter-config",
+  "description": "Front Matter configuration for use in davidsneighbour projects.",
+  "version": "2024.3.27",
+  "license": "MIT",
+  "repository": "davidsneighbour/configurations",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/frontmatter-config",
+  "dependencies": {
+  },
+  "scripts": {
+    "fixpack": "fixpack",
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.1.0",
+    "npm": ">=10.8.0"
+  },
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
+  "type": "module"
+}
