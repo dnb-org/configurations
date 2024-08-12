@@ -2,11 +2,9 @@ import { resolve as _resolve, join } from "node:path";
 import TerserPlugin from "terser-webpack-plugin";
 
 // noinspection JSUnresolvedVariable
-export default (/** @type {{ production: any; }} */ env) =>
-// noinspection JSUnresolvedVariable
-({
-  mode: env.production ? "production" : "development",
-  devtool: env.production ? "source-map" : "inline-source-map",
+export default {
+  mode: process.env.production ? "production" : "development",
+  devtool: process.env.production ? "source-map" : "inline-source-map",
 
   output: {
     path: join(__dirname, 'static/assets/dist'),
@@ -29,7 +27,7 @@ export default (/** @type {{ production: any; }} */ env) =>
   },
 
   optimization: {
-    minimize: !!env.production,
+    minimize: !!process.env.production,
     minimizer: [
       new TerserPlugin({
         terserOptions: {
@@ -86,4 +84,4 @@ export default (/** @type {{ production: any; }} */ env) =>
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
-});
+};
