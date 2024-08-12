@@ -7,15 +7,17 @@
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/webpack-config",
+  "type": "module",
   "dependencies": {
     "css-loader": "7.1.2",
     "html-webpack-plugin": "5.6.0",
-    "mini-css-extract-plugin": "^2.9.0",
+    "mini-css-extract-plugin": "2.9.0",
     "postcss-loader": "8.1.1",
     "sass-loader": "16.0.0",
     "style-loader": "4.0.0",
     "terser-webpack-plugin": "5.3.10",
     "ts-loader": "9.5.1",
+    "typescript": "5.5.4",
     "webpack": "5.93.0",
     "webpack-cli": "5.1.4",
     "webpack-merge": "6.0.1"
@@ -28,6 +30,5 @@
     "node": ">=22.1.0",
     "npm": ">=10.8.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module"
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
 }
