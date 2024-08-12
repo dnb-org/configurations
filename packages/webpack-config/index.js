@@ -1,30 +1,20 @@
-import { resolve as _resolve, join } from "path";
+import { resolve as _resolve, join } from "node:path";
 import TerserPlugin from "terser-webpack-plugin";
 
-// module.exports = (env, argv) =>
 // noinspection JSUnresolvedVariable
-export default (env) =>
+export default (/** @type {{ production: any; }} */ env) =>
 // noinspection JSUnresolvedVariable
 ({
   mode: env.production ? "production" : "development",
   devtool: env.production ? "source-map" : "inline-source-map",
 
-  context: _resolve(__dirname, "assets"),
-
-  entry: {
-    main: join(__dirname, "assets/js", "theme.js"),
+  watchOptions: {
+    aggregateTimeout: 200,
+    poll: 1000,
+    ignored: '**/node_modules',
   },
 
   target: ["browserslist"],
-
-  output: {
-    path: join(__dirname, "static/assets"),
-    filename: "[name].js",
-    chunkFilename: "[id].js",
-    assetModuleFilename: "[hash][ext][query]",
-    clean: true,
-  },
-
   stats: "minimal",
 
   performance: {
