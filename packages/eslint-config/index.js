@@ -2,12 +2,12 @@
 import eslint from '@eslint/js';
 import markdown from "eslint-plugin-markdown";
 import defaultConfig from './configs/default.js';
-import hugoConfig from './configs/default.hugo.js';
+import markdownConfig from './configs/markdown.js';
 
 export default [
-  eslint.configs.recommended,
+  eslint.configs.all,
   // @ts-ignore
   ...markdown.configs.recommended,
   defaultConfig,
-  hugoConfig,
+  markdownConfig,
 ];

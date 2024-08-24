@@ -5,18 +5,19 @@ import stylisticJs from '@stylistic/eslint-plugin-js'
 import fs from 'node:fs';
 
 const path = './tsconfig.eslint.json';
-let projectValue = '';
+let projectPath = '';
 if (fs.existsSync(path)) {
-  projectValue = path;
+  projectPath = path;
 }
 
 export default {
   name: 'dnb/default',
-  plugins: {
-    '@stylistic/js': stylisticJs
-  },
-  // files: '',
-  // ignores: '',
+  files: ["**/!(*.*)"],
+  ignores: [
+    '**/node_modules/*',
+    '**/vendor/*',
+    '**/.git/*',
+  ],
   languageOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -27,12 +28,16 @@ export default {
     },
     parserOptions: {
       impliedStrict: true,
-      project: projectValue, // keep in for now, this belongs to typescript setup
+      project: projectPath, // keep in for now, this belongs to typescript setup
       extraFileExtensions: ['json'],
     },
   },
   linterOptions: {
     reportUnusedDisableDirectives: 'error',
+  },
+  // processor: {},
+  plugins: {
+    '@stylistic/js': stylisticJs
   },
   rules: {
     '@stylistic/js/indent': ['error', 2],
@@ -43,9 +48,5 @@ export default {
     '@typescript-eslint/no-var-requires': 'off',
     'import/no-unresolved': 'off',
   },
-  ignores: [
-    '**/node_modules/*',
-    '**/vendor/*',
-    '**/.git/*',
-  ],
+  // settings: {},
 }
