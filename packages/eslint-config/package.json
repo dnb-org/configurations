@@ -7,11 +7,15 @@
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config",
+  "type": "module",
   "dependencies": {
-    "@eslint/js": "^9.9.1",
+    "@eslint/js": "9.9.1",
+    "@stylistic/eslint-plugin-js": "2.6.4",
+    "eslint": "9.9.1",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "17.1.0",
     "eslint-plugin-anti-trojan-source": "1.1.1",
     "eslint-plugin-compat": "6.0.0",
     "eslint-plugin-cypress": "3.5.0",
@@ -19,16 +23,23 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "50.2.2",
     "eslint-plugin-jsx-a11y": "6.9.0",
+    "eslint-plugin-markdown": "^5.1.0",
     "eslint-plugin-mdx": "3.1.5",
-    "eslint-plugin-no-loops": "0.4.0",
+    "eslint-plugin-n": "17.10.2",
     "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-promise": "7.1.0",
     "eslint-plugin-react": "7.35.0",
     "eslint-plugin-react-hooks": "4.6.2",
     "eslint-plugin-sonarjs": "2.0.1",
     "eslint-plugin-toml": "0.11.1",
     "eslint-plugin-unicorn": "55.0.0"
   },
+  "devDependencies": {
+    "@types/eslint-plugin-markdown": "2.0.2",
+    "@types/eslint__js": "8.42.3"
+  },
   "scripts": {
+    "eslint:config": "npx @eslint/config-inspector --config index.js",
     "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
@@ -37,6 +48,5 @@
     "node": ">=22.1.0",
     "npm": ">=10.8.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module"
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
 }
