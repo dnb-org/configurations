@@ -1,6 +1,6 @@
 
 import globals from 'globals';
-import stylisticJs from '@stylistic/eslint-plugin-js'
+import stylisticJs from '@stylistic/eslint-plugin'
 
 import fs from 'node:fs';
 
@@ -12,15 +12,8 @@ if (fs.existsSync(path)) {
 
 export default {
   name: 'dnb/default',
-  files: ["**/!(*.*)"],
-  ignores: [
-    '**/node_modules/*',
-    '**/vendor/*',
-    '**/.git/*',
-  ],
+  //files: ["**/!(*.*)"],
   languageOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
     globals: {
       ...globals.browser,
       //   var1: 'writable',
