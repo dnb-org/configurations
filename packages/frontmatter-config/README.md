@@ -1,14 +1,15 @@
 Add `frontmatter.config.js` to your project:
 
 ```js
-
+import config from '@davidsneighbour/frontmatter-config';
+export default config;
 ```
 
 And then reference it in your `frontmatter.json` configuration:
 
 ``json
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "$schema": "<https://frontmatter.codes/frontmatter.schema.json>",
   "frontMatter.config.dynamicFilePath": "[[workspace]]/frontmatter.config.cjs"
 }
 

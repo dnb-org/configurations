@@ -13,6 +13,6 @@ export default async (/** @type {any} */ config) => {
     ],
     "frontMatter.preview.host": `https://${process.env.HOSTNAME}:${process.env.PORT}`,
     "frontMatter.taxonomy.seoTitleLength": process.env.SEO_TITLE_LENGTH,
-    "frontMatter.site.baseURL": "https://kollitsch.dev/",
+    "frontMatter.site.baseURL": `${process.env.WEBSITE_URL}`,
   };
 };
