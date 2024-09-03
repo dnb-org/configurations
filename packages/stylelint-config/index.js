@@ -9,8 +9,7 @@ const config = {
   "ignoreFiles": [],
   "plugins": [
     "stylelint-no-unsupported-browser-features",
-    "stylelint-order",
-    "stylelint-scss",
+    "stylelint-order"
   ],
   "rules": {
     "alpha-value-notation": [

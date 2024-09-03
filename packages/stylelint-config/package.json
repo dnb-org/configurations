@@ -7,13 +7,13 @@
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/stylelint-config",
+  "type": "module",
   "dependencies": {
-    "@davidsneighbour/browserslist-config": "^2024.3.41",
+    "@davidsneighbour/browserslist-config": "2024.3.41",
     "stylelint": "16.9.0",
     "stylelint-config-standard-scss": "13.1.0",
     "stylelint-no-unsupported-browser-features": "8.0.1",
-    "stylelint-order": "6.0.4",
-    "stylelint-scss": "6.5.1"
+    "stylelint-order": "6.0.4"
   },
   "scripts": {
     "fixpack": "fixpack",
@@ -24,6 +24,5 @@
     "node": ">=22.1.0",
     "npm": ">=10.8.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "type": "module"
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
 }
