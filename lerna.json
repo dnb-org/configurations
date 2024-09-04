@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "2024.3.42",
+  "version": "2024.3.43",
   "command": {
     "version": {
       "allowBranch": "main",
