@@ -10,7 +10,7 @@
   "type": "module",
   "dependencies": {
     "@eslint/js": "9.9.1",
-    "@eslint/markdown": "6.0.0",
+    "@eslint/markdown": "6.1.0",
     "@stylistic/eslint-plugin": "^2.7.2",
     "@stylistic/eslint-plugin-js": "2.7.2",
     "@types/eslint-plugin-markdown": "2.0.2",
