@@ -1,14 +1,14 @@
 {
   "name": "@davidsneighbour/release-config",
   "description": "Release script configuration for @davidsneighbour's projects",
-  "version": "2024.3.44",
+  "version": "2024.3.45",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/release-config",
   "dependencies": {
-    "@davidsneighbour/tools": "^2024.3.44",
+    "@davidsneighbour/tools": "^2024.3.45",
     "commit-and-tag-version": "12.4.3",
     "simple-git-hooks": "^2.11.1"
   },
