@@ -15,7 +15,7 @@
     "@stylistic/eslint-plugin-js": "2.8.0",
     "@types/eslint-plugin-markdown": "2.0.2",
     "@types/eslint__js": "8.42.3",
-    "eslint": "8.57.1",
+    "eslint": "9.11.0",
     "eslint-config-standard": "17.1.0"
   },
   "scripts": {
