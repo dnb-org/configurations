@@ -1,12 +1,13 @@
-import markdown from "@eslint/markdown";
+import markdown from '@eslint/markdown';
 
 export default {
   name: 'dnb/markdown',
-  files: ["**/*.md"],
+  files: ['**/*.md'],
   plugins: {
-    markdown
+    markdown,
   },
+  language: 'markdown/commonmark',
   rules: {
-    "markdown/no-html": "error"
-  }
-}
+    'markdown/no-html': 'error',
+  },
+};
