@@ -20,6 +20,6 @@ export default [
 		ignores: ["**/node_modules/*", "**/vendor/*", "**/.git/*"],
 	},
 	defaultConfig,
-	markdownConfig,
-	jsonConfig,
+	...markdownConfig,
+	...jsonConfig,
 ];
