@@ -12,6 +12,7 @@
     "timonwong.shellcheck",
     "chrischinchilla.vale-vscode",
     "redhat.vscode-yaml",
-    "davidanson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "rafikis75.vscode-sassdoc"
   ]
 }
