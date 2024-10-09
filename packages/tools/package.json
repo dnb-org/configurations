@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/tools",
   "type": "module",
   "dependencies": {
-    "@secretlint/secretlint-rule-preset-recommend": "^8.2.4",
+    "@secretlint/secretlint-rule-preset-recommend": "^8.4.0",
     "cross-env": "7.0.3",
     "debug": "4.3.7",
     "deepmerge": "4.3.1",
@@ -23,7 +23,7 @@
     "npm-run-all2": "6.2.3",
     "npm-watch": "0.13.0",
     "rimraf": "6.0.1",
-    "secretlint": "^8.2.4",
+    "secretlint": "^8.4.0",
     "wireit": "0.14.9"
   },
   "scripts": {
