@@ -33,11 +33,6 @@ export default {
 	},
 	rules: {
 		"@stylistic/js/indent": ["error", 2],
-		"@typescript-eslint/no-unused-vars": "error",
-		"@typescript-eslint/no-explicit-any": "error",
-		"@typescript-eslint/ban-ts-comment": 0,
-		"@typescript-eslint/no-var-requires": "off",
-		"import/no-unresolved": "off",
 	},
 	// settings: {},
 };
