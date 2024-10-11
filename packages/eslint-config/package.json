@@ -18,7 +18,7 @@
     "@types/eslint__js": "8.42.3",
     "eslint": "9.12.0",
     "eslint-config-standard": "17.1.0",
-    "eslint-plugin-security": "^3.0.1"
+    "eslint-plugin-security": "3.0.1"
   },
   "scripts": {
     "eslint:config": "npx @eslint/config-inspector --config index.js",
@@ -32,6 +32,6 @@
   },
   "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
   "devDependencies": {
-    "@types/eslint-plugin-security": "^3.0.0"
+    "@types/eslint-plugin-security": "3.0.0"
   }
 }

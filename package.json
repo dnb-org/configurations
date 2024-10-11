@@ -11,6 +11,7 @@
   ],
   "devDependencies": {
     "@davidsneighbour/babel-config": "file:./packages/babel-config",
+    "@davidsneighbour/biome-config": "file:./packages/biome-config",
     "@davidsneighbour/bootstrap-config": "file:./packages/bootstrap-config",
     "@davidsneighbour/browserslist-config": "file:./packages/browserslist-config",
     "@davidsneighbour/commitlint-config": "file:./packages/commitlint-config",
