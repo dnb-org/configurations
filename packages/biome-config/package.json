@@ -1,0 +1,25 @@
+{
+  "name": "@davidsneighbour/biome-config",
+  "description": "Biome configuration for use in davidsneighbour projects.",
+  "version": "2024.4.3",
+  "license": "MIT",
+  "repository": "davidsneighbour/configurations",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
+  "bugs": "https://github.com/davidsneighbour/configurations/issues",
+  "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/biome-config",
+  "type": "module",
+  "dependencies": {
+    "@biomejs/biome": "1.9.3"
+  },
+  "scripts": {    "verify": "npm run verify:biome",
+    "verify:biome": "biome check",
+    "fixpack": "fixpack",
+    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
+  },
+  "main": "config.json",
+  "engines": {
+    "node": ">=22.1.0",
+    "npm": ">=10.8.0"
+  },
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
+}
