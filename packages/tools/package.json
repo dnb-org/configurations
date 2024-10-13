@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/tools",
   "description": "Tooling packages for use in @davidsneighbour projects.",
-  "version": "2024.4.3",
+  "version": "2024.4.4",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
@@ -9,6 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/tools",
   "type": "module",
   "dependencies": {
+    "@j9t/obsohtml": "1.6.2",
     "@secretlint/secretlint-rule-preset-recommend": "^8.4.0",
     "cross-env": "7.0.3",
     "debug": "4.3.7",
@@ -24,9 +25,7 @@
     "npm-watch": "0.13.0",
     "rimraf": "6.0.1",
     "secretlint": "^8.4.0",
-    "wireit": "0.14.9",
-
-    "@j9t/obsohtml": "1.6.2"
+    "wireit": "0.14.9"
   },
   "scripts": {
     "fixpack": "fixpack",
