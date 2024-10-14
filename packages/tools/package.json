@@ -10,7 +10,7 @@
   "type": "module",
   "dependencies": {
     "@j9t/obsohtml": "1.6.2",
-    "@secretlint/secretlint-rule-preset-recommend": "^8.4.0",
+    "@secretlint/secretlint-rule-preset-recommend": "^9.0.0",
     "cross-env": "7.0.3",
     "debug": "4.3.7",
     "deepmerge": "4.3.1",
@@ -24,7 +24,7 @@
     "npm-run-all2": "6.2.3",
     "npm-watch": "0.13.0",
     "rimraf": "6.0.1",
-    "secretlint": "^8.4.0",
+    "secretlint": "^9.0.0",
     "wireit": "0.14.9"
   },
   "scripts": {
