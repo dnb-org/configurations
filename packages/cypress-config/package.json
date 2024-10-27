@@ -10,7 +10,9 @@
   "dependencies": {
     "cypress": "13.15.1",
     "cypress-axe": "1.5.0",
-    "eslint-plugin-cypress": "4.0.0"
+    "eslint-plugin-cypress": "4.0.0",
+    "cypress-html-validate": "6.1.0",
+    "@davidsneighbour/htmlvalidate-config": "^2024.4.6"
   },
   "scripts": {
     "fixpack": "fixpack",
