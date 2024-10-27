@@ -1,18 +1,18 @@
 {
   "name": "@davidsneighbour/cypress-config",
   "description": "Cypress configuration for use in @davidsneighbour projects.",
-  "version": "2024.4.6",
+  "version": "2024.4.7",
   "license": "MIT",
   "repository": "davidsneighbour/configurations",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com> (https://davids-neighbour.com)",
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/cypress-config",
   "dependencies": {
+    "@davidsneighbour/htmlvalidate-config": "^2024.4.7",
     "cypress": "13.15.1",
     "cypress-axe": "1.5.0",
-    "eslint-plugin-cypress": "4.0.0",
     "cypress-html-validate": "6.1.0",
-    "@davidsneighbour/htmlvalidate-config": "^2024.4.6"
+    "eslint-plugin-cypress": "4.0.0"
   },
   "scripts": {
     "fixpack": "fixpack",
