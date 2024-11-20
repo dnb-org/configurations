@@ -18,8 +18,9 @@ module.exports = async (config) => ({
   'frontMatter.content.publicFolder': 'static',
   'frontmatter.content.autoUpdateDate': true,
   'frontMatter.dashboard.content.card.fields.date': true,
-  'frontMatter.taxonomy.dateFormat': "YYYY-MM-dd'T'HH:mm:ssxxx",
   'frontMatter.taxonomy.noPropertyValueQuotes': ['date'],
   'frontMatter.taxonomy.dateField': 'publishDate',
   'frontMatter.taxonomy.modifiedField': 'lastmod',
+  'frontMatter.content.autoUpdateDate': true,
+  'frontMatter.taxonomy.dateFormat': 'yyyy-MM-dd\'T\'HH:mm:ssxxx'
 });
