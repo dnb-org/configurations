@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/tools",
   "type": "module",
   "dependencies": {
-    "@j9t/obsohtml": "1.6.2",
+    "@j9t/obsohtml": "1.7.0",
     "@secretlint/secretlint-rule-preset-recommend": "^9.0.0",
     "cross-env": "7.0.3",
     "debug": "4.3.7",
