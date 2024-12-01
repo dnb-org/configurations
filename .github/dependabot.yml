@@ -6,9 +6,9 @@ updates:
   - package-ecosystem: "npm"
     directory: /
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -24,9 +24,9 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -42,9 +42,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/babel-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -60,9 +60,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/bootstrap-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -78,9 +78,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/browserslist-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -96,9 +96,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/commitlint-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -114,9 +114,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/configurations/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -132,9 +132,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/cssnano-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -150,9 +150,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/cypress-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -168,9 +168,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/eslint-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -186,9 +186,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/htmlvalidate-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -204,9 +204,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/markdownlint-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -222,9 +222,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/postcss-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -240,9 +240,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/prettier-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -258,9 +258,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/release-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -276,9 +276,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/remark-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -294,9 +294,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/stylelint-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -312,9 +312,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/tools/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
@@ -330,9 +330,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/packages/webpack-config/"
     schedule:
-      interval: "weekly"
-      day: "friday"
-      time: "18:00"
+      interval: monthly
+      day: friday
+      time: "22:00"
       timezone: Asia/Bangkok
     assignees:
       - davidsneighbour
