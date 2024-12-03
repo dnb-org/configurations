@@ -9,29 +9,28 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/eslint-config",
   "type": "module",
   "dependencies": {
+    "@eslint/css": "0.1.0",
     "@eslint/js": "9.16.0",
     "@eslint/json": "0.8.0",
     "@eslint/markdown": "6.2.1",
     "@stylistic/eslint-plugin": "2.11.0",
     "@stylistic/eslint-plugin-js": "2.11.0",
-    "@types/eslint-plugin-markdown": "2.0.2",
-    "@types/eslint__js": "8.42.3",
     "eslint": "9.16.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-security": "3.0.1"
   },
+  "devDependencies": {
+    "@types/eslint-plugin-markdown": "2.0.2",
+    "@types/eslint-plugin-security": "3.0.0",
+    "@types/eslint__js": "8.42.3"
+  },
   "scripts": {
-    "eslint:config": "npx @eslint/config-inspector --config index.js",
-    "fixpack": "fixpack",
-    "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
+    "eslint:config": "npx @eslint/config-inspector --config index.js"
   },
   "main": "index.js",
   "engines": {
     "node": ">=20.18.0",
     "npm": ">=10.3.0"
   },
-  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277",
-  "devDependencies": {
-    "@types/eslint-plugin-security": "3.0.0"
-  }
+  "gitHead": "515736c9b5186fe57ad4e73dbbf6915b76641277"
 }

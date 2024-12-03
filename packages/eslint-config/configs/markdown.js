@@ -1,16 +1,17 @@
-import markdown from "@eslint/markdown";
+import markdown from '@eslint/markdown'
 
 export default [
-	...markdown.configs.recommended,
-	{
-		name: "dnb/markdown",
-		files: ["**/*.md"],
-		plugins: {
-			markdown,
-		},
-		language: "markdown/commonmark",
-		rules: {
-			"markdown/no-html": "error",
-		},
-	},
-];
+  // @ts-ignore
+  ...markdown.configs.recommended,
+  {
+    files: ['**/*.md'],
+    language: 'markdown/commonmark',
+    name: 'dnb/markdown',
+    plugins: {
+      markdown,
+    },
+    rules: {
+      'markdown/no-html': 'error',
+    },
+  },
+]

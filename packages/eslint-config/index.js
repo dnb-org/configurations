@@ -1,5 +1,6 @@
 // @ts-check
 
+import cssConfig from './configs/css.js'
 import defaultConfig from './configs/default.js'
 import eslint from '@eslint/js'
 import jsonConfig from './configs/json.js'
@@ -23,4 +24,5 @@ export default [
   defaultConfig,
   ...markdownConfig,
   ...jsonConfig,
+  ...cssConfig,
 ]
