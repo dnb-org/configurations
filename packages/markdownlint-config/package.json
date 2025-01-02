@@ -9,7 +9,7 @@
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/markdownlint-config",
   "dependencies": {
     "markdownlint": "0.37.3",
-    "markdownlint-cli2": "0.17.0"
+    "markdownlint-cli2": "0.17.1"
   },
   "scripts": {
     "fixpack": "fixpack",
