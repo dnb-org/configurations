@@ -8,7 +8,7 @@
   "bugs": "https://github.com/davidsneighbour/configurations/issues",
   "homepage": "https://github.com/davidsneighbour/configurations/tree/main/packages/markdownlint-config",
   "dependencies": {
-    "markdownlint": "0.37.2",
+    "markdownlint": "0.37.3",
     "markdownlint-cli2": "0.17.0"
   },
   "scripts": {
