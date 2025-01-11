@@ -17,6 +17,7 @@
     "@davidsneighbour/commitlint-config": "file:./packages/commitlint-config",
     "@davidsneighbour/cypress-config": "file:./packages/cypress-config",
     "@davidsneighbour/eslint-config": "file:./packages/eslint-config",
+    "@davidsneighbour/frontmatter-config": "file:./packages/frontmatter-config",
     "@davidsneighbour/htmlvalidate-config": "file:./packages/htmlvalidate-config",
     "@davidsneighbour/markdownlint-config": "file:./packages/markdownlint-config",
     "@davidsneighbour/postcss-config": "file:./packages/postcss-config",
