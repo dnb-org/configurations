@@ -19,7 +19,13 @@
     "fixpack": "fixpack",
     "update": "npm-check-updates -u && npm install && git add package* && fixpack && git commit -m \"chore(deps): update dependencies\""
   },
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "default": "./config/index.js",
+    "tailwind": "./config/tailwind.js",
+    "scss": "./config/scss.js"
+  },
+  "main": "./config/default.js",
   "engines": {
     "node": ">=22.14.0",
     "npm": ">=11.1.0"
