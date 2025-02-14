@@ -82,7 +82,7 @@
     "unified": "11.0.5"
   },
   "devDependencies": {
-    "@apidevtools/json-schema-ref-parser": "^11.9.0"
+    "@apidevtools/json-schema-ref-parser": "^11.9.1"
   },
   "scripts": {
     "fixpack": "fixpack",
